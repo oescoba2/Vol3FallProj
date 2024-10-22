@@ -1,0 +1,1 @@
+This is the repo where we will store all of work, notes, journals, citations, drafts, datasets, or other things. The main_material folder is to store versions of material that is close to its final version and should not contain any other work besides material that will be in our final report or final code.
