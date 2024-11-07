@@ -16,18 +16,20 @@ except ImportError:
     warnings.warn(message="Unable to import optuna. Bayesian optimization is not available.")
     optuna_available = False
 
-
 class make_model():
-    """This class is meant to create a user defined model for supervised learning
-    tasks. It allows the user to specify the model type, model choice, hyperparameters,
-    and hyperparameter tuning strategy. The user can make a quick model, a user defined
-    model, or a full model that trains and hypertunes on all available hyperparameters.
+    """This class is meant to create a user defined model. It allows the user to specify
+    the model type, model choice, hyperparameters, and hyperparameter tuning strategy as
+    well as other important options. The user can make various types of models that can
+    be used trained and hypertuned or just instantiated. See the docstring of each method
+    for more information.
+
     The class contains hidden attributes that are used to specify hyperparameters or
     hyperparameter ranges or step sizes. These are divided by model type and have
     distinction by model type. 'reg' is for regression and 'clf' is for classification.
+    There are also hidden methods that are used for hyperparameter tuning using optuna.
 
     Refer to all of the docstrings for documentations on the class, attributes methods,
-    and hidden attributes.
+    and hidden attributes for more information.
 
     Attributes
         - model_choice: the choice of model to make. The two options are
@@ -35,7 +37,8 @@ class make_model():
                             - 'reg' for regression.
                         This is defaulted to 'reg'.
         - model_type: the type of model to use for a given model choice.
-                      The options are as follows:
+                      This is defaulted to 'rdf' for RandomForest. The
+                      options are as follows:
                             - Classifiers (clf)
                                 * 'rdf' for RandomForestClassifier (uses
                                 oob_score)
@@ -62,48 +65,75 @@ class make_model():
                  hypertuning, the best model is stored here.
         - best_params: the best hyperparameters found during hypertuning.
                        Defaulted to None if no hypertuning is done.
+
     Methods
         - __init__(): the constructor for the class
-        - make_quick_model(): makes a model that is meant to be used quickly.
-                              No hypertuning is done.
-        - make_usr_model(): makes a model according to user specified parameters
-                            and hypertunes according to those specifications.
-        - make_full_model(): makes a model that trains and hypertunes on all
+        - make_quick_model(): makes a model that is meant to just be instantiated.
+                              No hypertuning is done nor fitting is done.
+        - make_usr_model(): makes, trains, and hypertunes  a model according to
+                            user specifications
+        - make_full_model(): makes, trains, and hypertunes  a model on various
                              available hyperparameters. It uses the hidden
                              attributes to control model specifications and
                              doesn't require the user to pass in parameters to
                              access full hyperparameters.
+
     Hidden Attributes:
-        The class contains hidden attributes that are used to specify
-        hyperparameters or hyperparameter ranges or step sizes. These
-        have default attributes.
 
         - RandomForest:
-            * _rdf_nestimators_range: the range of n_estimators to use
-            * _rdf_nestimators_step: the step size for n_estimators
-            * _rdf_maxdep_range: the range of max_depth to use
-            * _rdf_maxdep_step: the step size for max_depth
-            * _rdf_minleaf_range: the range of min_samples_leaf to use
-            * _rdf_minleaf_step: the step size for min_samples_leaf
-            * _rdf_minsamples_range: the range of min_samples_split to use
-            * _rdf_minsamples_step: the step size for min_samples_split
-            * _rdf_maxfeat_range: the range of max_features to use
-            * _rdf_maxfeat_step: the step size for max_features
+            * _rdf_nestimators_range: the range of n_estimators to use.
+                                      Defaulted to (100, 301)
+            * _rdf_nestimators_step: the step size for n_estimators.
+                                      Defaulted to 1
+            * _rdf_maxdep_range: the range of max_depth to use. Defaulted
+                                 to (4, 15)
+            * _rdf_maxdep_step: the step size for max_depth. Defaulted
+                                to 2
+            * _rdf_minleaf_range: the range of min_samples_leaf to use.
+                                  Defaulted to (2, 7)
+            * _rdf_minleaf_step: the step size for min_samples_leaf.
+                                 Defaulted to 1
+            * _rdf_minsamples_range: the range of min_samples_split to use.
+                                     Defaulted to (2, 7)
+            * _rdf_minsamples_step: the step size for min_samples_split.
+                                    Defaulted to 1
+            * _rdf_maxfeat_range: the range of max_features to use.
+                                  Defaulted to (4, 15)
+            * _rdf_maxfeat_step: the step size for max_features. Defaulted
+                                 to 1
 
         - XGBoost:
-            * _xgb_objective_clf: the objective for XGBoost classifier
-            * _xgb_num_classes_clf: the number of classes for XGBoost
-            * _xgb_nestimators_range: the range of n_estimators to use
-            * _xgb_nestimators_step: the step size for n_estimators
-            * _gxb_eta_range: the range of eta to use
-            * _alpha_range: the range of alpha to use
-            * _lambda_range: the range of lambda to use
-            * _gamma_range: the range of gamma to use
-            * _xgb_max_depth_range: the range of max_depth to use
-            * _xgb_max_depth_step: the step size for max_depth
-            * _xgb_objective_reg: the objective for XGBoost regressor
+            * _xgb_objective_clf: the objective for XGBoost classifier.
+                                  Defaulted to "multi:softmax"
+            * _xgb_num_classes_clf: the number of classes/labels for
+                                    XGBoost classifier. Defaulted to 9
+            * _xgb_nestimators_range: the range of n_estimators to use.
+                                      Defaulted to (100, 301)
+            * _xgb_nestimators_step: the step size for n_estimators.
+                                     Defaulted to 1
+            * _gxb_eta_range: the range of eta/learning rate to use.
+                              Defaulted to (0.001, 0.1)
+            * _alpha_range: the range of alpha to use (L1 regularization).
+                            Defaulted to (0.6, 10.1)
+            * _lambda_range: the range of lambda to use (L2 regularization).
+                             Defaulted to (0.6, 10.1)
+            * _gamma_range: the range of gamma to use (minimum loss reduction
+                            or penalty for many leaves). Defaulted to (0.6, 10.1)
+            * _xgb_max_depth_range: the range of max_depth to use. Defaulted
+                                    to (3, 10)
+            * _xgb_max_depth_step: the step size for max_depth. Defaulted to 1
+            * _xgb_objective_reg: the objective for XGBoost regressor. Defaulted
+                                  to "reg:squarederror"
 
-
+    Hidden Methods:
+        - _rdf_obj(): a hidden method used to train and hypertune a RandomForest
+                      model using optuna.
+        - _get_rdf(): a hidden method used to get the best RandomForest model
+                      after hypertuning.
+        - _xgb_obj(): a hidden method used to train and hypertune a XGBoost
+                      model using optuna.
+        - _get_xgb(): a hidden method used to get the best XGBoost model after
+                      hypertuning.
     """
 
     def __init__(self, model_choice: str = "clf", model_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
@@ -161,7 +191,7 @@ class make_model():
 
         # Hidden attributes for xgboost
         self._xgb_objective_clf = "multi:softmax"
-        self._xgb_num_classes_clf = 10
+        self._xgb_num_classes_clf = 9
         self._xgb_nestimators_range = (100, 301)
         self._xgb_nestimators_step = 1
         self._gxb_eta_range = (0.001, 0.1)
@@ -581,11 +611,11 @@ class make_model():
 
         # Make the model
         if self.model_choice == "clf":
-            params["objective"] = "multi:softmax"
+            params["objective"] = self._xgb_objective_clf
             params["num_classes"] = self._xgb_num_classes_clf
             model = XGBClassifier(**params)
         else:
-            params["objective"] = "reg:squarederror"
+            params["objective"] = self._xgb_objective_reg
             model = XGBRegressor(**params)
 
         scores = cross_val_score(model, X_train, y_train, n_jobs=self.n_jobs, cv=self.cv_fold)
@@ -619,11 +649,11 @@ class make_model():
 
         # Make the model
         if self.model_choice == "clf":
-            params["objective"] = "multi:softmax"
+            params["objective"] = self._xgb_objective_clf
             params["num_classes"] = self._xgb_num_classes_clf
             model = XGBClassifier(**params)
         else:
-            params["objective"] = "reg:squarederror"
+            params["objective"] = self._xgb_objective_reg
             model = XGBRegressor(**params)
 
         model.fit(X_train, y_train)
@@ -690,7 +720,7 @@ class make_model():
                               "gamma": [float(x) for x in np.linspace(*self._gamma_range, num=100)],
                               "max_depth": [int(x) for x in
                                             np.arange(*self._xgb_max_depth_range, self._xgb_max_depth_step)],
-                              "objective": "multi:softmax",
+                              "objective": self._xgb_objective_clf,
                               "num_classes": self._xgb_num_classes_clf
                               }
                     xgb_grid = GridSearchCV(estimator=XGBClassifier(), param_grid=params, n_jobs=self.n_jobs,
@@ -746,7 +776,7 @@ class make_model():
                               "gamma": [float(x) for x in np.linspace(*self._gamma_range, num=100)],
                               "max_depth": [int(x) for x in
                                             np.arange(*self._xgb_max_depth_range, self._xgb_max_depth_step)],
-                              "objective": "reg:squarederror",
+                              "objective": self._xgb_objective_reg,
                               }
                     xgb_grid = GridSearchCV(estimator=XGBRegressor(), param_grid=params, n_jobs=self.n_jobs,
                                             cv=self.cv_fold)
@@ -816,7 +846,7 @@ class make_model():
                               "gamma": [float(x) for x in np.linspace(*self._gamma_range, num=100)],
                               "max_depth": [int(x) for x in
                                             np.arange(*self._xgb_max_depth_range, self._xgb_max_depth_step)],
-                              "objective": "multi:softmax",
+                              "objective": self._xgb_objective_clf,
                               "num_classes": self._xgb_num_classes_clf
                               }
                     xgb_rand = RandomizedSearchCV(estimator=XGBClassifier(), param_distributions=params,
@@ -873,7 +903,7 @@ class make_model():
                               "gamma": [float(x) for x in np.linspace(*self._gamma_range, num=100)],
                               "max_depth": [int(x) for x in
                                             np.arange(*self._xgb_max_depth_range, self._xgb_max_depth_step)],
-                              "objective": "reg:squarederror",
+                              "objective": self._xgb_objective_reg,
                               }
                     xgb_rand = RandomizedSearchCV(estimator=XGBClassifier(), param_distributions=params,
                                                   n_jobs=self.n_jobs,
