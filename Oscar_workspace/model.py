@@ -137,7 +137,7 @@ class make_model():
     """
 
     def __init__(self, model_choice: str = "clf", model_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
-                 tuning_strategy: str = "grid", num_trials: int = 300, n_jobs: int = -1):
+                 tuning_strategy: str = "grid", num_trials: int = 300, n_jobs: int = -1) -> None:
         """This function defines the a user defined supervised learning model
         according to the given choice
 
@@ -263,6 +263,10 @@ class make_model():
         not consider other hyperparameters besides those given as a dictionary.
         Ensure that the model_params dictionary contains either a grid,
         distributions, or trial objects so that hypertuning can take place.
+
+        Parameters:
+            - X_train (ArrayLike): the training data
+            - y_train (ArrayLike): the target data
         """
 
         if self.model_params is None:
