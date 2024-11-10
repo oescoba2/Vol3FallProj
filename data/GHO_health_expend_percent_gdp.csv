@@ -1,0 +1,3802 @@
+,ParentLocation,Country,Year,Percentage,Value
+0,Europe,Serbia,2021,10.01,10.01
+1,South-East Asia,Maldives,2021,10.03,10.03
+2,Western Pacific,New Zealand,2021,10.05,10.05
+3,Eastern Mediterranean,Lebanon,2021,10.06,10.06
+4,Africa,Lesotho,2021,10.21,10.21
+5,Europe,Finland,2021,10.25,10.25
+6,Western Pacific,Australia,2021,10.54,10.54
+7,Europe,Montenegro,2021,10.55,10.55
+8,Europe,Malta,2021,10.58,10.58
+9,Europe,Spain,2021,10.74,10.74
+10,Europe,Denmark,2021,10.82,10.82
+11,Western Pacific,Japan,2021,10.82,10.82
+12,Western Pacific,Micronesia (Federated States of),2021,10.96,10.96
+13,Europe,Belgium,2021,11.04,11.04
+14,Europe,Portugal,2021,11.14,11.14
+15,Europe,Sweden,2021,11.25,11.25
+17,South-East Asia,Timor-Leste,2021,11.44,11.44
+18,Europe,Switzerland,2021,11.8,11.8
+19,Europe,Austria,2021,12.1,12.1
+20,Europe,France,2021,12.31,12.31
+21,Americas,Canada,2021,12.33,12.33
+22,Europe,Armenia,2021,12.34,12.34
+23,Europe,United Kingdom of Great Britain and Northern Ireland,2021,12.36,12.36
+25,Europe,Germany,2021,12.93,12.93
+28,Americas,Cuba,2021,13.79,13.79
+29,Western Pacific,Kiribati,2021,14.81,14.81
+31,Africa,Liberia,2021,16.62,16.62
+32,Americas,United States of America,2021,17.36,17.36
+34,Western Pacific,Brunei Darussalam,2021,2.2,2.2
+35,Western Pacific,Papua New Guinea,2021,2.32,2.32
+36,South-East Asia,Bangladesh,2021,2.36,2.36
+37,Africa,Benin,2021,2.58,2.58
+38,Africa,Gabon,2021,2.71,2.71
+39,Western Pacific,Lao People's Democratic Republic,2021,2.74,2.74
+40,Africa,Zimbabwe,2021,2.79,2.79
+41,Eastern Mediterranean,Sudan,2021,2.84,2.84
+42,Eastern Mediterranean,Djibouti,2021,2.88,2.88
+43,Eastern Mediterranean,Qatar,2021,2.89,2.89
+44,Eastern Mediterranean,Pakistan,2021,2.91,2.91
+45,Africa,Angola,2021,2.96,2.96
+46,Eastern Mediterranean,Afghanistan,2021,21.83,21.83
+48,Africa,Gambia,2021,3.19,3.19
+49,Africa,Ethiopia,2021,3.21,3.21
+50,South-East Asia,India,2021,3.28,3.28
+51,Africa,United Republic of Tanzania,2021,3.36,3.36
+52,Africa,Equatorial Guinea,2021,3.4,3.4
+53,Americas,Haiti,2021,3.48,3.48
+54,Africa,Madagascar,2021,3.5,3.5
+56,South-East Asia,Indonesia,2021,3.71,3.71
+57,Africa,Guinea,2021,3.76,3.76
+58,Africa,Democratic Republic of the Congo,2021,3.79,3.79
+59,Africa,Cameroon,2021,3.82,3.82
+61,South-East Asia,Bhutan,2021,3.85,3.85
+62,Africa,Congo,2021,3.88,3.88
+63,Europe,Kazakhstan,2021,3.92,3.92
+64,Americas,Venezuela (Bolivarian Republic of),2021,4.04,4.04
+65,South-East Asia,Sri Lanka,2021,4.07,4.07
+66,Africa,Nigeria,2021,4.08,4.08
+67,Africa,Mauritania,2021,4.12,4.12
+68,Africa,Eritrea,2021,4.15,4.15
+69,Africa,Ghana,2021,4.15,4.15
+70,Eastern Mediterranean,Bahrain,2021,4.27,4.27
+71,Africa,Senegal,2021,4.35,4.35
+72,Eastern Mediterranean,Oman,2021,4.37,4.37
+73,Western Pacific,Vanuatu,2021,4.37,4.37
+74,Western Pacific,Malaysia,2021,4.38,4.38
+75,Africa,Mali,2021,4.47,4.47
+76,Africa,Kenya,2021,4.55,4.55
+78,Western Pacific,Viet Nam,2021,4.59,4.59
+79,Eastern Mediterranean,Egypt,2021,4.61,4.61
+80,Africa,Uganda,2021,4.67,4.67
+81,Europe,Azerbaijan,2021,4.7,4.7
+82,Western Pacific,Solomon Islands,2021,4.76,4.76
+83,Americas,Dominican Republic,2021,4.92,4.92
+84,Americas,Guyana,2021,4.94,4.94
+85,Americas,Belize,2021,4.98,4.98
+86,South-East Asia,Thailand,2021,5.16,5.16
+87,Africa,Chad,2021,5.19,5.19
+88,Eastern Mediterranean,Iraq,2021,5.25,5.25
+89,Africa,Seychelles,2021,5.26,5.26
+90,Eastern Mediterranean,United Arab Emirates,2021,5.31,5.31
+91,Americas,Saint Vincent and the Grenadines,2021,5.36,5.36
+92,Western Pacific,China,2021,5.38,5.38
+93,Western Pacific,Fiji,2021,5.38,5.38
+94,South-East Asia,Nepal,2021,5.42,5.42
+95,Europe,Kyrgyzstan,2021,5.44,5.44
+96,Africa,Algeria,2021,5.53,5.53
+97,Africa,Togo,2021,5.56,5.56
+98,Western Pacific,Singapore,2021,5.57,5.57
+99,Europe,Turkmenistan,2021,5.57,5.57
+100,South-East Asia,Myanmar,2021,5.63,5.63
+101,Europe,Luxembourg,2021,5.67,5.67
+102,Americas,Suriname,2021,5.68,5.68
+103,Americas,Grenada,2021,5.7,5.7
+104,Eastern Mediterranean,Morocco,2021,5.74,5.74
+105,Eastern Mediterranean,Iran (Islamic Republic of),2021,5.77,5.77
+106,Eastern Mediterranean,Kuwait,2021,5.78,5.78
+107,Africa,Niger,2021,5.81,5.81
+108,Americas,Antigua and Barbuda,2021,5.85,5.85
+109,Africa,South Sudan,2021,5.86,5.86
+110,Western Pacific,Philippines,2021,5.87,5.87
+111,Eastern Mediterranean,Saudi Arabia,2021,5.97,5.97
+112,Americas,Mexico,2021,6.08,6.08
+113,Americas,Peru,2021,6.15,6.15
+115,Americas,Saint Lucia,2021,6.21,6.21
+116,Western Pacific,Tonga,2021,6.27,6.27
+117,Africa,Botswana,2021,6.31,6.31
+118,Africa,Comoros,2021,6.34,6.34
+119,Africa,Burkina Faso,2021,6.38,6.38
+120,Africa,Mauritius,2021,6.39,6.39
+121,Europe,Poland,2021,6.44,6.44
+122,Europe,Romania,2021,6.48,6.48
+124,Europe,Belarus,2021,6.57,6.57
+125,Africa,Zambia,2021,6.62,6.62
+126,Europe,Ireland,2021,6.72,6.72
+127,Western Pacific,Samoa,2021,6.8,6.8
+128,Africa,Cabo Verde,2021,6.9,6.9
+129,Americas,Guatemala,2021,6.9,6.9
+130,Western Pacific,Mongolia,2021,6.91,6.91
+131,Eastern Mediterranean,Tunisia,2021,6.97,6.97
+132,Americas,Trinidad and Tobago,2021,7.02,7.02
+134,Americas,Bahamas,2021,7.14,7.14
+135,Americas,Jamaica,2021,7.19,7.19
+136,Europe,Albania,2021,7.27,7.27
+137,Eastern Mediterranean,Jordan,2021,7.29,7.29
+138,Africa,Rwanda,2021,7.32,7.32
+139,Europe,Hungary,2021,7.38,7.38
+140,Europe,Russian Federation,2021,7.39,7.39
+141,Africa,Malawi,2021,7.41,7.41
+142,Europe,Estonia,2021,7.49,7.49
+143,Western Pacific,Cambodia,2021,7.53,7.53
+144,Americas,Costa Rica,2021,7.57,7.57
+145,Europe,Uzbekistan,2021,7.74,7.74
+146,Europe,Republic of Moldova,2021,7.75,7.75
+147,Europe,Slovakia,2021,7.75,7.75
+148,Europe,Lithuania,2021,7.82,7.82
+149,Africa,Sao Tome and Principe,2021,7.83,7.83
+150,Europe,Israel,2021,7.9,7.9
+152,Europe,Tajikistan,2021,8.01,8.01
+153,Europe,Ukraine,2021,8.01,8.01
+154,Americas,Paraguay,2021,8.03,8.03
+155,Americas,Barbados,2021,8.09,8.09
+156,Europe,Croatia,2021,8.1,8.1
+157,Americas,Bolivia (Plurinational State of),2021,8.16,8.16
+158,Africa,Guinea-Bissau,2021,8.22,8.22
+159,Africa,South Africa,2021,8.27,8.27
+160,Americas,Ecuador,2021,8.29,8.29
+162,Europe,Georgia,2021,8.42,8.42
+164,Africa,Sierra Leone,2021,8.55,8.55
+165,Europe,Bulgaria,2021,8.56,8.56
+166,Americas,Colombia,2021,9.02,9.02
+167,Europe,Latvia,2021,9.04,9.04
+168,Africa,Mozambique,2021,9.05,9.05
+169,Africa,Central African Republic,2021,9.07,9.07
+170,Africa,Burundi,2021,9.1,9.1
+171,Americas,Honduras,2021,9.16,9.16
+172,Europe,Greece,2021,9.17,9.17
+173,Western Pacific,Republic of Korea,2021,9.33,9.33
+174,Americas,Chile,2021,9.34,9.34
+175,Americas,Uruguay,2021,9.36,9.36
+176,Europe,Italy,2021,9.38,9.38
+177,Africa,Namibia,2021,9.38,9.38
+178,Europe,Cyprus,2021,9.43,9.43
+179,Europe,Slovenia,2021,9.48,9.48
+180,Europe,Czechia,2021,9.49,9.49
+181,Europe,Bosnia and Herzegovina,2021,9.56,9.56
+182,Americas,Nicaragua,2021,9.68,9.68
+183,Americas,Panama,2021,9.68,9.68
+184,Americas,Argentina,2021,9.71,9.71
+185,Americas,El Salvador,2021,9.72,9.72
+186,Europe,Iceland,2021,9.73,9.73
+187,Americas,Brazil,2021,9.89,9.89
+188,Europe,Norway,2021,9.92,9.92
+189,Western Pacific,New Zealand,2020,10.07,10.07
+190,Americas,Brazil,2020,10.18,10.18
+191,Africa,Lesotho,2020,10.28,10.28
+192,Americas,Argentina,2020,10.35,10.35
+193,Europe,Portugal,2020,10.55,10.55
+194,Europe,Denmark,2020,10.56,10.56
+195,Western Pacific,Australia,2020,10.68,10.68
+196,Africa,Burundi,2020,10.72,10.72
+197,Europe,Malta,2020,10.74,10.74
+198,Europe,Spain,2020,10.75,10.75
+199,Americas,Panama,2020,10.8,10.8
+200,Western Pacific,Micronesia (Federated States of),2020,10.85,10.85
+201,Western Pacific,Japan,2020,11.0,11.0
+202,Europe,Belgium,2020,11.2,11.2
+204,Europe,Norway,2020,11.25,11.25
+205,Europe,Sweden,2020,11.33,11.33
+206,South-East Asia,Maldives,2020,11.35,11.35
+207,Europe,Austria,2020,11.39,11.39
+208,Europe,Montenegro,2020,11.42,11.42
+209,Europe,Switzerland,2020,11.73,11.73
+210,Europe,France,2020,12.13,12.13
+211,Europe,United Kingdom of Great Britain and Northern Ireland,2020,12.16,12.16
+212,Europe,Armenia,2020,12.24,12.24
+213,Americas,Cuba,2020,12.49,12.49
+216,Europe,Germany,2020,12.69,12.69
+217,Americas,Canada,2020,13.04,13.04
+219,Eastern Mediterranean,Afghanistan,2020,15.53,15.53
+220,Africa,Liberia,2020,16.97,16.97
+221,Western Pacific,Kiribati,2020,16.99,16.99
+222,Americas,United States of America,2020,18.76,18.76
+224,Western Pacific,Lao People's Democratic Republic,2020,2.06,2.06
+225,Eastern Mediterranean,Djibouti,2020,2.15,2.15
+226,South-East Asia,Bangladesh,2020,2.27,2.27
+227,Western Pacific,Papua New Guinea,2020,2.3,2.3
+228,Western Pacific,Brunei Darussalam,2020,2.39,2.39
+229,Africa,Benin,2020,2.47,2.47
+230,Africa,United Republic of Tanzania,2020,2.94,2.94
+231,Eastern Mediterranean,Pakistan,2020,2.95,2.95
+232,Africa,Zimbabwe,2020,2.95,2.95
+233,Eastern Mediterranean,Sudan,2020,3.02,3.02
+234,Africa,Angola,2020,3.22,3.22
+235,Americas,Haiti,2020,3.22,3.22
+236,South-East Asia,India,2020,3.34,3.34
+237,Africa,Nigeria,2020,3.38,3.38
+238,Africa,Mauritania,2020,3.39,3.39
+239,Africa,Gabon,2020,3.41,3.41
+240,South-East Asia,Indonesia,2020,3.42,3.42
+241,Africa,Ethiopia,2020,3.48,3.48
+242,Africa,Mali,2020,3.48,3.48
+245,Africa,Madagascar,2020,3.72,3.72
+246,Africa,Gambia,2020,3.73,3.73
+247,Europe,Kazakhstan,2020,3.75,3.75
+248,Africa,Cameroon,2020,3.77,3.77
+249,Eastern Mediterranean,Qatar,2020,3.82,3.82
+250,Africa,Guinea,2020,3.88,3.88
+251,Africa,Equatorial Guinea,2020,3.9,3.9
+252,Western Pacific,Vanuatu,2020,3.99,3.99
+253,Africa,Ghana,2020,4.02,4.02
+254,South-East Asia,Sri Lanka,2020,4.02,4.02
+255,Africa,Democratic Republic of the Congo,2020,4.05,4.05
+256,Western Pacific,Malaysia,2020,4.08,4.08
+257,Americas,Venezuela (Bolivarian Republic of),2020,4.09,4.09
+258,Eastern Mediterranean,Egypt,2020,4.15,4.15
+259,Africa,Eritrea,2020,4.16,4.16
+261,Africa,Uganda,2020,4.3,4.3
+262,Western Pacific,Viet Nam,2020,4.3,4.3
+263,South-East Asia,Bhutan,2020,4.36,4.36
+264,South-East Asia,Thailand,2020,4.36,4.36
+265,Africa,Congo,2020,4.39,4.39
+266,Africa,Kenya,2020,4.48,4.48
+267,South-East Asia,Myanmar,2020,4.62,4.62
+269,Western Pacific,Mongolia,2020,4.67,4.67
+270,Eastern Mediterranean,Bahrain,2020,4.72,4.72
+271,Western Pacific,Fiji,2020,4.77,4.77
+272,Western Pacific,Solomon Islands,2020,4.8,4.8
+273,Americas,Saint Vincent and the Grenadines,2020,4.84,4.84
+274,Americas,Dominican Republic,2020,4.94,4.94
+275,Africa,Senegal,2020,5.15,5.15
+276,Western Pacific,Philippines,2020,5.16,5.16
+277,South-East Asia,Nepal,2020,5.21,5.21
+278,Eastern Mediterranean,Oman,2020,5.25,5.25
+279,Europe,Kyrgyzstan,2020,5.26,5.26
+280,Americas,Belize,2020,5.31,5.31
+281,Western Pacific,Tonga,2020,5.33,5.33
+282,Eastern Mediterranean,Iran (Islamic Republic of),2020,5.4,5.4
+283,Americas,Guyana,2020,5.51,5.51
+284,Africa,Chad,2020,5.54,5.54
+285,Americas,Grenada,2020,5.56,5.56
+286,Western Pacific,China,2020,5.59,5.59
+288,Europe,Turkmenistan,2020,5.68,5.68
+289,Western Pacific,Singapore,2020,5.71,5.71
+290,Europe,Luxembourg,2020,5.74,5.74
+291,Eastern Mediterranean,United Arab Emirates,2020,5.82,5.82
+292,Eastern Mediterranean,Morocco,2020,5.84,5.84
+293,Europe,Azerbaijan,2020,5.85,5.85
+294,Africa,Comoros,2020,5.87,5.87
+295,Americas,Antigua and Barbuda,2020,5.92,5.92
+297,Africa,Togo,2020,6.04,6.04
+298,Africa,Botswana,2020,6.12,6.12
+299,Africa,Cabo Verde,2020,6.12,6.12
+300,Africa,Algeria,2020,6.14,6.14
+301,Eastern Mediterranean,Iraq,2020,6.17,6.17
+302,Africa,Niger,2020,6.17,6.17
+303,Western Pacific,Samoa,2020,6.19,6.19
+304,Americas,Mexico,2020,6.22,6.22
+305,Europe,Romania,2020,6.23,6.23
+306,Americas,Peru,2020,6.29,6.29
+307,Africa,Zambia,2020,6.32,6.32
+308,Eastern Mediterranean,Kuwait,2020,6.35,6.35
+309,Europe,Belarus,2020,6.41,6.41
+310,Americas,Guatemala,2020,6.47,6.47
+311,Africa,Mauritius,2020,6.48,6.48
+312,Africa,Burkina Faso,2020,6.5,6.5
+313,Europe,Poland,2020,6.5,6.5
+314,Africa,Seychelles,2020,6.54,6.54
+316,Americas,Jamaica,2020,6.63,6.63
+317,Eastern Mediterranean,Saudi Arabia,2020,6.65,6.65
+318,Europe,Uzbekistan,2020,6.75,6.75
+319,Americas,Saint Lucia,2020,6.79,6.79
+320,Americas,Suriname,2020,6.84,6.84
+321,Europe,Republic of Moldova,2020,7.0,7.0
+322,Africa,Malawi,2020,7.01,7.01
+323,Eastern Mediterranean,Jordan,2020,7.04,7.04
+324,Eastern Mediterranean,Tunisia,2020,7.05,7.05
+325,Western Pacific,Cambodia,2020,7.11,7.11
+326,Europe,Ireland,2020,7.11,7.11
+327,Europe,Slovakia,2020,7.13,7.13
+328,Europe,Latvia,2020,7.25,7.25
+329,Europe,Hungary,2020,7.29,7.29
+330,Africa,Sao Tome and Principe,2020,7.3,7.3
+331,Americas,Barbados,2020,7.37,7.37
+332,Europe,Lithuania,2020,7.48,7.48
+333,Africa,Rwanda,2020,7.48,7.48
+334,Europe,Albania,2020,7.52,7.52
+335,Americas,Trinidad and Tobago,2020,7.54,7.54
+336,Europe,Ukraine,2020,7.56,7.56
+337,Africa,Mozambique,2020,7.57,7.57
+338,Europe,Russian Federation,2020,7.57,7.57
+339,Europe,Estonia,2020,7.58,7.58
+340,Eastern Mediterranean,Lebanon,2020,7.58,7.58
+341,Americas,Bahamas,2020,7.65,7.65
+342,Americas,Paraguay,2020,7.68,7.68
+343,Europe,Israel,2020,7.71,7.71
+344,Europe,Croatia,2020,7.72,7.72
+346,Americas,Costa Rica,2020,7.83,7.83
+347,Americas,Bolivia (Plurinational State of),2020,8.02,8.02
+348,Europe,Tajikistan,2020,8.18,8.18
+349,Western Pacific,Republic of Korea,2020,8.35,8.35
+350,Americas,Ecuador,2020,8.36,8.36
+351,Europe,Cyprus,2020,8.41,8.41
+352,Europe,Georgia,2020,8.43,8.43
+353,Europe,Bulgaria,2020,8.48,8.48
+355,Africa,South Africa,2020,8.57,8.57
+356,Americas,Nicaragua,2020,8.65,8.65
+357,Europe,Serbia,2020,8.7,8.7
+358,Americas,Colombia,2020,8.71,8.71
+360,Africa,Namibia,2020,8.9,8.9
+362,Africa,Central African Republic,2020,8.99,8.99
+363,Africa,Guinea-Bissau,2020,9.02,9.02
+364,Americas,Honduras,2020,9.04,9.04
+365,Americas,El Salvador,2020,9.08,9.08
+366,Americas,Uruguay,2020,9.14,9.14
+367,Europe,Czechia,2020,9.21,9.21
+368,Africa,Sierra Leone,2020,9.33,9.33
+369,Europe,Slovenia,2020,9.43,9.43
+370,Africa,South Sudan,2020,9.45,9.45
+371,Europe,Greece,2020,9.5,9.5
+372,Europe,Iceland,2020,9.61,9.61
+373,Europe,Finland,2020,9.63,9.63
+374,Europe,Italy,2020,9.63,9.63
+375,Europe,Bosnia and Herzegovina,2020,9.7,9.7
+376,Americas,Chile,2020,9.73,9.73
+377,South-East Asia,Timor-Leste,2020,9.96,9.96
+378,Americas,Argentina,2019,10.04,10.04
+380,Europe,Denmark,2019,10.15,10.15
+381,Western Pacific,Australia,2019,10.22,10.22
+382,Europe,Norway,2019,10.44,10.44
+383,Europe,Austria,2019,10.49,10.49
+384,Europe,Belgium,2019,10.79,10.79
+385,Europe,Sweden,2019,10.83,10.83
+386,Western Pacific,Japan,2019,10.97,10.97
+387,Americas,Canada,2019,11.01,11.01
+388,Europe,Switzerland,2019,11.06,11.06
+389,Americas,Cuba,2019,11.08,11.08
+390,Europe,France,2019,11.09,11.09
+391,Western Pacific,Micronesia (Federated States of),2019,11.26,11.26
+392,Europe,Armenia,2019,11.38,11.38
+394,Europe,Germany,2019,11.72,11.72
+395,Africa,Lesotho,2019,11.95,11.95
+396,Western Pacific,Kiribati,2019,12.59,12.59
+398,Eastern Mediterranean,Afghanistan,2019,14.83,14.83
+400,Americas,United States of America,2019,16.67,16.67
+401,Eastern Mediterranean,Djibouti,2019,2.17,2.17
+402,Western Pacific,Brunei Darussalam,2019,2.19,2.19
+403,Americas,Venezuela (Bolivarian Republic of),2019,2.19,2.19
+404,South-East Asia,Bangladesh,2019,2.26,2.26
+405,Western Pacific,Papua New Guinea,2019,2.33,2.33
+406,Africa,Angola,2019,2.48,2.48
+407,Africa,Benin,2019,2.51,2.51
+408,Africa,Congo,2019,2.54,2.54
+409,Western Pacific,Lao People's Democratic Republic,2019,2.6,2.6
+411,Africa,Gabon,2019,2.77,2.77
+412,Europe,Kazakhstan,2019,2.79,2.79
+413,Eastern Mediterranean,Pakistan,2019,2.85,2.85
+414,South-East Asia,Indonesia,2019,2.88,2.88
+415,South-East Asia,India,2019,2.95,2.95
+416,Africa,Nigeria,2019,2.99,2.99
+418,Africa,Madagascar,2019,3.1,3.1
+419,Africa,Gambia,2019,3.16,3.16
+420,Africa,Equatorial Guinea,2019,3.17,3.17
+421,Eastern Mediterranean,Qatar,2019,3.2,3.2
+423,Africa,Ethiopia,2019,3.23,3.23
+424,Africa,Zimbabwe,2019,3.23,3.23
+425,Africa,Mauritania,2019,3.3,3.3
+426,Western Pacific,Vanuatu,2019,3.31,3.31
+427,Africa,Democratic Republic of the Congo,2019,3.51,3.51
+428,South-East Asia,Bhutan,2019,3.6,3.6
+429,Africa,Cameroon,2019,3.65,3.65
+430,South-East Asia,Thailand,2019,3.79,3.79
+431,Africa,Uganda,2019,3.8,3.8
+432,Eastern Mediterranean,Oman,2019,3.81,3.81
+433,Africa,Mali,2019,3.83,3.83
+434,Western Pacific,Malaysia,2019,3.84,3.84
+436,Africa,United Republic of Tanzania,2019,3.88,3.88
+437,South-East Asia,Sri Lanka,2019,3.9,3.9
+438,Americas,Haiti,2019,3.91,3.91
+439,Eastern Mediterranean,Bahrain,2019,3.96,3.96
+440,Africa,Guinea,2019,4.09,4.09
+441,Western Pacific,Philippines,2019,4.17,4.17
+442,Europe,Azerbaijan,2019,4.18,4.18
+443,Americas,Saint Lucia,2019,4.19,4.19
+444,Americas,Dominican Republic,2019,4.24,4.24
+445,Western Pacific,Fiji,2019,4.25,4.25
+446,Eastern Mediterranean,Iraq,2019,4.26,4.26
+447,Americas,Saint Vincent and the Grenadines,2019,4.26,4.26
+448,Africa,Ghana,2019,4.3,4.3
+449,Western Pacific,Solomon Islands,2019,4.32,4.32
+450,Africa,Kenya,2019,4.37,4.37
+452,Americas,Antigua and Barbuda,2019,4.38,4.38
+453,Eastern Mediterranean,United Arab Emirates,2019,4.39,4.39
+454,Western Pacific,Singapore,2019,4.4,4.4
+455,South-East Asia,Nepal,2019,4.45,4.45
+456,Europe,Kyrgyzstan,2019,4.49,4.49
+457,Western Pacific,Mongolia,2019,4.49,4.49
+458,Africa,Senegal,2019,4.5,4.5
+459,Africa,Cabo Verde,2019,4.56,4.56
+460,Eastern Mediterranean,Sudan,2019,4.57,4.57
+461,Africa,Chad,2019,4.59,4.59
+462,Africa,Eritrea,2019,4.59,4.59
+463,Eastern Mediterranean,Egypt,2019,4.6,4.6
+464,South-East Asia,Myanmar,2019,4.71,4.71
+465,Western Pacific,Tonga,2019,4.75,4.75
+466,Africa,Seychelles,2019,4.77,4.77
+467,Americas,Belize,2019,4.81,4.81
+468,Americas,Guyana,2019,4.9,4.9
+469,Americas,Grenada,2019,4.93,4.93
+470,Western Pacific,Viet Nam,2019,4.97,4.97
+471,Eastern Mediterranean,Morocco,2019,4.99,4.99
+473,Africa,Comoros,2019,5.18,5.18
+474,Americas,Peru,2019,5.18,5.18
+476,Africa,Sao Tome and Principe,2019,5.3,5.3
+477,Africa,Burkina Faso,2019,5.32,5.32
+478,Western Pacific,China,2019,5.35,5.35
+479,Eastern Mediterranean,Kuwait,2019,5.36,5.36
+480,Europe,Uzbekistan,2019,5.43,5.43
+481,Americas,Mexico,2019,5.45,5.45
+482,Europe,Luxembourg,2019,5.47,5.47
+483,Eastern Mediterranean,Saudi Arabia,2019,5.47,5.47
+484,Western Pacific,Samoa,2019,5.64,5.64
+485,Europe,Russian Federation,2019,5.65,5.65
+486,Africa,Niger,2019,5.67,5.67
+487,Europe,Turkmenistan,2019,5.68,5.68
+488,Europe,Romania,2019,5.71,5.71
+489,Africa,Togo,2019,5.73,5.73
+490,Americas,Bahamas,2019,5.82,5.82
+491,Europe,Belarus,2019,5.86,5.86
+492,Africa,Algeria,2019,5.87,5.87
+493,Africa,Mauritius,2019,6.02,6.02
+494,Eastern Mediterranean,Tunisia,2019,6.02,6.02
+495,South-East Asia,Timor-Leste,2019,6.03,6.03
+496,Americas,Jamaica,2019,6.1,6.1
+497,Africa,Botswana,2019,6.12,6.12
+498,Americas,Guatemala,2019,6.17,6.17
+499,Americas,Barbados,2019,6.2,6.2
+500,Eastern Mediterranean,Iran (Islamic Republic of),2019,6.27,6.27
+501,Europe,Hungary,2019,6.28,6.28
+502,Africa,Rwanda,2019,6.34,6.34
+503,Europe,Poland,2019,6.46,6.46
+504,Europe,Republic of Moldova,2019,6.5,6.5
+505,Europe,Latvia,2019,6.61,6.61
+506,Europe,Georgia,2019,6.66,6.66
+507,Europe,Ireland,2019,6.71,6.71
+508,Africa,Zambia,2019,6.75,6.75
+509,Europe,Croatia,2019,6.8,6.8
+510,Europe,Estonia,2019,6.82,6.82
+511,Americas,Trinidad and Tobago,2019,6.83,6.83
+512,Western Pacific,Cambodia,2019,6.85,6.85
+513,Europe,Albania,2019,6.86,6.86
+514,Americas,Bolivia (Plurinational State of),2019,6.89,6.89
+515,Europe,Slovakia,2019,6.92,6.92
+516,Europe,Tajikistan,2019,6.95,6.95
+517,Europe,Lithuania,2019,6.99,6.99
+518,Eastern Mediterranean,Jordan,2019,7.0,7.0
+519,Europe,Cyprus,2019,7.07,7.07
+521,Europe,Bulgaria,2019,7.09,7.09
+522,Europe,Ukraine,2019,7.09,7.09
+524,Africa,Malawi,2019,7.15,7.15
+525,Africa,Guinea-Bissau,2019,7.16,7.16
+526,Americas,Paraguay,2019,7.16,7.16
+527,Europe,Israel,2019,7.17,7.17
+528,Americas,Costa Rica,2019,7.22,7.22
+530,Americas,Honduras,2019,7.3,7.3
+532,Europe,Czechia,2019,7.6,7.6
+533,South-East Asia,Maldives,2019,7.66,7.66
+534,Africa,Central African Republic,2019,7.76,7.76
+535,Americas,Ecuador,2019,7.77,7.77
+536,Americas,Colombia,2019,7.78,7.78
+537,Africa,Mozambique,2019,7.95,7.95
+539,Western Pacific,Republic of Korea,2019,8.17,8.17
+540,Europe,Greece,2019,8.2,8.2
+541,Africa,South Africa,2019,8.24,8.24
+542,Europe,Montenegro,2019,8.33,8.33
+543,Africa,Liberia,2019,8.42,8.42
+544,Africa,Namibia,2019,8.43,8.43
+545,Americas,Panama,2019,8.47,8.47
+546,Europe,Slovenia,2019,8.5,8.5
+547,Americas,Nicaragua,2019,8.57,8.57
+548,Europe,Iceland,2019,8.58,8.58
+549,Europe,Italy,2019,8.66,8.66
+550,Europe,Serbia,2019,8.67,8.67
+551,Eastern Mediterranean,Lebanon,2019,8.69,8.69
+552,Americas,Suriname,2019,8.7,8.7
+553,Americas,El Salvador,2019,8.81,8.81
+554,Europe,Bosnia and Herzegovina,2019,8.93,8.93
+555,Africa,South Sudan,2019,9.04,9.04
+556,Africa,Burundi,2019,9.05,9.05
+557,Africa,Sierra Leone,2019,9.13,9.13
+558,Europe,Malta,2019,9.15,9.15
+559,Europe,Spain,2019,9.15,9.15
+560,Europe,Finland,2019,9.17,9.17
+561,Americas,Chile,2019,9.36,9.36
+562,Americas,Uruguay,2019,9.39,9.39
+563,Western Pacific,New Zealand,2019,9.49,9.49
+564,Europe,Portugal,2019,9.51,9.51
+565,Americas,Brazil,2019,9.61,9.61
+566,Europe,United Kingdom of Great Britain and Northern Ireland,2019,9.96,9.96
+567,Africa,Congo,2018,1.9,1.9
+568,Europe,Armenia,2018,10.01,10.01
+570,Western Pacific,Australia,2018,10.06,10.06
+571,Africa,South Sudan,2018,10.06,10.06
+572,Europe,Denmark,2018,10.1,10.1
+573,Americas,Argentina,2018,10.29,10.29
+574,Europe,Austria,2018,10.35,10.35
+575,Africa,Liberia,2018,10.35,10.35
+576,Western Pacific,Japan,2018,10.74,10.74
+577,Europe,Switzerland,2018,10.77,10.77
+578,Europe,Belgium,2018,10.86,10.86
+579,Americas,Canada,2018,10.91,10.91
+580,Europe,Sweden,2018,10.94,10.94
+581,Africa,Central African Republic,2018,11.0,11.0
+582,Americas,Cuba,2018,11.02,11.02
+584,Africa,Lesotho,2018,11.11,11.11
+585,Europe,France,2018,11.21,11.21
+586,Europe,Germany,2018,11.48,11.48
+587,Western Pacific,Micronesia (Federated States of),2018,11.66,11.66
+589,Western Pacific,Kiribati,2018,12.97,12.97
+590,Eastern Mediterranean,Afghanistan,2018,14.21,14.21
+592,Americas,United States of America,2018,16.63,16.63
+594,Western Pacific,Lao People's Democratic Republic,2018,2.25,2.25
+595,Western Pacific,Papua New Guinea,2018,2.3,2.3
+596,South-East Asia,Bangladesh,2018,2.32,2.32
+597,Eastern Mediterranean,Djibouti,2018,2.34,2.34
+598,Western Pacific,Brunei Darussalam,2018,2.41,2.41
+599,Americas,Venezuela (Bolivarian Republic of),2018,2.42,2.42
+600,Africa,Angola,2018,2.59,2.59
+602,Africa,Gabon,2018,2.75,2.75
+603,Europe,Kazakhstan,2018,2.82,2.82
+604,Eastern Mediterranean,Pakistan,2018,2.83,2.83
+605,Africa,Equatorial Guinea,2018,2.85,2.85
+606,South-East Asia,India,2018,2.86,2.86
+607,South-East Asia,Indonesia,2018,2.87,2.87
+608,Africa,Benin,2018,2.89,2.89
+609,Eastern Mediterranean,Qatar,2018,2.96,2.96
+611,Africa,Nigeria,2018,3.09,3.09
+612,Africa,Mauritania,2018,3.18,3.18
+613,Eastern Mediterranean,Oman,2018,3.21,3.21
+614,South-East Asia,Bhutan,2018,3.24,3.24
+615,Africa,Democratic Republic of the Congo,2018,3.24,3.24
+616,Africa,Ethiopia,2018,3.3,3.3
+617,Western Pacific,Vanuatu,2018,3.32,3.32
+618,Africa,Gambia,2018,3.34,3.34
+619,Africa,Cameroon,2018,3.62,3.62
+620,South-East Asia,Sri Lanka,2018,3.64,3.64
+621,Africa,Mali,2018,3.73,3.73
+622,Africa,Guinea,2018,3.74,3.74
+623,Western Pacific,Malaysia,2018,3.76,3.76
+624,Western Pacific,Solomon Islands,2018,3.77,3.77
+625,Africa,Ghana,2018,3.81,3.81
+626,Europe,Azerbaijan,2018,3.84,3.84
+627,South-East Asia,Thailand,2018,3.87,3.87
+628,Western Pacific,Philippines,2018,3.95,3.95
+629,Africa,Uganda,2018,4.02,4.02
+631,Western Pacific,Singapore,2018,4.08,4.08
+632,Africa,Kenya,2018,4.1,4.1
+633,Eastern Mediterranean,United Arab Emirates,2018,4.1,4.1
+634,Western Pacific,Fiji,2018,4.11,4.11
+636,Eastern Mediterranean,Bahrain,2018,4.13,4.13
+637,Americas,Dominican Republic,2018,4.13,4.13
+638,Africa,Eritrea,2018,4.13,4.13
+639,Eastern Mediterranean,Iraq,2018,4.13,4.13
+640,Africa,United Republic of Tanzania,2018,4.16,4.16
+641,Americas,Saint Lucia,2018,4.19,4.19
+642,Africa,Madagascar,2018,4.23,4.23
+643,Americas,Saint Vincent and the Grenadines,2018,4.25,4.25
+644,Americas,Haiti,2018,4.32,4.32
+645,Africa,Senegal,2018,4.43,4.43
+646,Eastern Mediterranean,Sudan,2018,4.46,4.46
+647,Western Pacific,Mongolia,2018,4.53,4.53
+648,South-East Asia,Nepal,2018,4.53,4.53
+649,Africa,Chad,2018,4.57,4.57
+650,Americas,Grenada,2018,4.58,4.58
+651,Africa,Zimbabwe,2018,4.67,4.67
+652,Africa,Cabo Verde,2018,4.74,4.74
+653,Americas,Belize,2018,4.75,4.75
+654,Eastern Mediterranean,Egypt,2018,4.75,4.75
+655,Western Pacific,Samoa,2018,4.77,4.77
+656,Africa,Zambia,2018,4.77,4.77
+657,Western Pacific,Tonga,2018,4.81,4.81
+658,Americas,Antigua and Barbuda,2018,4.85,4.85
+660,Africa,Comoros,2018,4.9,4.9
+661,Americas,Guyana,2018,4.9,4.9
+662,South-East Asia,Myanmar,2018,4.9,4.9
+663,Africa,Seychelles,2018,4.94,4.94
+664,Eastern Mediterranean,Morocco,2018,4.95,4.95
+665,Africa,Burkina Faso,2018,5.01,5.01
+666,Europe,Kyrgyzstan,2018,5.01,5.01
+667,Western Pacific,Viet Nam,2018,5.03,5.03
+668,Europe,Uzbekistan,2018,5.08,5.08
+669,Americas,Peru,2018,5.16,5.16
+670,Western Pacific,China,2018,5.17,5.17
+671,Eastern Mediterranean,Kuwait,2018,5.19,5.19
+672,Europe,Luxembourg,2018,5.28,5.28
+673,Africa,Niger,2018,5.3,5.3
+674,Eastern Mediterranean,Saudi Arabia,2018,5.34,5.34
+675,Europe,Russian Federation,2018,5.36,5.36
+676,Americas,Mexico,2018,5.38,5.38
+677,Africa,Sao Tome and Principe,2018,5.51,5.51
+678,Europe,Romania,2018,5.52,5.52
+679,Europe,Belarus,2018,5.53,5.53
+680,Africa,Mauritius,2018,5.64,5.64
+681,Europe,Turkmenistan,2018,5.69,5.69
+682,Eastern Mediterranean,Tunisia,2018,5.94,5.94
+683,Americas,Jamaica,2018,5.97,5.97
+684,Americas,Bahamas,2018,5.98,5.98
+685,Africa,Botswana,2018,6.04,6.04
+686,Western Pacific,Cambodia,2018,6.07,6.07
+687,Africa,Togo,2018,6.09,6.09
+688,Americas,Guatemala,2018,6.11,6.11
+690,Europe,Latvia,2018,6.19,6.19
+691,Europe,Poland,2018,6.31,6.31
+692,South-East Asia,Timor-Leste,2018,6.37,6.37
+693,Africa,Algeria,2018,6.39,6.39
+694,Americas,Barbados,2018,6.45,6.45
+696,Europe,Ireland,2018,6.5,6.5
+697,Europe,Lithuania,2018,6.53,6.53
+698,Americas,Trinidad and Tobago,2018,6.53,6.53
+699,Europe,Hungary,2018,6.58,6.58
+700,Americas,Bolivia (Plurinational State of),2018,6.6,6.6
+702,Europe,Albania,2018,6.67,6.67
+703,Europe,Slovakia,2018,6.67,6.67
+704,Europe,Estonia,2018,6.69,6.69
+705,Americas,Suriname,2018,6.69,6.69
+706,Africa,Rwanda,2018,6.7,6.7
+707,Europe,Republic of Moldova,2018,6.71,6.71
+708,Americas,Paraguay,2018,6.74,6.74
+709,Europe,Croatia,2018,6.75,6.75
+710,Europe,Cyprus,2018,6.83,6.83
+711,Africa,Malawi,2018,6.87,6.87
+712,Eastern Mediterranean,Jordan,2018,6.98,6.98
+713,Europe,Tajikistan,2018,7.01,7.01
+714,Europe,Georgia,2018,7.11,7.11
+715,Americas,Honduras,2018,7.23,7.23
+716,Europe,Israel,2018,7.23,7.23
+717,Africa,Guinea-Bissau,2018,7.28,7.28
+718,Africa,Burundi,2018,7.29,7.29
+719,Americas,Costa Rica,2018,7.29,7.29
+720,Europe,Bulgaria,2018,7.33,7.33
+722,South-East Asia,Maldives,2018,7.44,7.44
+723,Europe,Czechia,2018,7.47,7.47
+724,Western Pacific,Republic of Korea,2018,7.49,7.49
+725,Europe,Ukraine,2018,7.52,7.52
+726,Americas,Colombia,2018,7.63,7.63
+727,Eastern Mediterranean,Iran (Islamic Republic of),2018,7.74,7.74
+728,Americas,Ecuador,2018,7.83,7.83
+729,Americas,Panama,2018,7.88,7.88
+731,Eastern Mediterranean,Lebanon,2018,8.07,8.07
+732,Africa,Mozambique,2018,8.09,8.09
+733,Africa,South Africa,2018,8.09,8.09
+734,Europe,Greece,2018,8.12,8.12
+736,Europe,Slovenia,2018,8.28,8.28
+737,Africa,Sierra Leone,2018,8.29,8.29
+738,Americas,El Salvador,2018,8.32,8.32
+739,Africa,Namibia,2018,8.32,8.32
+740,Europe,Montenegro,2018,8.34,8.34
+741,Europe,Iceland,2018,8.38,8.38
+742,Americas,Nicaragua,2018,8.5,8.5
+743,Europe,Serbia,2018,8.53,8.53
+744,Europe,Malta,2018,8.55,8.55
+745,Europe,Italy,2018,8.68,8.68
+746,Europe,Bosnia and Herzegovina,2018,8.76,8.76
+747,Europe,Spain,2018,9.0,9.0
+748,Americas,Uruguay,2018,9.01,9.01
+749,Western Pacific,New Zealand,2018,9.04,9.04
+750,Europe,Finland,2018,9.05,9.05
+751,Americas,Chile,2018,9.23,9.23
+752,Europe,Portugal,2018,9.41,9.41
+753,Americas,Brazil,2018,9.46,9.46
+754,Europe,United Kingdom of Great Britain and Northern Ireland,2018,9.73,9.73
+755,Europe,Norway,2018,9.96,9.96
+756,Americas,Venezuela (Bolivarian Republic of),2017,,
+757,Europe,Denmark,2017,10.1,10.1
+759,Western Pacific,Australia,2017,10.12,10.12
+760,Americas,Argentina,2017,10.23,10.23
+761,Europe,Norway,2017,10.23,10.23
+762,Europe,Armenia,2017,10.36,10.36
+763,Europe,Austria,2017,10.38,10.38
+764,Africa,Liberia,2017,10.47,10.47
+765,Africa,Lesotho,2017,10.57,10.57
+766,Western Pacific,Japan,2017,10.66,10.66
+767,Europe,Sweden,2017,10.79,10.79
+768,Europe,Belgium,2017,10.8,10.8
+769,Americas,Canada,2017,10.91,10.91
+770,Europe,Switzerland,2017,11.05,11.05
+771,Europe,Germany,2017,11.34,11.34
+772,Europe,France,2017,11.35,11.35
+773,Western Pacific,Kiribati,2017,11.46,11.46
+774,Americas,Cuba,2017,11.47,11.47
+776,Western Pacific,Micronesia (Federated States of),2017,12.2,12.2
+778,Eastern Mediterranean,Afghanistan,2017,12.62,12.62
+780,Africa,South Sudan,2017,15.96,15.96
+781,Americas,United States of America,2017,16.77,16.77
+782,Western Pacific,Papua New Guinea,2017,2.23,2.23
+783,Western Pacific,Brunei Darussalam,2017,2.27,2.27
+784,South-East Asia,Bangladesh,2017,2.37,2.37
+785,Eastern Mediterranean,Djibouti,2017,2.47,2.47
+786,Africa,Congo,2017,2.52,2.52
+787,Western Pacific,Lao People's Democratic Republic,2017,2.53,2.53
+788,Africa,Benin,2017,2.67,2.67
+789,Africa,Equatorial Guinea,2017,2.75,2.75
+790,Western Pacific,Vanuatu,2017,2.76,2.76
+791,Africa,Gabon,2017,2.78,2.78
+792,Africa,Angola,2017,2.79,2.79
+793,Eastern Mediterranean,Pakistan,2017,2.79,2.79
+795,South-East Asia,Indonesia,2017,2.9,2.9
+796,South-East Asia,India,2017,2.94,2.94
+798,Europe,Kazakhstan,2017,3.05,3.05
+799,Western Pacific,Fiji,2017,3.19,3.19
+800,Eastern Mediterranean,Qatar,2017,3.21,3.21
+802,Africa,Mauritania,2017,3.32,3.32
+803,South-East Asia,Sri Lanka,2017,3.33,3.33
+804,South-East Asia,Bhutan,2017,3.34,3.34
+805,Africa,Gambia,2017,3.35,3.35
+806,Africa,Cameroon,2017,3.4,3.4
+807,Africa,Ethiopia,2017,3.45,3.45
+808,Africa,Mali,2017,3.67,3.67
+809,Western Pacific,Malaysia,2017,3.71,3.71
+810,Africa,Ghana,2017,3.73,3.73
+811,Africa,Nigeria,2017,3.75,3.75
+812,Americas,Haiti,2017,3.82,3.82
+813,South-East Asia,Thailand,2017,3.85,3.85
+814,Africa,Guinea,2017,3.92,3.92
+815,Eastern Mediterranean,Oman,2017,3.95,3.95
+816,Western Pacific,Philippines,2017,3.96,3.96
+817,Africa,Eritrea,2017,3.99,3.99
+818,Africa,Kenya,2017,3.99,3.99
+819,Africa,Democratic Republic of the Congo,2017,4.0,4.0
+820,Africa,Uganda,2017,4.0,4.0
+821,Eastern Mediterranean,United Arab Emirates,2017,4.01,4.01
+822,Eastern Mediterranean,Iraq,2017,4.04,4.04
+823,Europe,Azerbaijan,2017,4.07,4.07
+824,Africa,United Republic of Tanzania,2017,4.08,4.08
+825,Western Pacific,Solomon Islands,2017,4.15,4.15
+827,Africa,Senegal,2017,4.16,4.16
+829,Americas,Saint Vincent and the Grenadines,2017,4.23,4.23
+830,Americas,Guyana,2017,4.32,4.32
+831,Western Pacific,Mongolia,2017,4.34,4.34
+832,Western Pacific,Singapore,2017,4.36,4.36
+833,Americas,Saint Lucia,2017,4.37,4.37
+834,Americas,Dominican Republic,2017,4.49,4.49
+835,Eastern Mediterranean,Bahrain,2017,4.51,4.51
+836,Americas,Belize,2017,4.62,4.62
+837,Africa,Chad,2017,4.65,4.65
+838,Eastern Mediterranean,Kuwait,2017,4.65,4.65
+839,Americas,Grenada,2017,4.66,4.66
+840,South-East Asia,Nepal,2017,4.72,4.72
+841,Africa,Seychelles,2017,4.77,4.77
+842,Africa,Zambia,2017,4.78,4.78
+843,Africa,Madagascar,2017,4.8,4.8
+844,Europe,Uzbekistan,2017,4.84,4.84
+845,Western Pacific,Tonga,2017,4.86,4.86
+846,Americas,Antigua and Barbuda,2017,4.87,4.87
+847,Americas,Peru,2017,4.88,4.88
+848,Eastern Mediterranean,Morocco,2017,4.99,4.99
+849,Western Pacific,Viet Nam,2017,4.99,4.99
+850,Western Pacific,China,2017,5.07,5.07
+851,South-East Asia,Myanmar,2017,5.08,5.08
+852,Europe,Luxembourg,2017,5.14,5.14
+853,Western Pacific,Samoa,2017,5.16,5.16
+854,Europe,Romania,2017,5.19,5.19
+856,Africa,Cabo Verde,2017,5.27,5.27
+857,Africa,Comoros,2017,5.27,5.27
+858,Americas,Suriname,2017,5.32,5.32
+859,Eastern Mediterranean,Egypt,2017,5.35,5.35
+860,Europe,Russian Federation,2017,5.36,5.36
+862,Americas,Mexico,2017,5.46,5.46
+863,Africa,Niger,2017,5.58,5.58
+864,Africa,Mauritius,2017,5.61,5.61
+865,Western Pacific,Cambodia,2017,5.65,5.65
+866,Europe,Belarus,2017,5.76,5.76
+867,Eastern Mediterranean,Sudan,2017,5.92,5.92
+868,Europe,Turkmenistan,2017,5.94,5.94
+869,Europe,Latvia,2017,5.97,5.97
+870,Africa,Burkina Faso,2017,6.02,6.02
+871,Eastern Mediterranean,Saudi Arabia,2017,6.03,6.03
+872,Americas,Guatemala,2017,6.14,6.14
+873,Americas,Jamaica,2017,6.15,6.15
+874,Europe,Kyrgyzstan,2017,6.19,6.19
+875,Eastern Mediterranean,Tunisia,2017,6.19,6.19
+876,Africa,Zimbabwe,2017,6.36,6.36
+877,Africa,Rwanda,2017,6.39,6.39
+879,Africa,Sao Tome and Principe,2017,6.46,6.46
+880,Europe,Lithuania,2017,6.48,6.48
+881,Americas,Bolivia (Plurinational State of),2017,6.49,6.49
+882,Africa,Togo,2017,6.49,6.49
+883,Africa,Algeria,2017,6.53,6.53
+884,Europe,Albania,2017,6.58,6.58
+885,Europe,Poland,2017,6.58,6.58
+886,Americas,Trinidad and Tobago,2017,6.58,6.58
+887,Europe,Estonia,2017,6.6,6.6
+888,Americas,Paraguay,2017,6.61,6.61
+889,Europe,Cyprus,2017,6.62,6.62
+890,Africa,Botswana,2017,6.63,6.63
+891,Americas,Barbados,2017,6.65,6.65
+892,Europe,Croatia,2017,6.66,6.66
+893,Africa,Central African Republic,2017,6.67,6.67
+894,Americas,Bahamas,2017,6.7,6.7
+895,Europe,Hungary,2017,6.74,6.74
+896,Europe,Slovakia,2017,6.76,6.76
+897,South-East Asia,Timor-Leste,2017,6.76,6.76
+898,Europe,Tajikistan,2017,6.85,6.85
+899,Africa,Burundi,2017,6.95,6.95
+901,Africa,Guinea-Bissau,2017,7.0,7.0
+902,Americas,Honduras,2017,7.01,7.01
+903,Americas,Costa Rica,2017,7.05,7.05
+904,Western Pacific,Republic of Korea,2017,7.05,7.05
+905,Europe,Georgia,2017,7.06,7.06
+907,Eastern Mediterranean,Jordan,2017,7.11,7.11
+908,Europe,Ireland,2017,7.13,7.13
+909,Europe,Republic of Moldova,2017,7.13,7.13
+910,Europe,Israel,2017,7.18,7.18
+911,Europe,Czechia,2017,7.38,7.38
+912,Americas,Panama,2017,7.43,7.43
+913,Europe,Ukraine,2017,7.44,7.44
+914,Europe,Bulgaria,2017,7.49,7.49
+915,Americas,Ecuador,2017,7.54,7.54
+916,Africa,Malawi,2017,7.58,7.58
+917,Americas,Colombia,2017,7.68,7.68
+918,Eastern Mediterranean,Lebanon,2017,7.8,7.8
+919,Eastern Mediterranean,Iran (Islamic Republic of),2017,7.83,7.83
+920,Africa,Mozambique,2017,7.84,7.84
+921,Europe,Montenegro,2017,7.98,7.98
+922,Africa,South Africa,2017,7.98,7.98
+923,Europe,Greece,2017,8.14,8.14
+924,Europe,Slovenia,2017,8.18,8.18
+925,Europe,Serbia,2017,8.22,8.22
+926,Europe,Iceland,2017,8.26,8.26
+928,Americas,Nicaragua,2017,8.33,8.33
+929,Americas,El Salvador,2017,8.42,8.42
+931,Europe,Italy,2017,8.68,8.68
+932,Europe,Malta,2017,8.73,8.73
+933,Africa,Namibia,2017,8.73,8.73
+934,Europe,Bosnia and Herzegovina,2017,8.82,8.82
+935,Americas,Uruguay,2017,8.82,8.82
+936,Europe,Spain,2017,8.94,8.94
+937,Western Pacific,New Zealand,2017,8.97,8.97
+938,Americas,Chile,2017,9.09,9.09
+939,Europe,Finland,2017,9.13,9.13
+940,South-East Asia,Maldives,2017,9.27,9.27
+941,Europe,Portugal,2017,9.31,9.31
+942,Africa,Sierra Leone,2017,9.4,9.4
+943,Americas,Brazil,2017,9.47,9.47
+944,Europe,United Kingdom of Great Britain and Northern Ireland,2017,9.6,9.6
+945,Americas,Venezuela (Bolivarian Republic of),2016,,
+946,Western Pacific,Australia,2016,10.09,10.09
+947,Europe,Denmark,2016,10.25,10.25
+949,South-East Asia,Maldives,2016,10.31,10.31
+950,Europe,Austria,2016,10.35,10.35
+951,Western Pacific,Kiribati,2016,10.47,10.47
+952,Europe,Norway,2016,10.53,10.53
+953,Western Pacific,Japan,2016,10.66,10.66
+954,Europe,Belgium,2016,10.79,10.79
+955,Europe,Sweden,2016,10.85,10.85
+957,Europe,Switzerland,2016,10.99,10.99
+958,Americas,Canada,2016,11.03,11.03
+959,Europe,Germany,2016,11.24,11.24
+960,Europe,France,2016,11.47,11.47
+962,Eastern Mediterranean,Afghanistan,2016,11.82,11.82
+963,Americas,Cuba,2016,12.22,12.22
+964,Western Pacific,Micronesia (Federated States of),2016,13.13,13.13
+966,Africa,Sierra Leone,2016,15.79,15.79
+967,Americas,United States of America,2016,16.8,16.8
+969,Western Pacific,Papua New Guinea,2016,2.33,2.33
+970,Western Pacific,Lao People's Democratic Republic,2016,2.36,2.36
+971,South-East Asia,Bangladesh,2016,2.39,2.39
+972,Western Pacific,Brunei Darussalam,2016,2.55,2.55
+973,Eastern Mediterranean,Pakistan,2016,2.57,2.57
+974,Africa,Angola,2016,2.71,2.71
+975,Eastern Mediterranean,Djibouti,2016,2.74,2.74
+976,Africa,Congo,2016,2.77,2.77
+977,Africa,Benin,2016,2.8,2.8
+978,Africa,Equatorial Guinea,2016,2.86,2.86
+979,Western Pacific,Vanuatu,2016,2.93,2.93
+981,South-East Asia,Indonesia,2016,3.02,3.02
+982,Africa,Mauritania,2016,3.1,3.1
+983,Africa,Gabon,2016,3.11,3.11
+984,Africa,Gambia,2016,3.2,3.2
+985,Western Pacific,Fiji,2016,3.28,3.28
+987,Africa,Ghana,2016,3.39,3.39
+988,Europe,Kazakhstan,2016,3.42,3.42
+989,South-East Asia,India,2016,3.5,3.5
+990,Eastern Mediterranean,Qatar,2016,3.55,3.55
+991,South-East Asia,Bhutan,2016,3.58,3.58
+992,Africa,Cameroon,2016,3.59,3.59
+993,Africa,Ethiopia,2016,3.6,3.6
+994,South-East Asia,Sri Lanka,2016,3.62,3.62
+995,Africa,Nigeria,2016,3.65,3.65
+996,Africa,Eritrea,2016,3.66,3.66
+997,Western Pacific,Malaysia,2016,3.7,3.7
+998,Africa,Mali,2016,3.77,3.77
+999,Eastern Mediterranean,United Arab Emirates,2016,3.9,3.9
+1000,South-East Asia,Thailand,2016,3.94,3.94
+1001,Western Pacific,Philippines,2016,3.95,3.95
+1002,Africa,United Republic of Tanzania,2016,3.96,3.96
+1003,Americas,Guyana,2016,4.02,4.02
+1004,Americas,Saint Vincent and the Grenadines,2016,4.1,4.1
+1006,Eastern Mediterranean,Oman,2016,4.18,4.18
+1007,Africa,Democratic Republic of the Congo,2016,4.2,4.2
+1008,Africa,Senegal,2016,4.26,4.26
+1010,Western Pacific,Singapore,2016,4.39,4.39
+1011,Western Pacific,Solomon Islands,2016,4.4,4.4
+1012,Europe,Azerbaijan,2016,4.42,4.42
+1013,Americas,Grenada,2016,4.44,4.44
+1014,Americas,Saint Lucia,2016,4.45,4.45
+1015,Africa,Zambia,2016,4.47,4.47
+1016,Africa,Niger,2016,4.53,4.53
+1017,Americas,Dominican Republic,2016,4.58,4.58
+1018,Western Pacific,Mongolia,2016,4.58,4.58
+1019,Eastern Mediterranean,Iraq,2016,4.59,4.59
+1020,Africa,Comoros,2016,4.65,4.65
+1021,Europe,Uzbekistan,2016,4.72,4.72
+1022,Africa,Chad,2016,4.73,4.73
+1023,Eastern Mediterranean,Kuwait,2016,4.73,4.73
+1024,Africa,Kenya,2016,4.75,4.75
+1025,Americas,Belize,2016,4.77,4.77
+1026,Americas,Haiti,2016,4.81,4.81
+1027,Western Pacific,Tonga,2016,4.82,4.82
+1028,Africa,Cabo Verde,2016,4.85,4.85
+1029,Eastern Mediterranean,Bahrain,2016,4.86,4.86
+1030,Western Pacific,Viet Nam,2016,4.87,4.87
+1031,Americas,Peru,2016,4.96,4.96
+1032,Africa,Seychelles,2016,4.96,4.96
+1033,Africa,Uganda,2016,4.96,4.96
+1034,Western Pacific,China,2016,4.98,4.98
+1035,Eastern Mediterranean,Egypt,2016,5.07,5.07
+1036,Europe,Luxembourg,2016,5.07,5.07
+1037,Europe,Romania,2016,5.08,5.08
+1038,Eastern Mediterranean,Morocco,2016,5.09,5.09
+1039,South-East Asia,Myanmar,2016,5.11,5.11
+1040,Americas,Antigua and Barbuda,2016,5.12,5.12
+1042,Europe,Russian Federation,2016,5.29,5.29
+1043,Africa,Madagascar,2016,5.33,5.33
+1044,Africa,Guinea,2016,5.4,5.4
+1045,South-East Asia,Nepal,2016,5.42,5.42
+1047,Africa,Central African Republic,2016,5.44,5.44
+1048,Africa,Mauritius,2016,5.54,5.54
+1049,Americas,Mexico,2016,5.55,5.55
+1050,Western Pacific,Samoa,2016,5.63,5.63
+1051,Americas,Bahamas,2016,5.68,5.68
+1052,Eastern Mediterranean,Sudan,2016,5.68,5.68
+1053,Americas,Jamaica,2016,5.7,5.7
+1054,Europe,Turkmenistan,2016,5.74,5.74
+1055,Africa,Botswana,2016,5.77,5.77
+1056,Europe,Belarus,2016,5.91,5.91
+1057,Africa,Burkina Faso,2016,5.96,5.96
+1058,Americas,Suriname,2016,5.99,5.99
+1059,Americas,Guatemala,2016,6.07,6.07
+1060,Western Pacific,Cambodia,2016,6.12,6.12
+1061,Europe,Latvia,2016,6.13,6.13
+1062,Eastern Mediterranean,Saudi Arabia,2016,6.24,6.24
+1063,Eastern Mediterranean,Tunisia,2016,6.25,6.25
+1065,Europe,Kyrgyzstan,2016,6.41,6.41
+1066,Africa,Sao Tome and Principe,2016,6.43,6.43
+1067,Americas,Trinidad and Tobago,2016,6.51,6.51
+1068,Europe,Poland,2016,6.57,6.57
+1069,Africa,Algeria,2016,6.59,6.59
+1070,Africa,Togo,2016,6.6,6.6
+1071,Europe,Lithuania,2016,6.64,6.64
+1072,Europe,Cyprus,2016,6.65,6.65
+1073,Americas,Paraguay,2016,6.68,6.68
+1074,Europe,Estonia,2016,6.7,6.7
+1075,Europe,Albania,2016,6.73,6.73
+1076,Europe,Croatia,2016,6.73,6.73
+1078,Americas,Bolivia (Plurinational State of),2016,6.83,6.83
+1079,Americas,Barbados,2016,6.84,6.84
+1080,Western Pacific,Republic of Korea,2016,6.87,6.87
+1081,South-East Asia,Timor-Leste,2016,6.9,6.9
+1083,Africa,Rwanda,2016,6.96,6.96
+1084,Europe,Tajikistan,2016,6.96,6.96
+1085,Eastern Mediterranean,Jordan,2016,6.98,6.98
+1086,Europe,Hungary,2016,6.99,6.99
+1087,Africa,Burundi,2016,7.06,7.06
+1088,Europe,Slovakia,2016,7.09,7.09
+1089,Europe,Israel,2016,7.1,7.1
+1090,Africa,Mozambique,2016,7.28,7.28
+1091,Americas,Costa Rica,2016,7.32,7.32
+1092,Americas,Panama,2016,7.35,7.35
+1093,Americas,Ecuador,2016,7.42,7.42
+1094,Europe,Czechia,2016,7.45,7.45
+1095,Europe,Bulgaria,2016,7.46,7.46
+1096,Europe,Ireland,2016,7.47,7.47
+1097,Africa,Zimbabwe,2016,7.47,7.47
+1098,Americas,Colombia,2016,7.53,7.53
+1099,Europe,Republic of Moldova,2016,7.54,7.54
+1100,Europe,Ukraine,2016,7.55,7.55
+1101,Americas,Honduras,2016,7.71,7.71
+1102,Africa,Malawi,2016,7.73,7.73
+1104,Eastern Mediterranean,Lebanon,2016,7.92,7.92
+1105,Eastern Mediterranean,Iran (Islamic Republic of),2016,7.99,7.99
+1106,Europe,Georgia,2016,8.0,8.0
+1107,Americas,Nicaragua,2016,8.05,8.05
+1108,Africa,South Africa,2016,8.08,8.08
+1109,Europe,Iceland,2016,8.1,8.1
+1110,Africa,Guinea-Bissau,2016,8.33,8.33
+1112,Europe,Greece,2016,8.45,8.45
+1113,Europe,Serbia,2016,8.46,8.46
+1114,Europe,Slovenia,2016,8.46,8.46
+1115,Americas,Chile,2016,8.56,8.56
+1116,Europe,Montenegro,2016,8.63,8.63
+1117,Americas,Uruguay,2016,8.68,8.68
+1118,Americas,El Salvador,2016,8.71,8.71
+1119,Europe,Italy,2016,8.73,8.73
+1120,Europe,Spain,2016,8.95,8.95
+1121,Europe,Malta,2016,8.97,8.97
+1122,Europe,Bosnia and Herzegovina,2016,9.14,9.14
+1123,Americas,Brazil,2016,9.17,9.17
+1124,Africa,Lesotho,2016,9.24,9.24
+1125,Western Pacific,New Zealand,2016,9.24,9.24
+1126,Africa,Namibia,2016,9.32,9.32
+1127,Europe,Finland,2016,9.38,9.38
+1128,Europe,Portugal,2016,9.39,9.39
+1129,Europe,United Kingdom of Great Britain and Northern Ireland,2016,9.73,9.73
+1130,Americas,Argentina,2016,9.86,9.86
+1131,Africa,Liberia,2016,9.9,9.9
+1132,Europe,Armenia,2016,9.95,9.95
+1133,Americas,Venezuela (Bolivarian Republic of),2015,,
+1134,Western Pacific,Papua New Guinea,2015,1.82,1.82
+1135,Europe,Norway,2015,10.07,10.07
+1136,Eastern Mediterranean,Afghanistan,2015,10.11,10.11
+1137,Europe,Armenia,2015,10.12,10.12
+1138,Western Pacific,Australia,2015,10.18,10.18
+1139,Americas,Argentina,2015,10.23,10.23
+1141,Europe,Denmark,2015,10.34,10.34
+1142,Europe,Austria,2015,10.37,10.37
+1143,Africa,Liberia,2015,10.47,10.47
+1144,Americas,Canada,2015,10.74,10.74
+1145,Western Pacific,Japan,2015,10.75,10.75
+1146,Europe,Switzerland,2015,10.78,10.78
+1147,Europe,Belgium,2015,10.8,10.8
+1148,Europe,Sweden,2015,10.8,10.8
+1149,Europe,Germany,2015,11.19,11.19
+1151,Europe,France,2015,11.45,11.45
+1152,Western Pacific,Micronesia (Federated States of),2015,12.46,12.46
+1153,Americas,Cuba,2015,12.81,12.81
+1157,Americas,United States of America,2015,16.49,16.49
+1158,Africa,Sierra Leone,2015,19.66,19.66
+1159,South-East Asia,Bangladesh,2015,2.27,2.27
+1160,Africa,Equatorial Guinea,2015,2.34,2.34
+1161,Western Pacific,Brunei Darussalam,2015,2.39,2.39
+1162,Western Pacific,Lao People's Democratic Republic,2015,2.45,2.45
+1163,Africa,Congo,2015,2.46,2.46
+1164,Eastern Mediterranean,Pakistan,2015,2.46,2.46
+1165,Africa,Angola,2015,2.61,2.61
+1166,Africa,Gabon,2015,2.66,2.66
+1167,Africa,Benin,2015,2.73,2.73
+1169,South-East Asia,Indonesia,2015,2.92,2.92
+1170,Europe,Kazakhstan,2015,3.04,3.04
+1171,Eastern Mediterranean,Iraq,2015,3.16,3.16
+1172,Africa,Gambia,2015,3.18,3.18
+1174,Western Pacific,Fiji,2015,3.32,3.32
+1175,Eastern Mediterranean,Djibouti,2015,3.35,3.35
+1176,Eastern Mediterranean,United Arab Emirates,2015,3.47,3.47
+1177,Africa,Nigeria,2015,3.58,3.58
+1178,Africa,Cameroon,2015,3.6,3.6
+1179,South-East Asia,India,2015,3.6,3.6
+1180,Eastern Mediterranean,Qatar,2015,3.64,3.64
+1181,Africa,United Republic of Tanzania,2015,3.65,3.65
+1182,Africa,Mauritania,2015,3.67,3.67
+1183,South-East Asia,Sri Lanka,2015,3.68,3.68
+1184,Africa,Democratic Republic of the Congo,2015,3.75,3.75
+1185,South-East Asia,Bhutan,2015,3.76,3.76
+1186,Africa,Ethiopia,2015,3.82,3.82
+1187,Western Pacific,Malaysia,2015,3.82,3.82
+1188,South-East Asia,Thailand,2015,3.85,3.85
+1189,Western Pacific,Philippines,2015,3.9,3.9
+1190,Americas,Guyana,2015,4.02,4.02
+1191,Eastern Mediterranean,Oman,2015,4.08,4.08
+1192,Africa,Mali,2015,4.11,4.11
+1193,Americas,Saint Vincent and the Grenadines,2015,4.11,4.11
+1195,Western Pacific,Singapore,2015,4.18,4.18
+1196,Eastern Mediterranean,Kuwait,2015,4.21,4.21
+1197,Western Pacific,Mongolia,2015,4.23,4.23
+1198,Eastern Mediterranean,Yemen,2015,4.25,4.25
+1200,Western Pacific,Vanuatu,2015,4.32,4.32
+1201,Europe,Azerbaijan,2015,4.34,4.34
+1202,Africa,Seychelles,2015,4.37,4.37
+1203,Africa,Senegal,2015,4.38,4.38
+1204,Africa,Zambia,2015,4.43,4.43
+1205,Africa,Eritrea,2015,4.45,4.45
+1206,Western Pacific,Solomon Islands,2015,4.45,4.45
+1207,Western Pacific,Tonga,2015,4.47,4.47
+1208,Americas,Saint Lucia,2015,4.51,4.51
+1209,Africa,Chad,2015,4.52,4.52
+1210,Africa,Ghana,2015,4.54,4.54
+1211,Africa,Comoros,2015,4.6,4.6
+1212,Americas,Belize,2015,4.65,4.65
+1213,Americas,Grenada,2015,4.65,4.65
+1214,Western Pacific,Viet Nam,2015,4.71,4.71
+1215,Americas,Dominican Republic,2015,4.72,4.72
+1216,Europe,Uzbekistan,2015,4.74,4.74
+1217,Africa,Kenya,2015,4.76,4.76
+1218,Africa,Cabo Verde,2015,4.82,4.82
+1219,Western Pacific,China,2015,4.94,4.94
+1220,Europe,Romania,2015,4.94,4.94
+1221,Americas,Peru,2015,4.96,4.96
+1222,Africa,Togo,2015,4.96,4.96
+1223,Eastern Mediterranean,Bahrain,2015,4.98,4.98
+1224,Africa,Madagascar,2015,5.01,5.01
+1225,Africa,Central African Republic,2015,5.03,5.03
+1226,Eastern Mediterranean,Egypt,2015,5.06,5.06
+1227,Africa,Uganda,2015,5.07,5.07
+1228,Americas,Haiti,2015,5.08,5.08
+1229,Europe,Luxembourg,2015,5.08,5.08
+1230,Eastern Mediterranean,Morocco,2015,5.1,5.1
+1232,Europe,Turkmenistan,2015,5.12,5.12
+1233,Africa,Burkina Faso,2015,5.13,5.13
+1234,Americas,Bahamas,2015,5.16,5.16
+1236,Americas,Antigua and Barbuda,2015,5.28,5.28
+1237,Europe,Russian Federation,2015,5.3,5.3
+1238,Africa,Sao Tome and Principe,2015,5.34,5.34
+1239,Africa,Niger,2015,5.35,5.35
+1240,South-East Asia,Nepal,2015,5.47,5.47
+1241,South-East Asia,Myanmar,2015,5.48,5.48
+1242,Africa,Mauritius,2015,5.55,5.55
+1243,Americas,Jamaica,2015,5.62,5.62
+1244,Europe,Latvia,2015,5.65,5.65
+1245,Americas,Trinidad and Tobago,2015,5.65,5.65
+1246,Americas,Mexico,2015,5.72,5.72
+1247,Africa,Guinea,2015,5.81,5.81
+1248,Eastern Mediterranean,Sudan,2015,5.81,5.81
+1249,Americas,Suriname,2015,5.81,5.81
+1250,Eastern Mediterranean,Saudi Arabia,2015,5.86,5.86
+1251,Americas,Guatemala,2015,6.01,6.01
+1252,Europe,Belarus,2015,6.07,6.07
+1253,Africa,Botswana,2015,6.1,6.1
+1254,Western Pacific,Cambodia,2015,6.19,6.19
+1255,Western Pacific,Samoa,2015,6.21,6.21
+1256,Eastern Mediterranean,Tunisia,2015,6.21,6.21
+1257,Africa,Burundi,2015,6.29,6.29
+1259,Europe,Poland,2015,6.4,6.4
+1260,Europe,Albania,2015,6.46,6.46
+1261,Europe,Lithuania,2015,6.49,6.49
+1262,Americas,Bolivia (Plurinational State of),2015,6.55,6.55
+1263,Western Pacific,Republic of Korea,2015,6.59,6.59
+1264,Africa,Malawi,2015,6.63,6.63
+1265,Europe,Estonia,2015,6.64,6.64
+1266,Africa,Rwanda,2015,6.65,6.65
+1267,Europe,Croatia,2015,6.69,6.69
+1268,Americas,Paraguay,2015,6.69,6.69
+1269,Africa,Mozambique,2015,6.72,6.72
+1270,Europe,Slovakia,2015,6.76,6.76
+1271,Europe,Cyprus,2015,6.79,6.79
+1272,Americas,Barbados,2015,6.83,6.83
+1273,Europe,Hungary,2015,6.85,6.85
+1274,Europe,Tajikistan,2015,6.91,6.91
+1276,Africa,Algeria,2015,6.96,6.96
+1277,Europe,Israel,2015,7.02,7.02
+1279,Europe,Kyrgyzstan,2015,7.15,7.15
+1280,Americas,Panama,2015,7.19,7.19
+1281,Europe,Ireland,2015,7.34,7.34
+1282,Europe,Czechia,2015,7.37,7.37
+1283,Europe,Bulgaria,2015,7.39,7.39
+1284,Europe,Georgia,2015,7.42,7.42
+1285,Eastern Mediterranean,Lebanon,2015,7.42,7.42
+1286,Africa,Zimbabwe,2015,7.45,7.45
+1287,Eastern Mediterranean,Jordan,2015,7.46,7.46
+1288,Americas,Honduras,2015,7.48,7.48
+1289,Americas,Colombia,2015,7.52,7.52
+1290,Eastern Mediterranean,Iran (Islamic Republic of),2015,7.53,7.53
+1291,Americas,Costa Rica,2015,7.59,7.59
+1292,Americas,Ecuador,2015,7.61,7.61
+1293,South-East Asia,Timor-Leste,2015,7.67,7.67
+1294,Europe,Ukraine,2015,7.78,7.78
+1295,Americas,Nicaragua,2015,7.96,7.96
+1296,Africa,South Africa,2015,8.05,8.05
+1297,Europe,Iceland,2015,8.07,8.07
+1298,Western Pacific,Kiribati,2015,8.11,8.11
+1299,Africa,Guinea-Bissau,2015,8.13,8.13
+1300,Europe,Greece,2015,8.22,8.22
+1301,Americas,Uruguay,2015,8.29,8.29
+1302,Americas,Chile,2015,8.35,8.35
+1304,Europe,Slovenia,2015,8.5,8.5
+1305,Europe,Republic of Moldova,2015,8.56,8.56
+1306,South-East Asia,Maldives,2015,8.73,8.73
+1308,Americas,El Salvador,2015,8.76,8.76
+1309,Europe,Serbia,2015,8.81,8.81
+1310,Europe,Italy,2015,8.86,8.86
+1311,Europe,Malta,2015,8.9,8.9
+1312,Americas,Brazil,2015,8.91,8.91
+1313,Europe,Montenegro,2015,9.02,9.02
+1314,Europe,Spain,2015,9.12,9.12
+1315,Europe,Bosnia and Herzegovina,2015,9.24,9.24
+1316,Western Pacific,New Zealand,2015,9.28,9.28
+1317,Africa,Lesotho,2015,9.3,9.3
+1318,Europe,Portugal,2015,9.32,9.32
+1319,Europe,Finland,2015,9.65,9.65
+1320,Europe,United Kingdom of Great Britain and Northern Ireland,2015,9.8,9.8
+1321,Africa,Namibia,2015,9.98,9.98
+1322,Americas,Venezuela (Bolivarian Republic of),2014,,
+1323,Africa,Equatorial Guinea,2014,1.75,1.75
+1324,Western Pacific,Brunei Darussalam,2014,1.91,1.91
+1325,Africa,Congo,2014,1.97,1.97
+1326,Africa,Lesotho,2014,10.0,10.0
+1327,Western Pacific,Kiribati,2014,10.09,10.09
+1328,Europe,Armenia,2014,10.18,10.18
+1329,Americas,Canada,2014,10.26,10.26
+1330,Europe,Denmark,2014,10.31,10.31
+1331,Europe,Austria,2014,10.37,10.37
+1332,Europe,Switzerland,2014,10.43,10.43
+1334,Europe,Belgium,2014,10.61,10.61
+1335,Western Pacific,Japan,2014,10.73,10.73
+1337,Europe,Sweden,2014,10.95,10.95
+1338,Europe,Germany,2014,11.03,11.03
+1339,Europe,France,2014,11.54,11.54
+1340,Western Pacific,Micronesia (Federated States of),2014,11.72,11.72
+1342,Americas,Cuba,2014,12.14,12.14
+1345,Americas,United States of America,2014,16.2,16.2
+1346,Africa,Sierra Leone,2014,19.69,19.69
+1347,South-East Asia,Bangladesh,2014,2.28,2.28
+1348,Western Pacific,Lao People's Democratic Republic,2014,2.3,2.3
+1349,Eastern Mediterranean,Qatar,2014,2.42,2.42
+1350,Africa,Angola,2014,2.43,2.43
+1351,Eastern Mediterranean,Pakistan,2014,2.46,2.46
+1352,Africa,Gabon,2014,2.53,2.53
+1353,Africa,Benin,2014,2.69,2.69
+1354,Eastern Mediterranean,Iraq,2014,2.79,2.79
+1355,Eastern Mediterranean,Kuwait,2014,2.92,2.92
+1356,South-East Asia,Indonesia,2014,2.96,2.96
+1357,Eastern Mediterranean,Djibouti,2014,2.97,2.97
+1358,Europe,Kazakhstan,2014,2.97,2.97
+1359,Africa,Gambia,2014,3.05,3.05
+1360,Eastern Mediterranean,Oman,2014,3.14,3.14
+1361,Western Pacific,Papua New Guinea,2014,3.27,3.27
+1363,Africa,Nigeria,2014,3.35,3.35
+1364,Western Pacific,Fiji,2014,3.37,3.37
+1365,Africa,Mauritania,2014,3.47,3.47
+1366,South-East Asia,Sri Lanka,2014,3.47,3.47
+1367,Eastern Mediterranean,United Arab Emirates,2014,3.53,3.53
+1368,South-East Asia,Bhutan,2014,3.56,3.56
+1369,Europe,Azerbaijan,2014,3.59,3.59
+1370,South-East Asia,India,2014,3.62,3.62
+1371,Western Pacific,Vanuatu,2014,3.65,3.65
+1372,South-East Asia,Thailand,2014,3.68,3.68
+1373,Western Pacific,Philippines,2014,3.7,3.7
+1374,Western Pacific,Malaysia,2014,3.71,3.71
+1376,Africa,Democratic Republic of the Congo,2014,3.73,3.73
+1377,Africa,Cameroon,2014,3.79,3.79
+1378,Africa,Zambia,2014,3.83,3.83
+1379,Western Pacific,Singapore,2014,3.87,3.87
+1380,Americas,Guyana,2014,3.95,3.95
+1381,Africa,United Republic of Tanzania,2014,4.01,4.01
+1382,Africa,Ghana,2014,4.02,4.02
+1383,Africa,Eritrea,2014,4.03,4.03
+1384,Africa,Ethiopia,2014,4.03,4.03
+1385,Americas,Saint Vincent and the Grenadines,2014,4.18,4.18
+1386,Western Pacific,Mongolia,2014,4.21,4.21
+1387,Africa,Chad,2014,4.27,4.27
+1388,Europe,Turkmenistan,2014,4.31,4.31
+1390,South-East Asia,Myanmar,2014,4.39,4.39
+1391,Africa,Senegal,2014,4.39,4.39
+1392,Eastern Mediterranean,Bahrain,2014,4.41,4.41
+1393,Europe,Uzbekistan,2014,4.43,4.43
+1395,Africa,Niger,2014,4.45,4.45
+1396,Africa,Madagascar,2014,4.46,4.46
+1397,Africa,Mali,2014,4.48,4.48
+1398,Americas,Haiti,2014,4.52,4.52
+1399,Americas,Suriname,2014,4.52,4.52
+1400,Africa,Central African Republic,2014,4.57,4.57
+1401,Africa,Seychelles,2014,4.59,4.59
+1402,Americas,Saint Lucia,2014,4.62,4.62
+1403,Western Pacific,Viet Nam,2014,4.69,4.69
+1405,Eastern Mediterranean,Egypt,2014,4.77,4.77
+1406,Americas,Grenada,2014,4.77,4.77
+1407,Western Pacific,China,2014,4.78,4.78
+1408,Africa,Guinea,2014,4.79,4.79
+1409,Americas,Dominican Republic,2014,4.8,4.8
+1410,Eastern Mediterranean,Yemen,2014,4.84,4.84
+1411,Americas,Trinidad and Tobago,2014,4.87,4.87
+1412,Americas,Belize,2014,4.88,4.88
+1413,Western Pacific,Solomon Islands,2014,4.89,4.89
+1414,Africa,Kenya,2014,4.91,4.91
+1415,Americas,Peru,2014,4.96,4.96
+1416,Africa,Burkina Faso,2014,5.0,5.0
+1417,Western Pacific,Tonga,2014,5.01,5.01
+1418,Europe,Romania,2014,5.03,5.03
+1419,South-East Asia,Nepal,2014,5.08,5.08
+1420,Africa,Togo,2014,5.08,5.08
+1421,Eastern Mediterranean,Saudi Arabia,2014,5.16,5.16
+1422,Americas,Jamaica,2014,5.17,5.17
+1423,Europe,Russian Federation,2014,5.18,5.18
+1424,Europe,Luxembourg,2014,5.23,5.23
+1425,Africa,Comoros,2014,5.24,5.24
+1427,Africa,Cabo Verde,2014,5.33,5.33
+1428,Africa,Uganda,2014,5.34,5.34
+1429,Africa,Mauritius,2014,5.38,5.38
+1430,Europe,Belarus,2014,5.39,5.39
+1431,Eastern Mediterranean,Morocco,2014,5.42,5.42
+1432,Europe,Latvia,2014,5.46,5.46
+1433,Americas,Bahamas,2014,5.54,5.54
+1434,Americas,Mexico,2014,5.55,5.55
+1435,Eastern Mediterranean,Sudan,2014,5.68,5.68
+1436,Americas,Antigua and Barbuda,2014,5.87,5.87
+1437,Africa,Botswana,2014,5.88,5.88
+1438,Americas,Guatemala,2014,5.89,5.89
+1439,Americas,Bolivia (Plurinational State of),2014,5.9,5.9
+1440,Europe,Lithuania,2014,6.19,6.19
+1441,Western Pacific,Samoa,2014,6.25,6.25
+1443,Africa,Mozambique,2014,6.33,6.33
+1444,Eastern Mediterranean,Iran (Islamic Republic of),2014,6.35,6.35
+1445,Europe,Estonia,2014,6.36,6.36
+1446,Western Pacific,Republic of Korea,2014,6.4,6.4
+1447,Europe,Albania,2014,6.43,6.43
+1448,Europe,Poland,2014,6.43,6.43
+1449,Eastern Mediterranean,Tunisia,2014,6.45,6.45
+1450,Africa,Algeria,2014,6.55,6.55
+1451,Europe,Croatia,2014,6.61,6.61
+1452,Americas,Paraguay,2014,6.63,6.63
+1453,Europe,Tajikistan,2014,6.67,6.67
+1454,Western Pacific,Cambodia,2014,6.7,6.7
+1455,Africa,Sao Tome and Principe,2014,6.73,6.73
+1457,Americas,Ecuador,2014,6.83,6.83
+1458,Europe,Slovakia,2014,6.88,6.88
+1459,Africa,Malawi,2014,6.9,6.9
+1460,Europe,Cyprus,2014,6.93,6.93
+1461,Americas,Barbados,2014,6.97,6.97
+1462,Africa,Rwanda,2014,6.99,6.99
+1463,Europe,Hungary,2014,7.05,7.05
+1464,Europe,Israel,2014,7.05,7.05
+1465,Americas,Panama,2014,7.17,7.17
+1466,Americas,Colombia,2014,7.19,7.19
+1467,Europe,Ukraine,2014,7.2,7.2
+1468,Africa,Burundi,2014,7.21,7.21
+1469,Eastern Mediterranean,Jordan,2014,7.21,7.21
+1471,Europe,Kyrgyzstan,2014,7.36,7.36
+1472,Eastern Mediterranean,Lebanon,2014,7.52,7.52
+1473,South-East Asia,Timor-Leste,2014,7.6,7.6
+1474,Europe,Czechia,2014,7.61,7.61
+1475,Americas,Costa Rica,2014,7.66,7.66
+1476,Europe,Bulgaria,2014,7.68,7.68
+1477,Americas,Chile,2014,7.84,7.84
+1478,Africa,South Africa,2014,7.87,7.87
+1479,Europe,Greece,2014,7.89,7.89
+1480,Europe,Georgia,2014,7.9,7.9
+1481,Americas,Honduras,2014,7.91,7.91
+1482,South-East Asia,Maldives,2014,7.91,7.91
+1483,Americas,Nicaragua,2014,7.98,7.98
+1484,Europe,Montenegro,2014,8.0,8.0
+1485,Americas,Uruguay,2014,8.07,8.07
+1486,Africa,Zimbabwe,2014,8.13,8.13
+1487,Europe,Iceland,2014,8.23,8.23
+1490,Americas,Brazil,2014,8.4,8.4
+1491,Africa,Namibia,2014,8.41,8.41
+1492,Europe,Slovenia,2014,8.5,8.5
+1493,Americas,El Salvador,2014,8.6,8.6
+1494,Europe,Republic of Moldova,2014,8.63,8.63
+1495,Africa,Liberia,2014,8.77,8.77
+1496,Europe,Italy,2014,8.87,8.87
+1497,Europe,Spain,2014,9.08,9.08
+1498,Europe,Malta,2014,9.09,9.09
+1499,Europe,Serbia,2014,9.25,9.25
+1500,Europe,Norway,2014,9.28,9.28
+1501,Europe,Portugal,2014,9.34,9.34
+1502,Western Pacific,New Zealand,2014,9.4,9.4
+1503,Europe,Bosnia and Herzegovina,2014,9.49,9.49
+1504,Europe,Ireland,2014,9.51,9.51
+1505,Eastern Mediterranean,Afghanistan,2014,9.53,9.53
+1506,Americas,Argentina,2014,9.67,9.67
+1507,Europe,Finland,2014,9.78,9.78
+1508,Western Pacific,Australia,2014,9.83,9.83
+1509,Europe,United Kingdom of Great Britain and Northern Ireland,2014,9.86,9.86
+1510,Africa,Guinea-Bissau,2014,9.97,9.97
+1511,Americas,Venezuela (Bolivarian Republic of),2013,,
+1512,Africa,Equatorial Guinea,2013,1.64,1.64
+1513,Western Pacific,Brunei Darussalam,2013,1.9,1.9
+1514,Africa,Congo,2013,1.94,1.94
+1515,Europe,Ireland,2013,10.28,10.28
+1516,Europe,Austria,2013,10.29,10.29
+1517,Europe,Armenia,2013,10.32,10.32
+1518,Europe,Denmark,2013,10.33,10.33
+1519,Europe,Switzerland,2013,10.38,10.38
+1520,Americas,Canada,2013,10.41,10.41
+1521,Americas,Cuba,2013,10.43,10.43
+1522,Europe,Belgium,2013,10.58,10.58
+1524,Western Pacific,Japan,2013,10.67,10.67
+1525,Europe,Sweden,2013,10.9,10.9
+1526,Europe,Germany,2013,11.0,11.0
+1527,Africa,Lesotho,2013,11.0,11.0
+1528,Europe,France,2013,11.4,11.4
+1529,Africa,Sierra Leone,2013,11.59,11.59
+1531,Western Pacific,Micronesia (Federated States of),2013,12.1,12.1
+1534,Americas,United States of America,2013,15.99,15.99
+1535,Eastern Mediterranean,Qatar,2013,2.08,2.08
+1536,South-East Asia,Bangladesh,2013,2.3,2.3
+1537,Western Pacific,Lao People's Democratic Republic,2013,2.4,2.4
+1538,Eastern Mediterranean,Pakistan,2013,2.4,2.4
+1539,Eastern Mediterranean,Kuwait,2013,2.49,2.49
+1540,Eastern Mediterranean,Oman,2013,2.51,2.51
+1541,Europe,Kazakhstan,2013,2.66,2.66
+1542,Africa,Angola,2013,2.73,2.73
+1543,Eastern Mediterranean,Iraq,2013,2.81,2.81
+1544,Africa,Gabon,2013,2.84,2.84
+1545,Africa,Benin,2013,2.87,2.87
+1546,South-East Asia,Indonesia,2013,2.87,2.87
+1547,Africa,Mauritania,2013,2.87,2.87
+1548,Eastern Mediterranean,Djibouti,2013,2.92,2.92
+1549,Western Pacific,Papua New Guinea,2013,3.0,3.0
+1550,Western Pacific,Fiji,2013,3.2,3.2
+1551,South-East Asia,Myanmar,2013,3.2,3.2
+1552,Europe,Azerbaijan,2013,3.23,3.23
+1554,Africa,Democratic Republic of the Congo,2013,3.34,3.34
+1555,Africa,Nigeria,2013,3.42,3.42
+1556,South-East Asia,Thailand,2013,3.45,3.45
+1557,Africa,Guinea,2013,3.46,3.46
+1558,Eastern Mediterranean,United Arab Emirates,2013,3.5,3.5
+1559,Western Pacific,Malaysia,2013,3.51,3.51
+1560,Africa,Cameroon,2013,3.63,3.63
+1561,Western Pacific,Singapore,2013,3.69,3.69
+1562,South-East Asia,Sri Lanka,2013,3.69,3.69
+1563,South-East Asia,Bhutan,2013,3.71,3.71
+1565,South-East Asia,India,2013,3.75,3.75
+1566,Africa,Madagascar,2013,3.75,3.75
+1567,Americas,Guyana,2013,3.8,3.8
+1568,Africa,Gambia,2013,3.91,3.91
+1569,Europe,Turkmenistan,2013,3.94,3.94
+1570,Africa,Mali,2013,3.97,3.97
+1571,Western Pacific,Tonga,2013,3.98,3.98
+1572,Africa,Chad,2013,4.07,4.07
+1573,Africa,Ethiopia,2013,4.08,4.08
+1574,Western Pacific,Mongolia,2013,4.09,4.09
+1575,Americas,Haiti,2013,4.11,4.11
+1576,Americas,Saint Vincent and the Grenadines,2013,4.24,4.24
+1577,Africa,Seychelles,2013,4.25,4.25
+1578,Western Pacific,Philippines,2013,4.27,4.27
+1579,Eastern Mediterranean,Bahrain,2013,4.31,4.31
+1581,Africa,Senegal,2013,4.39,4.39
+1582,Western Pacific,Vanuatu,2013,4.39,4.39
+1583,Western Pacific,Viet Nam,2013,4.41,4.41
+1584,Eastern Mediterranean,Saudi Arabia,2013,4.42,4.42
+1585,Americas,Belize,2013,4.44,4.44
+1586,Africa,Niger,2013,4.47,4.47
+1587,Americas,Suriname,2013,4.49,4.49
+1589,Africa,Zambia,2013,4.57,4.57
+1590,Western Pacific,Solomon Islands,2013,4.58,4.58
+1591,Africa,Ghana,2013,4.59,4.59
+1592,Africa,Mauritius,2013,4.62,4.62
+1593,South-East Asia,Nepal,2013,4.63,4.63
+1594,Africa,United Republic of Tanzania,2013,4.65,4.65
+1595,Eastern Mediterranean,Egypt,2013,4.67,4.67
+1596,Western Pacific,China,2013,4.71,4.71
+1597,Americas,Peru,2013,4.75,4.75
+1598,Africa,Central African Republic,2013,4.77,4.77
+1599,Americas,Trinidad and Tobago,2013,4.8,4.8
+1600,Americas,Dominican Republic,2013,4.92,4.92
+1601,Africa,Kenya,2013,4.93,4.93
+1602,Africa,Togo,2013,4.94,4.94
+1603,Americas,Jamaica,2013,4.95,4.95
+1604,Eastern Mediterranean,Yemen,2013,4.96,4.96
+1605,Africa,Eritrea,2013,4.97,4.97
+1607,Americas,Saint Lucia,2013,5.05,5.05
+1608,Europe,Russian Federation,2013,5.08,5.08
+1609,Africa,Comoros,2013,5.1,5.1
+1610,Europe,Romania,2013,5.22,5.22
+1611,Europe,Luxembourg,2013,5.24,5.24
+1612,Eastern Mediterranean,Morocco,2013,5.26,5.26
+1613,Africa,Cabo Verde,2013,5.29,5.29
+1615,Europe,Latvia,2013,5.41,5.41
+1616,Americas,Antigua and Barbuda,2013,5.51,5.51
+1617,Eastern Mediterranean,Iran (Islamic Republic of),2013,5.55,5.55
+1618,Africa,Burkina Faso,2013,5.56,5.56
+1619,Americas,Bolivia (Plurinational State of),2013,5.57,5.57
+1620,Americas,Bahamas,2013,5.59,5.59
+1621,Americas,Grenada,2013,5.63,5.63
+1622,Europe,Belarus,2013,5.7,5.7
+1623,Europe,Uzbekistan,2013,5.72,5.72
+1624,Americas,Guatemala,2013,5.77,5.77
+1625,Africa,Uganda,2013,5.78,5.78
+1626,Americas,Mexico,2013,5.81,5.81
+1627,Africa,Algeria,2013,6.04,6.04
+1628,Americas,Paraguay,2013,6.06,6.06
+1629,Europe,Lithuania,2013,6.13,6.13
+1630,Africa,Mozambique,2013,6.13,6.13
+1631,Western Pacific,Republic of Korea,2013,6.15,6.15
+1632,Western Pacific,Samoa,2013,6.21,6.21
+1633,Europe,Albania,2013,6.28,6.28
+1634,Europe,Estonia,2013,6.28,6.28
+1635,Europe,Croatia,2013,6.43,6.43
+1636,Europe,Poland,2013,6.48,6.48
+1637,Africa,Botswana,2013,6.5,6.5
+1638,Eastern Mediterranean,Tunisia,2013,6.51,6.51
+1639,Europe,Tajikistan,2013,6.53,6.53
+1641,Americas,Panama,2013,6.76,6.76
+1642,Africa,Rwanda,2013,6.78,6.78
+1644,Americas,Ecuador,2013,6.88,6.88
+1645,Europe,Cyprus,2013,6.93,6.93
+1646,Europe,Ukraine,2013,6.94,6.94
+1647,Europe,Israel,2013,6.96,6.96
+1648,Eastern Mediterranean,Sudan,2013,6.96,6.96
+1649,Americas,Colombia,2013,7.02,7.02
+1650,Africa,Guinea-Bissau,2013,7.04,7.04
+1651,Eastern Mediterranean,Lebanon,2013,7.07,7.07
+1652,Africa,Liberia,2013,7.09,7.09
+1653,Western Pacific,Cambodia,2013,7.1,7.1
+1654,Africa,Zimbabwe,2013,7.11,7.11
+1655,Europe,Bulgaria,2013,7.14,7.14
+1656,Eastern Mediterranean,Jordan,2013,7.17,7.17
+1657,Europe,Hungary,2013,7.23,7.23
+1658,Americas,Barbados,2013,7.4,7.4
+1660,Americas,Chile,2013,7.48,7.48
+1661,Europe,Slovakia,2013,7.5,7.5
+1662,Europe,Czechia,2013,7.52,7.52
+1663,Americas,Nicaragua,2013,7.64,7.64
+1664,Americas,Costa Rica,2013,7.68,7.68
+1665,Europe,Georgia,2013,7.88,7.88
+1666,Africa,Sao Tome and Principe,2013,7.94,7.94
+1667,Americas,Brazil,2013,7.98,7.98
+1668,Africa,South Africa,2013,8.1,8.1
+1669,Americas,Uruguay,2013,8.12,8.12
+1670,South-East Asia,Maldives,2013,8.16,8.16
+1671,Europe,Iceland,2013,8.18,8.18
+1672,Europe,Kyrgyzstan,2013,8.19,8.19
+1673,Africa,Malawi,2013,8.22,8.22
+1675,Europe,Greece,2013,8.44,8.44
+1676,Europe,Montenegro,2013,8.47,8.47
+1677,Americas,Honduras,2013,8.48,8.48
+1678,Europe,Malta,2013,8.5,8.5
+1679,South-East Asia,Timor-Leste,2013,8.53,8.53
+1680,Africa,Burundi,2013,8.63,8.63
+1681,Europe,Republic of Moldova,2013,8.68,8.68
+1682,Europe,Slovenia,2013,8.74,8.74
+1683,Western Pacific,Australia,2013,8.75,8.75
+1684,Europe,Italy,2013,8.78,8.78
+1685,Eastern Mediterranean,Afghanistan,2013,8.81,8.81
+1686,Europe,Norway,2013,8.87,8.87
+1687,Americas,El Salvador,2013,9.05,9.05
+1688,Africa,Namibia,2013,9.06,9.06
+1689,Europe,Spain,2013,9.06,9.06
+1690,Europe,Serbia,2013,9.31,9.31
+1691,Western Pacific,New Zealand,2013,9.36,9.36
+1692,Europe,Portugal,2013,9.4,9.4
+1693,Europe,Bosnia and Herzegovina,2013,9.45,9.45
+1694,Western Pacific,Kiribati,2013,9.53,9.53
+1696,Americas,Argentina,2013,9.78,9.78
+1697,Europe,Finland,2013,9.81,9.81
+1699,Europe,United Kingdom of Great Britain and Northern Ireland,2013,9.87,9.87
+1700,Americas,Venezuela (Bolivarian Republic of),2012,,
+1701,Africa,Equatorial Guinea,2012,1.51,1.51
+1702,Eastern Mediterranean,Qatar,2012,1.75,1.75
+1703,Western Pacific,Brunei Darussalam,2012,1.85,1.85
+1704,Africa,Congo,2012,1.91,1.91
+1705,Africa,Lesotho,2012,10.04,10.04
+1706,Europe,Switzerland,2012,10.14,10.14
+1707,Europe,Austria,2012,10.2,10.2
+1709,Europe,Belgium,2012,10.5,10.5
+1710,Americas,Canada,2012,10.51,10.51
+1711,Europe,Denmark,2012,10.52,10.52
+1713,Europe,Ireland,2012,10.6,10.6
+1714,Western Pacific,Japan,2012,10.67,10.67
+1715,Europe,Sweden,2012,10.74,10.74
+1716,Europe,Germany,2012,10.85,10.85
+1717,Europe,France,2012,11.3,11.3
+1719,Western Pacific,Micronesia (Federated States of),2012,12.28,12.28
+1722,Americas,United States of America,2012,16.12,16.12
+1723,Western Pacific,Lao People's Democratic Republic,2012,2.08,2.08
+1724,Eastern Mediterranean,Pakistan,2012,2.2,2.2
+1725,Eastern Mediterranean,Oman,2012,2.28,2.28
+1726,Eastern Mediterranean,Kuwait,2012,2.33,2.33
+1727,South-East Asia,Bangladesh,2012,2.35,2.35
+1728,Africa,Angola,2012,2.4,2.4
+1729,South-East Asia,Myanmar,2012,2.41,2.41
+1730,Africa,Gabon,2012,2.42,2.42
+1731,Africa,Mauritania,2012,2.65,2.65
+1732,Western Pacific,Papua New Guinea,2012,2.67,2.67
+1733,Eastern Mediterranean,Iraq,2012,2.69,2.69
+1734,South-East Asia,Indonesia,2012,2.91,2.91
+1735,Europe,Kazakhstan,2012,3.04,3.04
+1736,Eastern Mediterranean,Syrian Arab Republic,2012,3.05,3.05
+1737,Africa,Benin,2012,3.08,3.08
+1739,Europe,Azerbaijan,2012,3.16,3.16
+1740,Africa,Democratic Republic of the Congo,2012,3.22,3.22
+1741,Western Pacific,Fiji,2012,3.27,3.27
+1742,Eastern Mediterranean,Djibouti,2012,3.3,3.3
+1743,South-East Asia,Sri Lanka,2012,3.31,3.31
+1744,South-East Asia,India,2012,3.33,3.33
+1745,Western Pacific,Singapore,2012,3.33,3.33
+1746,Eastern Mediterranean,United Arab Emirates,2012,3.34,3.34
+1747,Africa,Nigeria,2012,3.36,3.36
+1748,Europe,Turkmenistan,2012,3.37,3.37
+1749,Western Pacific,Malaysia,2012,3.46,3.46
+1750,Africa,Guinea,2012,3.5,3.5
+1751,South-East Asia,Thailand,2012,3.52,3.52
+1752,South-East Asia,Bhutan,2012,3.62,3.62
+1753,Americas,Guyana,2012,3.71,3.71
+1754,Africa,Eritrea,2012,3.74,3.74
+1755,Africa,Mali,2012,3.75,3.75
+1756,Africa,Chad,2012,3.86,3.86
+1757,Western Pacific,Mongolia,2012,3.86,3.86
+1758,Africa,Madagascar,2012,3.91,3.91
+1759,Africa,Central African Republic,2012,3.92,3.92
+1760,Africa,Cameroon,2012,3.93,3.93
+1761,Western Pacific,Vanuatu,2012,3.94,3.94
+1762,Eastern Mediterranean,Saudi Arabia,2012,3.99,3.99
+1763,Africa,Ghana,2012,4.01,4.01
+1764,Africa,Zambia,2012,4.05,4.05
+1765,Eastern Mediterranean,Bahrain,2012,4.11,4.11
+1766,Western Pacific,Philippines,2012,4.18,4.18
+1767,Africa,Mauritius,2012,4.22,4.22
+1768,Africa,Gambia,2012,4.27,4.27
+1769,Africa,Senegal,2012,4.27,4.27
+1770,Americas,Suriname,2012,4.28,4.28
+1771,Africa,Niger,2012,4.31,4.31
+1772,Americas,Belize,2012,4.36,4.36
+1775,Americas,Saint Vincent and the Grenadines,2012,4.45,4.45
+1776,Eastern Mediterranean,Egypt,2012,4.46,4.46
+1777,South-East Asia,Nepal,2012,4.49,4.49
+1778,Europe,Romania,2012,4.51,4.51
+1779,Africa,Ethiopia,2012,4.54,4.54
+1780,Western Pacific,China,2012,4.57,4.57
+1781,Africa,Burkina Faso,2012,4.6,4.6
+1782,Americas,Trinidad and Tobago,2012,4.63,4.63
+1783,Americas,Peru,2012,4.73,4.73
+1785,Western Pacific,Tonga,2012,4.8,4.8
+1786,Africa,Togo,2012,4.81,4.81
+1787,Western Pacific,Solomon Islands,2012,4.87,4.87
+1788,Americas,Jamaica,2012,4.89,4.89
+1789,Americas,Saint Lucia,2012,4.92,4.92
+1790,Europe,Russian Federation,2012,4.94,4.94
+1791,Western Pacific,Samoa,2012,4.99,4.99
+1792,Western Pacific,Viet Nam,2012,5.0,5.0
+1794,Africa,Kenya,2012,5.02,5.02
+1795,Africa,United Republic of Tanzania,2012,5.02,5.02
+1796,Americas,Dominican Republic,2012,5.05,5.05
+1797,Africa,Cabo Verde,2012,5.13,5.13
+1798,Africa,Comoros,2012,5.17,5.17
+1799,Eastern Mediterranean,Yemen,2012,5.2,5.2
+1800,Europe,Belarus,2012,5.25,5.25
+1801,Americas,Bolivia (Plurinational State of),2012,5.25,5.25
+1802,Africa,Mozambique,2012,5.25,5.25
+1803,Europe,Luxembourg,2012,5.29,5.29
+1804,Americas,Bahamas,2012,5.32,5.32
+1805,Eastern Mediterranean,Morocco,2012,5.4,5.4
+1806,Africa,Seychelles,2012,5.4,5.4
+1807,Europe,Latvia,2012,5.41,5.41
+1808,Americas,Antigua and Barbuda,2012,5.48,5.48
+1809,Europe,Uzbekistan,2012,5.55,5.55
+1810,Americas,Haiti,2012,5.56,5.56
+1811,Americas,Mexico,2012,5.67,5.67
+1812,Eastern Mediterranean,Sudan,2012,5.69,5.69
+1814,Americas,Grenada,2012,5.82,5.82
+1815,Africa,Guinea-Bissau,2012,5.94,5.94
+1816,Europe,Tajikistan,2012,5.98,5.98
+1817,Africa,Algeria,2012,6.0,6.0
+1818,Africa,Malawi,2012,6.02,6.02
+1819,Western Pacific,Republic of Korea,2012,6.03,6.03
+1820,Americas,Guatemala,2012,6.07,6.07
+1821,Europe,Estonia,2012,6.1,6.1
+1822,Africa,Uganda,2012,6.11,6.11
+1823,Eastern Mediterranean,Iran (Islamic Republic of),2012,6.12,6.12
+1824,Europe,Albania,2012,6.16,6.16
+1825,Europe,Poland,2012,6.27,6.27
+1826,Europe,Lithuania,2012,6.28,6.28
+1827,Eastern Mediterranean,Tunisia,2012,6.29,6.29
+1828,Africa,Botswana,2012,6.35,6.35
+1829,Africa,Sao Tome and Principe,2012,6.48,6.48
+1830,Americas,Paraguay,2012,6.53,6.53
+1831,Europe,Cyprus,2012,6.54,6.54
+1834,Americas,Panama,2012,6.74,6.74
+1835,Americas,Colombia,2012,6.75,6.75
+1836,Americas,Ecuador,2012,6.86,6.86
+1837,Africa,Zimbabwe,2012,6.92,6.92
+1838,Europe,Israel,2012,6.98,6.98
+1839,South-East Asia,Timor-Leste,2012,6.99,6.99
+1840,Eastern Mediterranean,Lebanon,2012,7.0,7.0
+1841,Americas,Chile,2012,7.02,7.02
+1842,Europe,Ukraine,2012,7.12,7.12
+1843,Western Pacific,Cambodia,2012,7.26,7.26
+1844,Europe,Hungary,2012,7.41,7.41
+1845,Americas,Nicaragua,2012,7.49,7.49
+1846,Europe,Bulgaria,2012,7.54,7.54
+1847,Europe,Slovakia,2012,7.54,7.54
+1848,Europe,Czechia,2012,7.62,7.62
+1849,Europe,Croatia,2012,7.68,7.68
+1850,Americas,Brazil,2012,7.74,7.74
+1851,Americas,Barbados,2012,7.78,7.78
+1852,Americas,Costa Rica,2012,7.79,7.79
+1854,Eastern Mediterranean,Jordan,2012,7.82,7.82
+1855,Eastern Mediterranean,Afghanistan,2012,7.9,7.9
+1856,Africa,South Africa,2012,8.0,8.0
+1857,Europe,Georgia,2012,8.05,8.05
+1858,Americas,Uruguay,2012,8.07,8.07
+1859,Africa,Rwanda,2012,8.11,8.11
+1860,Africa,Liberia,2012,8.15,8.15
+1861,Europe,Iceland,2012,8.18,8.18
+1862,Europe,Montenegro,2012,8.3,8.3
+1863,Europe,Malta,2012,8.38,8.38
+1864,Europe,Kyrgyzstan,2012,8.51,8.51
+1865,Americas,El Salvador,2012,8.61,8.61
+1866,Africa,Burundi,2012,8.64,8.64
+1867,Americas,Honduras,2012,8.66,8.66
+1868,Western Pacific,Australia,2012,8.67,8.67
+1869,South-East Asia,Maldives,2012,8.67,8.67
+1870,Western Pacific,Kiribati,2012,8.69,8.69
+1871,Europe,Norway,2012,8.72,8.72
+1872,Europe,Slovenia,2012,8.72,8.72
+1873,Europe,Italy,2012,8.78,8.78
+1875,Europe,Greece,2012,8.92,8.92
+1876,Africa,Sierra Leone,2012,8.94,8.94
+1878,Europe,Armenia,2012,9.13,9.13
+1879,Europe,Republic of Moldova,2012,9.14,9.14
+1880,Europe,Spain,2012,9.15,9.15
+1881,Africa,Namibia,2012,9.27,9.27
+1882,Americas,Cuba,2012,9.3,9.3
+1883,Europe,Serbia,2012,9.33,9.33
+1884,Europe,Bosnia and Herzegovina,2012,9.49,9.49
+1885,Europe,Finland,2012,9.59,9.59
+1886,Western Pacific,New Zealand,2012,9.65,9.65
+1887,Europe,Portugal,2012,9.65,9.65
+1888,Americas,Argentina,2012,9.83,9.83
+1889,Europe,United Kingdom of Great Britain and Northern Ireland,2012,9.95,9.95
+1890,Americas,Venezuela (Bolivarian Republic of),2011,,
+1891,Africa,Equatorial Guinea,2011,1.43,1.43
+1892,Eastern Mediterranean,Qatar,2011,1.6,1.6
+1893,Africa,Congo,2011,1.75,1.75
+1894,Western Pacific,Brunei Darussalam,2011,1.86,1.86
+1895,South-East Asia,Myanmar,2011,1.93,1.93
+1896,Western Pacific,Lao People's Democratic Republic,2011,1.94,1.94
+1897,Europe,Austria,2011,10.03,10.03
+1898,Europe,Switzerland,2011,10.05,10.05
+1899,Africa,Burundi,2011,10.07,10.07
+1901,Europe,Belgium,2011,10.36,10.36
+1902,Americas,Canada,2011,10.38,10.38
+1903,Europe,Denmark,2011,10.41,10.41
+1904,Europe,Sweden,2011,10.42,10.42
+1905,Western Pacific,Japan,2011,10.49,10.49
+1906,Europe,Ireland,2011,10.61,10.61
+1907,Africa,Sierra Leone,2011,10.77,10.77
+1908,Europe,Germany,2011,10.78,10.78
+1910,Europe,France,2011,11.18,11.18
+1911,Americas,Cuba,2011,11.31,11.31
+1913,Western Pacific,Micronesia (Federated States of),2011,13.1,13.1
+1915,Americas,United States of America,2011,16.14,16.14
+1917,Eastern Mediterranean,Pakistan,2011,2.14,2.14
+1918,Eastern Mediterranean,Oman,2011,2.24,2.24
+1919,Western Pacific,Papua New Guinea,2011,2.29,2.29
+1920,Eastern Mediterranean,Kuwait,2011,2.33,2.33
+1921,South-East Asia,Bangladesh,2011,2.36,2.36
+1922,Africa,Mauritania,2011,2.47,2.47
+1923,Eastern Mediterranean,Syrian Arab Republic,2011,2.53,2.53
+1924,Africa,Gabon,2011,2.56,2.56
+1925,Europe,Azerbaijan,2011,2.6,2.6
+1926,Europe,Kazakhstan,2011,2.6,2.6
+1927,Africa,Angola,2011,2.65,2.65
+1928,Eastern Mediterranean,Iraq,2011,2.8,2.8
+1929,South-East Asia,Indonesia,2011,2.99,2.99
+1930,Africa,Benin,2011,3.0,3.0
+1931,Western Pacific,Fiji,2011,3.14,3.14
+1932,Western Pacific,Singapore,2011,3.16,3.16
+1933,Africa,Democratic Republic of the Congo,2011,3.19,3.19
+1934,South-East Asia,India,2011,3.25,3.25
+1935,Europe,Turkmenistan,2011,3.25,3.25
+1936,Western Pacific,Malaysia,2011,3.31,3.31
+1937,Africa,Nigeria,2011,3.32,3.32
+1938,South-East Asia,Bhutan,2011,3.35,3.35
+1939,Eastern Mediterranean,Djibouti,2011,3.38,3.38
+1941,South-East Asia,Thailand,2011,3.57,3.57
+1942,South-East Asia,Sri Lanka,2011,3.58,3.58
+1943,Western Pacific,Mongolia,2011,3.59,3.59
+1944,Western Pacific,Vanuatu,2011,3.6,3.6
+1945,Eastern Mediterranean,United Arab Emirates,2011,3.67,3.67
+1946,Africa,Central African Republic,2011,3.68,3.68
+1947,Eastern Mediterranean,Saudi Arabia,2011,3.68,3.68
+1948,Africa,Guinea,2011,3.79,3.79
+1949,Western Pacific,Tonga,2011,3.82,3.82
+1950,Africa,Cameroon,2011,3.85,3.85
+1951,Eastern Mediterranean,Bahrain,2011,3.87,3.87
+1952,Africa,Chad,2011,3.91,3.91
+1953,Africa,Zambia,2011,3.96,3.96
+1954,Africa,Mali,2011,4.01,4.01
+1955,Eastern Mediterranean,Libya,2011,4.02,4.02
+1956,Western Pacific,Philippines,2011,4.03,4.03
+1957,Americas,Guyana,2011,4.17,4.17
+1958,Africa,Senegal,2011,4.21,4.21
+1959,Americas,Saint Vincent and the Grenadines,2011,4.23,4.23
+1960,Africa,Mauritius,2011,4.25,4.25
+1961,Africa,Cabo Verde,2011,4.31,4.31
+1962,Western Pacific,China,2011,4.34,4.34
+1963,Eastern Mediterranean,Egypt,2011,4.36,4.36
+1964,Africa,Gambia,2011,4.37,4.37
+1966,Americas,Suriname,2011,4.41,4.41
+1967,South-East Asia,Nepal,2011,4.45,4.45
+1968,Africa,Seychelles,2011,4.46,4.46
+1969,Africa,Ethiopia,2011,4.47,4.47
+1970,Europe,Romania,2011,4.48,4.48
+1971,Africa,Madagascar,2011,4.52,4.52
+1972,Americas,Peru,2011,4.54,4.54
+1973,Americas,Belize,2011,4.55,4.55
+1974,Africa,Togo,2011,4.55,4.55
+1976,Africa,Burkina Faso,2011,4.65,4.65
+1978,Africa,Ghana,2011,4.69,4.69
+1979,Americas,Trinidad and Tobago,2011,4.72,4.72
+1980,Eastern Mediterranean,Yemen,2011,4.77,4.77
+1981,Europe,Russian Federation,2011,4.79,4.79
+1982,Europe,Belarus,2011,4.87,4.87
+1983,Africa,Niger,2011,4.87,4.87
+1984,Western Pacific,Viet Nam,2011,4.97,4.97
+1985,Africa,Mozambique,2011,5.0,5.0
+1986,Western Pacific,Solomon Islands,2011,5.02,5.02
+1987,Americas,Dominican Republic,2011,5.04,5.04
+1988,Africa,United Republic of Tanzania,2011,5.06,5.06
+1989,Americas,Saint Lucia,2011,5.08,5.08
+1991,Americas,Bolivia (Plurinational State of),2011,5.17,5.17
+1992,Africa,Eritrea,2011,5.17,5.17
+1993,Africa,Kenya,2011,5.2,5.2
+1994,Americas,Jamaica,2011,5.24,5.24
+1995,Europe,Uzbekistan,2011,5.26,5.26
+1996,Africa,Algeria,2011,5.27,5.27
+1997,Africa,Comoros,2011,5.3,5.3
+1998,Americas,Bahamas,2011,5.32,5.32
+1999,Africa,Malawi,2011,5.32,5.32
+2001,Eastern Mediterranean,Morocco,2011,5.37,5.37
+2002,Western Pacific,Samoa,2011,5.38,5.38
+2003,Americas,Antigua and Barbuda,2011,5.44,5.44
+2004,Americas,Mexico,2011,5.52,5.52
+2005,Eastern Mediterranean,Sudan,2011,5.62,5.62
+2006,Europe,Latvia,2011,5.72,5.72
+2007,Americas,Grenada,2011,5.8,5.8
+2008,Americas,Paraguay,2011,5.82,5.82
+2009,Europe,Tajikistan,2011,5.86,5.86
+2010,Africa,Botswana,2011,5.87,5.87
+2011,Americas,Haiti,2011,5.91,5.91
+2012,Western Pacific,Republic of Korea,2011,5.91,5.91
+2013,Europe,Luxembourg,2011,5.95,5.95
+2014,Americas,Guatemala,2011,5.96,5.96
+2015,Europe,Estonia,2011,6.08,6.08
+2016,Eastern Mediterranean,Iran (Islamic Republic of),2011,6.1,6.1
+2017,Eastern Mediterranean,Tunisia,2011,6.12,6.12
+2018,Europe,Albania,2011,6.18,6.18
+2019,Africa,Guinea-Bissau,2011,6.22,6.22
+2020,Europe,Poland,2011,6.29,6.29
+2021,Europe,Cyprus,2011,6.43,6.43
+2022,Europe,Lithuania,2011,6.49,6.49
+2024,Americas,Ecuador,2011,6.58,6.58
+2025,Africa,Uganda,2011,6.7,6.7
+2026,Africa,Sao Tome and Principe,2011,6.76,6.76
+2027,Americas,Colombia,2011,6.78,6.78
+2028,Americas,Chile,2011,6.8,6.8
+2029,Europe,Ukraine,2011,6.82,6.82
+2030,Europe,Israel,2011,6.84,6.84
+2031,South-East Asia,Timor-Leste,2011,6.87,6.87
+2032,Americas,Barbados,2011,6.9,6.9
+2033,Americas,Panama,2011,7.08,7.08
+2034,Europe,Bulgaria,2011,7.1,7.1
+2035,Europe,Kyrgyzstan,2011,7.11,7.11
+2036,Europe,Slovakia,2011,7.3,7.3
+2037,Americas,Nicaragua,2011,7.45,7.45
+2038,Europe,Hungary,2011,7.48,7.48
+2039,Western Pacific,Cambodia,2011,7.5,7.5
+2040,Europe,Czechia,2011,7.56,7.56
+2042,Europe,Croatia,2011,7.66,7.66
+2043,Americas,Brazil,2011,7.79,7.79
+2044,South-East Asia,Maldives,2011,7.92,7.92
+2045,Africa,Rwanda,2011,7.94,7.94
+2046,Africa,South Africa,2011,7.94,7.94
+2047,Americas,Uruguay,2011,7.95,7.95
+2048,Europe,Montenegro,2011,7.97,7.97
+2049,Europe,Georgia,2011,8.01,8.01
+2051,Africa,Zimbabwe,2011,8.08,8.08
+2052,Americas,Costa Rica,2011,8.12,8.12
+2053,Eastern Mediterranean,Jordan,2011,8.15,8.15
+2054,Eastern Mediterranean,Lebanon,2011,8.18,8.18
+2055,Europe,Iceland,2011,8.2,8.2
+2056,Europe,Malta,2011,8.45,8.45
+2058,Western Pacific,Australia,2011,8.54,8.54
+2059,Europe,Slovenia,2011,8.54,8.54
+2060,Eastern Mediterranean,Afghanistan,2011,8.56,8.56
+2061,Western Pacific,Kiribati,2011,8.67,8.67
+2062,Europe,Norway,2011,8.73,8.73
+2063,Europe,Italy,2011,8.77,8.77
+2064,Americas,Honduras,2011,8.79,8.79
+2065,Americas,El Salvador,2011,8.88,8.88
+2066,Africa,Lesotho,2011,9.08,9.08
+2067,Europe,Republic of Moldova,2011,9.1,9.1
+2068,Europe,Serbia,2011,9.11,9.11
+2069,Europe,Spain,2011,9.17,9.17
+2070,Europe,Bosnia and Herzegovina,2011,9.18,9.18
+2071,Europe,Greece,2011,9.19,9.19
+2072,Europe,Finland,2011,9.22,9.22
+2073,Europe,Armenia,2011,9.38,9.38
+2074,Americas,Argentina,2011,9.42,9.42
+2075,Western Pacific,New Zealand,2011,9.52,9.52
+2076,Africa,Liberia,2011,9.71,9.71
+2077,Europe,Portugal,2011,9.73,9.73
+2078,Africa,Namibia,2011,9.83,9.83
+2079,Europe,United Kingdom of Great Britain and Northern Ireland,2011,9.92,9.92
+2081,Americas,Venezuela (Bolivarian Republic of),2010,,
+2082,Africa,Equatorial Guinea,2010,1.62,1.62
+2083,Africa,Congo,2010,1.85,1.85
+2084,Eastern Mediterranean,Qatar,2010,1.87,1.87
+2085,South-East Asia,Myanmar,2010,1.96,1.96
+2086,Europe,Portugal,2010,10.03,10.03
+2087,Europe,Republic of Moldova,2010,10.13,10.13
+2089,Europe,Belgium,2010,10.2,10.2
+2090,Europe,Austria,2010,10.22,10.22
+2091,Africa,Liberia,2010,10.35,10.35
+2092,Africa,Zimbabwe,2010,10.48,10.48
+2093,Europe,Ireland,2010,10.52,10.52
+2094,Europe,Denmark,2010,10.61,10.61
+2095,Americas,Canada,2010,10.68,10.68
+2096,Americas,Cuba,2010,10.69,10.69
+2097,Europe,Germany,2010,11.1,11.1
+2098,Europe,France,2010,11.23,11.23
+2099,Africa,Burundi,2010,11.28,11.28
+2102,Western Pacific,Micronesia (Federated States of),2010,13.11,13.11
+2106,Americas,United States of America,2010,16.2,16.2
+2107,Western Pacific,Papua New Guinea,2010,2.11,2.11
+2108,Western Pacific,Brunei Darussalam,2010,2.28,2.28
+2109,South-East Asia,Bangladesh,2010,2.29,2.29
+2110,Eastern Mediterranean,Pakistan,2010,2.4,2.4
+2111,Africa,Gabon,2010,2.48,2.48
+2112,Eastern Mediterranean,Oman,2010,2.48,2.48
+2113,Africa,Mauritania,2010,2.64,2.64
+2114,Europe,Azerbaijan,2010,2.65,2.65
+2115,Eastern Mediterranean,Kuwait,2010,2.68,2.68
+2116,Africa,Angola,2010,2.7,2.7
+2117,Europe,Kazakhstan,2010,2.74,2.74
+2118,South-East Asia,Indonesia,2010,2.79,2.79
+2119,Western Pacific,Lao People's Democratic Republic,2010,2.91,2.91
+2120,Africa,Benin,2010,3.01,3.01
+2121,Western Pacific,Malaysia,2010,3.16,3.16
+2122,Western Pacific,Singapore,2010,3.2,3.2
+2123,Eastern Mediterranean,Iraq,2010,3.24,3.24
+2124,Europe,Turkmenistan,2010,3.24,3.24
+2125,South-East Asia,India,2010,3.27,3.27
+2126,Eastern Mediterranean,Libya,2010,3.28,3.28
+2127,Eastern Mediterranean,Syrian Arab Republic,2010,3.28,3.28
+2128,Africa,Nigeria,2010,3.3,3.3
+2129,Eastern Mediterranean,Djibouti,2010,3.36,3.36
+2130,South-East Asia,Thailand,2010,3.39,3.39
+2131,Western Pacific,Fiji,2010,3.42,3.42
+2132,Africa,Guinea,2010,3.43,3.43
+2133,Western Pacific,Vanuatu,2010,3.53,3.53
+2134,South-East Asia,Bhutan,2010,3.56,3.56
+2135,Africa,Central African Republic,2010,3.57,3.57
+2136,Africa,Cameroon,2010,3.58,3.58
+2138,Eastern Mediterranean,Saudi Arabia,2010,3.65,3.65
+2139,Africa,Democratic Republic of the Congo,2010,3.72,3.72
+2140,Western Pacific,Mongolia,2010,3.74,3.74
+2141,South-East Asia,Sri Lanka,2010,3.74,3.74
+2142,Eastern Mediterranean,United Arab Emirates,2010,3.88,3.88
+2143,Africa,Zambia,2010,3.97,3.97
+2144,Africa,Senegal,2010,4.03,4.03
+2145,Africa,Chad,2010,4.06,4.06
+2146,Eastern Mediterranean,Bahrain,2010,4.09,4.09
+2147,Africa,Gambia,2010,4.12,4.12
+2148,Western Pacific,Philippines,2010,4.13,4.13
+2149,Eastern Mediterranean,Egypt,2010,4.15,4.15
+2150,Africa,Ghana,2010,4.22,4.22
+2151,Americas,Guyana,2010,4.22,4.22
+2152,Western Pacific,China,2010,4.23,4.23
+2153,Americas,Saint Vincent and the Grenadines,2010,4.3,4.3
+2154,South-East Asia,Nepal,2010,4.36,4.36
+2156,Africa,Togo,2010,4.45,4.45
+2157,Africa,Cabo Verde,2010,4.48,4.48
+2158,Americas,Belize,2010,4.5,4.5
+2159,Africa,Seychelles,2010,4.5,4.5
+2160,Africa,Mauritius,2010,4.52,4.52
+2161,Americas,Haiti,2010,4.55,4.55
+2162,Western Pacific,Solomon Islands,2010,4.66,4.66
+2163,Africa,Mali,2010,4.68,4.68
+2164,Africa,Madagascar,2010,4.7,4.7
+2165,Americas,Suriname,2010,4.7,4.7
+2166,Americas,Peru,2010,4.72,4.72
+2167,Western Pacific,Tonga,2010,4.82,4.82
+2168,Africa,Eritrea,2010,4.84,4.84
+2169,Americas,Dominican Republic,2010,4.92,4.92
+2171,Africa,Niger,2010,4.96,4.96
+2172,Europe,Russian Federation,2010,4.97,4.97
+2173,Africa,Comoros,2010,4.99,4.99
+2175,Americas,Saint Lucia,2010,5.05,5.05
+2176,Eastern Mediterranean,Sudan,2010,5.06,5.06
+2177,Western Pacific,Viet Nam,2010,5.07,5.07
+2178,Americas,Trinidad and Tobago,2010,5.08,5.08
+2179,Africa,Algeria,2010,5.12,5.12
+2180,Africa,Malawi,2010,5.14,5.14
+2181,Western Pacific,Samoa,2010,5.15,5.15
+2183,Eastern Mediterranean,Yemen,2010,5.16,5.16
+2184,Americas,Bolivia (Plurinational State of),2010,5.2,5.2
+2186,Africa,United Republic of Tanzania,2010,5.22,5.22
+2187,Africa,Burkina Faso,2010,5.24,5.24
+2188,Americas,Bahamas,2010,5.26,5.26
+2189,Africa,Guinea-Bissau,2010,5.27,5.27
+2190,Americas,Jamaica,2010,5.3,5.3
+2191,Europe,Uzbekistan,2010,5.3,5.3
+2192,Americas,Antigua and Barbuda,2010,5.38,5.38
+2193,Africa,Kenya,2010,5.39,5.39
+2194,Americas,Grenada,2010,5.42,5.42
+2195,Eastern Mediterranean,Morocco,2010,5.42,5.42
+2196,Africa,Mozambique,2010,5.44,5.44
+2197,Africa,Ethiopia,2010,5.47,5.47
+2198,Americas,Paraguay,2010,5.47,5.47
+2199,Eastern Mediterranean,Tunisia,2010,5.61,5.61
+2200,Europe,Romania,2010,5.64,5.64
+2201,Europe,Belarus,2010,5.66,5.66
+2202,Americas,Mexico,2010,5.74,5.74
+2203,Europe,Tajikistan,2010,5.74,5.74
+2204,Western Pacific,Republic of Korea,2010,5.82,5.82
+2205,Europe,Latvia,2010,6.1,6.1
+2206,Americas,Guatemala,2010,6.12,6.12
+2208,Americas,Ecuador,2010,6.22,6.22
+2209,Europe,Albania,2010,6.24,6.24
+2210,Africa,Botswana,2010,6.27,6.27
+2211,Eastern Mediterranean,Iran (Islamic Republic of),2010,6.29,6.29
+2212,Europe,Poland,2010,6.47,6.47
+2213,South-East Asia,Timor-Leste,2010,6.47,6.47
+2214,Europe,Cyprus,2010,6.5,6.5
+2215,Europe,Estonia,2010,6.59,6.59
+2216,Europe,Luxembourg,2010,6.66,6.66
+2218,Americas,Barbados,2010,6.77,6.77
+2219,Europe,Lithuania,2010,6.81,6.81
+2220,Africa,Uganda,2010,6.81,6.81
+2221,Europe,Ukraine,2010,6.81,6.81
+2222,Americas,Chile,2010,6.82,6.82
+2223,Africa,Sao Tome and Principe,2010,6.86,6.86
+2224,Europe,Israel,2010,6.89,6.89
+2225,Western Pacific,Cambodia,2010,6.91,6.91
+2226,Europe,Kyrgyzstan,2010,6.95,6.95
+2227,Americas,Colombia,2010,7.07,7.07
+2228,Europe,Bulgaria,2010,7.1,7.1
+2229,Eastern Mediterranean,Lebanon,2010,7.44,7.44
+2230,Europe,Hungary,2010,7.45,7.45
+2231,Americas,Panama,2010,7.49,7.49
+2232,Europe,Czechia,2010,7.59,7.59
+2233,Africa,Lesotho,2010,7.64,7.64
+2234,Europe,Slovakia,2010,7.67,7.67
+2236,Americas,Nicaragua,2010,7.71,7.71
+2237,Africa,South Africa,2010,7.79,7.79
+2238,Americas,Uruguay,2010,7.91,7.91
+2239,Americas,Brazil,2010,7.95,7.95
+2240,Europe,Malta,2010,7.95,7.95
+2241,Europe,Croatia,2010,7.99,7.99
+2242,Americas,Costa Rica,2010,8.03,8.03
+2243,Africa,Rwanda,2010,8.09,8.09
+2244,Eastern Mediterranean,Jordan,2010,8.17,8.17
+2245,Europe,Sweden,2010,8.32,8.32
+2246,Europe,Iceland,2010,8.36,8.36
+2247,Western Pacific,Australia,2010,8.42,8.42
+2248,South-East Asia,Maldives,2010,8.49,8.49
+2249,Eastern Mediterranean,Afghanistan,2010,8.57,8.57
+2250,Europe,Slovenia,2010,8.57,8.57
+2252,Americas,Honduras,2010,8.73,8.73
+2253,Europe,Norway,2010,8.86,8.86
+2254,Americas,El Salvador,2010,8.9,8.9
+2255,Europe,Italy,2010,8.92,8.92
+2256,Europe,Bosnia and Herzegovina,2010,9.02,9.02
+2257,Western Pacific,Japan,2010,9.06,9.06
+2258,Europe,Georgia,2010,9.07,9.07
+2259,Europe,Spain,2010,9.12,9.12
+2260,Africa,Sierra Leone,2010,9.13,9.13
+2261,Europe,Finland,2010,9.14,9.14
+2262,Europe,Armenia,2010,9.24,9.24
+2263,Western Pacific,Kiribati,2010,9.34,9.34
+2264,Americas,Argentina,2010,9.45,9.45
+2265,Europe,Serbia,2010,9.53,9.53
+2266,Western Pacific,New Zealand,2010,9.59,9.59
+2267,Europe,Greece,2010,9.6,9.6
+2268,Africa,Namibia,2010,9.73,9.73
+2269,Europe,Switzerland,2010,9.93,9.93
+2270,Europe,United Kingdom of Great Britain and Northern Ireland,2010,9.93,9.93
+2271,Americas,Venezuela (Bolivarian Republic of),2009,,
+2272,Africa,Equatorial Guinea,2009,1.77,1.77
+2273,Europe,United Kingdom of Great Britain and Northern Ireland,2009,10.05,10.05
+2274,South-East Asia,Maldives,2009,10.09,10.09
+2275,Europe,Portugal,2009,10.13,10.13
+2276,Europe,Switzerland,2009,10.14,10.14
+2277,Europe,Austria,2009,10.23,10.23
+2279,Europe,Belgium,2009,10.32,10.32
+2280,Europe,Ireland,2009,10.52,10.52
+2281,Americas,Canada,2009,10.66,10.66
+2282,Europe,Denmark,2009,10.67,10.67
+2283,Europe,Germany,2009,11.24,11.24
+2284,Europe,France,2009,11.29,11.29
+2285,Africa,Liberia,2009,11.57,11.57
+2287,Americas,Cuba,2009,12.29,12.29
+2289,Western Pacific,Micronesia (Federated States of),2009,12.55,12.55
+2290,Western Pacific,Kiribati,2009,13.49,13.49
+2291,Europe,Republic of Moldova,2009,13.68,13.68
+2293,Americas,United States of America,2009,16.2,16.2
+2294,Africa,Congo,2009,2.14,2.14
+2295,South-East Asia,Myanmar,2009,2.16,2.16
+2296,South-East Asia,Bangladesh,2009,2.18,2.18
+2297,Western Pacific,Papua New Guinea,2009,2.33,2.33
+2298,Eastern Mediterranean,Qatar,2009,2.38,2.38
+2299,Western Pacific,Brunei Darussalam,2009,2.39,2.39
+2300,Eastern Mediterranean,Oman,2009,2.47,2.47
+2301,Eastern Mediterranean,Pakistan,2009,2.47,2.47
+2302,South-East Asia,Indonesia,2009,2.62,2.62
+2303,Eastern Mediterranean,Kuwait,2009,2.71,2.71
+2304,Europe,Azerbaijan,2009,2.77,2.77
+2305,Europe,Turkmenistan,2009,2.85,2.85
+2306,Africa,Benin,2009,2.89,2.89
+2308,Africa,Mauritania,2009,3.11,3.11
+2309,Western Pacific,Vanuatu,2009,3.25,3.25
+2310,Western Pacific,Malaysia,2009,3.26,3.26
+2311,Western Pacific,Singapore,2009,3.4,3.4
+2312,Western Pacific,Lao People's Democratic Republic,2009,3.46,3.46
+2314,South-East Asia,India,2009,3.49,3.49
+2315,Africa,Cameroon,2009,3.5,3.5
+2316,Americas,Haiti,2009,3.5,3.5
+2317,Europe,Kazakhstan,2009,3.5,3.5
+2318,Western Pacific,Fiji,2009,3.54,3.54
+2319,Africa,Seychelles,2009,3.54,3.54
+2320,South-East Asia,Bhutan,2009,3.55,3.55
+2321,Eastern Mediterranean,Syrian Arab Republic,2009,3.55,3.55
+2322,Africa,Guinea,2009,3.58,3.58
+2323,Eastern Mediterranean,Libya,2009,3.58,3.58
+2324,Africa,Nigeria,2009,3.58,3.58
+2325,South-East Asia,Thailand,2009,3.62,3.62
+2326,Eastern Mediterranean,Djibouti,2009,3.64,3.64
+2327,Eastern Mediterranean,Iraq,2009,3.77,3.77
+2328,Africa,Angola,2009,3.84,3.84
+2329,Africa,Gabon,2009,3.84,3.84
+2330,Africa,Senegal,2009,3.84,3.84
+2331,Africa,Cabo Verde,2009,3.88,3.88
+2332,South-East Asia,Nepal,2009,3.9,3.9
+2333,Western Pacific,Tonga,2009,3.93,3.93
+2334,Eastern Mediterranean,United Arab Emirates,2009,4.05,4.05
+2335,South-East Asia,Sri Lanka,2009,4.06,4.06
+2336,Africa,Togo,2009,4.08,4.08
+2337,Americas,Saint Vincent and the Grenadines,2009,4.09,4.09
+2338,Western Pacific,Philippines,2009,4.16,4.16
+2339,Africa,Mauritius,2009,4.17,4.17
+2340,Americas,Antigua and Barbuda,2009,4.18,4.18
+2341,Eastern Mediterranean,Saudi Arabia,2009,4.29,4.29
+2342,Eastern Mediterranean,Bahrain,2009,4.33,4.33
+2343,Western Pacific,China,2009,4.35,4.35
+2344,Americas,Guyana,2009,4.35,4.35
+2345,Eastern Mediterranean,Egypt,2009,4.38,4.38
+2346,Africa,Ghana,2009,4.38,4.38
+2347,Africa,Madagascar,2009,4.38,4.38
+2348,Africa,Chad,2009,4.44,4.44
+2349,Africa,Gambia,2009,4.46,4.46
+2350,Western Pacific,Mongolia,2009,4.46,4.46
+2352,Western Pacific,Viet Nam,2009,4.49,4.49
+2353,Africa,Democratic Republic of the Congo,2009,4.51,4.51
+2354,Americas,Belize,2009,4.53,4.53
+2355,Africa,Ethiopia,2009,4.65,4.65
+2356,Africa,Guinea-Bissau,2009,4.73,4.73
+2357,Americas,Dominican Republic,2009,4.76,4.76
+2358,Europe,Uzbekistan,2009,4.8,4.8
+2359,Africa,Central African Republic,2009,4.82,4.82
+2361,Africa,Comoros,2009,4.93,4.93
+2362,Americas,Peru,2009,4.97,4.97
+2364,Americas,Suriname,2009,4.98,4.98
+2365,Africa,United Republic of Tanzania,2009,5.06,5.06
+2366,Africa,Burkina Faso,2009,5.08,5.08
+2367,Western Pacific,Samoa,2009,5.13,5.13
+2368,Americas,Bahamas,2009,5.15,5.15
+2369,Americas,Jamaica,2009,5.15,5.15
+2370,Africa,Zambia,2009,5.16,5.16
+2371,Americas,Bolivia (Plurinational State of),2009,5.17,5.17
+2372,Africa,Mozambique,2009,5.2,5.2
+2373,Africa,Mali,2009,5.21,5.21
+2374,Americas,Saint Lucia,2009,5.24,5.24
+2375,Africa,Kenya,2009,5.27,5.27
+2376,Eastern Mediterranean,Morocco,2009,5.27,5.27
+2377,Europe,Romania,2009,5.28,5.28
+2379,Africa,Niger,2009,5.34,5.34
+2380,Africa,Algeria,2009,5.36,5.36
+2381,Europe,Belarus,2009,5.39,5.39
+2382,Africa,Eritrea,2009,5.39,5.39
+2383,Eastern Mediterranean,Tunisia,2009,5.41,5.41
+2384,Americas,Grenada,2009,5.43,5.43
+2386,Americas,Trinidad and Tobago,2009,5.49,5.49
+2387,Americas,Paraguay,2009,5.52,5.52
+2388,Europe,Russian Federation,2009,5.64,5.64
+2389,Western Pacific,Republic of Korea,2009,5.66,5.66
+2390,Africa,Uganda,2009,5.79,5.79
+2391,Americas,Ecuador,2009,5.8,5.8
+2392,Europe,Albania,2009,5.83,5.83
+2393,Europe,Tajikistan,2009,5.86,5.86
+2394,Africa,Malawi,2009,5.87,5.87
+2395,Eastern Mediterranean,Yemen,2009,5.99,5.99
+2397,Europe,Latvia,2009,6.1,6.1
+2398,Eastern Mediterranean,Iran (Islamic Republic of),2009,6.11,6.11
+2399,Americas,Mexico,2009,6.13,6.13
+2401,Americas,Guatemala,2009,6.34,6.34
+2402,Eastern Mediterranean,Sudan,2009,6.39,6.39
+2403,Europe,Cyprus,2009,6.47,6.47
+2405,Europe,Poland,2009,6.59,6.59
+2406,Europe,Bulgaria,2009,6.6,6.6
+2407,Western Pacific,Solomon Islands,2009,6.61,6.61
+2408,Europe,Ukraine,2009,6.61,6.61
+2409,Africa,Botswana,2009,6.62,6.62
+2410,Europe,Estonia,2009,6.84,6.84
+2411,Europe,Kyrgyzstan,2009,6.9,6.9
+2412,Europe,Israel,2009,6.92,6.92
+2413,Europe,Luxembourg,2009,6.95,6.95
+2414,Eastern Mediterranean,Lebanon,2009,7.01,7.01
+2415,Americas,Barbados,2009,7.15,7.15
+2416,Europe,Hungary,2009,7.22,7.22
+2417,Americas,Panama,2009,7.24,7.24
+2418,Africa,Sao Tome and Principe,2009,7.24,7.24
+2419,Americas,Chile,2009,7.25,7.25
+2420,Europe,Czechia,2009,7.25,7.25
+2421,Americas,Colombia,2009,7.31,7.31
+2422,South-East Asia,Timor-Leste,2009,7.31,7.31
+2423,Europe,Lithuania,2009,7.37,7.37
+2424,Western Pacific,Cambodia,2009,7.58,7.58
+2425,Africa,South Africa,2009,7.65,7.65
+2426,Americas,Nicaragua,2009,7.69,7.69
+2427,Africa,Rwanda,2009,7.81,7.81
+2428,Americas,Costa Rica,2009,7.86,7.86
+2429,Europe,Malta,2009,7.92,7.92
+2430,Europe,Slovakia,2009,7.95,7.95
+2431,Americas,Uruguay,2009,7.95,7.95
+2432,Europe,Croatia,2009,8.08,8.08
+2433,Americas,Brazil,2009,8.39,8.39
+2434,Europe,Armenia,2009,8.44,8.44
+2435,Western Pacific,Australia,2009,8.54,8.54
+2436,Europe,Slovenia,2009,8.54,8.54
+2438,Europe,Sweden,2009,8.77,8.77
+2439,Europe,Iceland,2009,8.78,8.78
+2440,Americas,El Salvador,2009,8.84,8.84
+2441,Europe,Italy,2009,8.95,8.95
+2442,Africa,Lesotho,2009,8.95,8.95
+2443,Western Pacific,Japan,2009,8.96,8.96
+2444,Americas,Honduras,2009,9.0,9.0
+2445,Europe,Bosnia and Herzegovina,2009,9.02,9.02
+2446,Europe,Norway,2009,9.03,9.03
+2447,Africa,Namibia,2009,9.05,9.05
+2448,Europe,Spain,2009,9.11,9.11
+2449,Europe,Finland,2009,9.16,9.16
+2450,Eastern Mediterranean,Jordan,2009,9.22,9.22
+2451,Africa,Burundi,2009,9.23,9.23
+2452,Europe,Serbia,2009,9.35,9.35
+2453,Europe,Greece,2009,9.41,9.41
+2454,Americas,Argentina,2009,9.46,9.46
+2455,Europe,Georgia,2009,9.57,9.57
+2456,Western Pacific,New Zealand,2009,9.62,9.62
+2457,Africa,Sierra Leone,2009,9.68,9.68
+2458,Eastern Mediterranean,Afghanistan,2009,9.82,9.82
+2460,Americas,Venezuela (Bolivarian Republic of),2008,,
+2461,Africa,Equatorial Guinea,2008,1.12,1.12
+2462,Eastern Mediterranean,Qatar,2008,1.64,1.64
+2463,Eastern Mediterranean,Oman,2008,1.76,1.76
+2464,Western Pacific,Brunei Darussalam,2008,1.88,1.88
+2465,Eastern Mediterranean,Kuwait,2008,1.92,1.92
+2467,Europe,Germany,2008,10.25,10.25
+2468,Eastern Mediterranean,Afghanistan,2008,10.26,10.26
+2469,Europe,France,2008,10.5,10.5
+2470,Europe,Republic of Moldova,2008,10.95,10.95
+2471,Americas,Cuba,2008,11.31,11.31
+2472,South-East Asia,Maldives,2008,11.47,11.47
+2473,Western Pacific,Micronesia (Federated States of),2008,11.99,11.99
+2474,Western Pacific,Kiribati,2008,14.05,14.05
+2476,Americas,United States of America,2008,15.21,15.21
+2477,Europe,Azerbaijan,2008,2.05,2.05
+2478,South-East Asia,Myanmar,2008,2.11,2.11
+2479,South-East Asia,Bangladesh,2008,2.12,2.12
+2480,Western Pacific,Papua New Guinea,2008,2.14,2.14
+2481,Africa,Congo,2008,2.24,2.24
+2482,Eastern Mediterranean,Libya,2008,2.24,2.24
+2483,South-East Asia,Indonesia,2008,2.55,2.55
+2484,Africa,Benin,2008,2.65,2.65
+2485,Eastern Mediterranean,Pakistan,2008,2.71,2.71
+2486,Western Pacific,Lao People's Democratic Republic,2008,2.77,2.77
+2487,Africa,Gabon,2008,2.79,2.79
+2488,Eastern Mediterranean,United Arab Emirates,2008,2.93,2.93
+2489,Eastern Mediterranean,Saudi Arabia,2008,2.97,2.97
+2492,Western Pacific,Malaysia,2008,3.01,3.01
+2493,Africa,Mauritania,2008,3.01,3.01
+2494,Europe,Kazakhstan,2008,3.05,3.05
+2495,Eastern Mediterranean,Iraq,2008,3.07,3.07
+2496,Western Pacific,Vanuatu,2008,3.14,3.14
+2497,Western Pacific,Fiji,2008,3.18,3.18
+2498,Western Pacific,Singapore,2008,3.19,3.19
+2499,Eastern Mediterranean,Bahrain,2008,3.2,3.2
+2500,Africa,Guinea,2008,3.27,3.27
+2501,Africa,Angola,2008,3.32,3.32
+2502,South-East Asia,Bhutan,2008,3.38,3.38
+2503,Eastern Mediterranean,Syrian Arab Republic,2008,3.4,3.4
+2505,South-East Asia,Thailand,2008,3.46,3.46
+2506,Europe,Turkmenistan,2008,3.49,3.49
+2507,South-East Asia,India,2008,3.51,3.51
+2508,Africa,Senegal,2008,3.51,3.51
+2509,Africa,Cabo Verde,2008,3.58,3.58
+2510,Eastern Mediterranean,Djibouti,2008,3.62,3.62
+2511,Africa,Seychelles,2008,3.62,3.62
+2512,Africa,Cameroon,2008,3.66,3.66
+2513,Americas,Trinidad and Tobago,2008,3.66,3.66
+2514,Africa,Nigeria,2008,3.7,3.7
+2515,Americas,Haiti,2008,3.76,3.76
+2516,South-East Asia,Nepal,2008,3.82,3.82
+2517,Africa,Togo,2008,3.84,3.84
+2518,South-East Asia,Sri Lanka,2008,3.85,3.85
+2519,Western Pacific,Philippines,2008,3.86,3.86
+2520,Africa,Ghana,2008,3.88,3.88
+2521,Americas,Saint Vincent and the Grenadines,2008,3.88,3.88
+2522,Western Pacific,China,2008,3.9,3.9
+2523,Africa,Mauritius,2008,3.94,3.94
+2524,Africa,Chad,2008,4.06,4.06
+2525,Africa,Madagascar,2008,4.08,4.08
+2527,Africa,Central African Republic,2008,4.09,4.09
+2528,Africa,Algeria,2008,4.2,4.2
+2529,Americas,Antigua and Barbuda,2008,4.2,4.2
+2530,Americas,Guyana,2008,4.2,4.2
+2531,Africa,Mozambique,2008,4.22,4.22
+2532,Africa,Ethiopia,2008,4.28,4.28
+2533,Africa,Democratic Republic of the Congo,2008,4.31,4.31
+2534,Western Pacific,Viet Nam,2008,4.36,4.36
+2535,Eastern Mediterranean,Egypt,2008,4.47,4.47
+2536,Africa,Zambia,2008,4.47,4.47
+2537,Americas,Peru,2008,4.53,4.53
+2538,Western Pacific,Samoa,2008,4.53,4.53
+2539,Americas,Belize,2008,4.54,4.54
+2540,Americas,Dominican Republic,2008,4.56,4.56
+2541,Western Pacific,Mongolia,2008,4.56,4.56
+2543,Americas,Bolivia (Plurinational State of),2008,4.61,4.61
+2544,Africa,Burkina Faso,2008,4.65,4.65
+2545,Africa,Gambia,2008,4.66,4.66
+2546,Europe,Uzbekistan,2008,4.7,4.7
+2547,Americas,Suriname,2008,4.75,4.75
+2548,Eastern Mediterranean,Morocco,2008,4.84,4.84
+2549,Americas,Bahamas,2008,4.86,4.86
+2550,Europe,Russian Federation,2008,4.9,4.9
+2551,Europe,Romania,2008,5.02,5.02
+2552,Africa,Mali,2008,5.03,5.03
+2553,Eastern Mediterranean,Iran (Islamic Republic of),2008,5.04,5.04
+2554,Americas,Paraguay,2008,5.04,5.04
+2556,Africa,Comoros,2008,5.07,5.07
+2557,Americas,Saint Lucia,2008,5.09,5.09
+2558,Eastern Mediterranean,Tunisia,2008,5.16,5.16
+2560,Africa,Niger,2008,5.25,5.25
+2561,Western Pacific,Republic of Korea,2008,5.25,5.25
+2562,Europe,Belarus,2008,5.29,5.29
+2563,Africa,Kenya,2008,5.29,5.29
+2565,Americas,Grenada,2008,5.39,5.39
+2567,Eastern Mediterranean,Sudan,2008,5.42,5.42
+2568,Africa,Uganda,2008,5.45,5.45
+2569,Africa,Guinea-Bissau,2008,5.46,5.46
+2570,Americas,Ecuador,2008,5.47,5.47
+2571,Europe,Ukraine,2008,5.5,5.5
+2572,Europe,Albania,2008,5.51,5.51
+2573,Western Pacific,Solomon Islands,2008,5.51,5.51
+2574,Africa,United Republic of Tanzania,2008,5.56,5.56
+2575,Europe,Latvia,2008,5.58,5.58
+2576,Americas,Jamaica,2008,5.61,5.61
+2578,Americas,Mexico,2008,5.7,5.7
+2579,Eastern Mediterranean,Yemen,2008,5.76,5.76
+2580,Africa,Botswana,2008,5.9,5.9
+2581,Europe,Tajikistan,2008,5.91,5.91
+2582,Europe,Estonia,2008,5.96,5.96
+2583,Africa,Liberia,2008,6.0,6.0
+2584,Europe,Cyprus,2008,6.01,6.01
+2585,Western Pacific,Tonga,2008,6.06,6.06
+2586,Americas,Guatemala,2008,6.08,6.08
+2587,Africa,Malawi,2008,6.11,6.11
+2588,Europe,Luxembourg,2008,6.23,6.23
+2589,Europe,Bulgaria,2008,6.28,6.28
+2590,Europe,Lithuania,2008,6.29,6.29
+2591,Europe,Czechia,2008,6.33,6.33
+2592,Europe,Poland,2008,6.38,6.38
+2593,Africa,Eritrea,2008,6.42,6.42
+2594,Americas,Barbados,2008,6.48,6.48
+2595,Europe,Kyrgyzstan,2008,6.53,6.53
+2597,Western Pacific,Cambodia,2008,6.6,6.6
+2598,Europe,Armenia,2008,6.64,6.64
+2599,Americas,Chile,2008,6.74,6.74
+2600,Europe,Israel,2008,6.83,6.83
+2601,Americas,Colombia,2008,6.84,6.84
+2602,Europe,Slovakia,2008,6.96,6.96
+2603,South-East Asia,Timor-Leste,2008,6.97,6.97
+2604,Americas,Panama,2008,7.05,7.05
+2605,Europe,Hungary,2008,7.09,7.09
+2606,Africa,South Africa,2008,7.15,7.15
+2607,Americas,Nicaragua,2008,7.17,7.17
+2608,Africa,Sao Tome and Principe,2008,7.17,7.17
+2609,Americas,Costa Rica,2008,7.47,7.47
+2610,Africa,Rwanda,2008,7.57,7.57
+2611,Europe,Croatia,2008,7.65,7.65
+2612,Africa,Lesotho,2008,7.67,7.67
+2613,Africa,Burundi,2008,7.74,7.74
+2614,Eastern Mediterranean,Lebanon,2008,7.82,7.82
+2615,Europe,Slovenia,2008,7.85,7.85
+2616,Europe,Malta,2008,7.86,7.86
+2617,Europe,Norway,2008,7.92,7.92
+2618,Americas,Brazil,2008,8.01,8.01
+2619,Western Pacific,Japan,2008,8.09,8.09
+2620,Americas,Uruguay,2008,8.13,8.13
+2621,Americas,Argentina,2008,8.18,8.18
+2622,Europe,Sweden,2008,8.21,8.21
+2623,Western Pacific,Australia,2008,8.25,8.25
+2624,Europe,Finland,2008,8.34,8.34
+2625,Europe,Iceland,2008,8.34,8.34
+2626,Europe,Spain,2008,8.38,8.38
+2627,Europe,Georgia,2008,8.44,8.44
+2628,Eastern Mediterranean,Jordan,2008,8.49,8.49
+2629,Americas,El Salvador,2008,8.5,8.5
+2630,Europe,Italy,2008,8.53,8.53
+2631,Americas,Honduras,2008,8.6,8.6
+2632,Africa,Sierra Leone,2008,8.81,8.81
+2633,Europe,Greece,2008,8.83,8.83
+2635,Europe,United Kingdom of Great Britain and Northern Ireland,2008,9.03,9.03
+2636,Western Pacific,New Zealand,2008,9.12,9.12
+2637,Europe,Ireland,2008,9.13,9.13
+2640,Europe,Serbia,2008,9.48,9.48
+2641,Europe,Denmark,2008,9.51,9.51
+2642,Europe,Switzerland,2008,9.53,9.53
+2643,Europe,Portugal,2008,9.58,9.58
+2644,Europe,Belgium,2008,9.6,9.6
+2645,Americas,Canada,2008,9.61,9.61
+2646,Europe,Bosnia and Herzegovina,2008,9.69,9.69
+2647,Europe,Austria,2008,9.73,9.73
+2648,Africa,Namibia,2008,9.92,9.92
+2649,Americas,Venezuela (Bolivarian Republic of),2007,,
+2650,Africa,Equatorial Guinea,2007,1.3,1.3
+2651,Africa,Congo,2007,1.9,1.9
+2652,Eastern Mediterranean,Kuwait,2007,1.93,1.93
+2653,Western Pacific,Brunei Darussalam,2007,1.94,1.94
+2654,Europe,Azerbaijan,2007,1.99,1.99
+2655,Europe,Germany,2007,10.05,10.05
+2656,Europe,France,2007,10.32,10.32
+2658,Africa,Namibia,2007,10.72,10.72
+2659,Americas,Cuba,2007,10.97,10.97
+2660,Europe,Republic of Moldova,2007,11.02,11.02
+2661,Western Pacific,Micronesia (Federated States of),2007,11.06,11.06
+2662,Western Pacific,Kiribati,2007,11.34,11.34
+2663,Americas,United States of America,2007,14.92,14.92
+2665,South-East Asia,Myanmar,2007,2.02,2.02
+2666,Eastern Mediterranean,Qatar,2007,2.07,2.07
+2667,Eastern Mediterranean,Oman,2007,2.11,2.11
+2668,South-East Asia,Bangladesh,2007,2.17,2.17
+2669,Eastern Mediterranean,Libya,2007,2.42,2.42
+2670,Western Pacific,Papua New Guinea,2007,2.42,2.42
+2671,Eastern Mediterranean,United Arab Emirates,2007,2.57,2.57
+2672,Europe,Kazakhstan,2007,2.7,2.7
+2673,South-East Asia,Indonesia,2007,2.82,2.82
+2674,Eastern Mediterranean,Pakistan,2007,2.82,2.82
+2675,Western Pacific,Singapore,2007,2.84,2.84
+2676,Africa,Mauritania,2007,2.88,2.88
+2677,Africa,Benin,2007,2.94,2.94
+2678,Africa,Angola,2007,2.97,2.97
+2681,Western Pacific,Malaysia,2007,3.07,3.07
+2682,Western Pacific,Vanuatu,2007,3.11,3.11
+2683,Europe,Turkmenistan,2007,3.13,3.13
+2684,Western Pacific,Lao People's Democratic Republic,2007,3.15,3.15
+2685,Africa,Gabon,2007,3.16,3.16
+2686,South-East Asia,Thailand,2007,3.19,3.19
+2687,Eastern Mediterranean,Iraq,2007,3.21,3.21
+2688,Eastern Mediterranean,Bahrain,2007,3.3,3.3
+2689,Africa,Senegal,2007,3.41,3.41
+2690,Western Pacific,Fiji,2007,3.42,3.42
+2691,Africa,Guinea,2007,3.47,3.47
+2692,South-East Asia,India,2007,3.52,3.52
+2693,Africa,Mauritius,2007,3.52,3.52
+2694,Eastern Mediterranean,Saudi Arabia,2007,3.56,3.56
+2695,Americas,Haiti,2007,3.65,3.65
+2696,Western Pacific,China,2007,3.67,3.67
+2697,South-East Asia,Nepal,2007,3.67,3.67
+2698,Africa,Cameroon,2007,3.71,3.71
+2700,Eastern Mediterranean,Syrian Arab Republic,2007,3.72,3.72
+2701,Western Pacific,Philippines,2007,3.75,3.75
+2702,Africa,Ghana,2007,3.8,3.8
+2704,Africa,Algeria,2007,3.82,3.82
+2705,Americas,Saint Vincent and the Grenadines,2007,3.82,3.82
+2706,South-East Asia,Sri Lanka,2007,3.82,3.82
+2707,Africa,Seychelles,2007,3.85,3.85
+2708,Africa,Togo,2007,3.87,3.87
+2709,Africa,Democratic Republic of the Congo,2007,3.89,3.89
+2710,Africa,Nigeria,2007,3.91,3.91
+2711,Africa,Mozambique,2007,3.93,3.93
+2712,Eastern Mediterranean,Djibouti,2007,4.06,4.06
+2713,Americas,Belize,2007,4.08,4.08
+2714,Western Pacific,Mongolia,2007,4.08,4.08
+2715,Americas,Dominican Republic,2007,4.09,4.09
+2716,South-East Asia,Bhutan,2007,4.13,4.13
+2717,Americas,Trinidad and Tobago,2007,4.15,4.15
+2718,Africa,Cabo Verde,2007,4.19,4.19
+2719,Americas,Guyana,2007,4.28,4.28
+2720,Africa,Liberia,2007,4.33,4.33
+2721,Africa,Chad,2007,4.34,4.34
+2722,Americas,Peru,2007,4.43,4.43
+2723,Eastern Mediterranean,Egypt,2007,4.44,4.44
+2724,Americas,Antigua and Barbuda,2007,4.45,4.45
+2725,Americas,Bahamas,2007,4.5,4.5
+2726,Europe,Uzbekistan,2007,4.54,4.54
+2728,Africa,Zambia,2007,4.58,4.58
+2729,Africa,Madagascar,2007,4.61,4.61
+2730,Western Pacific,Viet Nam,2007,4.63,4.63
+2731,Americas,Bolivia (Plurinational State of),2007,4.7,4.7
+2732,Africa,Central African Republic,2007,4.72,4.72
+2733,Western Pacific,Tonga,2007,4.73,4.73
+2734,Western Pacific,Samoa,2007,4.74,4.74
+2735,Europe,Russian Federation,2007,4.75,4.75
+2738,Eastern Mediterranean,Morocco,2007,4.81,4.81
+2739,Western Pacific,Cambodia,2007,4.91,4.91
+2740,Eastern Mediterranean,Iran (Islamic Republic of),2007,4.91,4.91
+2742,Western Pacific,Republic of Korea,2007,4.95,4.95
+2743,Africa,Gambia,2007,4.96,4.96
+2744,Africa,Ethiopia,2007,5.0,5.0
+2745,Americas,Paraguay,2007,5.02,5.02
+2746,Europe,Romania,2007,5.02,5.02
+2747,Africa,Guinea-Bissau,2007,5.04,5.04
+2749,Europe,Estonia,2007,5.18,5.18
+2750,Eastern Mediterranean,Tunisia,2007,5.18,5.18
+2751,Africa,Kenya,2007,5.22,5.22
+2752,Americas,Suriname,2007,5.22,5.22
+2753,Africa,Burkina Faso,2007,5.23,5.23
+2754,Americas,Grenada,2007,5.24,5.24
+2756,Africa,Mali,2007,5.25,5.25
+2757,Africa,Eritrea,2007,5.28,5.28
+2758,Americas,Jamaica,2007,5.32,5.32
+2759,Europe,Cyprus,2007,5.36,5.36
+2760,Africa,Comoros,2007,5.42,5.42
+2761,Americas,Ecuador,2007,5.43,5.43
+2762,Africa,Niger,2007,5.43,5.43
+2763,Africa,Malawi,2007,5.44,5.44
+2764,Europe,Armenia,2007,5.5,5.5
+2765,Europe,Latvia,2007,5.51,5.51
+2766,Africa,Botswana,2007,5.52,5.52
+2767,Americas,Saint Lucia,2007,5.54,5.54
+2768,Europe,Tajikistan,2007,5.54,5.54
+2769,South-East Asia,Timor-Leste,2007,5.65,5.65
+2770,Eastern Mediterranean,Sudan,2007,5.66,5.66
+2771,Europe,Belarus,2007,5.69,5.69
+2772,Europe,Lithuania,2007,5.76,5.76
+2773,Americas,Mexico,2007,5.77,5.77
+2774,Eastern Mediterranean,Yemen,2007,5.82,5.82
+2775,Europe,Poland,2007,5.87,5.87
+2776,Europe,Albania,2007,5.93,5.93
+2777,Europe,Czechia,2007,5.99,5.99
+2778,Europe,Ukraine,2007,6.02,6.02
+2779,Americas,Barbados,2007,6.06,6.06
+2780,Africa,Uganda,2007,6.11,6.11
+2781,Europe,Bulgaria,2007,6.16,6.16
+2782,Europe,Luxembourg,2007,6.16,6.16
+2783,Americas,Guatemala,2007,6.19,6.19
+2784,Americas,Chile,2007,6.21,6.21
+2785,Americas,Colombia,2007,6.49,6.49
+2787,Europe,Israel,2007,6.7,6.7
+2788,Africa,United Republic of Tanzania,2007,6.88,6.88
+2789,Africa,South Africa,2007,6.91,6.91
+2790,Europe,Kyrgyzstan,2007,6.93,6.93
+2791,Americas,Nicaragua,2007,6.96,6.96
+2792,Americas,Costa Rica,2007,7.0,7.0
+2793,Europe,Slovakia,2007,7.18,7.18
+2794,Western Pacific,Solomon Islands,2007,7.18,7.18
+2795,Europe,Hungary,2007,7.2,7.2
+2796,Africa,Lesotho,2007,7.22,7.22
+2797,Europe,Croatia,2007,7.41,7.41
+2798,Europe,Georgia,2007,7.44,7.44
+2799,Americas,Uruguay,2007,7.49,7.49
+2800,Europe,Slovenia,2007,7.51,7.51
+2801,Americas,Panama,2007,7.62,7.62
+2802,Western Pacific,Japan,2007,7.78,7.78
+2803,Europe,Ireland,2007,7.81,7.81
+2804,Americas,Argentina,2007,7.83,7.83
+2805,Africa,Rwanda,2007,7.86,7.86
+2806,Eastern Mediterranean,Jordan,2007,7.91,7.91
+2807,Europe,Spain,2007,7.92,7.92
+2809,Europe,Sweden,2007,8.0,8.0
+2810,Europe,Norway,2007,8.02,8.02
+2811,Western Pacific,Australia,2007,8.05,8.05
+2812,Europe,Finland,2007,8.08,8.08
+2813,Americas,Honduras,2007,8.08,8.08
+2814,Europe,Italy,2007,8.14,8.14
+2815,Europe,Malta,2007,8.17,8.17
+2816,Americas,Brazil,2007,8.2,8.2
+2817,Africa,Sao Tome and Principe,2007,8.2,8.2
+2818,South-East Asia,Maldives,2007,8.31,8.31
+2819,Western Pacific,New Zealand,2007,8.33,8.33
+2820,Europe,Iceland,2007,8.35,8.35
+2821,Europe,Greece,2007,8.4,8.4
+2822,Americas,El Salvador,2007,8.48,8.48
+2823,Africa,Sierra Leone,2007,8.52,8.52
+2824,Eastern Mediterranean,Lebanon,2007,8.56,8.56
+2825,Europe,United Kingdom of Great Britain and Northern Ireland,2007,8.62,8.62
+2827,Europe,Belgium,2007,9.14,9.14
+2828,Africa,Burundi,2007,9.19,9.19
+2829,Europe,Portugal,2007,9.25,9.25
+2830,Europe,Denmark,2007,9.33,9.33
+2831,Europe,Serbia,2007,9.38,9.38
+2832,Europe,Switzerland,2007,9.42,9.42
+2833,Americas,Canada,2007,9.45,9.45
+2834,Europe,Austria,2007,9.53,9.53
+2835,Europe,Bosnia and Herzegovina,2007,9.53,9.53
+2837,Eastern Mediterranean,Afghanistan,2007,9.9,9.9
+2838,Americas,Venezuela (Bolivarian Republic of),2006,,
+2839,Africa,Equatorial Guinea,2006,1.29,1.29
+2840,Africa,Congo,2006,1.71,1.71
+2841,Eastern Mediterranean,Kuwait,2006,1.82,1.82
+2842,Western Pacific,Brunei Darussalam,2006,1.91,1.91
+2843,Europe,Germany,2006,10.18,10.18
+2844,Europe,France,2006,10.39,10.39
+2845,Europe,Republic of Moldova,2006,10.54,10.54
+2846,Africa,Namibia,2006,10.57,10.57
+2847,Eastern Mediterranean,Afghanistan,2006,10.62,10.62
+2848,Western Pacific,Micronesia (Federated States of),2006,10.74,10.74
+2849,Western Pacific,Kiribati,2006,11.53,11.53
+2852,Americas,United States of America,2006,14.71,14.71
+2853,Eastern Mediterranean,Oman,2006,2.02,2.02
+2854,Europe,Azerbaijan,2006,2.07,2.07
+2855,South-East Asia,Bangladesh,2006,2.11,2.11
+2856,South-East Asia,Myanmar,2006,2.25,2.25
+2857,Eastern Mediterranean,Qatar,2006,2.29,2.29
+2858,Eastern Mediterranean,Libya,2006,2.3,2.3
+2859,Eastern Mediterranean,United Arab Emirates,2006,2.33,2.33
+2860,Western Pacific,Papua New Guinea,2006,2.43,2.43
+2861,Eastern Mediterranean,Iraq,2006,2.49,2.49
+2862,South-East Asia,Indonesia,2006,2.62,2.62
+2863,Africa,Angola,2006,2.69,2.69
+2864,Africa,Mauritania,2006,2.7,2.7
+2865,Eastern Mediterranean,Pakistan,2006,2.86,2.86
+2866,Western Pacific,Lao People's Democratic Republic,2006,2.93,2.93
+2867,Western Pacific,Singapore,2006,2.93,2.93
+2869,South-East Asia,Thailand,2006,3.1,3.1
+2870,Eastern Mediterranean,Bahrain,2006,3.11,3.11
+2871,Western Pacific,Malaysia,2006,3.11,3.11
+2872,Africa,Gabon,2006,3.14,3.14
+2873,Africa,Benin,2006,3.29,3.29
+2874,Western Pacific,Vanuatu,2006,3.32,3.32
+2875,Western Pacific,Fiji,2006,3.35,3.35
+2876,Africa,Algeria,2006,3.36,3.36
+2877,Europe,Kazakhstan,2006,3.4,3.4
+2878,Africa,Togo,2006,3.45,3.45
+2880,Americas,Haiti,2006,3.48,3.48
+2881,South-East Asia,Nepal,2006,3.54,3.54
+2882,Americas,Belize,2006,3.57,3.57
+2883,Africa,Mauritius,2006,3.61,3.61
+2884,Africa,Guinea,2006,3.62,3.62
+2885,Eastern Mediterranean,Saudi Arabia,2006,3.62,3.62
+2886,South-East Asia,India,2006,3.63,3.63
+2887,Americas,Saint Vincent and the Grenadines,2006,3.65,3.65
+2888,Africa,Ghana,2006,3.67,3.67
+2889,Africa,Cameroon,2006,3.74,3.74
+2890,Western Pacific,Mongolia,2006,3.75,3.75
+2891,Africa,Senegal,2006,3.76,3.76
+2892,Western Pacific,Philippines,2006,3.78,3.78
+2893,Eastern Mediterranean,Syrian Arab Republic,2006,3.78,3.78
+2894,South-East Asia,Sri Lanka,2006,3.85,3.85
+2895,Americas,Guyana,2006,3.93,3.93
+2896,Western Pacific,China,2006,3.95,3.95
+2897,Americas,Dominican Republic,2006,3.99,3.99
+2898,Africa,Democratic Republic of the Congo,2006,4.06,4.06
+2899,Africa,Mozambique,2006,4.09,4.09
+2900,Americas,Trinidad and Tobago,2006,4.15,4.15
+2901,Americas,Jamaica,2006,4.21,4.21
+2902,Eastern Mediterranean,Djibouti,2006,4.22,4.22
+2903,Africa,Nigeria,2006,4.26,4.26
+2905,Americas,Bahamas,2006,4.31,4.31
+2906,Africa,Seychelles,2006,4.4,4.4
+2907,South-East Asia,Bhutan,2006,4.41,4.41
+2908,Americas,Peru,2006,4.41,4.41
+2909,Africa,Central African Republic,2006,4.44,4.44
+2910,Africa,Ethiopia,2006,4.46,4.46
+2911,Africa,Cabo Verde,2006,4.49,4.49
+2912,Africa,Burkina Faso,2006,4.51,4.51
+2913,Eastern Mediterranean,Morocco,2006,4.57,4.57
+2914,Western Pacific,Viet Nam,2006,4.57,4.57
+2915,Americas,Antigua and Barbuda,2006,4.63,4.63
+2916,Americas,Bolivia (Plurinational State of),2006,4.66,4.66
+2917,Europe,Uzbekistan,2006,4.75,4.75
+2919,Europe,Russian Federation,2006,4.77,4.77
+2921,Eastern Mediterranean,Egypt,2006,4.84,4.84
+2922,Western Pacific,Republic of Korea,2006,4.85,4.85
+2923,Africa,Chad,2006,4.87,4.87
+2924,Africa,Botswana,2006,4.88,4.88
+2925,Western Pacific,Samoa,2006,4.88,4.88
+2926,Eastern Mediterranean,Sudan,2006,4.89,4.89
+2927,Africa,Malawi,2006,4.91,4.91
+2930,Europe,Estonia,2006,4.97,4.97
+2932,Europe,Turkmenistan,2006,4.98,4.98
+2933,Americas,Paraguay,2006,5.02,5.02
+2934,Europe,Tajikistan,2006,5.03,5.03
+2935,Africa,Madagascar,2006,5.07,5.07
+2936,Europe,Romania,2006,5.07,5.07
+2937,Africa,Guinea-Bissau,2006,5.08,5.08
+2938,Americas,Grenada,2006,5.11,5.11
+2939,Africa,Kenya,2006,5.11,5.11
+2940,Americas,Saint Lucia,2006,5.13,5.13
+2941,Eastern Mediterranean,Tunisia,2006,5.13,5.13
+2943,Eastern Mediterranean,Iran (Islamic Republic of),2006,5.16,5.16
+2944,Africa,Gambia,2006,5.44,5.44
+2945,Europe,Cyprus,2006,5.46,5.46
+2946,Africa,Mali,2006,5.46,5.46
+2947,Western Pacific,Tonga,2006,5.47,5.47
+2948,Eastern Mediterranean,Yemen,2006,5.53,5.53
+2949,Europe,Belarus,2006,5.57,5.57
+2950,Africa,Zambia,2006,5.58,5.58
+2951,Europe,Albania,2006,5.63,5.63
+2952,Americas,Mexico,2006,5.66,5.66
+2953,Europe,Latvia,2006,5.7,5.7
+2954,Americas,Ecuador,2006,5.71,5.71
+2955,Africa,Comoros,2006,5.77,5.77
+2956,Europe,Poland,2006,5.8,5.8
+2957,Europe,Lithuania,2006,5.84,5.84
+2958,Europe,Armenia,2006,5.85,5.85
+2959,Americas,Suriname,2006,5.86,5.86
+2960,Africa,Niger,2006,5.99,5.99
+2962,South-East Asia,Timor-Leste,2006,6.0,6.0
+2963,Americas,Chile,2006,6.07,6.07
+2964,Africa,Liberia,2006,6.07,6.07
+2965,Western Pacific,Cambodia,2006,6.12,6.12
+2966,Africa,Lesotho,2006,6.12,6.12
+2967,Europe,Czechia,2006,6.16,6.16
+2968,Americas,Colombia,2006,6.34,6.34
+2969,Americas,Guatemala,2006,6.36,6.36
+2970,Americas,Nicaragua,2006,6.36,6.36
+2971,Europe,Ukraine,2006,6.42,6.42
+2972,Africa,Uganda,2006,6.46,6.46
+2973,Europe,Bulgaria,2006,6.53,6.53
+2974,Americas,Barbados,2006,6.58,6.58
+2975,Europe,Luxembourg,2006,6.64,6.64
+2976,Europe,Israel,2006,6.71,6.71
+2977,Americas,Panama,2006,6.78,6.78
+2978,Europe,Slovakia,2006,6.85,6.85
+2979,Africa,Eritrea,2006,6.86,6.86
+2980,Africa,South Africa,2006,6.88,6.88
+2981,Europe,Croatia,2006,6.91,6.91
+2982,Americas,Costa Rica,2006,6.94,6.94
+2984,Europe,Ireland,2006,7.52,7.52
+2985,Africa,United Republic of Tanzania,2006,7.6,7.6
+2986,Africa,Rwanda,2006,7.61,7.61
+2987,Europe,Georgia,2006,7.63,7.63
+2988,Americas,Argentina,2006,7.64,7.64
+2989,Eastern Mediterranean,Jordan,2006,7.68,7.68
+2990,Western Pacific,Japan,2006,7.69,7.69
+2991,Americas,Uruguay,2006,7.74,7.74
+2992,Europe,Hungary,2006,7.78,7.78
+2993,Europe,Slovenia,2006,7.82,7.82
+2995,Europe,Spain,2006,7.83,7.83
+2996,Americas,Honduras,2006,7.86,7.86
+2997,Europe,Norway,2006,7.88,7.88
+2998,Western Pacific,Australia,2006,7.98,7.98
+2999,Western Pacific,Solomon Islands,2006,8.01,8.01
+3000,South-East Asia,Maldives,2006,8.05,8.05
+3001,Europe,Sweden,2006,8.05,8.05
+3002,Americas,Brazil,2006,8.25,8.25
+3003,Europe,Greece,2006,8.26,8.26
+3004,Americas,Cuba,2006,8.27,8.27
+3005,Europe,Finland,2006,8.28,8.28
+3006,Africa,Sao Tome and Principe,2006,8.3,8.3
+3007,Europe,Kyrgyzstan,2006,8.31,8.31
+3008,Europe,Italy,2006,8.44,8.44
+3009,Europe,Serbia,2006,8.49,8.49
+3010,Europe,Iceland,2006,8.56,8.56
+3011,Europe,United Kingdom of Great Britain and Northern Ireland,2006,8.63,8.63
+3012,Western Pacific,New Zealand,2006,8.64,8.64
+3013,Eastern Mediterranean,Lebanon,2006,8.66,8.66
+3014,Americas,El Salvador,2006,8.69,8.69
+3015,Africa,Burundi,2006,8.71,8.71
+3016,Europe,Malta,2006,8.81,8.81
+3017,Africa,Sierra Leone,2006,9.02,9.02
+3019,Europe,Belgium,2006,9.13,9.13
+3020,Europe,Bosnia and Herzegovina,2006,9.17,9.17
+3021,Europe,Denmark,2006,9.17,9.17
+3022,Americas,Canada,2006,9.34,9.34
+3023,Europe,Portugal,2006,9.35,9.35
+3024,Europe,Austria,2006,9.53,9.53
+3026,Europe,Switzerland,2006,9.58,9.58
+3027,Americas,Venezuela (Bolivarian Republic of),2005,,
+3028,Africa,Equatorial Guinea,2005,1.3,1.3
+3029,Africa,Congo,2005,1.72,1.72
+3030,Europe,Switzerland,2005,10.06,10.06
+3031,Africa,Namibia,2005,10.08,10.08
+3032,Europe,France,2005,10.21,10.21
+3033,Europe,Germany,2005,10.31,10.31
+3036,Western Pacific,Kiribati,2005,11.52,11.52
+3037,Africa,Sao Tome and Principe,2005,11.55,11.55
+3039,Americas,United States of America,2005,14.58,14.58
+3040,Western Pacific,Micronesia (Federated States of),2005,17.73,17.73
+3041,Eastern Mediterranean,Kuwait,2005,2.01,2.01
+3042,South-East Asia,Bangladesh,2005,2.06,2.06
+3043,Europe,Azerbaijan,2005,2.23,2.23
+3044,Western Pacific,Brunei Darussalam,2005,2.23,2.23
+3045,Eastern Mediterranean,Oman,2005,2.26,2.26
+3046,Eastern Mediterranean,United Arab Emirates,2005,2.32,2.32
+3047,South-East Asia,Myanmar,2005,2.33,2.33
+3048,Western Pacific,Papua New Guinea,2005,2.45,2.45
+3049,Eastern Mediterranean,Libya,2005,2.52,2.52
+3050,South-East Asia,Indonesia,2005,2.53,2.53
+3051,Eastern Mediterranean,Pakistan,2005,2.55,2.55
+3052,Eastern Mediterranean,Qatar,2005,2.56,2.56
+3053,Western Pacific,Malaysia,2005,2.79,2.79
+3054,Africa,Angola,2005,2.85,2.85
+3055,Africa,Gabon,2005,2.93,2.93
+3057,Eastern Mediterranean,Iraq,2005,3.02,3.02
+3058,Western Pacific,Singapore,2005,3.03,3.03
+3059,South-East Asia,Thailand,2005,3.16,3.16
+3060,Africa,Benin,2005,3.22,3.22
+3061,Africa,Algeria,2005,3.24,3.24
+3062,Eastern Mediterranean,Bahrain,2005,3.26,3.26
+3063,Western Pacific,Fiji,2005,3.26,3.26
+3064,Africa,Togo,2005,3.3,3.3
+3065,Americas,Haiti,2005,3.31,3.31
+3066,Western Pacific,Vanuatu,2005,3.31,3.31
+3067,Western Pacific,Lao People's Democratic Republic,2005,3.34,3.34
+3068,Africa,Mauritania,2005,3.4,3.4
+3069,Eastern Mediterranean,Saudi Arabia,2005,3.42,3.42
+3070,Americas,Belize,2005,3.47,3.47
+3071,Africa,Mauritius,2005,3.52,3.52
+3072,Africa,Ghana,2005,3.63,3.63
+3073,Africa,Senegal,2005,3.67,3.67
+3074,Western Pacific,Philippines,2005,3.74,3.74
+3075,Western Pacific,Mongolia,2005,3.76,3.76
+3076,Africa,Cameroon,2005,3.77,3.77
+3077,Americas,Guyana,2005,3.79,3.79
+3078,South-East Asia,India,2005,3.79,3.79
+3079,Eastern Mediterranean,Djibouti,2005,3.81,3.81
+3080,Americas,Saint Vincent and the Grenadines,2005,3.83,3.83
+3081,South-East Asia,Sri Lanka,2005,3.88,3.88
+3082,Europe,Kazakhstan,2005,3.9,3.9
+3084,Africa,Burkina Faso,2005,3.95,3.95
+3085,South-East Asia,Nepal,2005,3.95,3.95
+3086,Africa,Democratic Republic of the Congo,2005,3.99,3.99
+3087,Americas,Bahamas,2005,4.03,4.03
+3088,Africa,Guinea,2005,4.05,4.05
+3089,Eastern Mediterranean,Sudan,2005,4.09,4.09
+3090,Africa,Ethiopia,2005,4.1,4.1
+3091,Eastern Mediterranean,Syrian Arab Republic,2005,4.11,4.11
+3092,South-East Asia,Bhutan,2005,4.13,4.13
+3093,Western Pacific,China,2005,4.18,4.18
+3094,Africa,Kenya,2005,4.24,4.24
+3095,Africa,Cabo Verde,2005,4.27,4.27
+3096,Africa,Malawi,2005,4.3,4.3
+3097,Western Pacific,Viet Nam,2005,4.32,4.32
+3098,Americas,Dominican Republic,2005,4.35,4.35
+3099,Africa,Central African Republic,2005,4.37,4.37
+3100,Eastern Mediterranean,Morocco,2005,4.37,4.37
+3101,Africa,Mozambique,2005,4.38,4.38
+3102,Western Pacific,Tonga,2005,4.39,4.39
+3103,Americas,Trinidad and Tobago,2005,4.43,4.43
+3104,Africa,Nigeria,2005,4.47,4.47
+3106,Africa,Guinea-Bissau,2005,4.55,4.55
+3107,Americas,Jamaica,2005,4.55,4.55
+3108,Western Pacific,Republic of Korea,2005,4.55,4.55
+3109,Western Pacific,Samoa,2005,4.63,4.63
+3110,Americas,Peru,2005,4.67,4.67
+3111,Africa,Seychelles,2005,4.67,4.67
+3113,Europe,Russian Federation,2005,4.77,4.77
+3114,Europe,Uzbekistan,2005,4.78,4.78
+3115,Americas,Paraguay,2005,4.83,4.83
+3116,Africa,Chad,2005,4.84,4.84
+3117,Americas,Saint Lucia,2005,4.86,4.86
+3120,Eastern Mediterranean,Egypt,2005,4.92,4.92
+3122,Americas,Antigua and Barbuda,2005,4.99,4.99
+3124,Americas,Bolivia (Plurinational State of),2005,5.07,5.07
+3125,Americas,Grenada,2005,5.14,5.14
+3126,Eastern Mediterranean,Tunisia,2005,5.15,5.15
+3127,Africa,Mali,2005,5.2,5.2
+3128,Europe,Tajikistan,2005,5.21,5.21
+3129,Eastern Mediterranean,Yemen,2005,5.21,5.21
+3130,Africa,Madagascar,2005,5.22,5.22
+3131,Americas,Suriname,2005,5.24,5.24
+3132,Africa,Botswana,2005,5.27,5.27
+3133,South-East Asia,Timor-Leste,2005,5.28,5.28
+3134,Europe,Estonia,2005,5.3,5.3
+3135,Eastern Mediterranean,Iran (Islamic Republic of),2005,5.3,5.3
+3136,Africa,Gambia,2005,5.39,5.39
+3137,Europe,Cyprus,2005,5.44,5.44
+3138,Africa,Lesotho,2005,5.45,5.45
+3139,Europe,Romania,2005,5.53,5.53
+3141,Americas,Ecuador,2005,5.6,5.6
+3142,Europe,Lithuania,2005,5.65,5.65
+3143,Europe,Turkmenistan,2005,5.65,5.65
+3144,Europe,Albania,2005,5.73,5.73
+3145,Europe,Poland,2005,5.81,5.81
+3146,Africa,Uganda,2005,5.81,5.81
+3147,Europe,Latvia,2005,5.83,5.83
+3148,Americas,Mexico,2005,5.84,5.84
+3149,Europe,Armenia,2005,5.86,5.86
+3150,Africa,Niger,2005,5.88,5.88
+3151,Europe,Belarus,2005,6.07,6.07
+3152,Americas,Colombia,2005,6.07,6.07
+3153,Africa,Comoros,2005,6.13,6.13
+3154,Americas,Guatemala,2005,6.15,6.15
+3155,Americas,Nicaragua,2005,6.22,6.22
+3156,Africa,United Republic of Tanzania,2005,6.32,6.32
+3157,Africa,Zambia,2005,6.33,6.33
+3158,Europe,Czechia,2005,6.34,6.34
+3159,Europe,Ukraine,2005,6.35,6.35
+3160,Americas,Panama,2005,6.43,6.43
+3161,Europe,Slovakia,2005,6.59,6.59
+3162,Americas,Chile,2005,6.62,6.62
+3163,Americas,Costa Rica,2005,6.66,6.66
+3164,Americas,Barbados,2005,6.78,6.78
+3165,Europe,Croatia,2005,6.84,6.84
+3166,Western Pacific,Cambodia,2005,6.85,6.85
+3167,Africa,Eritrea,2005,6.86,6.86
+3168,Africa,South Africa,2005,6.86,6.86
+3169,Europe,Bulgaria,2005,6.89,6.89
+3170,Europe,Israel,2005,6.9,6.9
+3171,Europe,Luxembourg,2005,7.12,7.12
+3172,Africa,Liberia,2005,7.14,7.14
+3174,Europe,Kyrgyzstan,2005,7.45,7.45
+3175,Americas,Honduras,2005,7.5,7.5
+3176,Eastern Mediterranean,Lebanon,2005,7.55,7.55
+3177,Africa,Burundi,2005,7.56,7.56
+3178,Americas,Argentina,2005,7.61,7.61
+3179,Europe,Ireland,2005,7.64,7.64
+3180,Western Pacific,Japan,2005,7.66,7.66
+3182,Africa,Rwanda,2005,7.73,7.73
+3183,Europe,Spain,2005,7.73,7.73
+3184,Americas,Uruguay,2005,7.76,7.76
+3185,Western Pacific,Australia,2005,7.97,7.97
+3186,Europe,Hungary,2005,7.98,7.98
+3187,Europe,Slovenia,2005,8.0,8.0
+3188,Americas,Brazil,2005,8.04,8.04
+3189,Europe,Georgia,2005,8.08,8.08
+3190,Europe,Sweden,2005,8.15,8.15
+3191,Western Pacific,New Zealand,2005,8.27,8.27
+3192,Europe,Serbia,2005,8.28,8.28
+3193,Europe,Finland,2005,8.29,8.29
+3194,Europe,Norway,2005,8.3,8.3
+3195,Europe,Italy,2005,8.34,8.34
+3196,Europe,United Kingdom of Great Britain and Northern Ireland,2005,8.36,8.36
+3197,Eastern Mediterranean,Jordan,2005,8.49,8.49
+3198,Europe,Greece,2005,8.56,8.56
+3199,Europe,Malta,2005,8.66,8.66
+3200,Americas,Cuba,2005,8.76,8.76
+3201,South-East Asia,Maldives,2005,8.83,8.83
+3202,Europe,Iceland,2005,8.95,8.95
+3203,Western Pacific,Solomon Islands,2005,9.02,9.02
+3204,Americas,Canada,2005,9.04,9.04
+3205,Africa,Sierra Leone,2005,9.04,9.04
+3206,Europe,Bosnia and Herzegovina,2005,9.05,9.05
+3207,Europe,Denmark,2005,9.09,9.09
+3209,Americas,El Salvador,2005,9.2,9.2
+3210,Europe,Belgium,2005,9.22,9.22
+3212,Europe,Republic of Moldova,2005,9.56,9.56
+3213,Europe,Austria,2005,9.63,9.63
+3214,Europe,Portugal,2005,9.65,9.65
+3215,Eastern Mediterranean,Afghanistan,2005,9.95,9.95
+3216,Americas,Venezuela (Bolivarian Republic of),2004,,
+3217,Africa,Equatorial Guinea,2004,1.45,1.45
+3218,Africa,Congo,2004,1.92,1.92
+3219,Africa,Namibia,2004,10.13,10.13
+3220,Europe,Germany,2004,10.15,10.15
+3221,Europe,France,2004,10.16,10.16
+3222,Europe,Switzerland,2004,10.23,10.23
+3223,Africa,Sao Tome and Principe,2004,11.92,11.92
+3224,Western Pacific,Micronesia (Federated States of),2004,12.03,12.03
+3225,Western Pacific,Kiribati,2004,12.43,12.43
+3226,Americas,United States of America,2004,14.55,14.55
+3229,South-East Asia,Bangladesh,2004,2.0,2.0
+3230,South-East Asia,Indonesia,2004,2.12,2.12
+3231,Eastern Mediterranean,Pakistan,2004,2.22,2.22
+3232,South-East Asia,Myanmar,2004,2.32,2.32
+3233,Eastern Mediterranean,Kuwait,2004,2.36,2.36
+3234,Eastern Mediterranean,United Arab Emirates,2004,2.46,2.46
+3235,Western Pacific,Brunei Darussalam,2004,2.55,2.55
+3236,Western Pacific,Papua New Guinea,2004,2.59,2.59
+3237,Eastern Mediterranean,Oman,2004,2.6,2.6
+3238,Europe,Azerbaijan,2004,2.66,2.66
+3239,Africa,Ghana,2004,2.76,2.76
+3240,Western Pacific,Malaysia,2004,2.86,2.86
+3241,Western Pacific,Philippines,2004,3.05,3.05
+3242,Africa,Togo,2004,3.09,3.09
+3243,South-East Asia,Thailand,2004,3.14,3.14
+3244,Western Pacific,Singapore,2004,3.15,3.15
+3245,Eastern Mediterranean,Qatar,2004,3.18,3.18
+3246,Africa,Benin,2004,3.23,3.23
+3247,Western Pacific,Fiji,2004,3.26,3.26
+3248,Africa,Mauritius,2004,3.32,3.32
+3249,Africa,Gabon,2004,3.33,3.33
+3250,Eastern Mediterranean,Libya,2004,3.38,3.38
+3252,Americas,Haiti,2004,3.43,3.43
+3253,Americas,Guyana,2004,3.44,3.44
+3254,Americas,Belize,2004,3.45,3.45
+3255,Eastern Mediterranean,Bahrain,2004,3.5,3.5
+3256,Africa,Algeria,2004,3.54,3.54
+3257,Eastern Mediterranean,Djibouti,2004,3.54,3.54
+3258,Western Pacific,Lao People's Democratic Republic,2004,3.54,3.54
+3259,Western Pacific,Vanuatu,2004,3.54,3.54
+3260,Eastern Mediterranean,Saudi Arabia,2004,3.58,3.58
+3261,Africa,Mozambique,2004,3.67,3.67
+3262,Africa,Mauritania,2004,3.7,3.7
+3263,Africa,Cameroon,2004,3.73,3.73
+3264,Americas,Saint Vincent and the Grenadines,2004,3.87,3.87
+3265,Eastern Mediterranean,Iraq,2004,3.9,3.9
+3266,South-East Asia,India,2004,3.96,3.96
+3267,Africa,Angola,2004,3.97,3.97
+3268,Europe,Kazakhstan,2004,3.98,3.98
+3269,South-East Asia,Sri Lanka,2004,4.04,4.04
+3270,Americas,Bahamas,2004,4.05,4.05
+3271,South-East Asia,Nepal,2004,4.05,4.05
+3272,Africa,Malawi,2004,4.07,4.07
+3273,Western Pacific,Viet Nam,2004,4.09,4.09
+3274,Western Pacific,Mongolia,2004,4.16,4.16
+3275,Eastern Mediterranean,Sudan,2004,4.16,4.16
+3276,Africa,Burkina Faso,2004,4.22,4.22
+3277,Eastern Mediterranean,Morocco,2004,4.23,4.23
+3278,Africa,Kenya,2004,4.24,4.24
+3279,South-East Asia,Timor-Leste,2004,4.26,4.26
+3280,Western Pacific,Republic of Korea,2004,4.27,4.27
+3281,Africa,Guinea-Bissau,2004,4.28,4.28
+3282,Western Pacific,China,2004,4.29,4.29
+3283,Americas,Dominican Republic,2004,4.29,4.29
+3284,Africa,Central African Republic,2004,4.3,4.3
+3285,Africa,Ethiopia,2004,4.31,4.31
+3286,Americas,Trinidad and Tobago,2004,4.31,4.31
+3287,Africa,Democratic Republic of the Congo,2004,4.34,4.34
+3288,Africa,Cabo Verde,2004,4.38,4.38
+3289,Americas,Peru,2004,4.43,4.43
+3290,Eastern Mediterranean,Syrian Arab Republic,2004,4.48,4.48
+3292,Western Pacific,Tonga,2004,4.51,4.51
+3294,Western Pacific,Samoa,2004,4.53,4.53
+3295,Africa,Senegal,2004,4.57,4.57
+3296,South-East Asia,Bhutan,2004,4.6,4.6
+3297,Africa,Nigeria,2004,4.63,4.63
+3298,Africa,Uganda,2004,4.7,4.7
+3300,Europe,Russian Federation,2004,4.76,4.76
+3301,Americas,Saint Lucia,2004,4.77,4.77
+3302,Africa,Guinea,2004,4.78,4.78
+3303,Americas,Jamaica,2004,4.8,4.8
+3304,Europe,Tajikistan,2004,4.8,4.8
+3305,Europe,Uzbekistan,2004,4.84,4.84
+3306,Americas,Bolivia (Plurinational State of),2004,4.86,4.86
+3307,Eastern Mediterranean,Egypt,2004,4.86,4.86
+3309,Africa,Seychelles,2004,4.9,4.9
+3311,Americas,Paraguay,2004,4.93,4.93
+3312,Africa,Niger,2004,4.98,4.98
+3313,Americas,Antigua and Barbuda,2004,5.12,5.12
+3314,Eastern Mediterranean,Iran (Islamic Republic of),2004,5.13,5.13
+3315,Eastern Mediterranean,Tunisia,2004,5.2,5.2
+3316,Africa,Mali,2004,5.22,5.22
+3317,Africa,Madagascar,2004,5.25,5.25
+3319,Europe,Estonia,2004,5.34,5.34
+3320,Americas,Grenada,2004,5.37,5.37
+3321,Europe,Cyprus,2004,5.41,5.41
+3322,Africa,Gambia,2004,5.42,5.42
+3323,Americas,Suriname,2004,5.46,5.46
+3325,Europe,Romania,2004,5.48,5.48
+3326,Africa,Zambia,2004,5.48,5.48
+3327,Africa,Chad,2004,5.5,5.5
+3328,Europe,Lithuania,2004,5.51,5.51
+3329,Eastern Mediterranean,Yemen,2004,5.51,5.51
+3330,Americas,Ecuador,2004,5.57,5.57
+3331,Europe,Belarus,2004,5.74,5.74
+3332,Africa,United Republic of Tanzania,2004,5.74,5.74
+3333,Americas,Colombia,2004,5.8,5.8
+3334,Europe,Poland,2004,5.87,5.87
+3335,Europe,Albania,2004,5.89,5.89
+3336,Americas,Mexico,2004,5.95,5.95
+3337,Europe,Armenia,2004,6.06,6.06
+3338,Africa,Lesotho,2004,6.06,6.06
+3339,Americas,Nicaragua,2004,6.06,6.06
+3340,Africa,Botswana,2004,6.09,6.09
+3341,Europe,Ukraine,2004,6.17,6.17
+3342,Europe,Kyrgyzstan,2004,6.2,6.2
+3343,Europe,Latvia,2004,6.2,6.2
+3344,Americas,Guatemala,2004,6.26,6.26
+3345,Europe,Turkmenistan,2004,6.26,6.26
+3346,Africa,Liberia,2004,6.34,6.34
+3347,Europe,Czechia,2004,6.35,6.35
+3348,Europe,Slovakia,2004,6.37,6.37
+3349,Europe,Croatia,2004,6.5,6.5
+3350,Africa,Comoros,2004,6.58,6.58
+3351,Americas,Costa Rica,2004,6.63,6.63
+3352,Europe,Israel,2004,6.8,6.8
+3354,Americas,Cuba,2004,6.83,6.83
+3355,Americas,Honduras,2004,6.85,6.85
+3357,Europe,Bulgaria,2004,6.89,6.89
+3358,Americas,Chile,2004,6.91,6.91
+3359,Africa,South Africa,2004,6.94,6.94
+3360,Africa,Eritrea,2004,7.01,7.01
+3361,Western Pacific,Cambodia,2004,7.08,7.08
+3362,Africa,Burundi,2004,7.1,7.1
+3363,Europe,Ireland,2004,7.22,7.22
+3364,Americas,Argentina,2004,7.23,7.23
+3365,Europe,Luxembourg,2004,7.28,7.28
+3366,Americas,Barbados,2004,7.31,7.31
+3367,Americas,Panama,2004,7.34,7.34
+3368,South-East Asia,Maldives,2004,7.48,7.48
+3369,Africa,Rwanda,2004,7.51,7.51
+3370,Western Pacific,Japan,2004,7.54,7.54
+3371,Europe,Spain,2004,7.66,7.66
+3372,Western Pacific,Solomon Islands,2004,7.72,7.72
+3373,Europe,Hungary,2004,7.76,7.76
+3374,Europe,Serbia,2004,7.84,7.84
+3375,Western Pacific,New Zealand,2004,7.9,7.9
+3376,Europe,Slovenia,2004,7.94,7.94
+3377,Eastern Mediterranean,Lebanon,2004,8.0,8.0
+3378,Europe,Malta,2004,8.05,8.05
+3379,Europe,Finland,2004,8.06,8.06
+3380,Western Pacific,Australia,2004,8.09,8.09
+3381,Europe,Georgia,2004,8.09,8.09
+3382,Europe,Greece,2004,8.09,8.09
+3383,Americas,Brazil,2004,8.12,8.12
+3384,Americas,El Salvador,2004,8.13,8.13
+3385,Europe,Sweden,2004,8.13,8.13
+3386,Europe,Italy,2004,8.17,8.17
+3387,Americas,Uruguay,2004,8.3,8.3
+3388,Europe,United Kingdom of Great Britain and Northern Ireland,2004,8.31,8.31
+3390,Africa,Sierra Leone,2004,8.67,8.67
+3391,Eastern Mediterranean,Jordan,2004,8.75,8.75
+3392,Europe,Norway,2004,8.8,8.8
+3393,Europe,Republic of Moldova,2004,8.97,8.97
+3394,Europe,Denmark,2004,9.01,9.01
+3395,Europe,Bosnia and Herzegovina,2004,9.06,9.06
+3396,Americas,Canada,2004,9.07,9.07
+3398,Europe,Belgium,2004,9.33,9.33
+3399,Europe,Iceland,2004,9.33,9.33
+3400,Europe,Portugal,2004,9.53,9.53
+3401,Europe,Austria,2004,9.71,9.71
+3402,Eastern Mediterranean,Afghanistan,2004,9.81,9.81
+3405,Americas,Venezuela (Bolivarian Republic of),2003,,
+3406,Africa,Equatorial Guinea,2003,1.83,1.83
+3407,Africa,Congo,2003,1.92,1.92
+3408,South-East Asia,Bangladesh,2003,1.96,1.96
+3409,Europe,France,2003,10.08,10.08
+3410,Europe,Switzerland,2003,10.14,10.14
+3411,Europe,Germany,2003,10.4,10.4
+3412,Western Pacific,Kiribati,2003,10.7,10.7
+3413,Africa,Sao Tome and Principe,2003,12.66,12.66
+3416,Americas,United States of America,2003,14.51,14.51
+3417,South-East Asia,Indonesia,2003,2.25,2.25
+3418,Eastern Mediterranean,Pakistan,2003,2.3,2.3
+3419,South-East Asia,Myanmar,2003,2.38,2.38
+3420,Western Pacific,Papua New Guinea,2003,2.45,2.45
+3421,Western Pacific,Brunei Darussalam,2003,2.6,2.6
+3422,Eastern Mediterranean,United Arab Emirates,2003,2.65,2.65
+3423,Africa,Liberia,2003,2.66,2.66
+3424,Europe,Azerbaijan,2003,2.73,2.73
+3425,Eastern Mediterranean,Kuwait,2003,2.76,2.76
+3426,Eastern Mediterranean,Oman,2003,2.78,2.78
+3427,Africa,Ghana,2003,2.83,2.83
+3428,South-East Asia,Timor-Leste,2003,2.84,2.84
+3429,Western Pacific,Malaysia,2003,2.92,2.92
+3430,Africa,Togo,2003,2.94,2.94
+3431,Western Pacific,Fiji,2003,2.97,2.97
+3432,Eastern Mediterranean,Iraq,2003,3.0,3.0
+3433,Western Pacific,Philippines,2003,3.08,3.08
+3434,Africa,Benin,2003,3.12,3.12
+3435,Africa,Burkina Faso,2003,3.14,3.14
+3436,Africa,Mauritius,2003,3.18,3.18
+3438,South-East Asia,Thailand,2003,3.24,3.24
+3439,Americas,Guyana,2003,3.27,3.27
+3440,Africa,Malawi,2003,3.32,3.32
+3441,Africa,Mozambique,2003,3.4,3.4
+3442,Western Pacific,Tonga,2003,3.44,3.44
+3443,Eastern Mediterranean,Qatar,2003,3.5,3.5
+3444,Western Pacific,Vanuatu,2003,3.51,3.51
+3445,Africa,Gabon,2003,3.53,3.53
+3446,Africa,Guinea-Bissau,2003,3.53,3.53
+3447,Americas,Haiti,2003,3.54,3.54
+3448,Africa,Angola,2003,3.55,3.55
+3449,Americas,Belize,2003,3.56,3.56
+3450,Africa,Algeria,2003,3.6,3.6
+3451,Western Pacific,Singapore,2003,3.61,3.61
+3452,South-East Asia,Sri Lanka,2003,3.65,3.65
+3453,Europe,Kazakhstan,2003,3.72,3.72
+3454,Africa,Democratic Republic of the Congo,2003,3.73,3.73
+3455,South-East Asia,Nepal,2003,3.86,3.86
+3456,Eastern Mediterranean,Bahrain,2003,3.89,3.89
+3457,Eastern Mediterranean,Sudan,2003,3.89,3.89
+3458,Africa,Cameroon,2003,3.9,3.9
+3459,Western Pacific,Viet Nam,2003,3.94,3.94
+3460,Americas,Saint Vincent and the Grenadines,2003,3.96,3.96
+3461,Eastern Mediterranean,Libya,2003,3.97,3.97
+3462,Eastern Mediterranean,Saudi Arabia,2003,3.98,3.98
+3463,South-East Asia,India,2003,4.01,4.01
+3464,Americas,Bahamas,2003,4.02,4.02
+3465,Africa,Mauritania,2003,4.03,4.03
+3466,Africa,Kenya,2003,4.06,4.06
+3467,Eastern Mediterranean,Morocco,2003,4.08,4.08
+3468,Western Pacific,Mongolia,2003,4.1,4.1
+3469,South-East Asia,Bhutan,2003,4.13,4.13
+3470,Western Pacific,Samoa,2003,4.17,4.17
+3471,Americas,Trinidad and Tobago,2003,4.19,4.19
+3472,Americas,Jamaica,2003,4.22,4.22
+3473,Eastern Mediterranean,Djibouti,2003,4.27,4.27
+3474,Western Pacific,Republic of Korea,2003,4.28,4.28
+3475,Africa,Senegal,2003,4.3,4.3
+3476,Africa,Uganda,2003,4.3,4.3
+3477,Americas,Dominican Republic,2003,4.39,4.39
+3478,Africa,Central African Republic,2003,4.4,4.4
+3479,Western Pacific,China,2003,4.42,4.42
+3481,Western Pacific,Lao People's Democratic Republic,2003,4.48,4.48
+3482,Africa,Cabo Verde,2003,4.5,4.5
+3483,Americas,Peru,2003,4.59,4.59
+3484,Europe,Tajikistan,2003,4.7,4.7
+3485,Africa,Niger,2003,4.75,4.75
+3488,Africa,Guinea,2003,4.78,4.78
+3490,Americas,Suriname,2003,4.89,4.89
+3491,Africa,Ethiopia,2003,4.9,4.9
+3492,Americas,Paraguay,2003,4.91,4.91
+3493,Eastern Mediterranean,Iran (Islamic Republic of),2003,4.96,4.96
+3494,Africa,Madagascar,2003,5.0,5.0
+3496,Europe,Turkmenistan,2003,5.04,5.04
+3497,Africa,Mali,2003,5.05,5.05
+3498,Africa,Nigeria,2003,5.05,5.05
+3499,Africa,Seychelles,2003,5.09,5.09
+3500,Eastern Mediterranean,Syrian Arab Republic,2003,5.12,5.12
+3501,Europe,Estonia,2003,5.14,5.14
+3502,Europe,Russian Federation,2003,5.16,5.16
+3503,Europe,Uzbekistan,2003,5.19,5.19
+3504,Americas,Bolivia (Plurinational State of),2003,5.2,5.2
+3505,Eastern Mediterranean,Tunisia,2003,5.21,5.21
+3506,Eastern Mediterranean,Egypt,2003,5.22,5.22
+3507,Americas,Saint Lucia,2003,5.24,5.24
+3508,Africa,Burundi,2003,5.27,5.27
+3509,Americas,Grenada,2003,5.28,5.28
+3510,Africa,Gambia,2003,5.33,5.33
+3511,Africa,United Republic of Tanzania,2003,5.34,5.34
+3512,Europe,Romania,2003,5.37,5.37
+3513,Americas,Ecuador,2003,5.44,5.44
+3514,Europe,Slovakia,2003,5.45,5.45
+3516,Europe,Latvia,2003,5.48,5.48
+3517,Africa,Chad,2003,5.51,5.51
+3519,Americas,Antigua and Barbuda,2003,5.58,5.58
+3520,Europe,Cyprus,2003,5.64,5.64
+3521,Eastern Mediterranean,Yemen,2003,5.76,5.76
+3522,Europe,Belarus,2003,5.77,5.77
+3523,Americas,Colombia,2003,5.78,5.78
+3524,Americas,Mexico,2003,5.81,5.81
+3525,Europe,Kyrgyzstan,2003,5.82,5.82
+3526,Europe,Albania,2003,5.91,5.91
+3527,Europe,Poland,2003,5.95,5.95
+3528,Africa,Zambia,2003,6.0,6.0
+3529,Africa,Lesotho,2003,6.05,6.05
+3530,Americas,Nicaragua,2003,6.08,6.08
+3531,Americas,Guatemala,2003,6.15,6.15
+3532,Europe,Lithuania,2003,6.19,6.19
+3533,Europe,Croatia,2003,6.3,6.3
+3535,Africa,Botswana,2003,6.41,6.41
+3536,Europe,Czechia,2003,6.52,6.52
+3537,Europe,Ukraine,2003,6.55,6.55
+3538,Africa,Comoros,2003,6.65,6.65
+3539,Americas,Barbados,2003,6.69,6.69
+3540,South-East Asia,Maldives,2003,6.78,6.78
+3541,Europe,Israel,2003,6.86,6.86
+3542,Americas,Argentina,2003,6.89,6.89
+3543,Americas,Honduras,2003,6.89,6.89
+3544,Africa,Rwanda,2003,6.93,6.93
+3545,Western Pacific,Cambodia,2003,6.94,6.94
+3546,Europe,Luxembourg,2003,6.96,6.96
+3547,Americas,Panama,2003,6.96,6.96
+3548,Americas,Costa Rica,2003,6.97,6.97
+3549,Europe,Ireland,2003,7.01,7.01
+3550,Europe,Republic of Moldova,2003,7.02,7.02
+3551,Africa,South Africa,2003,7.04,7.04
+3552,Western Pacific,Solomon Islands,2003,7.08,7.08
+3553,Americas,Cuba,2003,7.1,7.1
+3554,Europe,Armenia,2003,7.18,7.18
+3555,Europe,Bulgaria,2003,7.2,7.2
+3556,Americas,Chile,2003,7.25,7.25
+3557,Africa,Eritrea,2003,7.34,7.34
+3558,Western Pacific,Japan,2003,7.49,7.49
+3559,Europe,Spain,2003,7.56,7.56
+3560,Europe,Serbia,2003,7.67,7.67
+3561,Western Pacific,New Zealand,2003,7.72,7.72
+3562,Americas,El Salvador,2003,7.77,7.77
+3563,Europe,Italy,2003,7.83,7.83
+3564,Western Pacific,Australia,2003,7.88,7.88
+3565,Europe,Malta,2003,7.9,7.9
+3566,Europe,Finland,2003,7.94,7.94
+3567,Europe,Georgia,2003,8.03,8.03
+3568,Europe,United Kingdom of Great Britain and Northern Ireland,2003,8.06,8.06
+3569,Europe,Slovenia,2003,8.1,8.1
+3570,Europe,Hungary,2003,8.12,8.12
+3571,Americas,Brazil,2003,8.19,8.19
+3572,Europe,Bosnia and Herzegovina,2003,8.31,8.31
+3573,Europe,Sweden,2003,8.32,8.32
+3574,Europe,Greece,2003,8.45,8.45
+3575,Africa,Sierra Leone,2003,8.45,8.45
+3576,Eastern Mediterranean,Lebanon,2003,8.67,8.67
+3577,Eastern Mediterranean,Jordan,2003,8.79,8.79
+3578,Europe,Denmark,2003,8.9,8.9
+3579,Eastern Mediterranean,Afghanistan,2003,8.94,8.94
+3581,Americas,Canada,2003,9.01,9.01
+3584,Europe,Portugal,2003,9.12,9.12
+3585,Europe,Belgium,2003,9.16,9.16
+3586,Europe,Norway,2003,9.19,9.19
+3588,Europe,Austria,2003,9.55,9.55
+3589,Western Pacific,Micronesia (Federated States of),2003,9.57,9.57
+3590,Americas,Uruguay,2003,9.62,9.62
+3591,Europe,Iceland,2003,9.73,9.73
+3592,Africa,Namibia,2003,9.91,9.91
+3594,Americas,Venezuela (Bolivarian Republic of),2002,,
+3595,Africa,Congo,2002,1.7,1.7
+3596,South-East Asia,Bangladesh,2002,1.93,1.93
+3597,South-East Asia,Indonesia,2002,1.98,1.98
+3598,Europe,France,2002,10.02,10.02
+3599,Western Pacific,Solomon Islands,2002,10.1,10.1
+3600,Europe,Germany,2002,10.18,10.18
+3601,Africa,Sao Tome and Principe,2002,10.7,10.7
+3603,Western Pacific,Kiribati,2002,11.87,11.87
+3607,Americas,United States of America,2002,14.0,14.0
+3608,Africa,Liberia,2002,2.28,2.28
+3609,Eastern Mediterranean,Qatar,2002,2.46,2.46
+3610,Africa,Nigeria,2002,2.49,2.49
+3611,Western Pacific,Brunei Darussalam,2002,2.53,2.53
+3612,Africa,Democratic Republic of the Congo,2002,2.57,2.57
+3613,South-East Asia,Myanmar,2002,2.58,2.58
+3614,Western Pacific,Philippines,2002,2.64,2.64
+3615,Eastern Mediterranean,Pakistan,2002,2.66,2.66
+3616,Western Pacific,Malaysia,2002,2.67,2.67
+3617,Africa,Malawi,2002,2.7,2.7
+3618,Eastern Mediterranean,United Arab Emirates,2002,2.72,2.72
+3619,Europe,Azerbaijan,2002,2.73,2.73
+3620,Africa,Equatorial Guinea,2002,2.75,2.75
+3621,Eastern Mediterranean,Oman,2002,2.78,2.78
+3622,Western Pacific,Papua New Guinea,2002,2.78,2.78
+3623,Africa,Ghana,2002,2.89,2.89
+3624,Africa,Togo,2002,2.9,2.9
+3625,Africa,Burkina Faso,2002,2.97,2.97
+3626,Western Pacific,Fiji,2002,2.98,2.98
+3627,Africa,Benin,2002,3.1,3.1
+3628,Eastern Mediterranean,Kuwait,2002,3.12,3.12
+3629,Africa,Rwanda,2002,3.13,3.13
+3630,Americas,Guyana,2002,3.19,3.19
+3631,Africa,Mauritius,2002,3.19,3.19
+3632,Africa,Mozambique,2002,3.28,3.28
+3633,Eastern Mediterranean,Sudan,2002,3.3,3.3
+3634,Africa,Gabon,2002,3.32,3.32
+3635,Africa,Angola,2002,3.33,3.33
+3636,South-East Asia,Thailand,2002,3.33,3.33
+3637,Western Pacific,Singapore,2002,3.36,3.36
+3638,Americas,Haiti,2002,3.43,3.43
+3640,Americas,Belize,2002,3.59,3.59
+3641,Western Pacific,Tonga,2002,3.59,3.59
+3642,Europe,Kazakhstan,2002,3.61,3.61
+3643,Eastern Mediterranean,Bahrain,2002,3.68,3.68
+3644,Western Pacific,Lao People's Democratic Republic,2002,3.7,3.7
+3645,Africa,Algeria,2002,3.73,3.73
+3646,Eastern Mediterranean,Djibouti,2002,3.76,3.76
+3647,Americas,Bahamas,2002,3.81,3.81
+3649,Africa,Kenya,2002,3.85,3.85
+3650,Western Pacific,Viet Nam,2002,3.87,3.87
+3651,Western Pacific,Vanuatu,2002,3.9,3.9
+3652,South-East Asia,Nepal,2002,3.94,3.94
+3653,Africa,Senegal,2002,3.95,3.95
+3654,Africa,Guinea-Bissau,2002,3.97,3.97
+3655,Africa,Mauritania,2002,4.0,4.0
+3656,Western Pacific,Republic of Korea,2002,4.01,4.01
+3657,Africa,Cameroon,2002,4.03,4.03
+3658,South-East Asia,Sri Lanka,2002,4.04,4.04
+3659,Eastern Mediterranean,Morocco,2002,4.06,4.06
+3660,Americas,Saint Vincent and the Grenadines,2002,4.08,4.08
+3661,Europe,Turkmenistan,2002,4.16,4.16
+3662,Africa,Central African Republic,2002,4.23,4.23
+3663,South-East Asia,India,2002,4.24,4.24
+3664,Eastern Mediterranean,Saudi Arabia,2002,4.25,4.25
+3665,Africa,Seychelles,2002,4.35,4.35
+3666,Western Pacific,China,2002,4.38,4.38
+3667,Europe,Tajikistan,2002,4.44,4.44
+3669,Americas,Ecuador,2002,4.48,4.48
+3670,Western Pacific,Samoa,2002,4.49,4.49
+3671,Europe,Romania,2002,4.58,4.58
+3672,Europe,Kyrgyzstan,2002,4.59,4.59
+3673,South-East Asia,Bhutan,2002,4.6,4.6
+3675,Eastern Mediterranean,Iran (Islamic Republic of),2002,4.65,4.65
+3676,Africa,United Republic of Tanzania,2002,4.69,4.69
+3677,Europe,Estonia,2002,4.7,4.7
+3678,Africa,Ethiopia,2002,4.71,4.71
+3679,Americas,Trinidad and Tobago,2002,4.72,4.72
+3680,Eastern Mediterranean,Libya,2002,4.74,4.74
+3681,Americas,Jamaica,2002,4.75,4.75
+3682,Africa,Cabo Verde,2002,4.76,4.76
+3683,Americas,Paraguay,2002,4.76,4.76
+3684,Africa,Uganda,2002,4.77,4.77
+3685,Africa,Niger,2002,4.83,4.83
+3686,Eastern Mediterranean,Yemen,2002,4.83,4.83
+3687,Americas,Bolivia (Plurinational State of),2002,4.9,4.9
+3688,Africa,Madagascar,2002,4.93,4.93
+3689,Americas,Peru,2002,4.94,4.94
+3690,Eastern Mediterranean,Syrian Arab Republic,2002,4.95,4.95
+3691,Americas,Dominican Republic,2002,4.99,4.99
+3692,Africa,Mali,2002,5.0,5.0
+3694,Americas,Mexico,2002,5.07,5.07
+3695,Eastern Mediterranean,Tunisia,2002,5.12,5.12
+3696,Europe,Uzbekistan,2002,5.14,5.14
+3697,Western Pacific,Mongolia,2002,5.19,5.19
+3698,Americas,Antigua and Barbuda,2002,5.29,5.29
+3699,Americas,Suriname,2002,5.33,5.33
+3700,Africa,Burundi,2002,5.35,5.35
+3701,Africa,Guinea,2002,5.36,5.36
+3702,Americas,Saint Lucia,2002,5.39,5.39
+3704,Eastern Mediterranean,Egypt,2002,5.51,5.51
+3705,Europe,Slovakia,2002,5.51,5.51
+3707,Europe,Russian Federation,2002,5.52,5.52
+3708,Europe,Belarus,2002,5.62,5.62
+3709,Europe,Cyprus,2002,5.62,5.62
+3710,Europe,Albania,2002,5.66,5.66
+3711,Americas,Colombia,2002,5.73,5.73
+3712,Americas,Nicaragua,2002,5.73,5.73
+3713,Europe,Latvia,2002,5.76,5.76
+3714,Americas,Barbados,2002,5.86,5.86
+3715,Africa,Zambia,2002,5.89,5.89
+3717,Europe,Ukraine,2002,5.99,5.99
+3719,Americas,Guatemala,2002,6.01,6.01
+3720,Europe,Poland,2002,6.07,6.07
+3721,Europe,Croatia,2002,6.14,6.14
+3722,Europe,Lithuania,2002,6.14,6.14
+3723,Europe,Czechia,2002,6.18,6.18
+3724,Americas,Grenada,2002,6.18,6.18
+3725,Americas,Honduras,2002,6.24,6.24
+3726,Africa,Gambia,2002,6.28,6.28
+3727,Africa,Lesotho,2002,6.54,6.54
+3728,Africa,Botswana,2002,6.67,6.67
+3729,Europe,Ireland,2002,6.67,6.67
+3730,Africa,Comoros,2002,6.68,6.68
+3731,Africa,South Africa,2002,6.68,6.68
+3732,Africa,Eritrea,2002,6.69,6.69
+3733,Europe,Luxembourg,2002,6.76,6.76
+3734,Europe,Spain,2002,6.8,6.8
+3735,Americas,Costa Rica,2002,6.87,6.87
+3736,Europe,Israel,2002,6.92,6.92
+3737,Europe,Bulgaria,2002,7.08,7.08
+3738,Americas,Cuba,2002,7.11,7.11
+3739,Europe,Hungary,2002,7.12,7.12
+3740,Americas,Chile,2002,7.21,7.21
+3741,Western Pacific,Cambodia,2002,7.23,7.23
+3742,Africa,Chad,2002,7.27,7.27
+3743,Americas,Panama,2002,7.31,7.31
+3744,Western Pacific,Japan,2002,7.35,7.35
+3745,Americas,Argentina,2002,7.39,7.39
+3746,Europe,Republic of Moldova,2002,7.4,7.4
+3747,Europe,Bosnia and Herzegovina,2002,7.43,7.43
+3748,Europe,Serbia,2002,7.59,7.59
+3749,Europe,Armenia,2002,7.61,7.61
+3750,Europe,Finland,2002,7.63,7.63
+3751,Europe,United Kingdom of Great Britain and Northern Ireland,2002,7.65,7.65
+3752,Europe,Malta,2002,7.71,7.71
+3753,Europe,Georgia,2002,7.81,7.81
+3754,Europe,Italy,2002,7.87,7.87
+3755,Western Pacific,Australia,2002,7.88,7.88
+3756,Americas,El Salvador,2002,7.89,7.89
+3757,Western Pacific,Micronesia (Federated States of),2002,7.9,7.9
+3758,Western Pacific,New Zealand,2002,7.9,7.9
+3760,Europe,Slovenia,2002,8.02,8.02
+3761,Europe,Sweden,2002,8.21,8.21
+3762,Europe,Greece,2002,8.23,8.23
+3763,Europe,Belgium,2002,8.32,8.32
+3765,Americas,Brazil,2002,8.7,8.7
+3766,Europe,Denmark,2002,8.7,8.7
+3767,South-East Asia,Maldives,2002,8.78,8.78
+3768,Europe,Portugal,2002,8.79,8.79
+3769,Americas,Canada,2002,8.86,8.86
+3771,Europe,Norway,2002,8.98,8.98
+3772,Eastern Mediterranean,Jordan,2002,9.28,9.28
+3773,Eastern Mediterranean,Lebanon,2002,9.28,9.28
+3774,Europe,Austria,2002,9.39,9.39
+3775,Europe,Iceland,2002,9.4,9.4
+3776,Africa,Sierra Leone,2002,9.4,9.4
+3777,Eastern Mediterranean,Afghanistan,2002,9.44,9.44
+3778,Africa,Namibia,2002,9.68,9.68
+3779,Americas,Uruguay,2002,9.68,9.68
+3780,Europe,Switzerland,2002,9.88,9.88
+3781,Americas,Venezuela (Bolivarian Republic of),2001,,
+3782,Africa,Equatorial Guinea,2001,1.2,1.2
+3783,South-East Asia,Bangladesh,2001,1.77,1.77
+3784,Eastern Mediterranean,Lebanon,2001,10.56,10.56
+3785,Africa,Sao Tome and Principe,2001,10.84,10.84
+3786,Western Pacific,Kiribati,2001,12.3,12.3
+3787,Americas,United States of America,2001,13.17,13.17
+3791,Africa,Malawi,2001,2.06,2.06
+3792,South-East Asia,Indonesia,2001,2.12,2.12
+3793,South-East Asia,Myanmar,2001,2.15,2.15
+3794,Africa,Congo,2001,2.19,2.19
+3795,Africa,Liberia,2001,2.28,2.28
+3796,Western Pacific,Papua New Guinea,2001,2.3,2.3
+3797,Eastern Mediterranean,Qatar,2001,2.32,2.32
+3798,Eastern Mediterranean,United Arab Emirates,2001,2.48,2.48
+3799,Western Pacific,Brunei Darussalam,2001,2.55,2.55
+3800,Eastern Mediterranean,Pakistan,2001,2.55,2.55
+3801,Africa,Democratic Republic of the Congo,2001,2.62,2.62
+3802,Western Pacific,Malaysia,2001,2.68,2.68
+3803,Eastern Mediterranean,Oman,2001,2.7,2.7
+3804,Europe,Azerbaijan,2001,2.77,2.77
+3805,Western Pacific,Philippines,2001,2.85,2.85
+3806,Africa,Mozambique,2001,2.88,2.88
+3807,Africa,Burkina Faso,2001,2.89,2.89
+3808,Africa,Togo,2001,2.89,2.89
+3809,Western Pacific,Fiji,2001,2.91,2.91
+3810,Africa,Mauritius,2001,2.92,2.92
+3811,South-East Asia,Thailand,2001,3.03,3.03
+3812,Americas,Guyana,2001,3.06,3.06
+3813,Africa,Gabon,2001,3.15,3.15
+3814,Western Pacific,Singapore,2001,3.16,3.16
+3815,Africa,Ghana,2001,3.17,3.17
+3816,Eastern Mediterranean,Kuwait,2001,3.19,3.19
+3817,Africa,Nigeria,2001,3.19,3.19
+3818,Eastern Mediterranean,Djibouti,2001,3.2,3.2
+3820,Africa,Benin,2001,3.3,3.3
+3821,Africa,Rwanda,2001,3.32,3.32
+3822,Eastern Mediterranean,Sudan,2001,3.36,3.36
+3823,Western Pacific,Vanuatu,2001,3.39,3.39
+3824,Western Pacific,Tonga,2001,3.43,3.43
+3825,Europe,Kazakhstan,2001,3.47,3.47
+3826,Eastern Mediterranean,Bahrain,2001,3.49,3.49
+3827,Americas,Belize,2001,3.49,3.49
+3828,Africa,Mauritania,2001,3.57,3.57
+3829,Africa,Senegal,2001,3.68,3.68
+3830,Americas,Haiti,2001,3.75,3.75
+3832,Americas,Ecuador,2001,3.76,3.76
+3833,Africa,Kenya,2001,3.77,3.77
+3834,South-East Asia,Nepal,2001,3.81,3.81
+3835,Eastern Mediterranean,Morocco,2001,3.82,3.82
+3836,Western Pacific,Samoa,2001,3.82,3.82
+3837,Americas,Suriname,2001,3.82,3.82
+3838,Africa,Algeria,2001,3.84,3.84
+3839,Africa,Cameroon,2001,3.88,3.88
+3840,Americas,Bahamas,2001,3.92,3.92
+3841,Eastern Mediterranean,Libya,2001,3.93,3.93
+3842,Africa,Central African Republic,2001,3.96,3.96
+3844,Americas,Saint Vincent and the Grenadines,2001,4.0,4.0
+3845,Americas,Trinidad and Tobago,2001,4.03,4.03
+3846,South-East Asia,Sri Lanka,2001,4.06,4.06
+3847,Africa,Madagascar,2001,4.12,4.12
+3848,Africa,United Republic of Tanzania,2001,4.24,4.24
+3849,Western Pacific,China,2001,4.25,4.25
+3850,South-East Asia,India,2001,4.26,4.26
+3851,Europe,Kyrgyzstan,2001,4.28,4.28
+3852,Western Pacific,Lao People's Democratic Republic,2001,4.29,4.29
+3853,Western Pacific,Republic of Korea,2001,4.3,4.3
+3854,Europe,Romania,2001,4.38,4.38
+3856,Eastern Mediterranean,Saudi Arabia,2001,4.46,4.46
+3857,Africa,Angola,2001,4.48,4.48
+3858,Africa,Mali,2001,4.52,4.52
+3859,Africa,Guinea-Bissau,2001,4.53,4.53
+3860,Europe,Tajikistan,2001,4.58,4.58
+3861,Europe,Armenia,2001,4.65,4.65
+3863,Eastern Mediterranean,Syrian Arab Republic,2001,4.7,4.7
+3864,Africa,Ethiopia,2001,4.72,4.72
+3865,Americas,Peru,2001,4.72,4.72
+3866,Africa,Niger,2001,4.73,4.73
+3867,Africa,Cabo Verde,2001,4.75,4.75
+3868,Europe,Estonia,2001,4.78,4.78
+3869,Western Pacific,Viet Nam,2001,4.8,4.8
+3870,Americas,Mexico,2001,4.82,4.82
+3871,Europe,Turkmenistan,2001,4.82,4.82
+3872,Americas,Bolivia (Plurinational State of),2001,4.83,4.83
+3873,Africa,Zambia,2001,4.83,4.83
+3874,Eastern Mediterranean,Tunisia,2001,4.86,4.86
+3875,Americas,Dominican Republic,2001,4.88,4.88
+3876,Africa,Guinea,2001,4.89,4.89
+3878,Eastern Mediterranean,Yemen,2001,4.95,4.95
+3879,South-East Asia,Bhutan,2001,5.0,5.0
+3880,Africa,Seychelles,2001,5.02,5.02
+3881,Western Pacific,Mongolia,2001,5.05,5.05
+3882,Africa,Uganda,2001,5.05,5.05
+3883,Americas,Saint Lucia,2001,5.12,5.12
+3885,Eastern Mediterranean,Iran (Islamic Republic of),2001,5.16,5.16
+3886,Americas,Jamaica,2001,5.16,5.16
+3887,Europe,Russian Federation,2001,5.24,5.24
+3888,Europe,Uzbekistan,2001,5.24,5.24
+3889,Africa,Chad,2001,5.29,5.29
+3890,Europe,Slovakia,2001,5.33,5.33
+3891,Europe,Cyprus,2001,5.34,5.34
+3892,Eastern Mediterranean,Egypt,2001,5.4,5.4
+3893,Americas,Antigua and Barbuda,2001,5.44,5.44
+3894,Americas,Nicaragua,2001,5.48,5.48
+3895,Americas,Barbados,2001,5.53,5.53
+3896,Americas,Paraguay,2001,5.61,5.61
+3897,Americas,Grenada,2001,5.62,5.62
+3898,Africa,Gambia,2001,5.64,5.64
+3900,Europe,Poland,2001,5.67,5.67
+3901,Africa,Burundi,2001,5.68,5.68
+3902,Europe,Belarus,2001,5.71,5.71
+3903,Europe,Ukraine,2001,5.73,5.73
+3904,Europe,Latvia,2001,5.77,5.77
+3906,Europe,Czechia,2001,5.86,5.86
+3907,Africa,Eritrea,2001,5.92,5.92
+3908,Europe,Albania,2001,5.93,5.93
+3909,Americas,Honduras,2001,5.93,5.93
+3910,Americas,Colombia,2001,5.94,5.94
+3911,Europe,Lithuania,2001,6.01,6.01
+3913,Americas,Guatemala,2001,6.07,6.07
+3914,Europe,Republic of Moldova,2001,6.23,6.23
+3915,Africa,Botswana,2001,6.37,6.37
+3916,Europe,Luxembourg,2001,6.38,6.38
+3917,Europe,Ireland,2001,6.39,6.39
+3918,Americas,Costa Rica,2001,6.47,6.47
+3919,Europe,Serbia,2001,6.5,6.5
+3920,Western Pacific,Solomon Islands,2001,6.61,6.61
+3921,Africa,Comoros,2001,6.65,6.65
+3922,Europe,Spain,2001,6.77,6.77
+3923,Europe,Hungary,2001,6.83,6.83
+3924,Europe,Bulgaria,2001,6.86,6.86
+3925,Americas,Cuba,2001,6.98,6.98
+3926,Europe,Malta,2001,7.0,7.0
+3927,Western Pacific,Cambodia,2001,7.01,7.01
+3928,Europe,Israel,2001,7.02,7.02
+3929,Americas,Chile,2001,7.1,7.1
+3930,Africa,South Africa,2001,7.12,7.12
+3931,Europe,Croatia,2001,7.17,7.17
+3932,Europe,Georgia,2001,7.17,7.17
+3933,Americas,Panama,2001,7.17,7.17
+3934,Western Pacific,Japan,2001,7.24,7.24
+3935,Europe,Finland,2001,7.25,7.25
+3936,Africa,Lesotho,2001,7.28,7.28
+3937,Europe,United Kingdom of Great Britain and Northern Ireland,2001,7.34,7.34
+3938,Western Pacific,New Zealand,2001,7.58,7.58
+3939,Europe,Bosnia and Herzegovina,2001,7.61,7.61
+3940,Western Pacific,Australia,2001,7.68,7.68
+3941,Europe,Italy,2001,7.74,7.74
+3943,Europe,Slovenia,2001,7.88,7.88
+3944,Americas,El Salvador,2001,7.89,7.89
+3945,Europe,Sweden,2001,7.9,7.9
+3946,Europe,Greece,2001,7.99,7.99
+3947,Europe,Norway,2001,8.01,8.01
+3949,Europe,Belgium,2001,8.15,8.15
+3950,South-East Asia,Maldives,2001,8.21,8.21
+3951,Americas,Argentina,2001,8.37,8.37
+3952,Africa,Sierra Leone,2001,8.37,8.37
+3954,Europe,Denmark,2001,8.45,8.45
+3955,Western Pacific,Micronesia (Federated States of),2001,8.45,8.45
+3956,Americas,Brazil,2001,8.55,8.55
+3957,Americas,Canada,2001,8.62,8.62
+3958,Europe,Portugal,2001,8.63,8.63
+3959,Europe,Iceland,2001,8.75,8.75
+3960,Europe,Austria,2001,9.27,9.27
+3961,Europe,Switzerland,2001,9.46,9.46
+3962,Eastern Mediterranean,Jordan,2001,9.57,9.57
+3963,Africa,Namibia,2001,9.64,9.64
+3964,Europe,France,2001,9.71,9.71
+3965,Americas,Uruguay,2001,9.8,9.8
+3966,Europe,Germany,2001,9.92,9.92
+3967,Americas,Venezuela (Bolivarian Republic of),2000,,
+3968,Africa,Equatorial Guinea,2000,1.11,1.11
+3969,Africa,Democratic Republic of the Congo,2000,1.47,1.47
+3970,Africa,Congo,2000,1.51,1.51
+3971,South-East Asia,Bangladesh,2000,1.81,1.81
+3972,South-East Asia,Indonesia,2000,1.85,1.85
+3973,Africa,Angola,2000,1.91,1.91
+3974,Eastern Mediterranean,Qatar,2000,1.97,1.97
+3975,Africa,Sao Tome and Principe,2000,10.52,10.52
+3976,Eastern Mediterranean,Lebanon,2000,10.83,10.83
+3977,Americas,United States of America,2000,12.49,12.49
+3980,South-East Asia,Myanmar,2000,2.0,2.0
+3981,Western Pacific,Papua New Guinea,2000,2.02,2.02
+3982,Africa,Mozambique,2000,2.19,2.19
+3983,Eastern Mediterranean,Kuwait,2000,2.2,2.2
+3984,Africa,Malawi,2000,2.35,2.35
+3985,Eastern Mediterranean,United Arab Emirates,2000,2.37,2.37
+3986,Western Pacific,Malaysia,2000,2.51,2.51
+3987,Western Pacific,Brunei Darussalam,2000,2.55,2.55
+3988,Eastern Mediterranean,Oman,2000,2.68,2.68
+3989,Eastern Mediterranean,Pakistan,2000,2.71,2.71
+3990,Africa,Ghana,2000,2.79,2.79
+3991,Africa,Togo,2000,2.79,2.79
+3992,Africa,Mauritius,2000,2.86,2.86
+3993,Africa,Liberia,2000,2.88,2.88
+3994,Africa,Gabon,2000,2.9,2.9
+3995,Western Pacific,Tonga,2000,2.9,2.9
+3996,Europe,Azerbaijan,2000,2.95,2.95
+3997,Africa,Burkina Faso,2000,2.95,2.95
+3998,Africa,Benin,2000,2.96,2.96
+3999,Americas,Belize,2000,2.98,2.98
+4002,Western Pacific,Philippines,2000,3.06,3.06
+4003,South-East Asia,Thailand,2000,3.1,3.1
+4004,South-East Asia,Nepal,2000,3.13,3.13
+4005,Americas,Guyana,2000,3.19,3.19
+4006,Africa,Nigeria,2000,3.2,3.2
+4007,Western Pacific,Vanuatu,2000,3.31,3.31
+4008,Eastern Mediterranean,Libya,2000,3.32,3.32
+4009,Americas,Ecuador,2000,3.33,3.33
+4010,Eastern Mediterranean,Bahrain,2000,3.34,3.34
+4011,Western Pacific,Singapore,2000,3.34,3.34
+4012,Africa,Mauritania,2000,3.38,3.38
+4013,Eastern Mediterranean,Djibouti,2000,3.4,3.4
+4014,Western Pacific,Fiji,2000,3.42,3.42
+4015,Africa,United Republic of Tanzania,2000,3.42,3.42
+4016,Africa,Algeria,2000,3.49,3.49
+4017,Africa,Senegal,2000,3.55,3.55
+4018,Africa,Rwanda,2000,3.58,3.58
+4019,Eastern Mediterranean,Sudan,2000,3.61,3.61
+4020,Africa,Kenya,2000,3.63,3.63
+4021,Eastern Mediterranean,Morocco,2000,3.69,3.69
+4023,Americas,Bahamas,2000,3.8,3.8
+4024,Western Pacific,Republic of Korea,2000,3.86,3.86
+4025,Americas,Saint Vincent and the Grenadines,2000,3.98,3.98
+4026,Americas,Haiti,2000,3.99,3.99
+4027,Africa,Madagascar,2000,3.99,3.99
+4028,South-East Asia,India,2000,4.03,4.03
+4029,Europe,Turkmenistan,2000,4.08,4.08
+4030,Africa,Cameroon,2000,4.11,4.11
+4031,South-East Asia,Sri Lanka,2000,4.11,4.11
+4032,Western Pacific,Viet Nam,2000,4.11,4.11
+4033,Europe,Kazakhstan,2000,4.16,4.16
+4034,Africa,Zambia,2000,4.17,4.17
+4035,Africa,Guinea-Bissau,2000,4.19,4.19
+4036,Europe,Armenia,2000,4.2,4.2
+4037,Europe,Romania,2000,4.21,4.21
+4038,Eastern Mediterranean,Saudi Arabia,2000,4.21,4.21
+4039,Africa,Burundi,2000,4.22,4.22
+4040,Americas,Trinidad and Tobago,2000,4.23,4.23
+4041,Europe,Tajikistan,2000,4.26,4.26
+4042,Africa,Central African Republic,2000,4.27,4.27
+4043,Western Pacific,Lao People's Democratic Republic,2000,4.28,4.28
+4044,Western Pacific,Samoa,2000,4.28,4.28
+4045,Africa,Ethiopia,2000,4.37,4.37
+4046,Americas,Bolivia (Plurinational State of),2000,4.4,4.4
+4047,Europe,Kyrgyzstan,2000,4.41,4.41
+4048,Americas,Peru,2000,4.41,4.41
+4049,Africa,Cabo Verde,2000,4.43,4.43
+4050,South-East Asia,Bhutan,2000,4.45,4.45
+4051,Americas,Mexico,2000,4.45,4.45
+4052,Western Pacific,China,2000,4.51,4.51
+4053,Eastern Mediterranean,Syrian Arab Republic,2000,4.55,4.55
+4056,Africa,Seychelles,2000,4.61,4.61
+4057,Africa,Niger,2000,4.66,4.66
+4058,Eastern Mediterranean,Yemen,2000,4.67,4.67
+4059,Americas,Antigua and Barbuda,2000,4.72,4.72
+4060,Eastern Mediterranean,Iran (Islamic Republic of),2000,4.72,4.72
+4061,Africa,Guinea,2000,4.75,4.75
+4063,Eastern Mediterranean,Tunisia,2000,4.81,4.81
+4064,Western Pacific,Solomon Islands,2000,4.83,4.83
+4065,Americas,Saint Lucia,2000,4.87,4.87
+4066,Americas,Dominican Republic,2000,4.88,4.88
+4067,Eastern Mediterranean,Egypt,2000,4.92,4.92
+4068,Europe,Russian Federation,2000,5.02,5.02
+4069,Africa,Uganda,2000,5.08,5.08
+4070,Europe,Uzbekistan,2000,5.12,5.12
+4071,Europe,Estonia,2000,5.17,5.17
+4072,Americas,Nicaragua,2000,5.24,5.24
+4073,Europe,Belarus,2000,5.28,5.28
+4074,Europe,Poland,2000,5.29,5.29
+4075,Europe,Slovakia,2000,5.3,5.3
+4076,Europe,Cyprus,2000,5.31,5.31
+4077,Europe,Ukraine,2000,5.31,5.31
+4079,Americas,Barbados,2000,5.33,5.33
+4080,Americas,Grenada,2000,5.36,5.36
+4081,Americas,Guatemala,2000,5.4,5.4
+4082,Europe,Latvia,2000,5.43,5.43
+4083,Africa,Chad,2000,5.46,5.46
+4084,Africa,Mali,2000,5.47,5.47
+4085,Africa,Lesotho,2000,5.61,5.61
+4086,Americas,Colombia,2000,5.64,5.64
+4087,Americas,Jamaica,2000,5.64,5.64
+4088,Europe,Czechia,2000,5.7,5.7
+4089,Western Pacific,Mongolia,2000,5.7,5.7
+4090,Africa,Eritrea,2000,5.77,5.77
+4092,Europe,Bulgaria,2000,5.83,5.83
+4093,Americas,Suriname,2000,5.87,5.87
+4094,Europe,Ireland,2000,5.9,5.9
+4095,Europe,Luxembourg,2000,5.93,5.93
+4096,Europe,Republic of Moldova,2000,5.93,5.93
+4097,Europe,Albania,2000,5.94,5.94
+4099,Americas,Paraguay,2000,6.02,6.02
+4100,Africa,Botswana,2000,6.11,6.11
+4102,Europe,Serbia,2000,6.18,6.18
+4103,Europe,Lithuania,2000,6.2,6.2
+4104,Americas,Honduras,2000,6.27,6.27
+4105,Western Pacific,Cambodia,2000,6.54,6.54
+4106,Americas,Costa Rica,2000,6.56,6.56
+4107,Europe,Malta,2000,6.57,6.57
+4108,Americas,Cuba,2000,6.58,6.58
+4109,Europe,Israel,2000,6.62,6.62
+4110,Africa,Gambia,2000,6.65,6.65
+4111,Europe,Hungary,2000,6.78,6.78
+4112,Europe,Spain,2000,6.8,6.8
+4113,Americas,Chile,2000,7.0,7.0
+4114,Western Pacific,Japan,2000,7.03,7.03
+4115,Europe,Finland,2000,7.09,7.09
+4116,Europe,United Kingdom of Great Britain and Northern Ireland,2000,7.13,7.13
+4117,Europe,Georgia,2000,7.19,7.19
+4118,Europe,Greece,2000,7.24,7.24
+4119,Americas,Panama,2000,7.24,7.24
+4120,Europe,Sweden,2000,7.33,7.33
+4121,Africa,South Africa,2000,7.34,7.34
+4122,Western Pacific,New Zealand,2000,7.47,7.47
+4123,Africa,Comoros,2000,7.52,7.52
+4124,Europe,Italy,2000,7.57,7.57
+4125,Western Pacific,Australia,2000,7.59,7.59
+4126,Europe,Croatia,2000,7.65,7.65
+4127,Europe,Norway,2000,7.7,7.7
+4129,South-East Asia,Maldives,2000,7.74,7.74
+4130,Western Pacific,Micronesia (Federated States of),2000,7.77,7.77
+4131,Europe,Slovenia,2000,7.8,7.8
+4132,Americas,El Salvador,2000,7.84,7.84
+4134,Europe,Belgium,2000,8.0,8.0
+4135,Europe,Bosnia and Herzegovina,2000,8.0,8.0
+4136,Europe,Denmark,2000,8.1,8.1
+4137,Americas,Argentina,2000,8.22,8.22
+4138,Americas,Canada,2000,8.25,8.25
+4139,Americas,Brazil,2000,8.33,8.33
+4140,Africa,Sierra Leone,2000,8.49,8.49
+4141,Europe,Portugal,2000,8.6,8.6
+4142,Western Pacific,Kiribati,2000,8.65,8.65
+4145,Europe,Iceland,2000,8.9,8.9
+4146,Europe,Switzerland,2000,9.13,9.13
+4147,Europe,Austria,2000,9.2,9.2
+4148,Americas,Uruguay,2000,9.21,9.21
+4149,Africa,Namibia,2000,9.24,9.24
+4150,Eastern Mediterranean,Jordan,2000,9.34,9.34
+4151,Europe,France,2000,9.58,9.58
+4152,Europe,Germany,2000,9.89,9.89
