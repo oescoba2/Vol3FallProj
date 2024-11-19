@@ -153,15 +153,15 @@ class Model():
         """
 
         # Check user input
-        if (model_choice.strip().lower() != "clf") or (model_choice.strip().lower() != "reg"):
+        if (model_choice.strip().lower() != "clf") and (model_choice.strip().lower() != "reg"):
             raise ValueError(f"Model type must be either 'clf' for classification or 'reg' for regression. Got {model_choice}")
-        if (model_type.strip().lower() != 'rdf') or (model_type.strip().lower() != 'xgb') or (
+        if (model_type.strip().lower() != 'rdf') and (model_type.strip().lower() != 'xgb') and (
                 model_type.strip().lower() != 'lin'):
             raise ValueError(
                 "Model type is not found. Please refer to the documentation to choose and appropriate model.")
         if (cv_fold is None) or (cv_fold < 2):
             raise TypeError("cv_fold must be of type int that is greater than or equal to 2.")
-        if (tuning_strategy != "grid") or (tuning_strategy != "random") or (tuning_strategy != "bayesian"):
+        if (tuning_strategy != "grid") and (tuning_strategy != "random") and (tuning_strategy != "bayesian"):
             raise TypeError("Hyperparameter tuning strategy must be either 'bayesian', 'grid', or 'random'.")
         if not isinstance(num_trials, int):
             raise TypeError("num_trials must be of type int")
