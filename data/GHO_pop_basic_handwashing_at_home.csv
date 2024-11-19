@@ -1,0 +1,4084 @@
+,ParentLocation,Country,Year,ResidenceAreaType,PercentOfPop
+0,Africa,Liberia,2022,Rural,0.96
+1,Africa,Lesotho,2022,Urban,10.3
+2,Africa,Senegal,2022,Rural,10.3
+3,Africa,Togo,2022,Rural,9.83
+4,Eastern Mediterranean,Bahrain,2022,Total,100.0
+5,Europe,Kyrgyzstan,2022,Rural,100.0
+6,Europe,Kyrgyzstan,2022,Total,99.85
+7,Europe,Kyrgyzstan,2022,Urban,99.59
+11,Europe,Turkmenistan,2022,Rural,100.0
+12,Europe,Turkmenistan,2022,Total,100.0
+13,Europe,Turkmenistan,2022,Urban,100.0
+15,Eastern Mediterranean,Sudan,2022,Total,10.76
+16,Africa,Benin,2022,Total,12.13
+17,Africa,Central African Republic,2022,Rural,12.13
+18,Africa,Democratic Republic of the Congo,2022,Rural,12.33
+19,Africa,Gambia,2022,Rural,11.93
+20,Africa,Gambia,2022,Total,12.94
+21,Africa,Guinea,2022,Rural,13.08
+22,Africa,Malawi,2022,Rural,12.55
+23,Africa,Gambia,2022,Urban,13.51
+24,Americas,Haiti,2022,Rural,15.46
+25,Africa,Madagascar,2022,Rural,15.21
+26,Africa,Malawi,2022,Total,15.31
+27,Africa,Sierra Leone,2022,Rural,15.29
+28,Africa,Guinea-Bissau,2022,Rural,15.73
+29,Africa,Rwanda,2022,Rural,16.03
+30,Africa,Benin,2022,Urban,16.52
+31,Africa,Burkina Faso,2022,Urban,17.06
+32,Africa,Mali,2022,Total,17.3
+33,Africa,Togo,2022,Total,17.34
+34,Africa,Rwanda,2022,Total,18.4
+35,Africa,Sierra Leone,2022,Total,17.84
+36,Africa,Zambia,2022,Total,18.15
+37,Africa,Burundi,2022,Urban,19.39
+38,Africa,Democratic Republic of the Congo,2022,Total,19.35
+39,Africa,Mauritania,2022,Rural,19.39
+40,Eastern Mediterranean,Somalia,2022,Rural,19.01
+41,Africa,Ethiopia,2022,Urban,20.26
+42,Africa,Guinea-Bissau,2022,Total,19.69
+43,Africa,Guinea,2022,Total,20.64
+44,Africa,Sierra Leone,2022,Urban,21.09
+45,Americas,Bolivia (Plurinational State of),2022,Rural,21.89
+47,Africa,Cameroon,2022,Rural,22.03
+48,Africa,Central African Republic,2022,Total,22.18
+49,Africa,Niger,2022,Rural,21.66
+50,Africa,Senegal,2022,Total,22.25
+51,Africa,United Republic of Tanzania,2022,Rural,22.29
+52,Americas,Haiti,2022,Total,22.58
+53,Africa,Madagascar,2022,Total,23.44
+54,Africa,Nigeria,2022,Rural,22.88
+55,Africa,Chad,2022,Rural,23.7
+56,Africa,Guinea-Bissau,2022,Urban,24.52
+57,Africa,Niger,2022,Total,24.62
+58,Western Pacific,Papua New Guinea,2022,Rural,24.73
+59,Eastern Mediterranean,Somalia,2022,Total,25.1
+60,Africa,Uganda,2022,Rural,25.09
+61,Africa,Chad,2022,Total,26.2
+62,Americas,Bolivia (Plurinational State of),2022,Total,26.99
+63,Africa,Democratic Republic of the Congo,2022,Urban,27.32
+64,Africa,Mali,2022,Urban,27.12
+65,Africa,Togo,2022,Urban,26.93
+66,Americas,Haiti,2022,Urban,27.57
+67,Africa,Malawi,2022,Urban,27.91
+68,Western Pacific,Solomon Islands,2022,Rural,28.4
+69,Americas,Bolivia (Plurinational State of),2022,Urban,29.08
+70,Africa,Rwanda,2022,Urban,29.4
+71,Africa,United Republic of Tanzania,2022,Total,28.92
+72,Africa,Zambia,2022,Urban,28.73
+73,Africa,Liberia,2022,Total,3.44
+74,Western Pacific,Papua New Guinea,2022,Total,29.86
+76,Africa,Nigeria,2022,Total,31.08
+77,Africa,Uganda,2022,Total,30.9
+78,Eastern Mediterranean,Somalia,2022,Urban,31.87
+79,Americas,Colombia,2022,Rural,32.95
+80,Americas,Dominican Republic,2022,Rural,33.35
+81,Africa,Guinea,2022,Urban,33.14
+82,Africa,Chad,2022,Urban,34.08
+83,Africa,Central African Republic,2022,Urban,35.43
+84,Africa,Ghana,2022,Rural,34.88
+85,Africa,Kenya,2022,Rural,34.65
+86,Africa,Senegal,2022,Urban,34.64
+87,Africa,Madagascar,2022,Urban,35.84
+88,Africa,Zimbabwe,2022,Rural,36.11
+89,Africa,Cameroon,2022,Total,36.71
+90,Africa,Kenya,2022,Total,37.6
+91,Africa,Nigeria,2022,Urban,38.2
+92,Africa,Niger,2022,Urban,39.16
+93,Africa,Burundi,2022,Rural,4.1
+94,Africa,Lesotho,2022,Rural,3.55
+95,Africa,United Republic of Tanzania,2022,Urban,40.36
+96,Africa,Ghana,2022,Total,41.69
+97,Africa,Mauritania,2022,Total,41.75
+98,Africa,Zimbabwe,2022,Total,42.46
+99,Africa,Sao Tome and Principe,2022,Rural,43.11
+100,Eastern Mediterranean,Afghanistan,2022,Rural,44.48
+101,Africa,Kenya,2022,Urban,44.83
+102,Africa,Cameroon,2022,Urban,47.03
+103,Africa,Ghana,2022,Urban,46.5
+104,Africa,Uganda,2022,Urban,47.32
+105,Eastern Mediterranean,Afghanistan,2022,Total,48.21
+106,Americas,Dominican Republic,2022,Total,48.32
+107,Africa,Burkina Faso,2022,Rural,5.46
+108,Africa,Ethiopia,2022,Rural,4.83
+109,Americas,Dominican Republic,2022,Urban,51.21
+110,Western Pacific,Kiribati,2022,Rural,51.48
+111,Western Pacific,Kiribati,2022,Total,55.68
+112,Africa,Zimbabwe,2022,Urban,55.71
+113,South-East Asia,Bangladesh,2022,Rural,57.69
+114,Africa,Sao Tome and Principe,2022,Total,58.06
+115,Eastern Mediterranean,Afghanistan,2022,Urban,58.52
+116,Western Pacific,Kiribati,2022,Urban,58.85
+117,Africa,Mauritania,2022,Urban,58.67
+118,Africa,Burundi,2022,Total,6.3
+119,Africa,Lesotho,2022,Total,5.57
+120,Africa,Liberia,2022,Urban,5.64
+121,Africa,South Sudan,2022,Total,5.6
+122,South-East Asia,Nepal,2022,Rural,60.34
+123,South-East Asia,Bangladesh,2022,Total,61.73
+124,Western Pacific,Papua New Guinea,2022,Urban,62.48
+125,Africa,Sao Tome and Principe,2022,Urban,62.84
+126,South-East Asia,Nepal,2022,Total,63.54
+127,Western Pacific,Tonga,2022,Rural,66.27
+128,Americas,Suriname,2022,Rural,66.84
+129,Eastern Mediterranean,Tunisia,2022,Rural,67.33
+130,South-East Asia,Bangladesh,2022,Urban,67.86
+131,Europe,Tajikistan,2022,Rural,67.6
+132,Western Pacific,Samoa,2022,Rural,69.44
+133,Americas,Colombia,2022,Total,70.15
+134,South-East Asia,India,2022,Rural,69.96
+135,Americas,Peru,2022,Rural,69.62
+136,Western Pacific,Tonga,2022,Total,69.54
+137,South-East Asia,Myanmar,2022,Rural,70.66
+138,Western Pacific,Samoa,2022,Total,71.96
+139,Americas,Suriname,2022,Total,72.12
+140,Europe,Tajikistan,2022,Total,72.95
+141,Africa,Algeria,2022,Rural,75.33
+142,South-East Asia,Myanmar,2022,Total,74.59
+143,South-East Asia,Nepal,2022,Urban,75.26
+144,Americas,Suriname,2022,Urban,74.8
+145,Europe,Uzbekistan,2022,Rural,75.14
+146,Western Pacific,Vanuatu,2022,Rural,74.6
+147,South-East Asia,India,2022,Total,76.26
+148,South-East Asia,Indonesia,2022,Rural,75.88
+149,Western Pacific,Vanuatu,2022,Total,75.88
+150,Americas,Colombia,2022,Urban,78.29
+151,Americas,Guyana,2022,Urban,78.23
+152,Americas,Ecuador,2022,Rural,78.5
+153,South-East Asia,Indonesia,2022,Total,78.99
+154,Western Pacific,Philippines,2022,Rural,78.51
+155,Africa,Benin,2022,Rural,7.82
+156,Africa,Ethiopia,2022,Total,8.32
+157,Western Pacific,Fiji,2022,Rural,80.13
+158,Eastern Mediterranean,Pakistan,2022,Rural,80.21
+159,Western Pacific,Tonga,2022,Urban,80.43
+160,Western Pacific,Vanuatu,2022,Urban,79.57
+161,South-East Asia,Indonesia,2022,Urban,81.24
+162,Western Pacific,Mongolia,2022,Rural,81.15
+163,Eastern Mediterranean,Syrian Arab Republic,2022,Rural,80.59
+164,Western Pacific,Cambodia,2022,Rural,81.74
+165,Western Pacific,Philippines,2022,Total,81.75
+166,Europe,Uzbekistan,2022,Total,81.63
+167,Western Pacific,Cambodia,2022,Total,83.35
+168,Americas,Costa Rica,2022,Rural,83.31
+169,Americas,Guyana,2022,Total,83.47
+170,South-East Asia,Myanmar,2022,Urban,83.02
+171,South-East Asia,Sri Lanka,2022,Rural,83.45
+172,South-East Asia,Thailand,2022,Rural,83.16
+173,Americas,Honduras,2022,Rural,84.33
+174,Western Pacific,Samoa,2022,Urban,83.77
+175,Eastern Mediterranean,Syrian Arab Republic,2022,Total,84.42
+176,Eastern Mediterranean,Tunisia,2022,Total,84.27
+177,Africa,Algeria,2022,Total,84.8
+178,Americas,Guyana,2022,Rural,85.41
+179,Americas,Honduras,2022,Total,84.96
+180,Americas,Honduras,2022,Urban,85.4
+181,Eastern Mediterranean,Pakistan,2022,Total,84.69
+182,Western Pacific,Philippines,2022,Urban,85.27
+183,South-East Asia,Sri Lanka,2022,Total,85.35
+184,South-East Asia,Thailand,2022,Total,85.02
+185,Western Pacific,Viet Nam,2022,Rural,84.62
+186,Americas,Costa Rica,2022,Total,85.96
+187,Western Pacific,Mongolia,2022,Total,86.38
+188,Americas,Costa Rica,2022,Urban,86.54
+189,Americas,Ecuador,2022,Total,87.23
+190,Western Pacific,Fiji,2022,Total,86.53
+191,Europe,Georgia,2022,Rural,87.44
+192,Eastern Mediterranean,Syrian Arab Republic,2022,Urban,87.33
+193,Europe,Tajikistan,2022,Urban,86.75
+194,South-East Asia,Thailand,2022,Urban,86.67
+195,Africa,Algeria,2022,Urban,88.0
+196,Western Pacific,Cambodia,2022,Urban,88.15
+197,Americas,Cuba,2022,Rural,88.09
+198,South-East Asia,India,2022,Urban,87.53
+199,Europe,Uzbekistan,2022,Urban,88.0
+200,Americas,Belize,2022,Rural,88.69
+201,Western Pacific,Mongolia,2022,Urban,88.73
+202,Western Pacific,Viet Nam,2022,Total,88.71
+203,Africa,Burkina Faso,2022,Total,9.16
+204,Africa,Mali,2022,Rural,9.12
+205,Africa,Zambia,2022,Rural,9.23
+206,Europe,Armenia,2022,Rural,90.26
+207,Americas,Belize,2022,Total,90.29
+208,South-East Asia,Bhutan,2022,Urban,89.51
+209,Western Pacific,Fiji,2022,Urban,91.12
+210,Eastern Mediterranean,Tunisia,2022,Urban,91.46
+211,Americas,Belize,2022,Urban,92.14
+212,Americas,Ecuador,2022,Urban,92.02
+213,Europe,Georgia,2022,Total,91.76
+214,Eastern Mediterranean,Pakistan,2022,Urban,92.09
+215,South-East Asia,Bhutan,2022,Total,93.2
+216,Americas,Cuba,2022,Total,93.38
+217,South-East Asia,Sri Lanka,2022,Urban,93.42
+219,Europe,Armenia,2022,Total,94.42
+220,Americas,Mexico,2022,Rural,93.94
+221,Americas,Mexico,2022,Total,93.94
+222,Americas,Mexico,2022,Urban,93.94
+224,Western Pacific,China,2022,Rural,95.3
+225,Americas,Cuba,2022,Urban,94.92
+226,Europe,Georgia,2022,Urban,94.6
+229,Western Pacific,Viet Nam,2022,Urban,95.17
+230,South-East Asia,Bhutan,2022,Rural,96.07
+233,Europe,Armenia,2022,Urban,96.81
+234,Western Pacific,China,2022,Total,97.21
+235,Eastern Mediterranean,Iraq,2022,Rural,96.87
+236,Eastern Mediterranean,Iraq,2022,Total,97.39
+237,Western Pacific,China,2022,Urban,98.3
+238,Eastern Mediterranean,Iraq,2022,Urban,97.6
+239,Europe,Montenegro,2022,Rural,99.28
+240,Europe,Montenegro,2022,Total,99.24
+241,Europe,Montenegro,2022,Urban,99.23
+242,Africa,Liberia,2021,Rural,0.92
+243,Africa,Lesotho,2021,Urban,10.3
+244,Africa,Senegal,2021,Rural,10.3
+245,Africa,Togo,2021,Rural,9.83
+246,Eastern Mediterranean,Bahrain,2021,Total,100.0
+247,Europe,Kyrgyzstan,2021,Rural,100.0
+248,Europe,Kyrgyzstan,2021,Total,99.85
+249,Europe,Kyrgyzstan,2021,Urban,99.59
+253,Europe,Turkmenistan,2021,Rural,100.0
+254,Europe,Turkmenistan,2021,Total,100.0
+255,Europe,Turkmenistan,2021,Urban,100.0
+257,Eastern Mediterranean,Sudan,2021,Total,10.76
+258,Africa,Benin,2021,Total,12.08
+259,Africa,Central African Republic,2021,Rural,12.13
+260,Africa,Democratic Republic of the Congo,2021,Rural,12.33
+261,Africa,Gambia,2021,Rural,11.93
+262,Africa,Gambia,2021,Total,12.93
+263,Africa,Guinea,2021,Rural,13.08
+264,Africa,Malawi,2021,Rural,12.55
+265,Africa,Gambia,2021,Urban,13.51
+266,Americas,Haiti,2021,Rural,15.46
+267,Africa,Madagascar,2021,Rural,15.27
+268,Africa,Malawi,2021,Total,15.3
+269,Africa,Sierra Leone,2021,Rural,14.57
+270,Africa,Guinea-Bissau,2021,Rural,15.73
+271,Africa,Rwanda,2021,Rural,16.03
+272,Africa,Benin,2021,Urban,16.52
+273,Africa,Burkina Faso,2021,Urban,17.06
+274,Africa,Mali,2021,Total,17.16
+275,Africa,Sierra Leone,2021,Total,17.38
+276,Africa,Togo,2021,Total,17.24
+277,Africa,Rwanda,2021,Total,18.38
+278,Africa,Zambia,2021,Total,18.04
+279,Africa,Burundi,2021,Urban,19.39
+280,Africa,Democratic Republic of the Congo,2021,Total,19.26
+281,Eastern Mediterranean,Somalia,2021,Rural,19.01
+282,Africa,Ethiopia,2021,Urban,20.26
+283,Africa,Guinea-Bissau,2021,Total,19.65
+284,Africa,Guinea,2021,Total,20.56
+285,Africa,Sierra Leone,2021,Urban,21.03
+286,Americas,Bolivia (Plurinational State of),2021,Rural,21.89
+288,Africa,Cameroon,2021,Rural,22.03
+289,Africa,Central African Republic,2021,Total,22.07
+290,Americas,Haiti,2021,Total,22.48
+291,Africa,Mauritania,2021,Rural,21.81
+292,Africa,Niger,2021,Rural,21.66
+293,Africa,Senegal,2021,Total,22.13
+294,Africa,United Republic of Tanzania,2021,Rural,22.29
+295,Africa,Madagascar,2021,Total,23.48
+296,Africa,Nigeria,2021,Rural,22.88
+297,Africa,Chad,2021,Rural,23.7
+298,Africa,Uganda,2021,Rural,23.99
+299,Africa,Guinea-Bissau,2021,Urban,24.52
+300,Africa,Niger,2021,Total,24.59
+301,Western Pacific,Papua New Guinea,2021,Rural,24.73
+302,Eastern Mediterranean,Somalia,2021,Total,25.02
+303,Africa,Chad,2021,Total,26.17
+304,Americas,Bolivia (Plurinational State of),2021,Total,26.96
+305,Africa,Democratic Republic of the Congo,2021,Urban,27.32
+306,Africa,Mali,2021,Urban,27.12
+307,Africa,Togo,2021,Urban,26.93
+308,Americas,Haiti,2021,Urban,27.57
+309,Africa,Malawi,2021,Urban,28.13
+310,Western Pacific,Solomon Islands,2021,Rural,28.4
+311,Americas,Bolivia (Plurinational State of),2021,Urban,29.08
+312,Africa,Rwanda,2021,Urban,29.4
+313,Africa,Uganda,2021,Total,29.47
+314,Africa,United Republic of Tanzania,2021,Total,28.78
+315,Africa,Zambia,2021,Urban,28.73
+316,Africa,Liberia,2021,Total,3.17
+317,Western Pacific,Papua New Guinea,2021,Total,29.81
+319,Africa,Nigeria,2021,Total,30.96
+320,Eastern Mediterranean,Somalia,2021,Urban,31.87
+321,Americas,Colombia,2021,Rural,32.95
+322,Americas,Dominican Republic,2021,Rural,33.35
+323,Africa,Guinea,2021,Urban,33.14
+324,Africa,Chad,2021,Urban,34.08
+325,Africa,Central African Republic,2021,Urban,35.43
+326,Africa,Ghana,2021,Rural,34.88
+327,Africa,Kenya,2021,Rural,34.65
+328,Africa,Senegal,2021,Urban,34.64
+329,Africa,Madagascar,2021,Urban,36.2
+330,Africa,Zimbabwe,2021,Rural,36.11
+331,Africa,Cameroon,2021,Total,36.57
+332,Africa,Kenya,2021,Total,37.55
+333,Africa,Nigeria,2021,Urban,38.2
+334,Africa,Niger,2021,Urban,39.16
+335,Africa,Burundi,2021,Rural,4.1
+336,Africa,Lesotho,2021,Rural,3.55
+337,Africa,United Republic of Tanzania,2021,Urban,40.36
+338,Africa,Ghana,2021,Total,41.62
+339,Africa,Zimbabwe,2021,Total,42.44
+340,Eastern Mediterranean,Afghanistan,2021,Rural,43.14
+341,Africa,Mauritania,2021,Total,43.12
+342,Africa,Sao Tome and Principe,2021,Rural,43.11
+343,Africa,Kenya,2021,Urban,44.83
+344,Africa,Uganda,2021,Urban,45.46
+345,Western Pacific,Lao People's Democratic Republic,2021,Rural,45.56
+346,Eastern Mediterranean,Afghanistan,2021,Total,47.37
+347,Africa,Cameroon,2021,Urban,47.03
+348,Africa,Ghana,2021,Urban,46.5
+349,Americas,Dominican Republic,2021,Total,48.21
+350,Africa,Burkina Faso,2021,Rural,5.46
+351,Africa,Ethiopia,2021,Rural,4.83
+352,Africa,Liberia,2021,Urban,5.21
+353,Americas,Dominican Republic,2021,Urban,51.21
+354,Western Pacific,Kiribati,2021,Rural,51.48
+355,Western Pacific,Kiribati,2021,Total,55.63
+356,Western Pacific,Lao People's Democratic Republic,2021,Total,55.81
+357,Africa,Zimbabwe,2021,Urban,55.71
+358,South-East Asia,Bangladesh,2021,Rural,57.69
+359,Africa,Sao Tome and Principe,2021,Total,57.92
+360,Eastern Mediterranean,Afghanistan,2021,Urban,59.21
+361,Western Pacific,Kiribati,2021,Urban,58.85
+362,Africa,Burundi,2021,Total,6.25
+363,Africa,Lesotho,2021,Total,5.54
+364,Africa,South Sudan,2021,Total,5.6
+365,Africa,Mauritania,2021,Urban,59.78
+366,South-East Asia,Nepal,2021,Rural,60.34
+367,South-East Asia,Bangladesh,2021,Total,61.65
+368,Western Pacific,Papua New Guinea,2021,Urban,62.48
+369,South-East Asia,Nepal,2021,Total,63.48
+370,Africa,Sao Tome and Principe,2021,Urban,62.84
+371,Western Pacific,Tonga,2021,Rural,66.27
+372,Americas,Peru,2021,Rural,66.93
+373,Americas,Suriname,2021,Rural,66.84
+374,Eastern Mediterranean,Tunisia,2021,Rural,67.33
+375,South-East Asia,Bangladesh,2021,Urban,67.86
+376,South-East Asia,India,2021,Rural,67.56
+377,Europe,Tajikistan,2021,Rural,67.6
+378,Western Pacific,Samoa,2021,Rural,69.44
+379,Western Pacific,Vanuatu,2021,Rural,69.45
+380,Americas,Colombia,2021,Total,70.01
+381,Western Pacific,Tonga,2021,Total,69.54
+382,South-East Asia,Myanmar,2021,Rural,70.66
+383,Western Pacific,Vanuatu,2021,Total,71.49
+384,Western Pacific,Samoa,2021,Total,71.98
+385,Americas,Suriname,2021,Total,72.11
+386,Western Pacific,Lao People's Democratic Republic,2021,Urban,73.31
+387,Europe,Tajikistan,2021,Total,72.91
+388,South-East Asia,India,2021,Total,74.23
+389,Africa,Algeria,2021,Rural,75.33
+390,South-East Asia,Indonesia,2021,Rural,75.02
+391,South-East Asia,Myanmar,2021,Total,74.55
+392,South-East Asia,Nepal,2021,Urban,75.26
+393,Americas,Suriname,2021,Urban,74.8
+394,Europe,Uzbekistan,2021,Rural,75.14
+395,Eastern Mediterranean,Pakistan,2021,Rural,76.26
+396,Western Pacific,Vanuatu,2021,Urban,77.42
+397,Americas,Colombia,2021,Urban,78.29
+398,Americas,Guyana,2021,Urban,77.88
+399,Western Pacific,Cambodia,2021,Rural,78.95
+400,Americas,Ecuador,2021,Rural,78.5
+401,South-East Asia,Indonesia,2021,Total,78.81
+402,Western Pacific,Philippines,2021,Rural,78.51
+403,Africa,Benin,2021,Rural,7.82
+404,Africa,Ethiopia,2021,Total,8.25
+405,Western Pacific,Fiji,2021,Rural,80.13
+407,Western Pacific,Tonga,2021,Urban,80.43
+408,Western Pacific,Cambodia,2021,Total,81.21
+409,Western Pacific,Mongolia,2021,Rural,81.15
+410,Eastern Mediterranean,Syrian Arab Republic,2021,Rural,80.59
+411,South-East Asia,Indonesia,2021,Urban,81.64
+412,Eastern Mediterranean,Pakistan,2021,Total,81.8
+413,Western Pacific,Philippines,2021,Total,81.73
+414,Europe,Uzbekistan,2021,Total,81.62
+415,Americas,Costa Rica,2021,Rural,83.31
+416,Americas,Guyana,2021,Total,82.72
+417,South-East Asia,Myanmar,2021,Urban,83.02
+418,South-East Asia,Sri Lanka,2021,Rural,83.45
+419,South-East Asia,Thailand,2021,Rural,83.16
+420,Americas,Honduras,2021,Rural,84.33
+421,Western Pacific,Samoa,2021,Urban,83.77
+422,Eastern Mediterranean,Syrian Arab Republic,2021,Total,84.37
+423,Eastern Mediterranean,Tunisia,2021,Total,84.19
+424,Western Pacific,Viet Nam,2021,Rural,84.39
+425,Africa,Algeria,2021,Total,84.74
+426,Americas,Guyana,2021,Rural,84.51
+427,Americas,Honduras,2021,Total,84.96
+428,Americas,Honduras,2021,Urban,85.4
+430,Western Pacific,Philippines,2021,Urban,85.27
+431,South-East Asia,Sri Lanka,2021,Total,85.33
+432,South-East Asia,Thailand,2021,Total,84.99
+433,Americas,Costa Rica,2021,Total,85.94
+434,Western Pacific,Fiji,2021,Total,86.47
+435,South-East Asia,India,2021,Urban,86.41
+437,Western Pacific,Mongolia,2021,Total,86.37
+438,Americas,Costa Rica,2021,Urban,86.54
+439,Americas,Ecuador,2021,Total,87.2
+440,Europe,Georgia,2021,Rural,87.44
+441,Eastern Mediterranean,Syrian Arab Republic,2021,Urban,87.33
+442,Europe,Tajikistan,2021,Urban,86.75
+443,South-East Asia,Thailand,2021,Urban,86.67
+444,Africa,Algeria,2021,Urban,88.0
+445,Western Pacific,Cambodia,2021,Urban,88.1
+446,Americas,Cuba,2021,Rural,88.09
+447,Europe,Uzbekistan,2021,Urban,88.0
+448,Western Pacific,Viet Nam,2021,Total,88.39
+449,Americas,Belize,2021,Rural,88.69
+450,Western Pacific,Mongolia,2021,Urban,88.73
+451,Africa,Burkina Faso,2021,Total,9.08
+452,Africa,Mali,2021,Rural,9.12
+453,Africa,Zambia,2021,Rural,9.23
+454,Europe,Armenia,2021,Rural,90.26
+455,Americas,Belize,2021,Total,90.28
+456,South-East Asia,Bhutan,2021,Urban,89.51
+457,Western Pacific,Fiji,2021,Urban,91.12
+458,Eastern Mediterranean,Pakistan,2021,Urban,91.07
+459,Eastern Mediterranean,Tunisia,2021,Urban,91.46
+460,Americas,Belize,2021,Urban,92.14
+461,Americas,Ecuador,2021,Urban,92.02
+462,Europe,Georgia,2021,Total,91.73
+463,South-East Asia,Bhutan,2021,Total,93.25
+464,Americas,Cuba,2021,Total,93.37
+465,South-East Asia,Sri Lanka,2021,Urban,93.42
+467,Europe,Armenia,2021,Total,94.41
+468,Americas,Mexico,2021,Rural,93.58
+469,Americas,Mexico,2021,Total,93.58
+470,Americas,Mexico,2021,Urban,93.58
+472,Western Pacific,China,2021,Rural,95.3
+473,Americas,Cuba,2021,Urban,94.92
+474,Europe,Georgia,2021,Urban,94.6
+475,South-East Asia,Maldives,2021,Rural,94.97
+478,Western Pacific,Viet Nam,2021,Urban,94.91
+479,South-East Asia,Bhutan,2021,Rural,96.07
+480,South-East Asia,Maldives,2021,Total,95.84
+483,Europe,Armenia,2021,Urban,96.81
+484,Western Pacific,China,2021,Total,97.18
+485,Eastern Mediterranean,Iraq,2021,Rural,96.87
+486,Eastern Mediterranean,Iraq,2021,Total,97.39
+487,South-East Asia,Maldives,2021,Urban,97.08
+488,Eastern Mediterranean,Oman,2021,Total,97.4
+489,Western Pacific,China,2021,Urban,98.3
+490,Eastern Mediterranean,Iraq,2021,Urban,97.6
+491,Europe,Montenegro,2021,Rural,99.28
+492,Europe,Montenegro,2021,Total,99.24
+493,Europe,Montenegro,2021,Urban,99.23
+494,Africa,Liberia,2020,Rural,0.88
+495,Africa,Lesotho,2020,Urban,10.3
+496,Africa,Senegal,2020,Rural,10.3
+497,Africa,Togo,2020,Rural,9.83
+498,Eastern Mediterranean,Bahrain,2020,Total,100.0
+499,Europe,Kyrgyzstan,2020,Rural,100.0
+500,Europe,Kyrgyzstan,2020,Total,99.85
+501,Europe,Kyrgyzstan,2020,Urban,99.59
+505,Europe,Turkmenistan,2020,Rural,100.0
+506,Europe,Turkmenistan,2020,Total,100.0
+507,Europe,Turkmenistan,2020,Urban,100.0
+509,Africa,Benin,2020,Total,12.03
+510,Africa,Central African Republic,2020,Rural,12.21
+511,Africa,Democratic Republic of the Congo,2020,Rural,12.33
+512,Africa,Gambia,2020,Rural,11.93
+513,Africa,Angola,2020,Rural,13.23
+514,Africa,Gambia,2020,Total,12.92
+515,Africa,Guinea,2020,Rural,13.08
+516,Africa,Malawi,2020,Rural,12.54
+517,Eastern Mediterranean,Sudan,2020,Total,12.51
+518,Africa,Gambia,2020,Urban,13.51
+519,Africa,Guinea-Bissau,2020,Rural,14.43
+520,Africa,Sierra Leone,2020,Rural,13.86
+521,Americas,Haiti,2020,Rural,15.46
+522,Africa,Madagascar,2020,Rural,15.34
+523,Africa,Malawi,2020,Total,15.3
+524,Africa,Rwanda,2020,Rural,15.11
+525,Africa,Benin,2020,Urban,16.52
+526,Africa,Burkina Faso,2020,Urban,17.06
+528,Africa,Mali,2020,Total,17.03
+529,Africa,Rwanda,2020,Total,17.38
+530,Africa,Sierra Leone,2020,Total,16.91
+531,Africa,Togo,2020,Total,17.15
+532,Africa,Guinea-Bissau,2020,Total,18.11
+533,Africa,Zambia,2020,Total,17.93
+534,Africa,Burundi,2020,Urban,19.39
+535,Africa,Democratic Republic of the Congo,2020,Total,19.17
+536,Eastern Mediterranean,Somalia,2020,Rural,19.01
+537,Africa,Ethiopia,2020,Urban,20.26
+538,Africa,Guinea,2020,Total,20.48
+539,Africa,Niger,2020,Rural,20.48
+540,Africa,Sierra Leone,2020,Urban,20.97
+541,Americas,Bolivia (Plurinational State of),2020,Rural,21.89
+543,Africa,Cameroon,2020,Rural,22.03
+544,Africa,Central African Republic,2020,Total,21.51
+545,Africa,Chad,2020,Rural,22.46
+546,Americas,Haiti,2020,Total,22.37
+547,Africa,Senegal,2020,Total,22.01
+548,South-East Asia,Timor-Leste,2020,Rural,21.93
+549,Africa,United Republic of Tanzania,2020,Rural,22.29
+550,Africa,Guinea-Bissau,2020,Urban,22.77
+551,Africa,Niger,2020,Total,23.49
+552,Africa,Nigeria,2020,Rural,22.88
+553,Africa,Uganda,2020,Rural,22.88
+555,Africa,Madagascar,2020,Total,23.52
+556,Africa,Mauritania,2020,Rural,24.23
+557,Africa,Chad,2020,Total,25.3
+558,Western Pacific,Papua New Guinea,2020,Rural,24.73
+559,Eastern Mediterranean,Somalia,2020,Total,24.95
+560,Africa,Angola,2020,Total,27.09
+561,Americas,Bolivia (Plurinational State of),2020,Total,26.94
+562,Africa,Democratic Republic of the Congo,2020,Urban,27.32
+563,Africa,Mali,2020,Urban,27.12
+564,Africa,South Africa,2020,Rural,27.48
+565,Africa,Togo,2020,Urban,26.93
+566,Americas,Haiti,2020,Urban,27.57
+567,Africa,Malawi,2020,Urban,28.35
+568,Africa,Rwanda,2020,Urban,28.15
+569,Western Pacific,Solomon Islands,2020,Rural,28.4
+570,South-East Asia,Timor-Leste,2020,Total,28.41
+571,Africa,Uganda,2020,Total,28.05
+572,Americas,Bolivia (Plurinational State of),2020,Urban,29.08
+573,Africa,United Republic of Tanzania,2020,Total,28.65
+574,Africa,Zambia,2020,Urban,28.73
+575,Africa,Liberia,2020,Total,2.91
+576,Western Pacific,Papua New Guinea,2020,Total,29.77
+578,Africa,Nigeria,2020,Total,30.84
+579,Eastern Mediterranean,Somalia,2020,Urban,31.87
+580,Americas,Colombia,2020,Rural,32.95
+581,Africa,Guinea,2020,Urban,33.14
+582,Africa,Angola,2020,Urban,33.97
+583,Africa,Central African Republic,2020,Urban,34.24
+584,Americas,Dominican Republic,2020,Rural,34.23
+585,Africa,Chad,2020,Urban,34.55
+586,Africa,Ghana,2020,Rural,34.88
+587,Africa,Kenya,2020,Rural,34.65
+588,Africa,Senegal,2020,Urban,34.64
+589,Africa,Cameroon,2020,Total,36.42
+590,Africa,Zimbabwe,2020,Rural,36.11
+591,Africa,Kenya,2020,Total,37.5
+592,Africa,Madagascar,2020,Urban,36.56
+593,Africa,Nigeria,2020,Urban,38.2
+594,Africa,Niger,2020,Urban,38.54
+595,Africa,Burundi,2020,Rural,4.1
+596,Africa,Lesotho,2020,Rural,3.55
+597,Africa,United Republic of Tanzania,2020,Urban,40.36
+598,Eastern Mediterranean,Afghanistan,2020,Rural,41.8
+599,Africa,Ghana,2020,Total,41.54
+600,Africa,Zimbabwe,2020,Total,42.43
+601,South-East Asia,Timor-Leste,2020,Urban,42.62
+602,Africa,Sao Tome and Principe,2020,Rural,43.77
+603,Africa,South Africa,2020,Total,44.37
+604,Africa,Uganda,2020,Urban,43.6
+605,Africa,Kenya,2020,Urban,44.83
+606,Africa,Mauritania,2020,Total,44.51
+607,Western Pacific,Lao People's Democratic Republic,2020,Rural,45.56
+608,Eastern Mediterranean,Afghanistan,2020,Total,46.51
+609,Africa,Cameroon,2020,Urban,47.03
+610,Africa,Ghana,2020,Urban,46.5
+612,Americas,Dominican Republic,2020,Total,48.81
+613,Africa,Burkina Faso,2020,Rural,5.46
+614,Africa,Ethiopia,2020,Rural,4.83
+615,Africa,Liberia,2020,Urban,4.78
+616,Western Pacific,Kiribati,2020,Rural,51.48
+617,Americas,Dominican Republic,2020,Urban,51.9
+618,Africa,South Africa,2020,Urban,52.56
+619,South-East Asia,Bangladesh,2020,Rural,53.84
+620,Africa,Sao Tome and Principe,2020,Total,55.44
+621,Western Pacific,Kiribati,2020,Total,55.58
+622,Western Pacific,Lao People's Democratic Republic,2020,Total,55.63
+623,Africa,Zimbabwe,2020,Urban,55.71
+624,South-East Asia,Bangladesh,2020,Total,58.4
+625,Western Pacific,Kiribati,2020,Urban,58.85
+626,South-East Asia,Nepal,2020,Rural,58.75
+627,Africa,Sao Tome and Principe,2020,Urban,59.46
+628,Africa,Burundi,2020,Total,6.2
+629,Africa,Lesotho,2020,Total,5.51
+630,Africa,South Sudan,2020,Total,5.6
+631,Eastern Mediterranean,Afghanistan,2020,Urban,59.9
+632,Africa,Mauritania,2020,Urban,60.88
+633,South-East Asia,Nepal,2020,Total,62.14
+634,Western Pacific,Papua New Guinea,2020,Urban,62.48
+635,Americas,Peru,2020,Rural,64.25
+636,Western Pacific,Vanuatu,2020,Rural,64.3
+637,South-East Asia,India,2020,Rural,65.15
+638,South-East Asia,Bangladesh,2020,Urban,65.79
+639,Western Pacific,Tonga,2020,Rural,66.27
+640,Americas,Suriname,2020,Rural,66.84
+641,Eastern Mediterranean,Tunisia,2020,Rural,67.33
+642,Western Pacific,Vanuatu,2020,Total,67.1
+643,Europe,Tajikistan,2020,Rural,67.6
+644,Western Pacific,Samoa,2020,Rural,69.44
+645,Americas,Colombia,2020,Total,69.87
+646,Western Pacific,Tonga,2020,Total,69.54
+647,South-East Asia,Myanmar,2020,Rural,70.66
+648,South-East Asia,India,2020,Total,72.19
+649,Eastern Mediterranean,Pakistan,2020,Rural,72.3
+650,Americas,Paraguay,2020,Rural,71.99
+651,Western Pacific,Samoa,2020,Total,72.0
+652,Americas,Suriname,2020,Total,72.1
+653,Western Pacific,Lao People's Democratic Republic,2020,Urban,73.31
+654,Europe,Tajikistan,2020,Total,72.87
+655,South-East Asia,Indonesia,2020,Rural,74.17
+656,Africa,Algeria,2020,Rural,75.08
+657,South-East Asia,Myanmar,2020,Total,74.51
+658,South-East Asia,Nepal,2020,Urban,75.23
+659,Americas,Suriname,2020,Urban,74.8
+660,Europe,Uzbekistan,2020,Rural,75.14
+661,Western Pacific,Vanuatu,2020,Urban,75.27
+662,Western Pacific,Cambodia,2020,Rural,76.16
+663,Americas,Colombia,2020,Urban,78.29
+664,Americas,Guyana,2020,Urban,77.53
+665,Western Pacific,Cambodia,2020,Total,79.04
+666,Americas,Ecuador,2020,Rural,78.5
+667,South-East Asia,Indonesia,2020,Total,78.62
+668,Eastern Mediterranean,Pakistan,2020,Total,78.9
+669,Western Pacific,Philippines,2020,Rural,78.51
+670,Africa,Benin,2020,Rural,7.82
+671,Africa,Ethiopia,2020,Total,8.17
+672,Western Pacific,Fiji,2020,Rural,80.13
+674,Americas,Paraguay,2020,Total,80.15
+675,Western Pacific,Tonga,2020,Urban,80.43
+676,Western Pacific,Mongolia,2020,Rural,81.15
+677,Eastern Mediterranean,Syrian Arab Republic,2020,Rural,80.59
+678,Americas,Guyana,2020,Total,81.97
+679,South-East Asia,Indonesia,2020,Urban,82.03
+680,Western Pacific,Philippines,2020,Total,81.71
+681,Europe,Uzbekistan,2020,Total,81.62
+682,Americas,Costa Rica,2020,Rural,83.31
+683,South-East Asia,Myanmar,2020,Urban,83.02
+684,South-East Asia,Sri Lanka,2020,Rural,83.45
+685,South-East Asia,Thailand,2020,Rural,83.16
+686,Americas,Guyana,2020,Rural,83.6
+687,Americas,Honduras,2020,Rural,83.88
+688,Western Pacific,Samoa,2020,Urban,83.77
+689,Eastern Mediterranean,Syrian Arab Republic,2020,Total,84.33
+690,Eastern Mediterranean,Tunisia,2020,Total,84.11
+691,Western Pacific,Viet Nam,2020,Rural,84.15
+692,Africa,Algeria,2020,Total,84.63
+693,Americas,Honduras,2020,Total,84.88
+694,South-East Asia,India,2020,Urban,85.29
+696,Americas,Paraguay,2020,Urban,85.12
+697,Western Pacific,Philippines,2020,Urban,85.27
+698,South-East Asia,Sri Lanka,2020,Total,85.32
+699,South-East Asia,Thailand,2020,Total,84.97
+700,Americas,Costa Rica,2020,Total,85.92
+701,Americas,Cuba,2020,Rural,86.38
+702,Western Pacific,Fiji,2020,Total,86.42
+703,Americas,Honduras,2020,Urban,85.6
+705,Western Pacific,Mongolia,2020,Total,86.36
+706,Americas,Costa Rica,2020,Urban,86.54
+707,Americas,Ecuador,2020,Total,87.17
+708,Europe,Georgia,2020,Rural,87.44
+709,Eastern Mediterranean,Syrian Arab Republic,2020,Urban,87.33
+710,Europe,Tajikistan,2020,Urban,86.75
+711,South-East Asia,Thailand,2020,Urban,86.67
+712,Africa,Algeria,2020,Urban,88.03
+713,Western Pacific,Cambodia,2020,Urban,88.06
+714,Eastern Mediterranean,Egypt,2020,Rural,87.66
+715,Europe,Uzbekistan,2020,Urban,88.0
+716,Western Pacific,Viet Nam,2020,Total,88.07
+717,Americas,Belize,2020,Rural,88.69
+718,South-East Asia,Bhutan,2020,Urban,89.26
+719,Western Pacific,Mongolia,2020,Urban,88.73
+720,Africa,Burkina Faso,2020,Total,9.01
+721,Africa,Mali,2020,Rural,9.12
+722,Africa,Zambia,2020,Rural,9.23
+723,Europe,Armenia,2020,Rural,90.26
+724,Americas,Belize,2020,Total,90.28
+725,Eastern Mediterranean,Egypt,2020,Total,89.83
+726,Eastern Mediterranean,Pakistan,2020,Urban,90.06
+727,Western Pacific,Fiji,2020,Urban,91.12
+728,Eastern Mediterranean,Tunisia,2020,Urban,91.46
+729,Americas,Belize,2020,Urban,92.14
+730,South-East Asia,Bhutan,2020,Total,92.09
+731,Americas,Cuba,2020,Total,92.2
+732,Americas,Ecuador,2020,Urban,92.02
+733,Europe,Georgia,2020,Total,91.7
+734,Eastern Mediterranean,Egypt,2020,Urban,92.74
+735,Americas,Mexico,2020,Rural,93.21
+736,Americas,Mexico,2020,Total,93.21
+737,Americas,Mexico,2020,Urban,93.21
+738,South-East Asia,Sri Lanka,2020,Urban,93.42
+740,Europe,Armenia,2020,Total,94.41
+741,South-East Asia,Bhutan,2020,Rural,94.17
+742,Americas,Cuba,2020,Urban,93.92
+744,Western Pacific,China,2020,Rural,95.3
+745,Europe,Georgia,2020,Urban,94.6
+746,South-East Asia,Maldives,2020,Rural,94.97
+749,Western Pacific,Viet Nam,2020,Urban,94.65
+750,South-East Asia,Maldives,2020,Total,95.83
+753,Europe,Armenia,2020,Urban,96.81
+754,Western Pacific,China,2020,Total,97.14
+755,Eastern Mediterranean,Iraq,2020,Rural,96.87
+756,Eastern Mediterranean,Iraq,2020,Total,97.39
+757,South-East Asia,Maldives,2020,Urban,97.08
+758,Eastern Mediterranean,Oman,2020,Total,97.4
+759,Western Pacific,China,2020,Urban,98.3
+760,Eastern Mediterranean,Iraq,2020,Urban,97.6
+761,Europe,Montenegro,2020,Rural,99.28
+762,Europe,Montenegro,2020,Total,99.24
+763,Europe,Montenegro,2020,Urban,99.23
+764,Africa,Liberia,2019,Rural,0.84
+765,Africa,Lesotho,2019,Urban,10.3
+766,Africa,Senegal,2019,Rural,10.3
+767,Africa,Togo,2019,Rural,9.83
+768,Eastern Mediterranean,Bahrain,2019,Total,100.0
+772,Europe,Turkmenistan,2019,Rural,100.0
+773,Europe,Turkmenistan,2019,Total,100.0
+774,Europe,Turkmenistan,2019,Urban,100.0
+775,Africa,Benin,2019,Total,11.47
+777,Africa,Central African Republic,2019,Rural,12.3
+778,Africa,Democratic Republic of the Congo,2019,Rural,12.33
+779,Africa,Gambia,2019,Rural,11.93
+780,Africa,Angola,2019,Rural,13.23
+781,Africa,Gambia,2019,Total,12.91
+782,Africa,Guinea,2019,Rural,13.08
+783,Africa,Guinea-Bissau,2019,Rural,13.13
+784,Africa,Malawi,2019,Rural,12.54
+785,Africa,Sierra Leone,2019,Rural,13.14
+786,Africa,Gambia,2019,Urban,13.51
+787,Africa,Rwanda,2019,Rural,14.18
+788,Eastern Mediterranean,Sudan,2019,Total,14.26
+789,Americas,Haiti,2019,Rural,15.46
+790,Africa,Madagascar,2019,Rural,15.4
+791,Africa,Malawi,2019,Total,15.3
+792,Africa,Benin,2019,Urban,15.9
+793,Africa,Rwanda,2019,Total,16.38
+794,Africa,Sierra Leone,2019,Total,16.44
+795,Africa,Burkina Faso,2019,Urban,17.49
+797,Africa,Guinea-Bissau,2019,Total,16.58
+798,Africa,Mali,2019,Total,16.89
+799,Africa,Togo,2019,Total,17.05
+800,Africa,Zambia,2019,Total,17.83
+801,Africa,Burundi,2019,Urban,19.39
+802,Africa,Democratic Republic of the Congo,2019,Total,19.08
+803,Africa,Niger,2019,Rural,19.31
+804,Eastern Mediterranean,Somalia,2019,Rural,19.01
+805,Africa,Ethiopia,2019,Urban,20.26
+806,Africa,Guinea,2019,Total,20.4
+808,Africa,Central African Republic,2019,Total,20.96
+809,Africa,Chad,2019,Rural,21.22
+810,Africa,Guinea-Bissau,2019,Urban,21.02
+811,Africa,Sierra Leone,2019,Urban,20.91
+812,Americas,Bolivia (Plurinational State of),2019,Rural,21.89
+813,Africa,Cameroon,2019,Rural,22.03
+814,Americas,Haiti,2019,Total,22.26
+815,Africa,Niger,2019,Total,22.38
+816,Africa,Senegal,2019,Total,21.9
+817,South-East Asia,Timor-Leste,2019,Rural,21.93
+818,Africa,Uganda,2019,Rural,21.78
+819,Africa,United Republic of Tanzania,2019,Rural,22.29
+820,Africa,Nigeria,2019,Rural,22.88
+821,Africa,Chad,2019,Total,24.43
+823,Africa,Madagascar,2019,Total,23.55
+824,Western Pacific,Papua New Guinea,2019,Rural,24.73
+825,Eastern Mediterranean,Somalia,2019,Total,24.87
+826,Africa,Angola,2019,Total,26.96
+827,Americas,Bolivia (Plurinational State of),2019,Total,26.91
+828,Africa,Democratic Republic of the Congo,2019,Urban,27.32
+829,Africa,Mali,2019,Urban,27.12
+830,Africa,Mauritania,2019,Rural,26.65
+831,Africa,Rwanda,2019,Urban,26.89
+832,Africa,South Africa,2019,Rural,27.48
+833,Africa,Togo,2019,Urban,26.93
+834,Africa,Uganda,2019,Total,26.64
+835,Americas,Haiti,2019,Urban,27.57
+836,Western Pacific,Solomon Islands,2019,Rural,28.4
+837,South-East Asia,Timor-Leste,2019,Total,28.33
+838,Americas,Bolivia (Plurinational State of),2019,Urban,29.08
+839,Africa,Malawi,2019,Urban,28.57
+840,Africa,United Republic of Tanzania,2019,Total,28.52
+841,Africa,Zambia,2019,Urban,28.73
+842,Africa,Liberia,2019,Total,2.65
+843,Western Pacific,Papua New Guinea,2019,Total,29.73
+845,Africa,Nigeria,2019,Total,30.72
+846,Africa,Congo,2019,Rural,31.81
+847,Eastern Mediterranean,Somalia,2019,Urban,31.87
+848,Africa,Central African Republic,2019,Urban,33.05
+849,Americas,Colombia,2019,Rural,32.95
+850,Africa,Guinea,2019,Urban,33.14
+851,Africa,Angola,2019,Urban,33.97
+852,Africa,Chad,2019,Urban,35.01
+853,Americas,Dominican Republic,2019,Rural,35.11
+854,Africa,Ghana,2019,Rural,34.88
+855,Africa,Kenya,2019,Rural,34.65
+856,Africa,Senegal,2019,Urban,34.64
+857,Africa,Cameroon,2019,Total,36.27
+858,Africa,Zimbabwe,2019,Rural,36.11
+859,Africa,Kenya,2019,Total,37.45
+860,Africa,Madagascar,2019,Urban,36.92
+861,Africa,Niger,2019,Urban,37.93
+862,Africa,Nigeria,2019,Urban,38.2
+863,Western Pacific,Solomon Islands,2019,Total,38.64
+864,Africa,Burundi,2019,Rural,4.1
+865,Africa,Lesotho,2019,Rural,3.55
+866,Africa,Liberia,2019,Urban,4.35
+867,Eastern Mediterranean,Afghanistan,2019,Rural,40.47
+868,Africa,United Republic of Tanzania,2019,Urban,40.36
+869,Africa,Ghana,2019,Total,41.47
+870,Africa,Uganda,2019,Urban,41.74
+871,Africa,Zimbabwe,2019,Total,42.42
+872,South-East Asia,Timor-Leste,2019,Urban,42.62
+873,Africa,Sao Tome and Principe,2019,Rural,44.43
+874,Africa,South Africa,2019,Total,44.24
+875,Africa,Kenya,2019,Urban,44.83
+876,Eastern Mediterranean,Afghanistan,2019,Total,45.65
+877,Western Pacific,Lao People's Democratic Republic,2019,Rural,45.56
+878,Africa,Mauritania,2019,Total,45.91
+879,Africa,Cameroon,2019,Urban,47.03
+880,Africa,Ghana,2019,Urban,46.5
+881,Africa,Congo,2019,Total,48.19
+883,Americas,Dominican Republic,2019,Total,49.41
+884,Africa,Burkina Faso,2019,Rural,5.34
+885,Africa,Ethiopia,2019,Rural,4.83
+886,Africa,Lesotho,2019,Total,5.48
+887,South-East Asia,Bangladesh,2019,Rural,49.99
+888,Western Pacific,Kiribati,2019,Rural,51.48
+889,Americas,Dominican Republic,2019,Urban,52.59
+890,Africa,Sao Tome and Principe,2019,Total,53.01
+891,Africa,South Africa,2019,Urban,52.56
+892,South-East Asia,Bangladesh,2019,Total,55.13
+893,Western Pacific,Lao People's Democratic Republic,2019,Total,55.45
+894,Africa,Congo,2019,Urban,56.11
+895,Western Pacific,Kiribati,2019,Total,55.52
+896,Africa,Sao Tome and Principe,2019,Urban,56.09
+897,Africa,Zimbabwe,2019,Urban,55.71
+898,South-East Asia,Nepal,2019,Rural,57.16
+899,Western Pacific,Kiribati,2019,Urban,58.85
+900,Western Pacific,Vanuatu,2019,Rural,59.15
+901,Africa,Burundi,2019,Total,6.14
+902,Africa,South Sudan,2019,Total,5.6
+903,Eastern Mediterranean,Afghanistan,2019,Urban,60.59
+904,South-East Asia,Nepal,2019,Total,60.8
+905,Africa,Mauritania,2019,Urban,61.99
+906,Western Pacific,Papua New Guinea,2019,Urban,62.48
+907,Americas,Peru,2019,Rural,61.56
+908,South-East Asia,India,2019,Rural,62.75
+909,Western Pacific,Vanuatu,2019,Total,62.7
+910,South-East Asia,Bangladesh,2019,Urban,63.73
+911,Western Pacific,Tonga,2019,Rural,66.27
+912,Americas,Suriname,2019,Rural,66.84
+913,Eastern Mediterranean,Tunisia,2019,Rural,67.29
+914,Eastern Mediterranean,Pakistan,2019,Rural,68.35
+915,Europe,Tajikistan,2019,Rural,67.6
+916,Western Pacific,Samoa,2019,Rural,69.44
+917,Africa,Benin,2019,Rural,7.39
+918,Americas,Colombia,2019,Total,69.72
+919,Americas,Guatemala,2019,Rural,69.93
+920,South-East Asia,India,2019,Total,70.13
+921,Western Pacific,Tonga,2019,Total,69.54
+922,South-East Asia,Myanmar,2019,Rural,70.66
+923,Western Pacific,Solomon Islands,2019,Urban,70.67
+924,Americas,Paraguay,2019,Rural,71.99
+925,Western Pacific,Samoa,2019,Total,72.03
+926,Americas,Suriname,2019,Total,72.1
+927,Western Pacific,Cambodia,2019,Rural,73.36
+928,South-East Asia,Indonesia,2019,Rural,73.31
+929,Western Pacific,Lao People's Democratic Republic,2019,Urban,73.31
+930,Europe,Tajikistan,2019,Total,72.83
+931,Western Pacific,Vanuatu,2019,Urban,73.12
+932,South-East Asia,Myanmar,2019,Total,74.47
+933,Africa,Algeria,2019,Rural,74.83
+934,South-East Asia,Nepal,2019,Urban,75.2
+935,Americas,Suriname,2019,Urban,74.8
+936,Europe,Uzbekistan,2019,Rural,75.14
+937,Eastern Mediterranean,Pakistan,2019,Total,75.99
+938,Western Pacific,Cambodia,2019,Total,76.85
+939,Americas,Guatemala,2019,Total,76.77
+940,Americas,Guyana,2019,Urban,77.18
+941,Western Pacific,Mongolia,2019,Rural,77.02
+942,Americas,Colombia,2019,Urban,78.29
+943,South-East Asia,Indonesia,2019,Total,78.42
+944,Americas,Ecuador,2019,Rural,78.5
+945,Western Pacific,Philippines,2019,Rural,78.51
+946,Africa,Ethiopia,2019,Total,8.1
+947,Western Pacific,Fiji,2019,Rural,80.13
+949,Americas,Paraguay,2019,Total,80.11
+950,Western Pacific,Tonga,2019,Urban,80.43
+951,Americas,Guyana,2019,Total,81.22
+952,Eastern Mediterranean,Syrian Arab Republic,2019,Rural,80.59
+953,South-East Asia,Indonesia,2019,Urban,82.43
+954,Western Pacific,Philippines,2019,Total,81.69
+955,Europe,Uzbekistan,2019,Total,81.62
+956,Americas,Costa Rica,2019,Rural,83.26
+957,Americas,Guatemala,2019,Urban,83.22
+958,Americas,Guyana,2019,Rural,82.69
+959,Americas,Honduras,2019,Rural,83.44
+960,South-East Asia,Myanmar,2019,Urban,83.02
+961,South-East Asia,Sri Lanka,2019,Rural,83.45
+962,South-East Asia,Thailand,2019,Rural,83.16
+963,South-East Asia,India,2019,Urban,84.17
+964,Western Pacific,Mongolia,2019,Total,84.35
+965,Western Pacific,Samoa,2019,Urban,83.77
+966,Eastern Mediterranean,Syrian Arab Republic,2019,Total,84.28
+967,Eastern Mediterranean,Tunisia,2019,Total,84.41
+968,Western Pacific,Viet Nam,2019,Rural,83.91
+969,Africa,Algeria,2019,Total,84.51
+970,Americas,Cuba,2019,Rural,84.67
+971,Americas,Honduras,2019,Total,84.8
+973,Americas,Paraguay,2019,Urban,85.12
+974,Western Pacific,Philippines,2019,Urban,85.27
+975,South-East Asia,Sri Lanka,2019,Total,85.3
+976,South-East Asia,Thailand,2019,Total,84.94
+977,Americas,Costa Rica,2019,Total,85.68
+978,Americas,Costa Rica,2019,Urban,86.28
+979,Western Pacific,Fiji,2019,Total,86.37
+980,Americas,Honduras,2019,Urban,85.8
+982,Americas,Ecuador,2019,Total,87.15
+983,Europe,Georgia,2019,Rural,87.44
+984,Eastern Mediterranean,Syrian Arab Republic,2019,Urban,87.33
+985,Europe,Tajikistan,2019,Urban,86.75
+986,South-East Asia,Thailand,2019,Urban,86.67
+987,Africa,Algeria,2019,Urban,88.05
+988,Western Pacific,Cambodia,2019,Urban,88.01
+989,Eastern Mediterranean,Egypt,2019,Rural,87.66
+990,Western Pacific,Mongolia,2019,Urban,87.72
+991,Europe,Uzbekistan,2019,Urban,88.0
+992,Western Pacific,Viet Nam,2019,Total,87.75
+993,Americas,Belize,2019,Rural,88.69
+994,South-East Asia,Bhutan,2019,Urban,89.01
+995,Eastern Mediterranean,Pakistan,2019,Urban,89.04
+996,Africa,Burkina Faso,2019,Total,8.98
+997,Africa,Mali,2019,Rural,9.12
+998,Africa,Zambia,2019,Rural,9.23
+999,Europe,Armenia,2019,Rural,90.26
+1000,Americas,Belize,2019,Total,90.27
+1001,Eastern Mediterranean,Egypt,2019,Total,89.83
+1002,South-East Asia,Bhutan,2019,Total,90.91
+1003,Americas,Cuba,2019,Total,91.03
+1004,Western Pacific,Fiji,2019,Urban,91.12
+1005,Americas,Belize,2019,Urban,92.14
+1006,South-East Asia,Bhutan,2019,Rural,92.27
+1007,Americas,Ecuador,2019,Urban,92.02
+1008,Europe,Georgia,2019,Total,91.67
+1009,Eastern Mediterranean,Tunisia,2019,Urban,92.0
+1010,Americas,Cuba,2019,Urban,92.92
+1011,Eastern Mediterranean,Egypt,2019,Urban,92.74
+1012,Americas,Mexico,2019,Rural,92.85
+1013,Americas,Mexico,2019,Total,92.85
+1014,Americas,Mexico,2019,Urban,92.85
+1015,South-East Asia,Sri Lanka,2019,Urban,93.42
+1017,Europe,Armenia,2019,Total,94.4
+1019,Western Pacific,Viet Nam,2019,Urban,94.39
+1020,Western Pacific,China,2019,Rural,95.3
+1021,Europe,Georgia,2019,Urban,94.6
+1022,Eastern Mediterranean,Iraq,2019,Rural,95.11
+1023,South-East Asia,Maldives,2019,Rural,94.97
+1026,South-East Asia,Maldives,2019,Total,95.82
+1029,Europe,Armenia,2019,Urban,96.81
+1030,Western Pacific,China,2019,Total,97.11
+1031,Eastern Mediterranean,Iraq,2019,Total,96.7
+1032,Eastern Mediterranean,Iraq,2019,Urban,97.36
+1033,South-East Asia,Maldives,2019,Urban,97.08
+1034,Eastern Mediterranean,Oman,2019,Total,97.4
+1035,Western Pacific,China,2019,Urban,98.3
+1036,Europe,Kyrgyzstan,2019,Rural,98.07
+1037,Europe,Kyrgyzstan,2019,Total,98.28
+1038,Europe,Kazakhstan,2019,Rural,98.73
+1039,Europe,Kazakhstan,2019,Total,99.01
+1040,Europe,Kazakhstan,2019,Urban,99.22
+1041,Europe,Kyrgyzstan,2019,Urban,98.66
+1042,Europe,Montenegro,2019,Rural,99.28
+1043,Europe,Montenegro,2019,Total,99.24
+1044,Europe,Montenegro,2019,Urban,99.23
+1045,Africa,Liberia,2018,Rural,0.8
+1047,Africa,Lesotho,2018,Urban,10.3
+1048,Africa,Senegal,2018,Rural,10.3
+1049,Eastern Mediterranean,Bahrain,2018,Total,100.0
+1053,Europe,Turkmenistan,2018,Rural,100.0
+1054,Europe,Turkmenistan,2018,Total,100.0
+1055,Europe,Turkmenistan,2018,Urban,100.0
+1056,Africa,Benin,2018,Total,10.9
+1057,Africa,Central African Republic,2018,Rural,12.38
+1058,Africa,Democratic Republic of the Congo,2018,Rural,12.33
+1059,Africa,Gambia,2018,Rural,11.93
+1060,Africa,Guinea-Bissau,2018,Rural,11.83
+1061,Africa,Sierra Leone,2018,Rural,12.42
+1062,Africa,Angola,2018,Rural,13.23
+1063,Africa,Gambia,2018,Total,12.9
+1064,Africa,Guinea,2018,Rural,13.08
+1065,Africa,Malawi,2018,Rural,12.54
+1066,Africa,Rwanda,2018,Rural,13.25
+1067,Africa,Gambia,2018,Urban,13.51
+1068,Africa,Benin,2018,Urban,15.29
+1069,Africa,Guinea-Bissau,2018,Total,15.05
+1070,Africa,Madagascar,2018,Rural,15.47
+1071,Africa,Malawi,2018,Total,15.29
+1072,Africa,Rwanda,2018,Total,15.38
+1073,Americas,Haiti,2018,Rural,15.73
+1074,Africa,Sierra Leone,2018,Total,15.96
+1075,Eastern Mediterranean,Sudan,2018,Total,16.01
+1076,Africa,Togo,2018,Total,16.19
+1078,Africa,Mali,2018,Total,16.75
+1079,Africa,Burkina Faso,2018,Urban,17.92
+1080,Africa,Niger,2018,Rural,18.13
+1081,Africa,Zambia,2018,Total,17.72
+1082,Africa,Democratic Republic of the Congo,2018,Total,19.0
+1083,Africa,Guinea-Bissau,2018,Urban,19.27
+1084,Eastern Mediterranean,Somalia,2018,Rural,19.01
+1085,Africa,Liberia,2018,Total,2.39
+1086,Africa,Burundi,2018,Urban,19.85
+1088,Africa,Central African Republic,2018,Total,20.44
+1089,Africa,Chad,2018,Rural,19.98
+1090,Africa,Ethiopia,2018,Urban,20.26
+1091,Africa,Guinea,2018,Total,20.33
+1092,Africa,Niger,2018,Total,21.28
+1093,Africa,Sierra Leone,2018,Urban,20.85
+1094,Africa,Uganda,2018,Rural,20.67
+1095,Americas,Bolivia (Plurinational State of),2018,Rural,21.89
+1096,Africa,Cameroon,2018,Rural,22.03
+1097,Africa,Senegal,2018,Total,21.79
+1098,South-East Asia,Timor-Leste,2018,Rural,21.93
+1099,Africa,United Republic of Tanzania,2018,Rural,22.29
+1100,Americas,Haiti,2018,Total,22.57
+1101,Africa,Nigeria,2018,Rural,22.88
+1102,Africa,Chad,2018,Total,23.55
+1104,Africa,Madagascar,2018,Total,23.58
+1105,Western Pacific,Papua New Guinea,2018,Rural,24.73
+1106,Eastern Mediterranean,Somalia,2018,Total,24.79
+1107,Africa,Uganda,2018,Total,25.24
+1108,Africa,Rwanda,2018,Urban,25.64
+1109,Africa,Togo,2018,Urban,26.09
+1110,Africa,Angola,2018,Total,26.82
+1111,Americas,Bolivia (Plurinational State of),2018,Total,26.89
+1112,Africa,Democratic Republic of the Congo,2018,Urban,27.32
+1113,Africa,Mali,2018,Urban,27.12
+1114,Africa,South Africa,2018,Rural,27.48
+1115,Americas,Haiti,2018,Urban,28.1
+1116,Western Pacific,Solomon Islands,2018,Rural,28.4
+1117,South-East Asia,Timor-Leste,2018,Total,28.25
+1118,Africa,United Republic of Tanzania,2018,Total,28.39
+1119,Americas,Bolivia (Plurinational State of),2018,Urban,29.08
+1120,Africa,Malawi,2018,Urban,28.79
+1121,Africa,Mauritania,2018,Rural,29.07
+1122,Africa,Zambia,2018,Urban,28.73
+1124,Western Pacific,Papua New Guinea,2018,Total,29.7
+1125,Africa,Nigeria,2018,Total,30.59
+1126,Africa,Central African Republic,2018,Urban,31.86
+1127,Africa,Congo,2018,Rural,31.81
+1128,Eastern Mediterranean,Somalia,2018,Urban,31.87
+1129,Americas,Colombia,2018,Rural,32.95
+1130,Africa,Guinea,2018,Urban,33.14
+1131,Africa,Angola,2018,Urban,33.97
+1132,Africa,Chad,2018,Urban,35.48
+1133,Africa,Ghana,2018,Rural,34.88
+1134,Africa,Kenya,2018,Rural,34.65
+1135,Africa,Senegal,2018,Urban,34.64
+1136,Africa,Cameroon,2018,Total,36.12
+1137,Americas,Dominican Republic,2018,Rural,35.99
+1138,Africa,Zimbabwe,2018,Rural,36.11
+1139,Africa,Kenya,2018,Total,37.4
+1140,Africa,Madagascar,2018,Urban,37.28
+1141,Africa,Niger,2018,Urban,37.31
+1142,Africa,Nigeria,2018,Urban,38.2
+1143,Western Pacific,Solomon Islands,2018,Total,38.44
+1144,Eastern Mediterranean,Afghanistan,2018,Rural,39.13
+1145,Africa,Burundi,2018,Rural,4.09
+1146,Africa,Lesotho,2018,Rural,3.55
+1147,Africa,Liberia,2018,Urban,3.91
+1148,Africa,Uganda,2018,Urban,39.88
+1149,Africa,United Republic of Tanzania,2018,Urban,40.36
+1150,Africa,Ghana,2018,Total,41.39
+1151,Africa,Zimbabwe,2018,Total,42.42
+1152,South-East Asia,Timor-Leste,2018,Urban,42.62
+1153,Africa,South Africa,2018,Total,44.12
+1154,Eastern Mediterranean,Afghanistan,2018,Total,44.78
+1155,Africa,Kenya,2018,Urban,44.83
+1156,Africa,Sao Tome and Principe,2018,Rural,45.1
+1157,South-East Asia,Bangladesh,2018,Rural,46.14
+1158,Western Pacific,Lao People's Democratic Republic,2018,Rural,45.56
+1159,Africa,Cameroon,2018,Urban,47.03
+1160,Africa,Ghana,2018,Urban,46.5
+1161,Africa,Mauritania,2018,Total,47.33
+1162,Africa,Congo,2018,Total,48.07
+1164,Africa,Burkina Faso,2018,Rural,5.22
+1165,Africa,Ethiopia,2018,Rural,4.83
+1166,Africa,Lesotho,2018,Total,5.45
+1167,Americas,Dominican Republic,2018,Total,50.01
+1168,Western Pacific,Kiribati,2018,Rural,51.48
+1169,Africa,Sao Tome and Principe,2018,Total,50.64
+1170,South-East Asia,Bangladesh,2018,Total,51.83
+1171,Americas,Dominican Republic,2018,Urban,53.28
+1172,Africa,Sao Tome and Principe,2018,Urban,52.71
+1173,Africa,South Africa,2018,Urban,52.56
+1174,Western Pacific,Vanuatu,2018,Rural,54.0
+1175,Western Pacific,Kiribati,2018,Total,55.46
+1176,Western Pacific,Lao People's Democratic Republic,2018,Total,55.27
+1177,Africa,Congo,2018,Urban,56.11
+1178,South-East Asia,Nepal,2018,Rural,55.58
+1179,Africa,Zimbabwe,2018,Urban,55.71
+1180,Western Pacific,Vanuatu,2018,Total,58.29
+1181,Western Pacific,Kiribati,2018,Urban,58.85
+1182,South-East Asia,Nepal,2018,Total,59.44
+1183,Americas,Peru,2018,Rural,58.87
+1184,Africa,Burundi,2018,Total,6.14
+1185,Africa,South Sudan,2018,Total,5.6
+1186,South-East Asia,India,2018,Rural,60.35
+1187,Eastern Mediterranean,Afghanistan,2018,Urban,61.28
+1188,South-East Asia,Bangladesh,2018,Urban,61.66
+1189,Western Pacific,Papua New Guinea,2018,Urban,62.48
+1190,Africa,Mauritania,2018,Urban,63.09
+1191,Eastern Mediterranean,Pakistan,2018,Rural,64.4
+1192,Western Pacific,Tonga,2018,Rural,66.27
+1193,Americas,Suriname,2018,Rural,66.84
+1194,Europe,Tajikistan,2018,Rural,67.48
+1195,Eastern Mediterranean,Tunisia,2018,Rural,67.26
+1196,South-East Asia,India,2018,Total,68.07
+1197,Western Pacific,Samoa,2018,Rural,69.44
+1198,Africa,Benin,2018,Rural,6.96
+1199,Americas,Colombia,2018,Total,69.58
+1200,Americas,Guatemala,2018,Rural,69.93
+1201,Western Pacific,Tonga,2018,Total,69.54
+1202,Western Pacific,Cambodia,2018,Rural,70.57
+1203,South-East Asia,Myanmar,2018,Rural,70.66
+1204,Western Pacific,Solomon Islands,2018,Urban,70.67
+1205,Western Pacific,Vanuatu,2018,Urban,70.97
+1206,South-East Asia,Indonesia,2018,Rural,72.46
+1207,Americas,Paraguay,2018,Rural,71.99
+1208,Western Pacific,Samoa,2018,Total,72.05
+1209,Americas,Suriname,2018,Total,72.1
+1210,Western Pacific,Lao People's Democratic Republic,2018,Urban,73.31
+1211,Western Pacific,Mongolia,2018,Rural,72.88
+1212,Eastern Mediterranean,Pakistan,2018,Total,73.06
+1213,Europe,Tajikistan,2018,Total,72.76
+1214,South-East Asia,Myanmar,2018,Total,74.44
+1215,Africa,Algeria,2018,Rural,74.58
+1216,Western Pacific,Cambodia,2018,Total,74.64
+1217,South-East Asia,Nepal,2018,Urban,75.17
+1218,Americas,Suriname,2018,Urban,74.8
+1219,Europe,Uzbekistan,2018,Rural,75.14
+1220,Americas,Guatemala,2018,Total,76.72
+1221,Americas,Guyana,2018,Urban,76.82
+1222,Americas,Colombia,2018,Urban,78.29
+1223,South-East Asia,Indonesia,2018,Total,78.19
+1224,Americas,Ecuador,2018,Rural,78.5
+1225,Western Pacific,Philippines,2018,Rural,78.51
+1226,Africa,Ethiopia,2018,Total,8.03
+1227,Western Pacific,Fiji,2018,Rural,80.13
+1228,Americas,Guyana,2018,Total,80.46
+1230,Americas,Paraguay,2018,Total,80.07
+1231,Western Pacific,Tonga,2018,Urban,80.43
+1232,Eastern Mediterranean,Syrian Arab Republic,2018,Rural,80.59
+1233,Americas,Guyana,2018,Rural,81.78
+1234,Western Pacific,Mongolia,2018,Total,82.35
+1235,Western Pacific,Philippines,2018,Total,81.68
+1236,Europe,Uzbekistan,2018,Total,81.63
+1237,Americas,Costa Rica,2018,Rural,83.22
+1238,Americas,Cuba,2018,Rural,82.95
+1239,Americas,Guatemala,2018,Urban,83.22
+1240,Americas,Honduras,2018,Rural,82.99
+1241,South-East Asia,India,2018,Urban,83.05
+1242,South-East Asia,Indonesia,2018,Urban,82.82
+1243,South-East Asia,Myanmar,2018,Urban,83.02
+1244,South-East Asia,Sri Lanka,2018,Rural,83.45
+1245,South-East Asia,Thailand,2018,Rural,83.16
+1246,Africa,Algeria,2018,Total,84.38
+1247,Western Pacific,Samoa,2018,Urban,83.77
+1248,Eastern Mediterranean,Syrian Arab Republic,2018,Total,84.24
+1249,Western Pacific,Viet Nam,2018,Rural,83.67
+1250,Americas,Costa Rica,2018,Total,85.44
+1251,Americas,Honduras,2018,Total,84.71
+1253,Americas,Paraguay,2018,Urban,85.12
+1254,Western Pacific,Philippines,2018,Urban,85.27
+1255,South-East Asia,Sri Lanka,2018,Total,85.29
+1256,South-East Asia,Thailand,2018,Total,84.92
+1257,Eastern Mediterranean,Tunisia,2018,Total,84.7
+1258,Americas,Costa Rica,2018,Urban,86.01
+1259,Americas,El Salvador,2018,Rural,86.27
+1260,Western Pacific,Fiji,2018,Total,86.31
+1261,Americas,Honduras,2018,Urban,86.0
+1263,Americas,Ecuador,2018,Total,87.13
+1264,Europe,Georgia,2018,Rural,87.44
+1265,Western Pacific,Mongolia,2018,Urban,86.71
+1266,Eastern Mediterranean,Syrian Arab Republic,2018,Urban,87.33
+1267,Europe,Tajikistan,2018,Urban,86.96
+1268,South-East Asia,Thailand,2018,Urban,86.67
+1269,Western Pacific,Viet Nam,2018,Total,87.42
+1270,Africa,Algeria,2018,Urban,88.08
+1271,Western Pacific,Cambodia,2018,Urban,87.96
+1272,Eastern Mediterranean,Egypt,2018,Rural,87.66
+1273,Eastern Mediterranean,Pakistan,2018,Urban,88.02
+1274,Europe,Uzbekistan,2018,Urban,88.0
+1275,Americas,Belize,2018,Rural,88.69
+1276,South-East Asia,Bhutan,2018,Urban,88.76
+1277,Africa,Burkina Faso,2018,Total,8.95
+1278,Africa,Mali,2018,Rural,9.12
+1279,Africa,Togo,2018,Rural,9.11
+1280,Africa,Zambia,2018,Rural,9.23
+1281,Europe,Armenia,2018,Rural,90.26
+1282,Americas,Belize,2018,Total,90.27
+1283,South-East Asia,Bhutan,2018,Rural,90.36
+1284,South-East Asia,Bhutan,2018,Total,89.71
+1285,Americas,Cuba,2018,Total,89.86
+1286,Eastern Mediterranean,Egypt,2018,Total,89.83
+1287,Americas,El Salvador,2018,Total,90.7
+1288,Western Pacific,Fiji,2018,Urban,91.12
+1289,Americas,Belize,2018,Urban,92.14
+1290,Americas,Cuba,2018,Urban,91.92
+1291,Americas,Ecuador,2018,Urban,92.02
+1292,Americas,El Salvador,2018,Urban,92.42
+1293,Europe,Georgia,2018,Total,91.64
+1294,Americas,Mexico,2018,Rural,92.48
+1295,Americas,Mexico,2018,Total,92.48
+1296,Americas,Mexico,2018,Urban,92.48
+1297,Eastern Mediterranean,Egypt,2018,Urban,92.74
+1298,Eastern Mediterranean,Iraq,2018,Rural,93.34
+1299,South-East Asia,Sri Lanka,2018,Urban,93.42
+1300,Eastern Mediterranean,Tunisia,2018,Urban,92.55
+1302,Europe,Armenia,2018,Total,94.4
+1304,Western Pacific,Viet Nam,2018,Urban,94.13
+1305,Western Pacific,China,2018,Rural,95.3
+1306,Europe,Georgia,2018,Urban,94.6
+1307,South-East Asia,Maldives,2018,Rural,94.97
+1310,Eastern Mediterranean,Iraq,2018,Total,96.0
+1311,Europe,Kyrgyzstan,2018,Rural,96.06
+1312,South-East Asia,Maldives,2018,Total,95.81
+1315,Europe,Armenia,2018,Urban,96.81
+1316,Western Pacific,China,2018,Total,97.07
+1317,Eastern Mediterranean,Iraq,2018,Urban,97.11
+1318,Europe,Kyrgyzstan,2018,Total,96.67
+1319,South-East Asia,Maldives,2018,Urban,97.08
+1320,Eastern Mediterranean,Oman,2018,Total,97.4
+1321,Western Pacific,China,2018,Urban,98.3
+1322,Europe,Kyrgyzstan,2018,Urban,97.73
+1323,Europe,Kazakhstan,2018,Rural,98.73
+1324,Europe,Kazakhstan,2018,Total,99.01
+1325,Europe,Kazakhstan,2018,Urban,99.22
+1326,Europe,Montenegro,2018,Rural,99.28
+1327,Europe,Montenegro,2018,Total,99.24
+1328,Europe,Montenegro,2018,Urban,99.23
+1329,Africa,Liberia,2017,Rural,0.76
+1330,Africa,Benin,2017,Total,10.34
+1332,Africa,Lesotho,2017,Urban,10.3
+1333,Africa,Senegal,2017,Rural,10.3
+1334,Eastern Mediterranean,Bahrain,2017,Total,100.0
+1338,Europe,Turkmenistan,2017,Rural,100.0
+1339,Europe,Turkmenistan,2017,Total,100.0
+1340,Europe,Turkmenistan,2017,Urban,100.0
+1341,Africa,Guinea-Bissau,2017,Rural,10.53
+1342,Africa,Central African Republic,2017,Rural,12.46
+1343,Africa,Democratic Republic of the Congo,2017,Rural,12.33
+1344,Africa,Gambia,2017,Rural,11.93
+1345,Africa,Rwanda,2017,Rural,12.32
+1346,Africa,Sierra Leone,2017,Rural,11.7
+1347,Africa,Angola,2017,Rural,13.23
+1348,Africa,Gambia,2017,Total,12.89
+1349,Africa,Guinea,2017,Rural,13.08
+1350,Africa,Malawi,2017,Rural,12.54
+1351,Africa,Gambia,2017,Urban,13.51
+1352,Africa,Guinea-Bissau,2017,Total,13.53
+1353,Africa,Rwanda,2017,Total,14.39
+1354,Africa,Benin,2017,Urban,14.68
+1355,Africa,Malawi,2017,Total,15.29
+1356,Africa,Sierra Leone,2017,Total,15.48
+1357,Africa,Togo,2017,Total,15.33
+1358,Americas,Haiti,2017,Rural,16.0
+1359,Africa,Madagascar,2017,Rural,15.53
+1361,Africa,Mali,2017,Total,16.61
+1362,Africa,Niger,2017,Rural,16.95
+1363,Africa,Burkina Faso,2017,Urban,18.35
+1364,Africa,Guinea-Bissau,2017,Urban,17.52
+1365,Eastern Mediterranean,Sudan,2017,Total,17.76
+1366,Africa,Zambia,2017,Total,17.61
+1367,Africa,Chad,2017,Rural,18.74
+1368,Africa,Democratic Republic of the Congo,2017,Total,18.91
+1369,Eastern Mediterranean,Somalia,2017,Rural,19.01
+1370,Africa,Liberia,2017,Total,2.14
+1371,Africa,Burundi,2017,Urban,20.31
+1373,Africa,Central African Republic,2017,Total,19.92
+1374,Africa,Ethiopia,2017,Urban,20.26
+1375,Africa,Guinea,2017,Total,20.26
+1376,Africa,Niger,2017,Total,20.18
+1377,Africa,Uganda,2017,Rural,19.57
+1378,Africa,Sierra Leone,2017,Urban,20.79
+1379,Americas,Bolivia (Plurinational State of),2017,Rural,21.89
+1380,Africa,Cameroon,2017,Rural,22.03
+1381,Africa,Senegal,2017,Total,21.68
+1382,South-East Asia,Timor-Leste,2017,Rural,21.93
+1383,Africa,United Republic of Tanzania,2017,Rural,22.29
+1384,Africa,Chad,2017,Total,22.67
+1385,Americas,Haiti,2017,Total,22.86
+1386,Africa,Nigeria,2017,Rural,22.88
+1388,Africa,Madagascar,2017,Total,23.61
+1389,Africa,Rwanda,2017,Urban,24.39
+1390,Africa,Uganda,2017,Total,23.85
+1391,Western Pacific,Papua New Guinea,2017,Rural,24.73
+1392,Eastern Mediterranean,Somalia,2017,Total,24.72
+1393,Africa,Togo,2017,Urban,25.26
+1394,Africa,Angola,2017,Total,26.68
+1395,Americas,Bolivia (Plurinational State of),2017,Total,26.86
+1396,Africa,Democratic Republic of the Congo,2017,Urban,27.32
+1397,Africa,Mali,2017,Urban,27.12
+1398,Africa,Namibia,2017,Rural,27.48
+1399,Africa,South Africa,2017,Rural,27.48
+1400,Western Pacific,Solomon Islands,2017,Rural,28.4
+1401,South-East Asia,Timor-Leste,2017,Total,28.18
+1402,Africa,United Republic of Tanzania,2017,Total,28.26
+1403,Americas,Bolivia (Plurinational State of),2017,Urban,29.08
+1405,Americas,Haiti,2017,Urban,28.63
+1406,Africa,Malawi,2017,Urban,29.01
+1407,Africa,Zambia,2017,Urban,28.73
+1408,Africa,Liberia,2017,Urban,3.48
+1409,Africa,Nigeria,2017,Total,30.47
+1410,Western Pacific,Papua New Guinea,2017,Total,29.67
+1411,Africa,Central African Republic,2017,Urban,30.67
+1412,Africa,Mauritania,2017,Rural,31.49
+1413,Africa,Congo,2017,Rural,31.81
+1414,Eastern Mediterranean,Somalia,2017,Urban,31.87
+1415,Americas,Colombia,2017,Rural,32.95
+1416,Africa,Guinea,2017,Urban,33.14
+1417,Africa,Angola,2017,Urban,33.97
+1418,Africa,Ghana,2017,Rural,34.88
+1419,Africa,Kenya,2017,Rural,34.65
+1420,Africa,Senegal,2017,Urban,34.64
+1421,Africa,Cameroon,2017,Total,35.97
+1422,Africa,Chad,2017,Urban,35.94
+1423,Eastern Mediterranean,Yemen,2017,Rural,36.49
+1424,Africa,Zimbabwe,2017,Rural,36.11
+1425,Americas,Dominican Republic,2017,Rural,36.87
+1426,Africa,Kenya,2017,Total,37.35
+1427,Africa,Niger,2017,Urban,36.7
+1428,Eastern Mediterranean,Afghanistan,2017,Rural,37.79
+1429,Africa,Madagascar,2017,Urban,37.64
+1430,Africa,Nigeria,2017,Urban,38.2
+1431,Western Pacific,Solomon Islands,2017,Total,38.25
+1432,Africa,Uganda,2017,Urban,38.02
+1433,Africa,Burundi,2017,Rural,4.08
+1434,Africa,Lesotho,2017,Rural,3.55
+1435,Africa,United Republic of Tanzania,2017,Urban,40.36
+1436,Africa,Ghana,2017,Total,41.32
+1437,South-East Asia,Bangladesh,2017,Rural,42.29
+1438,Africa,Zimbabwe,2017,Total,42.43
+1439,South-East Asia,Timor-Leste,2017,Urban,42.62
+1440,Eastern Mediterranean,Afghanistan,2017,Total,43.9
+1441,Africa,South Africa,2017,Total,43.99
+1442,Africa,Kenya,2017,Urban,44.83
+1443,Africa,Namibia,2017,Total,44.6
+1444,Western Pacific,Lao People's Democratic Republic,2017,Rural,45.56
+1445,Africa,Sao Tome and Principe,2017,Rural,45.76
+1446,Africa,Cameroon,2017,Urban,47.03
+1447,Africa,Ghana,2017,Urban,46.5
+1448,South-East Asia,Bangladesh,2017,Total,48.5
+1449,Africa,Congo,2017,Total,47.96
+1451,Africa,Sao Tome and Principe,2017,Total,48.33
+1452,Africa,Mauritania,2017,Total,48.77
+1453,Africa,Sao Tome and Principe,2017,Urban,49.33
+1454,Western Pacific,Vanuatu,2017,Rural,48.86
+1455,Eastern Mediterranean,Yemen,2017,Total,48.61
+1456,Africa,Burkina Faso,2017,Rural,5.1
+1457,Africa,Ethiopia,2017,Rural,4.83
+1458,Africa,Lesotho,2017,Total,5.42
+1459,Americas,Dominican Republic,2017,Total,50.6
+1460,Western Pacific,Kiribati,2017,Rural,51.48
+1461,Africa,South Africa,2017,Urban,52.56
+1462,Americas,Dominican Republic,2017,Urban,53.97
+1463,South-East Asia,Nepal,2017,Rural,53.99
+1464,Western Pacific,Vanuatu,2017,Total,53.88
+1465,Western Pacific,Kiribati,2017,Total,55.4
+1466,Western Pacific,Lao People's Democratic Republic,2017,Total,55.1
+1467,Africa,Congo,2017,Urban,56.11
+1468,Americas,Peru,2017,Rural,56.19
+1469,Africa,Zimbabwe,2017,Urban,55.71
+1470,South-East Asia,India,2017,Rural,57.94
+1471,South-East Asia,Nepal,2017,Total,58.08
+1472,Western Pacific,Kiribati,2017,Urban,58.85
+1473,Africa,Burundi,2017,Total,6.14
+1474,Africa,South Sudan,2017,Total,5.6
+1475,South-East Asia,Bangladesh,2017,Urban,59.6
+1476,Eastern Mediterranean,Pakistan,2017,Rural,60.45
+1477,Eastern Mediterranean,Afghanistan,2017,Urban,61.97
+1478,Africa,Namibia,2017,Urban,62.41
+1479,Western Pacific,Papua New Guinea,2017,Urban,62.48
+1480,Africa,Mauritania,2017,Urban,64.2
+1481,South-East Asia,India,2017,Total,66.0
+1482,Western Pacific,Tonga,2017,Rural,66.27
+1483,Americas,Suriname,2017,Rural,66.84
+1484,Europe,Tajikistan,2017,Rural,67.36
+1485,Eastern Mediterranean,Tunisia,2017,Rural,67.23
+1486,Western Pacific,Cambodia,2017,Rural,67.78
+1487,Americas,Colombia,2017,Total,69.43
+1488,Western Pacific,Mongolia,2017,Rural,68.75
+1489,Western Pacific,Samoa,2017,Rural,69.44
+1490,Western Pacific,Vanuatu,2017,Urban,68.82
+1491,Africa,Benin,2017,Rural,6.53
+1492,Americas,Guatemala,2017,Rural,69.93
+1493,Eastern Mediterranean,Pakistan,2017,Total,70.13
+1494,Western Pacific,Tonga,2017,Total,69.55
+1495,Eastern Mediterranean,Yemen,2017,Urban,70.15
+1496,South-East Asia,Myanmar,2017,Rural,70.66
+1497,Western Pacific,Solomon Islands,2017,Urban,70.67
+1498,Western Pacific,Cambodia,2017,Total,72.4
+1499,South-East Asia,Indonesia,2017,Rural,71.6
+1500,Americas,Paraguay,2017,Rural,71.99
+1501,Western Pacific,Samoa,2017,Total,72.08
+1502,Americas,Suriname,2017,Total,72.1
+1503,Western Pacific,Lao People's Democratic Republic,2017,Urban,73.31
+1504,Europe,Tajikistan,2017,Total,72.7
+1505,Africa,Algeria,2017,Rural,74.33
+1506,South-East Asia,Myanmar,2017,Total,74.41
+1507,South-East Asia,Nepal,2017,Urban,75.13
+1508,Americas,Suriname,2017,Urban,74.8
+1509,Americas,Guyana,2017,Urban,76.47
+1510,Americas,Guatemala,2017,Total,76.67
+1511,Americas,Colombia,2017,Urban,78.29
+1512,South-East Asia,Indonesia,2017,Total,77.95
+1513,Americas,Ecuador,2017,Rural,78.5
+1514,Western Pacific,Philippines,2017,Rural,78.51
+1515,Africa,Ethiopia,2017,Total,7.96
+1516,Africa,Togo,2017,Rural,8.39
+1517,Western Pacific,Fiji,2017,Rural,80.13
+1518,Americas,Guyana,2017,Total,79.7
+1520,Western Pacific,Mongolia,2017,Total,80.33
+1521,Americas,Paraguay,2017,Total,80.04
+1522,Western Pacific,Tonga,2017,Urban,80.43
+1523,Americas,Cuba,2017,Rural,81.24
+1524,Americas,Guyana,2017,Rural,80.87
+1525,Eastern Mediterranean,Syrian Arab Republic,2017,Rural,80.59
+1526,South-East Asia,India,2017,Urban,81.93
+1527,Western Pacific,Philippines,2017,Total,81.66
+1528,Americas,Costa Rica,2017,Rural,83.18
+1529,Americas,Guatemala,2017,Urban,83.22
+1530,Americas,Honduras,2017,Rural,82.55
+1531,South-East Asia,Indonesia,2017,Urban,83.22
+1532,South-East Asia,Myanmar,2017,Urban,83.02
+1533,South-East Asia,Sri Lanka,2017,Rural,83.45
+1534,South-East Asia,Thailand,2017,Rural,83.16
+1535,Western Pacific,Viet Nam,2017,Rural,83.43
+1536,Africa,Algeria,2017,Total,84.25
+1537,Western Pacific,Samoa,2017,Urban,83.77
+1538,Eastern Mediterranean,Syrian Arab Republic,2017,Total,84.2
+1539,Americas,Costa Rica,2017,Total,85.2
+1540,Americas,Honduras,2017,Total,84.61
+1542,Americas,Paraguay,2017,Urban,85.12
+1543,Western Pacific,Philippines,2017,Urban,85.27
+1544,South-East Asia,Sri Lanka,2017,Total,85.28
+1545,South-East Asia,Thailand,2017,Total,84.89
+1546,Eastern Mediterranean,Tunisia,2017,Total,84.98
+1547,Americas,Costa Rica,2017,Urban,85.75
+1548,Americas,El Salvador,2017,Rural,86.27
+1549,Western Pacific,Fiji,2017,Total,86.26
+1550,Americas,Honduras,2017,Urban,86.2
+1552,Western Pacific,Mongolia,2017,Urban,85.7
+1553,Europe,Azerbaijan,2017,Rural,87.37
+1554,Americas,Ecuador,2017,Total,87.11
+1555,Europe,Georgia,2017,Rural,87.44
+1556,Eastern Mediterranean,Pakistan,2017,Urban,87.0
+1557,Eastern Mediterranean,Syrian Arab Republic,2017,Urban,87.33
+1558,Europe,Tajikistan,2017,Urban,87.17
+1559,South-East Asia,Thailand,2017,Urban,86.67
+1560,Western Pacific,Viet Nam,2017,Total,87.1
+1561,Africa,Algeria,2017,Urban,88.1
+1562,Americas,Belize,2017,Rural,88.37
+1563,South-East Asia,Bhutan,2017,Rural,88.46
+1564,South-East Asia,Bhutan,2017,Total,88.48
+1565,Western Pacific,Cambodia,2017,Urban,87.92
+1566,Eastern Mediterranean,Egypt,2017,Rural,87.66
+1567,Europe,Azerbaijan,2017,Total,89.3
+1568,Americas,Belize,2017,Total,89.41
+1569,South-East Asia,Bhutan,2017,Urban,88.51
+1570,Americas,Cuba,2017,Total,88.69
+1571,Africa,Burkina Faso,2017,Total,8.91
+1572,Africa,Mali,2017,Rural,9.12
+1573,Africa,Zambia,2017,Rural,9.23
+1574,Europe,Armenia,2017,Rural,89.69
+1575,Eastern Mediterranean,Egypt,2017,Total,89.83
+1576,Europe,Azerbaijan,2017,Urban,90.86
+1577,Americas,Belize,2017,Urban,90.65
+1578,Americas,Cuba,2017,Urban,90.92
+1579,Americas,El Salvador,2017,Total,90.65
+1580,Western Pacific,Fiji,2017,Urban,91.12
+1581,Americas,Ecuador,2017,Urban,92.02
+1582,Americas,El Salvador,2017,Urban,92.42
+1583,Europe,Georgia,2017,Total,91.61
+1584,Eastern Mediterranean,Iraq,2017,Rural,91.58
+1585,Americas,Mexico,2017,Rural,92.11
+1586,Americas,Mexico,2017,Total,92.11
+1587,Americas,Mexico,2017,Urban,92.11
+1588,Eastern Mediterranean,Egypt,2017,Urban,92.74
+1589,South-East Asia,Sri Lanka,2017,Urban,93.42
+1590,Eastern Mediterranean,Tunisia,2017,Urban,93.1
+1592,Europe,Armenia,2017,Total,94.04
+1593,Europe,Kyrgyzstan,2017,Rural,94.05
+1595,Western Pacific,Viet Nam,2017,Urban,93.87
+1596,Western Pacific,China,2017,Rural,95.3
+1597,Europe,Georgia,2017,Urban,94.6
+1598,Eastern Mediterranean,Iraq,2017,Total,95.3
+1599,Europe,Kyrgyzstan,2017,Total,95.04
+1600,South-East Asia,Maldives,2017,Rural,94.97
+1603,South-East Asia,Maldives,2017,Total,95.8
+1606,Europe,Armenia,2017,Urban,96.59
+1607,Western Pacific,China,2017,Total,97.04
+1608,Eastern Mediterranean,Iraq,2017,Urban,96.87
+1609,Europe,Kyrgyzstan,2017,Urban,96.8
+1610,South-East Asia,Maldives,2017,Urban,97.08
+1611,Eastern Mediterranean,Oman,2017,Total,97.4
+1612,Western Pacific,China,2017,Urban,98.3
+1613,Europe,Kazakhstan,2017,Rural,98.73
+1614,Europe,Kazakhstan,2017,Total,99.01
+1615,Europe,Kazakhstan,2017,Urban,99.22
+1616,Europe,Montenegro,2017,Rural,99.28
+1617,Europe,Montenegro,2017,Total,99.24
+1618,Europe,Montenegro,2017,Urban,99.23
+1619,Africa,Liberia,2016,Rural,0.72
+1620,Africa,Benin,2016,Total,9.78
+1621,Africa,Lesotho,2016,Urban,10.3
+1622,Africa,Senegal,2016,Rural,10.3
+1623,Eastern Mediterranean,Bahrain,2016,Total,100.0
+1627,Europe,Turkmenistan,2016,Urban,99.68
+1628,Africa,Rwanda,2016,Rural,11.4
+1629,Africa,Sierra Leone,2016,Rural,10.98
+1630,Africa,Democratic Republic of the Congo,2016,Rural,12.33
+1631,Africa,Gambia,2016,Rural,11.93
+1632,Africa,Guinea-Bissau,2016,Total,12.01
+1633,Africa,Angola,2016,Rural,13.23
+1634,Africa,Central African Republic,2016,Rural,12.55
+1635,Africa,Gambia,2016,Total,12.88
+1636,Africa,Guinea,2016,Rural,13.08
+1637,Africa,Malawi,2016,Rural,12.54
+1638,Africa,Rwanda,2016,Total,13.4
+1639,Africa,Benin,2016,Urban,14.06
+1640,Africa,Gambia,2016,Urban,13.51
+1641,Africa,Togo,2016,Total,14.48
+1642,Africa,Comoros,2016,Rural,14.65
+1643,Africa,Malawi,2016,Total,15.3
+1644,Africa,Sierra Leone,2016,Total,15.0
+1645,Africa,Comoros,2016,Total,15.57
+1646,Africa,Guinea-Bissau,2016,Urban,15.77
+1647,Americas,Haiti,2016,Rural,16.27
+1648,Africa,Madagascar,2016,Rural,15.6
+1649,Africa,Mali,2016,Total,16.46
+1650,Africa,Niger,2016,Rural,15.77
+1651,Africa,Chad,2016,Rural,17.5
+1653,Africa,Comoros,2016,Urban,17.87
+1654,Africa,Uganda,2016,Rural,18.46
+1655,Africa,Zambia,2016,Total,17.51
+1656,Africa,Burkina Faso,2016,Urban,18.78
+1658,Africa,Central African Republic,2016,Total,19.42
+1659,Africa,Democratic Republic of the Congo,2016,Total,18.82
+1660,Africa,Niger,2016,Total,19.08
+1661,Eastern Mediterranean,Somalia,2016,Rural,19.01
+1662,Africa,Liberia,2016,Total,1.89
+1663,Africa,Ethiopia,2016,Urban,20.26
+1664,Africa,Guinea,2016,Total,20.19
+1665,Eastern Mediterranean,Sudan,2016,Total,19.51
+1666,Africa,Burundi,2016,Urban,20.77
+1667,Africa,Sierra Leone,2016,Urban,20.73
+1668,Americas,Bolivia (Plurinational State of),2016,Rural,21.89
+1669,Africa,Cameroon,2016,Rural,22.03
+1670,Africa,Chad,2016,Total,21.79
+1671,Africa,Senegal,2016,Total,21.57
+1672,South-East Asia,Timor-Leste,2016,Rural,21.93
+1673,Africa,Uganda,2016,Total,22.47
+1674,Africa,United Republic of Tanzania,2016,Rural,22.29
+1675,Americas,Haiti,2016,Total,23.15
+1676,Africa,Nigeria,2016,Rural,22.88
+1677,Africa,Rwanda,2016,Urban,23.14
+1679,Africa,Madagascar,2016,Total,23.63
+1680,Africa,Togo,2016,Urban,24.42
+1681,Western Pacific,Papua New Guinea,2016,Rural,24.73
+1682,Eastern Mediterranean,Somalia,2016,Total,24.65
+1683,Africa,Angola,2016,Total,26.54
+1684,Americas,Bolivia (Plurinational State of),2016,Total,26.84
+1685,Africa,Democratic Republic of the Congo,2016,Urban,27.32
+1686,Africa,Mali,2016,Urban,27.12
+1687,Africa,Namibia,2016,Rural,27.48
+1688,Africa,South Africa,2016,Rural,27.48
+1690,Western Pacific,Solomon Islands,2016,Rural,28.4
+1691,South-East Asia,Timor-Leste,2016,Total,28.1
+1692,Africa,United Republic of Tanzania,2016,Total,28.13
+1693,Americas,Bolivia (Plurinational State of),2016,Urban,29.08
+1694,Africa,Central African Republic,2016,Urban,29.47
+1695,Americas,Haiti,2016,Urban,29.16
+1696,Africa,Malawi,2016,Urban,29.23
+1697,Africa,Zambia,2016,Urban,28.73
+1698,Africa,Liberia,2016,Urban,3.05
+1699,Africa,Nigeria,2016,Total,30.34
+1700,Western Pacific,Papua New Guinea,2016,Total,29.65
+1701,Africa,Congo,2016,Rural,31.81
+1702,Eastern Mediterranean,Somalia,2016,Urban,31.87
+1703,Americas,Colombia,2016,Rural,32.95
+1704,Africa,Guinea,2016,Urban,33.14
+1705,Africa,Angola,2016,Urban,33.97
+1706,Africa,Mauritania,2016,Rural,33.91
+1707,Africa,Ghana,2016,Rural,34.88
+1708,Africa,Kenya,2016,Rural,34.65
+1709,Africa,Senegal,2016,Urban,34.64
+1710,Eastern Mediterranean,Afghanistan,2016,Rural,36.46
+1711,Africa,Cameroon,2016,Total,35.82
+1712,Africa,Chad,2016,Urban,36.41
+1713,Africa,Niger,2016,Urban,36.09
+1714,Africa,Uganda,2016,Urban,36.16
+1715,Eastern Mediterranean,Yemen,2016,Rural,36.49
+1716,Africa,Zimbabwe,2016,Rural,36.11
+1717,Africa,Kenya,2016,Total,37.3
+1718,South-East Asia,Bangladesh,2016,Rural,38.44
+1719,Americas,Dominican Republic,2016,Rural,37.75
+1720,Africa,Madagascar,2016,Urban,38.0
+1721,Africa,Nigeria,2016,Urban,38.2
+1722,Western Pacific,Solomon Islands,2016,Total,38.05
+1723,Africa,Burundi,2016,Rural,4.07
+1724,Africa,Lesotho,2016,Rural,3.55
+1725,Africa,United Republic of Tanzania,2016,Urban,40.36
+1726,Africa,Ghana,2016,Total,41.24
+1727,Africa,Zimbabwe,2016,Total,42.44
+1728,Eastern Mediterranean,Afghanistan,2016,Total,43.01
+1729,South-East Asia,Timor-Leste,2016,Urban,42.62
+1730,Africa,Namibia,2016,Total,44.24
+1731,Africa,South Africa,2016,Total,43.86
+1732,Western Pacific,Vanuatu,2016,Rural,43.71
+1733,South-East Asia,Bangladesh,2016,Total,45.14
+1734,Africa,Kenya,2016,Urban,44.83
+1735,Western Pacific,Lao People's Democratic Republic,2016,Rural,45.56
+1736,Africa,Sao Tome and Principe,2016,Rural,46.43
+1737,Africa,Sao Tome and Principe,2016,Total,46.09
+1738,Africa,Sao Tome and Principe,2016,Urban,45.95
+1739,Africa,Cameroon,2016,Urban,47.03
+1740,Africa,Ghana,2016,Urban,46.5
+1741,Africa,Congo,2016,Total,47.85
+1743,Eastern Mediterranean,Yemen,2016,Total,48.4
+1744,Western Pacific,Vanuatu,2016,Total,49.46
+1745,Africa,Burkina Faso,2016,Rural,4.98
+1746,Africa,Ethiopia,2016,Rural,4.83
+1747,Africa,Lesotho,2016,Total,5.39
+1748,Africa,Mauritania,2016,Total,50.22
+1749,Americas,Dominican Republic,2016,Total,51.18
+1750,Western Pacific,Kiribati,2016,Rural,51.48
+1751,South-East Asia,Nepal,2016,Rural,52.4
+1752,Africa,South Africa,2016,Urban,52.56
+1753,Americas,Peru,2016,Rural,53.5
+1754,Americas,Dominican Republic,2016,Urban,54.66
+1755,Western Pacific,Kiribati,2016,Total,55.34
+1756,Western Pacific,Lao People's Democratic Republic,2016,Total,54.92
+1757,Africa,Congo,2016,Urban,56.11
+1758,South-East Asia,India,2016,Rural,55.54
+1759,Eastern Mediterranean,Pakistan,2016,Rural,56.5
+1760,Africa,Zimbabwe,2016,Urban,55.71
+1761,South-East Asia,Nepal,2016,Total,56.7
+1762,South-East Asia,Bangladesh,2016,Urban,57.53
+1763,Western Pacific,Kiribati,2016,Urban,58.85
+1764,Africa,Benin,2016,Rural,6.1
+1765,Africa,Burundi,2016,Total,6.14
+1766,Africa,South Sudan,2016,Total,5.6
+1767,Africa,Namibia,2016,Urban,62.41
+1768,Western Pacific,Papua New Guinea,2016,Urban,62.48
+1769,Eastern Mediterranean,Afghanistan,2016,Urban,62.66
+1770,South-East Asia,India,2016,Total,63.92
+1771,Western Pacific,Cambodia,2016,Rural,64.98
+1772,Africa,Mauritania,2016,Urban,65.3
+1773,Western Pacific,Mongolia,2016,Rural,64.61
+1774,Western Pacific,Tonga,2016,Rural,66.27
+1775,Eastern Mediterranean,Pakistan,2016,Total,67.18
+1776,Americas,Suriname,2016,Rural,66.84
+1777,Europe,Tajikistan,2016,Rural,67.24
+1778,Eastern Mediterranean,Tunisia,2016,Rural,67.19
+1779,Western Pacific,Vanuatu,2016,Urban,66.67
+1780,Americas,Colombia,2016,Total,69.27
+1781,Western Pacific,Samoa,2016,Rural,69.44
+1782,Western Pacific,Cambodia,2016,Total,70.15
+1783,Americas,Guatemala,2016,Rural,69.93
+1784,Western Pacific,Tonga,2016,Total,69.56
+1785,Eastern Mediterranean,Yemen,2016,Urban,70.15
+1786,South-East Asia,Indonesia,2016,Rural,70.75
+1787,South-East Asia,Myanmar,2016,Rural,70.66
+1788,Western Pacific,Solomon Islands,2016,Urban,70.67
+1789,Americas,Paraguay,2016,Rural,71.99
+1790,Western Pacific,Samoa,2016,Total,72.12
+1791,Americas,Suriname,2016,Total,72.09
+1792,Western Pacific,Lao People's Democratic Republic,2016,Urban,73.31
+1793,Europe,Tajikistan,2016,Total,72.65
+1794,Africa,Algeria,2016,Rural,74.08
+1795,South-East Asia,Myanmar,2016,Total,74.38
+1796,South-East Asia,Nepal,2016,Urban,75.1
+1797,Americas,Suriname,2016,Urban,74.8
+1798,Americas,Guyana,2016,Urban,76.12
+1799,Americas,Guatemala,2016,Total,76.62
+1800,Americas,Colombia,2016,Urban,78.29
+1801,South-East Asia,Indonesia,2016,Total,77.69
+1802,Western Pacific,Mongolia,2016,Total,78.32
+1803,Americas,Ecuador,2016,Rural,78.5
+1804,Americas,Guyana,2016,Total,78.94
+1805,Western Pacific,Philippines,2016,Rural,78.51
+1806,Africa,Ethiopia,2016,Total,7.89
+1807,Africa,Togo,2016,Rural,7.67
+1808,Americas,Cuba,2016,Rural,79.53
+1809,Americas,Guyana,2016,Rural,79.96
+1811,Americas,Paraguay,2016,Total,80.0
+1812,Western Pacific,Tonga,2016,Urban,80.43
+1813,South-East Asia,India,2016,Urban,80.81
+1814,Eastern Mediterranean,Syrian Arab Republic,2016,Rural,80.59
+1815,Americas,Honduras,2016,Rural,82.11
+1816,Western Pacific,Philippines,2016,Total,81.65
+1817,Europe,Republic of Moldova,2016,Rural,82.26
+1818,Americas,Costa Rica,2016,Rural,83.14
+1819,Americas,Guatemala,2016,Urban,83.22
+1820,South-East Asia,Myanmar,2016,Urban,83.02
+1821,South-East Asia,Thailand,2016,Rural,83.16
+1822,Western Pacific,Viet Nam,2016,Rural,83.19
+1823,Africa,Algeria,2016,Total,84.12
+1824,South-East Asia,Indonesia,2016,Urban,83.61
+1825,Western Pacific,Samoa,2016,Urban,83.77
+1826,Eastern Mediterranean,Syrian Arab Republic,2016,Total,84.15
+1827,Americas,Costa Rica,2016,Total,84.97
+1828,Americas,Costa Rica,2016,Urban,85.49
+1829,Americas,Honduras,2016,Total,84.5
+1831,Western Pacific,Mongolia,2016,Urban,84.69
+1832,Americas,Paraguay,2016,Urban,85.12
+1833,Western Pacific,Philippines,2016,Urban,85.27
+1834,South-East Asia,Thailand,2016,Total,84.86
+1835,Eastern Mediterranean,Tunisia,2016,Total,85.27
+1836,Americas,El Salvador,2016,Rural,86.27
+1837,Americas,Honduras,2016,Urban,86.4
+1839,Eastern Mediterranean,Pakistan,2016,Urban,85.99
+1840,Europe,Azerbaijan,2016,Rural,87.37
+1841,South-East Asia,Bhutan,2016,Rural,86.56
+1842,South-East Asia,Bhutan,2016,Total,87.23
+1843,Americas,Ecuador,2016,Total,87.09
+1844,Europe,Georgia,2016,Rural,87.44
+1845,Europe,Republic of Moldova,2016,Total,86.98
+1846,Americas,Saint Lucia,2016,Rural,87.19
+1847,Americas,Saint Lucia,2016,Total,87.33
+1848,Eastern Mediterranean,Syrian Arab Republic,2016,Urban,87.33
+1849,Europe,Tajikistan,2016,Urban,87.38
+1850,South-East Asia,Thailand,2016,Urban,86.67
+1851,Western Pacific,Viet Nam,2016,Total,86.78
+1852,Africa,Algeria,2016,Urban,88.13
+1853,Europe,Armenia,2016,Rural,88.27
+1854,Americas,Barbados,2016,Total,88.47
+1855,Americas,Belize,2016,Rural,88.06
+1856,South-East Asia,Bhutan,2016,Urban,88.26
+1857,Western Pacific,Cambodia,2016,Urban,87.87
+1858,Americas,Cuba,2016,Total,87.52
+1859,Eastern Mediterranean,Egypt,2016,Rural,87.66
+1860,Americas,Saint Lucia,2016,Urban,87.94
+1861,Europe,Azerbaijan,2016,Total,89.29
+1862,Americas,Belize,2016,Total,88.56
+1863,Americas,Belize,2016,Urban,89.16
+1864,Africa,Burkina Faso,2016,Total,8.86
+1866,Africa,Guinea-Bissau,2016,Rural,9.22
+1867,Africa,Mali,2016,Rural,9.12
+1868,Africa,Zambia,2016,Rural,9.23
+1869,Americas,Cuba,2016,Urban,89.92
+1870,Eastern Mediterranean,Egypt,2016,Total,89.83
+1871,Eastern Mediterranean,Iraq,2016,Rural,89.82
+1872,Europe,Azerbaijan,2016,Urban,90.86
+1873,Americas,El Salvador,2016,Total,90.61
+1874,Americas,Ecuador,2016,Urban,92.02
+1875,Americas,El Salvador,2016,Urban,92.42
+1876,Europe,Georgia,2016,Total,91.58
+1877,Europe,Kyrgyzstan,2016,Rural,92.04
+1878,Americas,Mexico,2016,Rural,91.75
+1879,Americas,Mexico,2016,Total,91.75
+1880,Americas,Mexico,2016,Urban,91.75
+1881,Europe,Armenia,2016,Total,93.38
+1882,Eastern Mediterranean,Egypt,2016,Urban,92.74
+1883,Europe,Kyrgyzstan,2016,Total,93.42
+1884,Europe,Republic of Moldova,2016,Urban,93.36
+1886,Eastern Mediterranean,Tunisia,2016,Urban,93.64
+1888,Western Pacific,Viet Nam,2016,Urban,93.61
+1889,Europe,Georgia,2016,Urban,94.6
+1890,Eastern Mediterranean,Iraq,2016,Total,94.59
+1891,South-East Asia,Maldives,2016,Rural,94.97
+1894,Europe,Armenia,2016,Urban,96.37
+1895,Europe,Bosnia and Herzegovina,2016,Rural,96.05
+1896,Europe,Kyrgyzstan,2016,Urban,95.87
+1897,South-East Asia,Maldives,2016,Total,95.79
+1900,Europe,Bosnia and Herzegovina,2016,Total,97.26
+1901,Eastern Mediterranean,Iraq,2016,Urban,96.63
+1902,South-East Asia,Maldives,2016,Urban,97.08
+1903,Eastern Mediterranean,Oman,2016,Total,97.4
+1904,Europe,Bosnia and Herzegovina,2016,Urban,98.6
+1905,Europe,Kazakhstan,2016,Rural,98.73
+1906,Europe,Kazakhstan,2016,Total,99.01
+1907,Europe,Kazakhstan,2016,Urban,99.22
+1908,Europe,Montenegro,2016,Rural,99.28
+1909,Europe,Montenegro,2016,Total,99.24
+1910,Europe,Montenegro,2016,Urban,99.23
+1911,Europe,Turkmenistan,2016,Rural,99.08
+1912,Europe,Turkmenistan,2016,Total,99.38
+1913,Africa,Liberia,2015,Rural,0.68
+1914,Africa,Guinea-Bissau,2015,Total,10.49
+1915,Africa,Lesotho,2015,Urban,10.3
+1916,Africa,Rwanda,2015,Rural,10.47
+1917,Africa,Senegal,2015,Rural,10.3
+1918,Africa,Sierra Leone,2015,Rural,10.26
+1919,Eastern Mediterranean,Bahrain,2015,Total,100.0
+1923,Africa,Democratic Republic of the Congo,2015,Rural,12.33
+1924,Africa,Gambia,2015,Rural,11.93
+1925,Africa,Mozambique,2015,Total,12.23
+1926,Africa,Rwanda,2015,Total,12.41
+1927,Africa,Angola,2015,Rural,13.23
+1928,Africa,Benin,2015,Urban,13.45
+1929,Africa,Central African Republic,2015,Rural,12.63
+1930,Africa,Gambia,2015,Total,12.87
+1931,Africa,Guinea,2015,Rural,13.08
+1932,Africa,Malawi,2015,Rural,12.54
+1933,Africa,Gambia,2015,Urban,13.51
+1934,Africa,Guinea-Bissau,2015,Urban,14.02
+1935,Africa,Togo,2015,Total,13.62
+1936,Africa,Comoros,2015,Rural,14.65
+1937,Africa,Malawi,2015,Total,15.3
+1938,Africa,Niger,2015,Rural,14.59
+1939,Africa,Sierra Leone,2015,Total,14.51
+1940,Africa,Chad,2015,Rural,16.26
+1941,Africa,Comoros,2015,Total,15.57
+1942,Africa,Madagascar,2015,Rural,15.67
+1943,Africa,Mali,2015,Total,16.32
+1945,Americas,Haiti,2015,Rural,16.53
+1946,Africa,Uganda,2015,Rural,17.36
+1947,Africa,Zambia,2015,Total,17.4
+1949,Africa,Comoros,2015,Urban,17.87
+1950,Africa,Niger,2015,Total,17.99
+1951,Africa,Burkina Faso,2015,Urban,19.21
+1952,Africa,Central African Republic,2015,Total,18.93
+1953,Africa,Democratic Republic of the Congo,2015,Total,18.74
+1954,Eastern Mediterranean,Somalia,2015,Rural,19.01
+1955,Africa,Liberia,2015,Total,1.65
+1956,Africa,Equatorial Guinea,2015,Rural,19.89
+1957,Africa,Ethiopia,2015,Urban,20.26
+1958,Africa,Guinea,2015,Total,20.13
+1959,Africa,Burundi,2015,Urban,21.23
+1960,Africa,Chad,2015,Total,20.9
+1961,Africa,Mozambique,2015,Urban,21.07
+1962,Africa,Senegal,2015,Total,21.46
+1963,Africa,Sierra Leone,2015,Urban,20.67
+1964,Eastern Mediterranean,Sudan,2015,Total,21.25
+1965,Africa,Uganda,2015,Total,21.1
+1966,Americas,Bolivia (Plurinational State of),2015,Rural,21.89
+1967,Africa,Cameroon,2015,Rural,22.03
+1968,Africa,Rwanda,2015,Urban,21.88
+1969,South-East Asia,Timor-Leste,2015,Rural,21.93
+1970,Africa,United Republic of Tanzania,2015,Rural,22.29
+1971,Americas,Haiti,2015,Total,23.43
+1972,Africa,Nigeria,2015,Rural,22.88
+1973,Africa,Equatorial Guinea,2015,Total,24.22
+1975,Africa,Madagascar,2015,Total,23.65
+1976,Africa,Togo,2015,Urban,23.59
+1977,Western Pacific,Papua New Guinea,2015,Rural,24.73
+1978,Eastern Mediterranean,Somalia,2015,Total,24.57
+1979,Africa,Angola,2015,Total,26.39
+1980,Africa,Equatorial Guinea,2015,Urban,26.02
+1981,Americas,Bolivia (Plurinational State of),2015,Total,26.81
+1982,Africa,Democratic Republic of the Congo,2015,Urban,27.32
+1983,Africa,Mali,2015,Urban,27.12
+1984,Africa,Namibia,2015,Rural,27.48
+1985,Africa,South Africa,2015,Rural,27.48
+1987,Africa,Central African Republic,2015,Urban,28.28
+1988,Western Pacific,Solomon Islands,2015,Rural,28.4
+1989,South-East Asia,Timor-Leste,2015,Total,28.03
+1990,Africa,United Republic of Tanzania,2015,Total,28.0
+1991,Americas,Bolivia (Plurinational State of),2015,Urban,29.08
+1992,Africa,Malawi,2015,Urban,29.45
+1993,Africa,Zambia,2015,Urban,28.73
+1994,Africa,Liberia,2015,Urban,2.62
+1995,Americas,Haiti,2015,Urban,29.69
+1996,Africa,Nigeria,2015,Total,30.21
+1997,Western Pacific,Papua New Guinea,2015,Total,29.64
+1998,Africa,Congo,2015,Rural,31.81
+1999,Eastern Mediterranean,Somalia,2015,Urban,31.87
+2000,Americas,Colombia,2015,Rural,32.95
+2001,Africa,Guinea,2015,Urban,33.14
+2002,Africa,Angola,2015,Urban,33.97
+2003,Africa,Uganda,2015,Urban,34.3
+2004,Eastern Mediterranean,Afghanistan,2015,Rural,35.12
+2005,South-East Asia,Bangladesh,2015,Rural,34.59
+2006,Africa,Ghana,2015,Rural,34.88
+2007,Africa,Kenya,2015,Rural,34.65
+2008,Africa,Niger,2015,Urban,35.47
+2009,Africa,Senegal,2015,Urban,34.64
+2010,Africa,Cameroon,2015,Total,35.67
+2011,Africa,Mauritania,2015,Rural,36.33
+2012,Eastern Mediterranean,Yemen,2015,Rural,36.49
+2013,Africa,Zimbabwe,2015,Rural,36.11
+2014,Africa,Chad,2015,Urban,36.87
+2015,Africa,Kenya,2015,Total,37.26
+2016,Africa,Madagascar,2015,Urban,38.36
+2017,Africa,Nigeria,2015,Urban,38.2
+2018,Western Pacific,Solomon Islands,2015,Total,37.85
+2019,Americas,Dominican Republic,2015,Rural,38.63
+2020,Western Pacific,Vanuatu,2015,Rural,38.56
+2021,Africa,Burundi,2015,Rural,4.07
+2022,Africa,Lesotho,2015,Rural,3.55
+2023,Africa,United Republic of Tanzania,2015,Urban,40.36
+2024,Africa,Ghana,2015,Total,41.16
+2025,Eastern Mediterranean,Afghanistan,2015,Total,42.12
+2026,South-East Asia,Bangladesh,2015,Total,41.75
+2027,Africa,Zimbabwe,2015,Total,42.45
+2028,Africa,Sao Tome and Principe,2015,Urban,42.57
+2029,South-East Asia,Timor-Leste,2015,Urban,42.62
+2030,Africa,Namibia,2015,Total,43.86
+2031,Africa,Sao Tome and Principe,2015,Total,43.92
+2032,Africa,South Africa,2015,Total,43.74
+2033,Africa,Kenya,2015,Urban,44.83
+2034,Western Pacific,Vanuatu,2015,Total,45.04
+2035,Western Pacific,Lao People's Democratic Republic,2015,Rural,45.56
+2036,Africa,Cameroon,2015,Urban,47.03
+2037,Africa,Ghana,2015,Urban,46.5
+2038,Africa,Sao Tome and Principe,2015,Rural,47.09
+2039,Africa,Congo,2015,Total,47.74
+2041,Eastern Mediterranean,Yemen,2015,Total,48.2
+2042,Africa,Burkina Faso,2015,Rural,4.86
+2043,Africa,Ethiopia,2015,Rural,4.83
+2044,Africa,Lesotho,2015,Total,5.37
+2045,Western Pacific,Kiribati,2015,Rural,51.48
+2046,South-East Asia,Nepal,2015,Rural,50.81
+2047,Americas,Peru,2015,Rural,50.82
+2048,Americas,Dominican Republic,2015,Total,51.77
+2049,Africa,Mauritania,2015,Total,51.7
+2050,South-East Asia,India,2015,Rural,53.13
+2051,Eastern Mediterranean,Pakistan,2015,Rural,52.55
+2052,Africa,South Africa,2015,Urban,52.56
+2053,South-East Asia,Bangladesh,2015,Urban,55.46
+2054,Americas,Dominican Republic,2015,Urban,55.35
+2055,Western Pacific,Kiribati,2015,Total,55.28
+2056,Western Pacific,Lao People's Democratic Republic,2015,Total,54.75
+2057,South-East Asia,Nepal,2015,Total,55.31
+2058,Africa,Congo,2015,Urban,56.11
+2059,Africa,Zimbabwe,2015,Urban,55.71
+2060,Western Pacific,Kiribati,2015,Urban,58.85
+2061,Africa,Benin,2015,Rural,5.67
+2062,Africa,Burundi,2015,Total,6.14
+2063,Africa,South Sudan,2015,Total,5.6
+2064,Western Pacific,Mongolia,2015,Rural,60.48
+2065,Western Pacific,Cambodia,2015,Rural,62.19
+2066,South-East Asia,India,2015,Total,61.84
+2067,Africa,Namibia,2015,Urban,62.41
+2068,Western Pacific,Papua New Guinea,2015,Urban,62.48
+2069,Eastern Mediterranean,Afghanistan,2015,Urban,63.35
+2070,Americas,Jamaica,2015,Rural,63.34
+2071,Eastern Mediterranean,Pakistan,2015,Total,64.23
+2072,Western Pacific,Vanuatu,2015,Urban,64.52
+2073,Africa,Mauritania,2015,Urban,66.41
+2074,Western Pacific,Tonga,2015,Rural,66.27
+2075,Americas,Jamaica,2015,Total,66.65
+2076,Americas,Suriname,2015,Rural,66.84
+2077,Europe,Tajikistan,2015,Rural,67.12
+2078,Eastern Mediterranean,Tunisia,2015,Rural,67.16
+2079,Western Pacific,Cambodia,2015,Total,67.88
+2080,Americas,Colombia,2015,Total,69.12
+2081,Americas,Jamaica,2015,Urban,69.37
+2082,Africa,Togo,2015,Rural,6.95
+2083,Americas,Guatemala,2015,Rural,69.93
+2084,South-East Asia,Indonesia,2015,Rural,69.89
+2085,Western Pacific,Tonga,2015,Total,69.56
+2086,Eastern Mediterranean,Yemen,2015,Urban,70.15
+2087,South-East Asia,Myanmar,2015,Rural,70.66
+2088,Western Pacific,Solomon Islands,2015,Urban,70.67
+2089,Americas,Paraguay,2015,Rural,71.99
+2090,Americas,Suriname,2015,Total,72.1
+2091,Western Pacific,Lao People's Democratic Republic,2015,Urban,73.31
+2092,Europe,Tajikistan,2015,Total,72.59
+2093,Africa,Algeria,2015,Rural,73.83
+2094,South-East Asia,Myanmar,2015,Total,74.35
+2095,South-East Asia,Nepal,2015,Urban,75.07
+2096,Americas,Suriname,2015,Urban,74.8
+2097,Americas,Guyana,2015,Urban,75.77
+2098,Western Pacific,Mongolia,2015,Total,76.3
+2099,Americas,Guatemala,2015,Total,76.57
+2100,South-East Asia,Indonesia,2015,Total,77.42
+2101,Americas,Colombia,2015,Urban,78.29
+2102,Americas,Cuba,2015,Rural,77.81
+2103,Americas,Guyana,2015,Total,78.18
+2104,Americas,Ecuador,2015,Rural,78.5
+2105,Americas,Guyana,2015,Rural,79.05
+2106,Western Pacific,Philippines,2015,Rural,78.51
+2107,Africa,Ethiopia,2015,Total,7.82
+2108,Africa,Guinea-Bissau,2015,Rural,7.92
+2109,Africa,Mozambique,2015,Rural,7.59
+2110,South-East Asia,India,2015,Urban,79.69
+2112,Americas,Paraguay,2015,Total,79.97
+2113,Western Pacific,Tonga,2015,Urban,80.43
+2114,Eastern Mediterranean,Syrian Arab Republic,2015,Rural,80.59
+2115,Americas,Honduras,2015,Rural,81.66
+2116,Western Pacific,Philippines,2015,Total,81.64
+2117,Europe,Republic of Moldova,2015,Rural,82.26
+2118,Americas,Costa Rica,2015,Rural,83.09
+2119,Americas,Guatemala,2015,Urban,83.22
+2120,South-East Asia,Myanmar,2015,Urban,83.02
+2121,South-East Asia,Thailand,2015,Rural,83.16
+2122,Western Pacific,Viet Nam,2015,Rural,82.95
+2123,Africa,Algeria,2015,Total,83.98
+2124,Americas,Honduras,2015,Total,84.39
+2125,South-East Asia,Indonesia,2015,Urban,84.01
+2126,Western Pacific,Mongolia,2015,Urban,83.67
+2127,Eastern Mediterranean,Syrian Arab Republic,2015,Total,84.11
+2128,South-East Asia,Bhutan,2015,Rural,84.66
+2129,Americas,Costa Rica,2015,Total,84.74
+2130,Americas,Costa Rica,2015,Urban,85.23
+2131,Eastern Mediterranean,Egypt,2015,Rural,85.36
+2133,Eastern Mediterranean,Pakistan,2015,Urban,84.97
+2134,Americas,Paraguay,2015,Urban,85.12
+2135,Western Pacific,Philippines,2015,Urban,85.27
+2136,South-East Asia,Thailand,2015,Total,84.84
+2137,South-East Asia,Bhutan,2015,Total,85.95
+2138,Americas,Cuba,2015,Total,86.35
+2139,Americas,El Salvador,2015,Rural,86.27
+2141,Eastern Mediterranean,Tunisia,2015,Total,85.56
+2142,Western Pacific,Viet Nam,2015,Total,86.47
+2143,Europe,Armenia,2015,Rural,86.85
+2144,Europe,Azerbaijan,2015,Rural,87.37
+2145,Americas,Ecuador,2015,Total,87.07
+2146,Europe,Georgia,2015,Rural,87.44
+2147,Americas,Honduras,2015,Urban,86.6
+2148,Europe,Republic of Moldova,2015,Total,86.98
+2149,Americas,Saint Lucia,2015,Rural,87.19
+2150,Americas,Saint Lucia,2015,Total,87.33
+2151,Eastern Mediterranean,Syrian Arab Republic,2015,Urban,87.33
+2152,South-East Asia,Thailand,2015,Urban,86.67
+2153,Africa,Algeria,2015,Urban,88.16
+2154,Americas,Barbados,2015,Total,88.47
+2155,Americas,Belize,2015,Rural,87.74
+2156,Americas,Belize,2015,Total,87.71
+2157,Americas,Belize,2015,Urban,87.67
+2158,South-East Asia,Bhutan,2015,Urban,88.01
+2159,Western Pacific,Cambodia,2015,Urban,87.82
+2160,Eastern Mediterranean,Egypt,2015,Total,88.34
+2161,Eastern Mediterranean,Iraq,2015,Rural,88.05
+2162,Americas,Saint Lucia,2015,Urban,87.94
+2163,Europe,Tajikistan,2015,Urban,87.59
+2164,Europe,Azerbaijan,2015,Total,89.28
+2165,Americas,Cuba,2015,Urban,88.92
+2166,Africa,Benin,2015,Total,9.22
+2167,Africa,Burkina Faso,2015,Total,8.81
+2169,Africa,Mali,2015,Rural,9.12
+2170,Africa,Zambia,2015,Rural,9.23
+2171,Europe,Kyrgyzstan,2015,Rural,90.03
+2172,Americas,Trinidad and Tobago,2015,Total,90.06
+2173,Europe,Azerbaijan,2015,Urban,90.86
+2174,Americas,El Salvador,2015,Total,90.56
+2175,Americas,Mexico,2015,Rural,91.38
+2176,Americas,Mexico,2015,Total,91.38
+2177,Americas,Mexico,2015,Urban,91.38
+2178,Americas,Ecuador,2015,Urban,92.02
+2179,Eastern Mediterranean,Egypt,2015,Urban,92.33
+2180,Americas,El Salvador,2015,Urban,92.42
+2181,Europe,Georgia,2015,Total,91.55
+2182,Europe,Kyrgyzstan,2015,Total,91.79
+2183,Europe,Armenia,2015,Total,92.72
+2184,Europe,Republic of Moldova,2015,Urban,93.36
+2185,Western Pacific,Viet Nam,2015,Urban,93.35
+2186,Eastern Mediterranean,Iraq,2015,Total,93.88
+2187,Eastern Mediterranean,Tunisia,2015,Urban,94.19
+2188,Europe,Georgia,2015,Urban,94.6
+2189,Europe,Kyrgyzstan,2015,Urban,94.95
+2190,South-East Asia,Maldives,2015,Rural,94.97
+2193,Europe,Armenia,2015,Urban,96.16
+2194,Europe,Bosnia and Herzegovina,2015,Rural,96.05
+2195,Eastern Mediterranean,Iraq,2015,Urban,96.38
+2196,South-East Asia,Maldives,2015,Total,95.78
+2198,Europe,Bosnia and Herzegovina,2015,Total,97.25
+2199,South-East Asia,Maldives,2015,Urban,97.08
+2200,Eastern Mediterranean,Oman,2015,Total,97.4
+2201,Europe,Turkmenistan,2015,Rural,96.67
+2202,Europe,Turkmenistan,2015,Total,97.65
+2203,Europe,Bosnia and Herzegovina,2015,Urban,98.6
+2204,Europe,Kazakhstan,2015,Rural,98.73
+2205,Europe,Kazakhstan,2015,Total,99.01
+2206,Europe,Kazakhstan,2015,Urban,99.22
+2207,Europe,Montenegro,2015,Rural,99.28
+2208,Europe,Montenegro,2015,Total,99.24
+2209,Europe,Montenegro,2015,Urban,99.23
+2210,Europe,Turkmenistan,2015,Urban,98.62
+2211,Africa,Liberia,2014,Rural,0.64
+2212,Africa,Liberia,2014,Total,1.41
+2213,Africa,Lesotho,2014,Urban,10.3
+2214,Africa,Rwanda,2014,Rural,9.54
+2215,Africa,Senegal,2014,Rural,10.3
+2216,Africa,Sierra Leone,2014,Rural,9.54
+2217,Eastern Mediterranean,Bahrain,2014,Total,100.0
+2221,Africa,Rwanda,2014,Total,11.42
+2222,Africa,Democratic Republic of the Congo,2014,Rural,12.33
+2223,Africa,Gambia,2014,Rural,11.93
+2224,Africa,Guinea-Bissau,2014,Urban,12.27
+2225,Africa,Mozambique,2014,Total,12.16
+2226,Africa,Angola,2014,Rural,13.23
+2227,Africa,Benin,2014,Urban,12.83
+2228,Africa,Central African Republic,2014,Rural,12.71
+2229,Africa,Gambia,2014,Total,12.86
+2230,Africa,Guinea,2014,Rural,13.08
+2231,Africa,Malawi,2014,Rural,12.54
+2232,Africa,Niger,2014,Rural,13.42
+2233,Africa,Togo,2014,Total,12.77
+2234,Africa,Gambia,2014,Urban,13.51
+2235,Africa,Sierra Leone,2014,Total,14.02
+2236,Africa,Chad,2014,Rural,15.02
+2237,Africa,Comoros,2014,Rural,14.65
+2238,Africa,Malawi,2014,Total,15.3
+2239,Africa,Comoros,2014,Total,15.56
+2240,Africa,Madagascar,2014,Rural,15.73
+2241,Africa,Mali,2014,Total,16.18
+2242,Africa,Uganda,2014,Rural,16.25
+2244,Americas,Haiti,2014,Rural,16.8
+2245,Africa,Niger,2014,Total,16.89
+2246,Africa,Zambia,2014,Total,17.3
+2248,Africa,Central African Republic,2014,Total,18.46
+2249,Africa,Comoros,2014,Urban,17.87
+2250,Africa,Democratic Republic of the Congo,2014,Total,18.65
+2251,Eastern Mediterranean,Somalia,2014,Rural,19.01
+2252,Africa,Liberia,2014,Urban,2.19
+2253,Africa,Burkina Faso,2014,Urban,19.64
+2254,Africa,Chad,2014,Total,20.01
+2255,Africa,Equatorial Guinea,2014,Rural,19.89
+2256,Africa,Ethiopia,2014,Urban,20.26
+2257,Africa,Guinea,2014,Total,20.07
+2258,Africa,Uganda,2014,Total,19.74
+2259,Africa,Mozambique,2014,Urban,21.07
+2260,Africa,Rwanda,2014,Urban,20.63
+2261,Africa,Senegal,2014,Total,21.36
+2262,Africa,Sierra Leone,2014,Urban,20.61
+2263,Americas,Bolivia (Plurinational State of),2014,Rural,21.89
+2264,Africa,Burundi,2014,Urban,21.69
+2265,South-East Asia,Timor-Leste,2014,Rural,21.93
+2266,Africa,United Republic of Tanzania,2014,Rural,22.29
+2267,Africa,Nigeria,2014,Rural,22.88
+2268,Eastern Mediterranean,Sudan,2014,Total,23.0
+2269,Africa,Togo,2014,Urban,22.76
+2270,Africa,Equatorial Guinea,2014,Total,24.19
+2272,Americas,Haiti,2014,Total,23.71
+2273,Africa,Madagascar,2014,Total,23.67
+2274,Western Pacific,Papua New Guinea,2014,Rural,24.73
+2275,Eastern Mediterranean,Somalia,2014,Total,24.5
+2276,Africa,Angola,2014,Total,26.25
+2277,Africa,Equatorial Guinea,2014,Urban,26.02
+2278,Americas,Bolivia (Plurinational State of),2014,Total,26.79
+2280,Africa,Central African Republic,2014,Urban,27.09
+2281,Africa,Democratic Republic of the Congo,2014,Urban,27.32
+2282,Africa,Mali,2014,Urban,27.12
+2283,Africa,Namibia,2014,Rural,27.48
+2284,Africa,South Africa,2014,Rural,27.48
+2285,Western Pacific,Solomon Islands,2014,Rural,28.4
+2286,South-East Asia,Timor-Leste,2014,Total,27.95
+2287,Africa,United Republic of Tanzania,2014,Total,27.87
+2288,Americas,Bolivia (Plurinational State of),2014,Urban,29.08
+2289,Africa,Zambia,2014,Urban,28.73
+2290,Americas,Haiti,2014,Urban,30.22
+2291,Africa,Malawi,2014,Urban,29.67
+2292,Africa,Nigeria,2014,Total,30.08
+2293,Western Pacific,Papua New Guinea,2014,Total,29.63
+2294,South-East Asia,Bangladesh,2014,Rural,30.74
+2295,Africa,Congo,2014,Rural,31.81
+2296,Eastern Mediterranean,Somalia,2014,Urban,31.87
+2297,Africa,Uganda,2014,Urban,32.44
+2298,Americas,Colombia,2014,Rural,32.95
+2299,Africa,Guinea,2014,Urban,33.14
+2300,Western Pacific,Vanuatu,2014,Rural,33.41
+2301,Eastern Mediterranean,Afghanistan,2014,Rural,33.78
+2302,Africa,Angola,2014,Urban,33.97
+2303,Africa,Ghana,2014,Rural,34.88
+2304,Africa,Kenya,2014,Rural,34.65
+2305,Africa,Niger,2014,Urban,34.86
+2306,Africa,Senegal,2014,Urban,34.64
+2307,Eastern Mediterranean,Yemen,2014,Rural,36.49
+2308,Africa,Zimbabwe,2014,Rural,36.11
+2309,Africa,Chad,2014,Urban,37.33
+2310,Africa,Kenya,2014,Total,37.21
+2311,South-East Asia,Bangladesh,2014,Total,38.34
+2312,Africa,Nigeria,2014,Urban,38.2
+2313,Western Pacific,Solomon Islands,2014,Total,37.66
+2314,Africa,Madagascar,2014,Urban,38.72
+2315,Africa,Mauritania,2014,Rural,38.75
+2316,Africa,Sao Tome and Principe,2014,Urban,39.2
+2317,Africa,Burundi,2014,Rural,4.06
+2318,Africa,Lesotho,2014,Rural,3.55
+2319,Americas,Dominican Republic,2014,Rural,39.51
+2320,Africa,United Republic of Tanzania,2014,Urban,40.36
+2321,Eastern Mediterranean,Afghanistan,2014,Total,41.22
+2322,Africa,Ghana,2014,Total,41.09
+2323,Western Pacific,Vanuatu,2014,Total,40.61
+2324,Africa,Sao Tome and Principe,2014,Total,41.83
+2325,Africa,Zimbabwe,2014,Total,42.48
+2326,Africa,Namibia,2014,Total,43.49
+2327,South-East Asia,Timor-Leste,2014,Urban,42.62
+2328,Africa,South Africa,2014,Total,43.61
+2329,Africa,Kenya,2014,Urban,44.83
+2330,Western Pacific,Lao People's Democratic Republic,2014,Rural,45.56
+2331,Africa,Ghana,2014,Urban,46.5
+2332,Africa,Congo,2014,Total,47.63
+2334,Americas,Peru,2014,Rural,48.13
+2335,Africa,Sao Tome and Principe,2014,Rural,47.75
+2336,Eastern Mediterranean,Yemen,2014,Total,47.99
+2337,South-East Asia,Nepal,2014,Rural,49.22
+2338,Eastern Mediterranean,Pakistan,2014,Rural,48.59
+2339,Africa,Benin,2014,Rural,5.24
+2340,Africa,Burkina Faso,2014,Rural,4.74
+2341,Africa,Ethiopia,2014,Rural,4.83
+2342,Africa,Lesotho,2014,Total,5.34
+2343,South-East Asia,India,2014,Rural,50.73
+2344,Americas,Dominican Republic,2014,Total,52.35
+2345,South-East Asia,Bangladesh,2014,Urban,53.4
+2346,Africa,Mauritania,2014,Total,53.19
+2347,Africa,South Africa,2014,Urban,52.56
+2348,South-East Asia,Nepal,2014,Total,53.91
+2349,Western Pacific,Lao People's Democratic Republic,2014,Total,54.57
+2350,Africa,Congo,2014,Urban,56.11
+2351,Americas,Dominican Republic,2014,Urban,56.04
+2352,Western Pacific,Mongolia,2014,Rural,56.34
+2353,Africa,Zimbabwe,2014,Urban,55.71
+2354,Western Pacific,Cambodia,2014,Rural,59.4
+2355,Africa,Burundi,2014,Total,6.13
+2356,Africa,Togo,2014,Rural,6.23
+2357,South-East Asia,India,2014,Total,59.74
+2358,Eastern Mediterranean,Pakistan,2014,Total,61.26
+2359,Africa,Namibia,2014,Urban,62.41
+2360,Western Pacific,Papua New Guinea,2014,Urban,62.48
+2361,Western Pacific,Vanuatu,2014,Urban,62.37
+2362,Americas,Jamaica,2014,Rural,63.34
+2363,Eastern Mediterranean,Afghanistan,2014,Urban,64.04
+2364,Western Pacific,Cambodia,2014,Total,65.58
+2365,Americas,Jamaica,2014,Total,66.63
+2366,Americas,Suriname,2014,Rural,66.84
+2367,Europe,Tajikistan,2014,Rural,67.0
+2368,Eastern Mediterranean,Tunisia,2014,Rural,67.13
+2369,Africa,Mauritania,2014,Urban,67.52
+2370,Americas,Colombia,2014,Total,68.96
+2371,South-East Asia,Indonesia,2014,Rural,69.04
+2372,Americas,Jamaica,2014,Urban,69.37
+2373,Africa,Guinea-Bissau,2014,Rural,6.62
+2374,Americas,Guatemala,2014,Rural,69.93
+2375,Eastern Mediterranean,Yemen,2014,Urban,70.15
+2376,South-East Asia,Myanmar,2014,Rural,70.66
+2377,Western Pacific,Solomon Islands,2014,Urban,70.67
+2378,Americas,Paraguay,2014,Rural,71.99
+2379,Americas,Suriname,2014,Total,72.1
+2380,Western Pacific,Lao People's Democratic Republic,2014,Urban,73.31
+2381,Europe,Tajikistan,2014,Total,72.54
+2382,Africa,Algeria,2014,Rural,73.58
+2383,Western Pacific,Mongolia,2014,Total,74.28
+2384,South-East Asia,Myanmar,2014,Total,74.32
+2385,Americas,Guyana,2014,Urban,75.42
+2386,South-East Asia,Nepal,2014,Urban,75.04
+2387,Americas,Suriname,2014,Urban,74.8
+2388,Americas,Cuba,2014,Rural,76.1
+2389,Americas,Guatemala,2014,Total,76.53
+2390,Americas,Guyana,2014,Total,77.42
+2391,South-East Asia,Indonesia,2014,Total,77.13
+2392,Americas,Colombia,2014,Urban,78.29
+2393,Americas,Guyana,2014,Rural,78.14
+2394,Americas,Ecuador,2014,Rural,78.5
+2395,South-East Asia,India,2014,Urban,78.57
+2396,Western Pacific,Philippines,2014,Rural,78.51
+2397,Africa,Ethiopia,2014,Total,7.76
+2398,Africa,Mozambique,2014,Rural,7.59
+2400,Americas,Paraguay,2014,Total,79.93
+2401,Americas,Honduras,2014,Rural,81.22
+2402,Eastern Mediterranean,Syrian Arab Republic,2014,Rural,80.59
+2403,Western Pacific,Philippines,2014,Total,81.62
+2404,Europe,Republic of Moldova,2014,Rural,82.26
+2405,South-East Asia,Bhutan,2014,Rural,82.75
+2406,Americas,Costa Rica,2014,Rural,83.05
+2407,Eastern Mediterranean,Egypt,2014,Rural,83.07
+2408,Americas,Guatemala,2014,Urban,83.22
+2409,Western Pacific,Mongolia,2014,Urban,82.66
+2410,South-East Asia,Myanmar,2014,Urban,83.02
+2411,South-East Asia,Thailand,2014,Rural,83.16
+2412,Western Pacific,Viet Nam,2014,Rural,82.71
+2413,Africa,Algeria,2014,Total,83.83
+2414,Americas,Honduras,2014,Total,84.26
+2415,South-East Asia,Indonesia,2014,Urban,84.4
+2416,Eastern Mediterranean,Pakistan,2014,Urban,83.95
+2417,Eastern Mediterranean,Syrian Arab Republic,2014,Total,84.06
+2418,Europe,Armenia,2014,Rural,85.43
+2419,South-East Asia,Bhutan,2014,Total,84.65
+2420,Americas,Costa Rica,2014,Total,84.51
+2421,Americas,Costa Rica,2014,Urban,84.97
+2422,Americas,Cuba,2014,Total,85.18
+2424,Americas,Paraguay,2014,Urban,85.12
+2425,Western Pacific,Philippines,2014,Urban,85.27
+2426,South-East Asia,Thailand,2014,Total,84.81
+2427,Americas,Belize,2014,Urban,86.18
+2428,Americas,El Salvador,2014,Rural,86.27
+2429,Eastern Mediterranean,Iraq,2014,Rural,86.29
+2431,Eastern Mediterranean,Tunisia,2014,Total,85.84
+2432,Western Pacific,Viet Nam,2014,Total,86.15
+2433,Europe,Azerbaijan,2014,Rural,87.37
+2434,Americas,Belize,2014,Rural,87.42
+2435,Americas,Belize,2014,Total,86.86
+2436,Americas,Ecuador,2014,Total,87.05
+2437,Eastern Mediterranean,Egypt,2014,Total,86.86
+2438,Europe,Georgia,2014,Rural,87.44
+2439,Americas,Honduras,2014,Urban,86.8
+2440,Europe,Republic of Moldova,2014,Total,86.98
+2441,Americas,Saint Lucia,2014,Rural,87.19
+2442,Americas,Saint Lucia,2014,Total,87.33
+2443,Eastern Mediterranean,Syrian Arab Republic,2014,Urban,87.33
+2444,South-East Asia,Thailand,2014,Urban,86.67
+2445,Africa,Algeria,2014,Urban,88.18
+2446,Americas,Barbados,2014,Total,88.47
+2447,South-East Asia,Bhutan,2014,Urban,87.76
+2448,Western Pacific,Cambodia,2014,Urban,87.78
+2449,Americas,Cuba,2014,Urban,87.92
+2450,Europe,Kyrgyzstan,2014,Rural,88.02
+2451,Americas,Saint Lucia,2014,Urban,87.94
+2452,Europe,Tajikistan,2014,Urban,87.8
+2453,Europe,Azerbaijan,2014,Total,89.27
+2454,Africa,Benin,2014,Total,8.67
+2455,Africa,Burkina Faso,2014,Total,8.75
+2457,Africa,Guinea-Bissau,2014,Total,8.98
+2458,Africa,Mali,2014,Rural,9.12
+2459,Africa,Zambia,2014,Rural,9.23
+2460,Europe,Kyrgyzstan,2014,Total,90.16
+2461,Americas,Trinidad and Tobago,2014,Total,90.06
+2462,Europe,Azerbaijan,2014,Urban,90.86
+2463,Americas,El Salvador,2014,Total,90.51
+2464,Americas,Mexico,2014,Rural,91.02
+2465,Americas,Mexico,2014,Total,91.02
+2466,Americas,Mexico,2014,Urban,91.02
+2467,Europe,Armenia,2014,Total,92.06
+2468,Americas,Ecuador,2014,Urban,92.02
+2469,Eastern Mediterranean,Egypt,2014,Urban,91.92
+2470,Americas,El Salvador,2014,Urban,92.42
+2471,Europe,Georgia,2014,Total,91.53
+2472,Eastern Mediterranean,Iraq,2014,Total,93.16
+2473,Europe,Republic of Moldova,2014,Urban,93.36
+2474,Western Pacific,Viet Nam,2014,Urban,93.09
+2475,Europe,Kyrgyzstan,2014,Urban,94.02
+2476,Europe,Turkmenistan,2014,Rural,94.27
+2477,Europe,Georgia,2014,Urban,94.6
+2478,South-East Asia,Maldives,2014,Rural,94.97
+2481,Eastern Mediterranean,Tunisia,2014,Urban,94.74
+2482,Europe,Armenia,2014,Urban,95.94
+2483,Europe,Bosnia and Herzegovina,2014,Rural,96.05
+2484,Eastern Mediterranean,Iraq,2014,Urban,96.14
+2485,South-East Asia,Maldives,2014,Total,95.78
+2487,Europe,Turkmenistan,2014,Total,95.91
+2488,Europe,Bosnia and Herzegovina,2014,Total,97.24
+2489,South-East Asia,Maldives,2014,Urban,97.08
+2490,Eastern Mediterranean,Oman,2014,Total,97.4
+2491,Europe,Serbia,2014,Rural,98.03
+2492,Europe,Serbia,2014,Total,98.13
+2493,Europe,Serbia,2014,Urban,98.21
+2494,Europe,Turkmenistan,2014,Urban,97.56
+2495,Europe,Bosnia and Herzegovina,2014,Urban,98.6
+2496,Europe,Kazakhstan,2014,Rural,98.73
+2497,Europe,Kazakhstan,2014,Total,99.01
+2498,Europe,Kazakhstan,2014,Urban,99.22
+2499,Europe,Montenegro,2014,Rural,99.28
+2500,Europe,Montenegro,2014,Total,99.24
+2501,Europe,Montenegro,2014,Urban,99.23
+2502,Africa,Liberia,2013,Rural,0.6
+2503,Africa,Liberia,2013,Total,1.17
+2504,Africa,Lesotho,2013,Urban,10.3
+2505,Africa,Rwanda,2013,Total,10.44
+2506,Africa,Senegal,2013,Rural,10.3
+2507,Eastern Mediterranean,Bahrain,2013,Total,100.0
+2511,Africa,Guinea-Bissau,2013,Urban,10.52
+2512,Africa,Benin,2013,Urban,12.22
+2513,Africa,Gambia,2013,Rural,11.93
+2514,Africa,Mozambique,2013,Total,12.09
+2515,Africa,Niger,2013,Rural,12.24
+2516,Africa,Togo,2013,Total,11.92
+2517,Africa,Angola,2013,Rural,13.23
+2518,Africa,Central African Republic,2013,Rural,12.8
+2519,Africa,Gambia,2013,Total,12.85
+2520,Africa,Malawi,2013,Rural,12.54
+2521,Africa,Chad,2013,Rural,13.78
+2522,Africa,Gambia,2013,Urban,13.51
+2523,Africa,Sierra Leone,2013,Total,13.52
+2524,Africa,Comoros,2013,Rural,14.65
+2525,Africa,Malawi,2013,Total,15.31
+2526,Africa,Uganda,2013,Rural,15.15
+2527,Africa,Comoros,2013,Total,15.56
+2528,Africa,Madagascar,2013,Rural,15.8
+2529,Africa,Niger,2013,Total,15.81
+2532,Americas,Haiti,2013,Rural,17.07
+2533,Africa,Zambia,2013,Total,17.2
+2534,Africa,Central African Republic,2013,Total,17.99
+2535,Africa,Comoros,2013,Urban,17.87
+2536,Africa,Uganda,2013,Total,18.38
+2537,Africa,Chad,2013,Total,19.12
+2538,Africa,Rwanda,2013,Urban,19.38
+2539,Eastern Mediterranean,Somalia,2013,Rural,19.01
+2540,Africa,Liberia,2013,Urban,1.76
+2541,Africa,Burkina Faso,2013,Urban,20.07
+2542,Africa,Equatorial Guinea,2013,Rural,19.89
+2543,Africa,Ethiopia,2013,Urban,20.26
+2544,Africa,Mozambique,2013,Urban,21.07
+2545,Africa,Senegal,2013,Total,21.26
+2546,Africa,Sierra Leone,2013,Urban,20.55
+2547,Americas,Bolivia (Plurinational State of),2013,Rural,21.89
+2548,Africa,Burundi,2013,Urban,22.15
+2549,South-East Asia,Timor-Leste,2013,Rural,21.93
+2550,Africa,Togo,2013,Urban,21.92
+2551,Africa,United Republic of Tanzania,2013,Rural,22.29
+2552,Africa,Nigeria,2013,Rural,22.88
+2553,Africa,Equatorial Guinea,2013,Total,24.16
+2555,Americas,Haiti,2013,Total,23.97
+2556,Africa,Madagascar,2013,Total,23.68
+2557,Eastern Mediterranean,Somalia,2013,Total,24.43
+2558,Eastern Mediterranean,Sudan,2013,Total,24.75
+2559,Africa,Angola,2013,Total,26.09
+2561,Africa,Central African Republic,2013,Urban,25.9
+2562,Africa,Equatorial Guinea,2013,Urban,26.02
+2563,South-East Asia,Bangladesh,2013,Rural,26.89
+2564,Americas,Bolivia (Plurinational State of),2013,Total,26.76
+2565,Africa,Namibia,2013,Rural,27.48
+2566,Africa,South Africa,2013,Rural,27.48
+2567,Western Pacific,Solomon Islands,2013,Rural,28.4
+2568,South-East Asia,Timor-Leste,2013,Total,27.88
+2569,Africa,United Republic of Tanzania,2013,Total,27.74
+2570,Western Pacific,Vanuatu,2013,Rural,28.26
+2571,Americas,Bolivia (Plurinational State of),2013,Urban,29.08
+2572,Africa,Zambia,2013,Urban,28.73
+2573,Africa,Malawi,2013,Urban,29.89
+2574,Africa,Nigeria,2013,Total,29.95
+2575,Americas,Haiti,2013,Urban,30.75
+2576,Africa,Uganda,2013,Urban,30.58
+2577,Eastern Mediterranean,Afghanistan,2013,Rural,32.45
+2578,Africa,Congo,2013,Rural,31.81
+2579,Eastern Mediterranean,Somalia,2013,Urban,31.87
+2580,Americas,Colombia,2013,Rural,32.95
+2581,Africa,Angola,2013,Urban,33.97
+2582,Africa,Niger,2013,Urban,34.24
+2583,South-East Asia,Bangladesh,2013,Total,34.9
+2584,Africa,Ghana,2013,Rural,34.88
+2585,Africa,Kenya,2013,Rural,34.65
+2586,Africa,Senegal,2013,Urban,34.64
+2587,Africa,Sao Tome and Principe,2013,Urban,35.82
+2588,Western Pacific,Vanuatu,2013,Total,36.18
+2589,Eastern Mediterranean,Yemen,2013,Rural,36.49
+2590,Africa,Zimbabwe,2013,Rural,36.11
+2591,Africa,Kenya,2013,Total,37.17
+2592,Western Pacific,Solomon Islands,2013,Total,37.46
+2593,Africa,Chad,2013,Urban,37.8
+2594,Africa,Nigeria,2013,Urban,38.2
+2595,Africa,Madagascar,2013,Urban,39.08
+2596,Africa,Burundi,2013,Rural,4.05
+2597,Africa,Lesotho,2013,Rural,3.55
+2598,Eastern Mediterranean,Afghanistan,2013,Total,40.32
+2599,Americas,Dominican Republic,2013,Rural,40.39
+2600,Africa,Sao Tome and Principe,2013,Total,39.82
+2601,Africa,United Republic of Tanzania,2013,Urban,40.36
+2602,Africa,Ghana,2013,Total,41.01
+2603,Africa,Mauritania,2013,Rural,41.17
+2604,Africa,Namibia,2013,Total,43.12
+2605,Africa,South Africa,2013,Total,43.48
+2606,South-East Asia,Timor-Leste,2013,Urban,42.62
+2607,Africa,Zimbabwe,2013,Total,42.51
+2608,Africa,Kenya,2013,Urban,44.83
+2609,Eastern Mediterranean,Pakistan,2013,Rural,44.64
+2610,Americas,Peru,2013,Rural,45.44
+2611,Western Pacific,Lao People's Democratic Republic,2013,Rural,45.56
+2612,Africa,Ghana,2013,Urban,46.5
+2613,Africa,Congo,2013,Total,47.52
+2615,South-East Asia,Nepal,2013,Rural,47.63
+2616,Africa,Sao Tome and Principe,2013,Rural,48.42
+2617,Eastern Mediterranean,Yemen,2013,Total,47.79
+2618,Africa,Benin,2013,Rural,4.81
+2619,Africa,Burkina Faso,2013,Rural,4.61
+2620,Africa,Ethiopia,2013,Rural,4.83
+2621,Africa,Guinea-Bissau,2013,Rural,5.32
+2622,Africa,Lesotho,2013,Total,5.31
+2623,South-East Asia,Bangladesh,2013,Urban,51.33
+2624,South-East Asia,India,2013,Rural,50.73
+2625,Western Pacific,Mongolia,2013,Rural,52.2
+2626,Americas,Dominican Republic,2013,Total,52.93
+2627,South-East Asia,Nepal,2013,Total,52.51
+2628,Africa,South Africa,2013,Urban,52.56
+2629,Western Pacific,Lao People's Democratic Republic,2013,Total,54.4
+2630,Africa,Mauritania,2013,Total,54.71
+2631,Africa,Congo,2013,Urban,56.11
+2632,Africa,Zimbabwe,2013,Urban,55.71
+2633,Western Pacific,Cambodia,2013,Rural,56.6
+2634,Americas,Dominican Republic,2013,Urban,56.73
+2635,Eastern Mediterranean,Pakistan,2013,Total,58.28
+2636,Africa,Burundi,2013,Total,6.13
+2637,Africa,Togo,2013,Rural,5.51
+2638,South-East Asia,India,2013,Total,59.64
+2639,Western Pacific,Vanuatu,2013,Urban,60.22
+2640,Africa,Namibia,2013,Urban,62.41
+2641,Western Pacific,Cambodia,2013,Total,63.27
+2642,Americas,Jamaica,2013,Rural,63.34
+2643,Eastern Mediterranean,Afghanistan,2013,Urban,64.73
+2644,Americas,Jamaica,2013,Total,66.62
+2645,Europe,Tajikistan,2013,Rural,66.88
+2646,Eastern Mediterranean,Tunisia,2013,Rural,67.09
+2647,South-East Asia,Indonesia,2013,Rural,68.18
+2648,Americas,Colombia,2013,Total,68.8
+2649,Americas,Jamaica,2013,Urban,69.37
+2650,Africa,Mauritania,2013,Urban,68.62
+2651,Africa,Guinea-Bissau,2013,Total,7.47
+2652,Americas,Guatemala,2013,Rural,69.93
+2653,Eastern Mediterranean,Yemen,2013,Urban,70.15
+2654,South-East Asia,Myanmar,2013,Rural,70.66
+2655,Western Pacific,Solomon Islands,2013,Urban,70.67
+2656,Western Pacific,Mongolia,2013,Total,72.26
+2657,Americas,Paraguay,2013,Rural,71.99
+2658,Europe,Tajikistan,2013,Total,72.5
+2659,Africa,Algeria,2013,Rural,73.33
+2660,Western Pacific,Lao People's Democratic Republic,2013,Urban,73.31
+2661,Americas,Cuba,2013,Rural,74.38
+2662,South-East Asia,Myanmar,2013,Total,74.3
+2663,Americas,Guyana,2013,Urban,75.07
+2664,South-East Asia,Nepal,2013,Urban,75.01
+2665,Americas,Guatemala,2013,Total,76.48
+2666,Americas,Guyana,2013,Rural,77.23
+2667,Americas,Guyana,2013,Total,76.66
+2668,South-East Asia,Indonesia,2013,Total,76.82
+2669,Americas,Colombia,2013,Urban,78.29
+2670,Americas,Ecuador,2013,Rural,78.5
+2671,South-East Asia,India,2013,Urban,78.57
+2672,Western Pacific,Philippines,2013,Rural,78.51
+2673,Africa,Benin,2013,Total,8.11
+2675,Africa,Ethiopia,2013,Total,7.69
+2676,Africa,Mozambique,2013,Rural,7.59
+2678,Americas,Paraguay,2013,Total,79.89
+2679,South-East Asia,Bhutan,2013,Rural,80.85
+2680,Eastern Mediterranean,Egypt,2013,Rural,80.78
+2681,Americas,Honduras,2013,Rural,80.78
+2682,Eastern Mediterranean,Syrian Arab Republic,2013,Rural,80.59
+2683,Western Pacific,Mongolia,2013,Urban,81.65
+2684,Western Pacific,Philippines,2013,Total,81.61
+2685,Europe,Republic of Moldova,2013,Rural,82.26
+2686,Western Pacific,Viet Nam,2013,Rural,82.47
+2687,South-East Asia,Bhutan,2013,Total,83.32
+2688,Americas,Costa Rica,2013,Rural,83.01
+2689,Americas,Guatemala,2013,Urban,83.22
+2690,South-East Asia,Myanmar,2013,Urban,83.02
+2691,Eastern Mediterranean,Pakistan,2013,Urban,82.94
+2692,South-East Asia,Thailand,2013,Rural,83.16
+2693,Africa,Algeria,2013,Total,83.68
+2694,Europe,Armenia,2013,Rural,84.01
+2695,Americas,Costa Rica,2013,Total,84.28
+2696,Americas,Cuba,2013,Total,84.01
+2697,Americas,Honduras,2013,Total,84.13
+2698,Eastern Mediterranean,Syrian Arab Republic,2013,Total,84.13
+2699,Americas,Belize,2013,Urban,84.69
+2700,Americas,Costa Rica,2013,Urban,84.71
+2701,Eastern Mediterranean,Egypt,2013,Total,85.38
+2702,South-East Asia,Indonesia,2013,Urban,84.8
+2703,Eastern Mediterranean,Iraq,2013,Rural,84.53
+2705,Americas,Paraguay,2013,Urban,85.12
+2706,Western Pacific,Philippines,2013,Urban,85.27
+2707,South-East Asia,Thailand,2013,Total,84.78
+2708,Americas,Belize,2013,Total,86.01
+2709,Americas,El Salvador,2013,Rural,86.27
+2710,Europe,Kyrgyzstan,2013,Rural,86.01
+2712,Eastern Mediterranean,Tunisia,2013,Total,86.12
+2713,Western Pacific,Viet Nam,2013,Total,85.83
+2714,Europe,Azerbaijan,2013,Rural,87.37
+2715,Americas,Belize,2013,Rural,87.11
+2716,Americas,Cuba,2013,Urban,86.92
+2717,Americas,Ecuador,2013,Total,87.03
+2718,Americas,Honduras,2013,Urban,87.01
+2719,Europe,Republic of Moldova,2013,Total,86.98
+2720,Americas,Saint Lucia,2013,Rural,87.19
+2721,Americas,Saint Lucia,2013,Total,87.33
+2722,Eastern Mediterranean,Syrian Arab Republic,2013,Urban,87.33
+2723,South-East Asia,Thailand,2013,Urban,86.67
+2724,Africa,Algeria,2013,Urban,88.21
+2725,Americas,Barbados,2013,Total,88.47
+2726,South-East Asia,Bhutan,2013,Urban,87.51
+2727,Western Pacific,Cambodia,2013,Urban,87.73
+2728,Americas,Saint Lucia,2013,Urban,87.94
+2729,Europe,Tajikistan,2013,Urban,88.01
+2730,Europe,Azerbaijan,2013,Total,89.26
+2731,Europe,Kyrgyzstan,2013,Total,88.52
+2732,Africa,Burkina Faso,2013,Total,8.69
+2733,Africa,Rwanda,2013,Rural,8.61
+2734,Africa,Sierra Leone,2013,Rural,8.82
+2735,Africa,Zambia,2013,Rural,9.23
+2736,Americas,El Salvador,2013,Total,90.45
+2737,Americas,Trinidad and Tobago,2013,Total,90.06
+2738,Europe,Armenia,2013,Total,91.41
+2739,Europe,Azerbaijan,2013,Urban,90.86
+2740,Americas,Mexico,2013,Rural,90.65
+2741,Americas,Mexico,2013,Total,90.65
+2742,Americas,Mexico,2013,Urban,90.65
+2743,Americas,Ecuador,2013,Urban,92.02
+2744,Eastern Mediterranean,Egypt,2013,Urban,91.52
+2745,Americas,El Salvador,2013,Urban,92.42
+2746,Eastern Mediterranean,Iraq,2013,Total,92.44
+2747,Europe,Turkmenistan,2013,Rural,91.86
+2748,Europe,Kyrgyzstan,2013,Urban,93.09
+2749,Europe,Republic of Moldova,2013,Urban,93.36
+2750,Western Pacific,Viet Nam,2013,Urban,92.83
+2751,Europe,Turkmenistan,2013,Total,94.16
+2752,South-East Asia,Maldives,2013,Rural,94.97
+2753,Eastern Mediterranean,Tunisia,2013,Urban,95.28
+2754,Europe,Armenia,2013,Urban,95.72
+2755,Europe,Bosnia and Herzegovina,2013,Rural,96.05
+2756,Eastern Mediterranean,Iraq,2013,Urban,95.9
+2757,South-East Asia,Maldives,2013,Total,95.77
+2758,Europe,Turkmenistan,2013,Urban,96.5
+2759,Europe,Bosnia and Herzegovina,2013,Total,97.24
+2760,South-East Asia,Maldives,2013,Urban,97.08
+2761,Eastern Mediterranean,Oman,2013,Total,97.4
+2762,Europe,Serbia,2013,Rural,98.03
+2763,Europe,Serbia,2013,Total,98.13
+2764,Europe,Serbia,2013,Urban,98.21
+2765,Europe,Bosnia and Herzegovina,2013,Urban,98.6
+2766,Europe,Kazakhstan,2013,Rural,98.73
+2767,Europe,Kazakhstan,2013,Total,99.01
+2768,Europe,Kazakhstan,2013,Urban,99.22
+2769,Africa,Liberia,2012,Rural,0.3
+2770,Africa,Liberia,2012,Total,0.16
+2771,Africa,Liberia,2012,Urban,0.0
+2772,Africa,Lesotho,2012,Urban,10.3
+2773,Africa,Senegal,2012,Rural,10.3
+2774,Eastern Mediterranean,Bahrain,2012,Total,100.0
+2778,Africa,Niger,2012,Rural,11.06
+2779,Africa,Togo,2012,Total,11.08
+2780,Africa,Benin,2012,Urban,11.6
+2781,Africa,Gambia,2012,Rural,11.93
+2782,Africa,Mozambique,2012,Total,12.02
+2783,Africa,Angola,2012,Rural,13.23
+2784,Africa,Central African Republic,2012,Rural,12.88
+2785,Africa,Chad,2012,Rural,12.54
+2786,Africa,Gambia,2012,Total,12.84
+2787,Africa,Malawi,2012,Rural,12.54
+2788,Africa,Sierra Leone,2012,Total,13.01
+2789,Africa,Gambia,2012,Urban,13.51
+2790,Africa,Uganda,2012,Rural,14.05
+2791,Africa,Comoros,2012,Rural,14.65
+2792,Africa,Malawi,2012,Total,15.32
+2793,Africa,Niger,2012,Total,14.72
+2795,Africa,Comoros,2012,Total,15.56
+2796,Africa,Madagascar,2012,Rural,15.86
+2798,Americas,Haiti,2012,Rural,17.34
+2799,Africa,Uganda,2012,Total,17.04
+2800,Africa,Zambia,2012,Total,17.1
+2801,Africa,Central African Republic,2012,Total,17.54
+2802,Africa,Chad,2012,Total,18.23
+2803,Africa,Comoros,2012,Urban,17.87
+2804,Africa,Rwanda,2012,Urban,18.13
+2805,Africa,Equatorial Guinea,2012,Rural,19.89
+2806,Africa,Ethiopia,2012,Urban,20.26
+2807,Africa,Sierra Leone,2012,Urban,20.49
+2808,Africa,Burkina Faso,2012,Urban,20.5
+2809,Africa,Mozambique,2012,Urban,21.07
+2810,Africa,Senegal,2012,Total,21.16
+2811,Africa,Togo,2012,Urban,21.09
+2812,Americas,Bolivia (Plurinational State of),2012,Rural,21.89
+2813,South-East Asia,Timor-Leste,2012,Rural,21.93
+2814,Africa,United Republic of Tanzania,2012,Rural,22.29
+2815,South-East Asia,Bangladesh,2012,Rural,23.04
+2816,Africa,Burundi,2012,Urban,22.6
+2817,Africa,Nigeria,2012,Rural,22.88
+2818,Western Pacific,Vanuatu,2012,Rural,23.12
+2819,Africa,Equatorial Guinea,2012,Total,24.12
+2821,Americas,Haiti,2012,Total,24.24
+2822,Africa,Madagascar,2012,Total,23.7
+2823,Africa,Central African Republic,2012,Urban,24.71
+2824,Africa,Angola,2012,Total,25.94
+2826,Africa,Equatorial Guinea,2012,Urban,26.02
+2827,Americas,Bolivia (Plurinational State of),2012,Total,26.73
+2828,Africa,Namibia,2012,Rural,27.48
+2829,Africa,South Africa,2012,Rural,27.48
+2830,Eastern Mediterranean,Sudan,2012,Total,26.5
+2831,Western Pacific,Solomon Islands,2012,Rural,28.4
+2832,South-East Asia,Timor-Leste,2012,Total,27.81
+2833,Africa,United Republic of Tanzania,2012,Total,27.62
+2834,Americas,Bolivia (Plurinational State of),2012,Urban,29.08
+2835,Africa,Uganda,2012,Urban,28.73
+2836,Africa,Zambia,2012,Urban,28.73
+2837,Africa,Malawi,2012,Urban,30.11
+2838,Africa,Nigeria,2012,Total,29.81
+2839,Eastern Mediterranean,Afghanistan,2012,Rural,31.11
+2840,South-East Asia,Bangladesh,2012,Total,31.43
+2841,Americas,Haiti,2012,Urban,31.29
+2842,Africa,Congo,2012,Rural,31.81
+2843,Africa,Sao Tome and Principe,2012,Urban,32.44
+2844,Western Pacific,Vanuatu,2012,Total,31.74
+2845,Americas,Colombia,2012,Rural,32.95
+2846,Africa,Angola,2012,Urban,33.97
+2847,Africa,Niger,2012,Urban,33.63
+2848,Africa,Ghana,2012,Rural,34.88
+2849,Africa,Kenya,2012,Rural,34.65
+2850,Africa,Senegal,2012,Urban,34.64
+2851,Eastern Mediterranean,Yemen,2012,Rural,36.49
+2852,Africa,Zimbabwe,2012,Rural,36.11
+2853,Africa,Kenya,2012,Total,37.13
+2854,Western Pacific,Solomon Islands,2012,Total,37.27
+2855,Africa,Chad,2012,Urban,38.26
+2856,Africa,Nigeria,2012,Urban,38.2
+2857,Africa,Sao Tome and Principe,2012,Total,37.91
+2858,Eastern Mediterranean,Afghanistan,2012,Total,39.4
+2859,Africa,Madagascar,2012,Urban,39.44
+2860,Africa,Benin,2012,Rural,4.38
+2861,Africa,Burkina Faso,2012,Rural,4.49
+2862,Africa,Burundi,2012,Rural,4.04
+2863,Africa,Guinea-Bissau,2012,Rural,4.02
+2864,Africa,Lesotho,2012,Rural,3.55
+2865,Africa,United Republic of Tanzania,2012,Urban,40.36
+2866,Americas,Dominican Republic,2012,Rural,41.27
+2867,Africa,Ghana,2012,Total,40.93
+2868,Africa,Mauritania,2012,Rural,41.17
+2869,Eastern Mediterranean,Pakistan,2012,Rural,40.69
+2870,Africa,Namibia,2012,Total,42.74
+2871,Africa,South Africa,2012,Total,43.35
+2872,South-East Asia,Timor-Leste,2012,Urban,42.62
+2873,Africa,Zimbabwe,2012,Total,42.54
+2874,Africa,Kenya,2012,Urban,44.83
+2875,Americas,Peru,2012,Rural,45.44
+2876,South-East Asia,Nepal,2012,Rural,46.04
+2877,Africa,Congo,2012,Total,47.41
+2878,Africa,Ghana,2012,Urban,46.5
+2880,Western Pacific,Mongolia,2012,Rural,48.07
+2881,Eastern Mediterranean,Yemen,2012,Total,47.58
+2882,South-East Asia,Bangladesh,2012,Urban,49.27
+2883,Africa,Sao Tome and Principe,2012,Rural,49.08
+2884,Africa,Ethiopia,2012,Rural,4.83
+2885,Africa,Lesotho,2012,Total,5.29
+2886,Africa,Togo,2012,Rural,4.79
+2887,South-East Asia,India,2012,Rural,50.73
+2888,South-East Asia,Nepal,2012,Total,51.09
+2889,Africa,South Africa,2012,Urban,52.56
+2890,Western Pacific,Cambodia,2012,Rural,53.81
+2891,Americas,Dominican Republic,2012,Total,53.51
+2892,Africa,Mauritania,2012,Total,54.46
+2893,Eastern Mediterranean,Pakistan,2012,Total,55.29
+2894,Africa,Congo,2012,Urban,56.11
+2895,Africa,Zimbabwe,2012,Urban,55.71
+2896,Americas,Dominican Republic,2012,Urban,57.42
+2897,Western Pacific,Vanuatu,2012,Urban,58.07
+2898,Africa,Burundi,2012,Total,6.12
+2899,Africa,Guinea-Bissau,2012,Total,5.96
+2900,South-East Asia,India,2012,Total,59.53
+2901,Western Pacific,Cambodia,2012,Total,60.94
+2902,Africa,Namibia,2012,Urban,62.41
+2903,Americas,Jamaica,2012,Rural,63.34
+2904,Eastern Mediterranean,Afghanistan,2012,Urban,65.42
+2905,South-East Asia,Indonesia,2012,Rural,67.33
+2906,Americas,Jamaica,2012,Total,66.61
+2907,Europe,Tajikistan,2012,Rural,66.76
+2908,Eastern Mediterranean,Tunisia,2012,Rural,67.06
+2909,Americas,Colombia,2012,Total,68.63
+2910,Americas,Jamaica,2012,Urban,69.37
+2911,Africa,Mauritania,2012,Urban,68.62
+2912,Americas,Guatemala,2012,Rural,69.93
+2913,Western Pacific,Mongolia,2012,Total,70.23
+2914,Eastern Mediterranean,Yemen,2012,Urban,70.15
+2915,South-East Asia,Myanmar,2012,Rural,70.66
+2916,Western Pacific,Solomon Islands,2012,Urban,70.67
+2917,Americas,Paraguay,2012,Rural,71.99
+2918,Europe,Tajikistan,2012,Total,72.46
+2919,Africa,Algeria,2012,Rural,73.08
+2920,Americas,Cuba,2012,Rural,72.67
+2921,South-East Asia,Myanmar,2012,Total,74.28
+2922,Americas,Guyana,2012,Urban,74.72
+2923,South-East Asia,Nepal,2012,Urban,74.98
+2924,Americas,Guatemala,2012,Total,76.44
+2925,Americas,Guyana,2012,Rural,76.32
+2926,Americas,Guyana,2012,Total,75.9
+2927,South-East Asia,Indonesia,2012,Total,76.49
+2928,Americas,Colombia,2012,Urban,78.29
+2929,Eastern Mediterranean,Egypt,2012,Rural,78.48
+2930,South-East Asia,Bhutan,2012,Rural,78.95
+2931,Americas,Ecuador,2012,Rural,78.5
+2932,South-East Asia,India,2012,Urban,78.57
+2933,Western Pacific,Philippines,2012,Rural,78.51
+2934,Africa,Benin,2012,Total,7.56
+2936,Africa,Ethiopia,2012,Total,7.63
+2937,Africa,Mozambique,2012,Rural,7.59
+2938,Africa,Rwanda,2012,Rural,7.69
+2939,Africa,Sierra Leone,2012,Rural,8.1
+2940,Americas,Honduras,2012,Rural,80.33
+2941,Americas,Paraguay,2012,Total,79.85
+2942,Western Pacific,Mongolia,2012,Urban,80.64
+2943,Eastern Mediterranean,Syrian Arab Republic,2012,Rural,80.59
+2944,South-East Asia,Bhutan,2012,Total,81.97
+2945,Eastern Mediterranean,Pakistan,2012,Urban,81.92
+2946,Western Pacific,Philippines,2012,Total,81.6
+2947,Europe,Republic of Moldova,2012,Rural,82.26
+2948,Western Pacific,Viet Nam,2012,Rural,82.23
+2949,Europe,Armenia,2012,Rural,82.6
+2950,Americas,Belize,2012,Urban,83.19
+2951,Americas,Costa Rica,2012,Rural,82.96
+2952,Americas,Cuba,2012,Total,82.84
+2953,Americas,Guatemala,2012,Urban,83.22
+2954,Eastern Mediterranean,Iraq,2012,Rural,82.76
+2955,South-East Asia,Myanmar,2012,Urban,83.02
+2956,South-East Asia,Thailand,2012,Rural,83.16
+2957,Africa,Algeria,2012,Total,83.52
+2958,Americas,Costa Rica,2012,Total,84.06
+2959,Americas,Costa Rica,2012,Urban,84.45
+2960,Eastern Mediterranean,Egypt,2012,Total,83.9
+2961,Americas,Honduras,2012,Total,83.99
+2962,Europe,Kyrgyzstan,2012,Rural,84.0
+2963,Eastern Mediterranean,Syrian Arab Republic,2012,Total,84.2
+2964,Americas,Belize,2012,Total,85.16
+2965,South-East Asia,Indonesia,2012,Urban,85.2
+2966,Americas,Paraguay,2012,Urban,85.12
+2967,Western Pacific,Philippines,2012,Urban,85.27
+2968,South-East Asia,Thailand,2012,Total,84.76
+2969,Americas,Cuba,2012,Urban,85.92
+2970,Americas,El Salvador,2012,Rural,86.27
+2971,Eastern Mediterranean,Tunisia,2012,Total,86.4
+2972,Western Pacific,Viet Nam,2012,Total,85.51
+2973,Europe,Azerbaijan,2012,Rural,87.37
+2974,Americas,Belize,2012,Rural,86.79
+2975,South-East Asia,Bhutan,2012,Urban,87.26
+2976,Americas,Ecuador,2012,Total,87.02
+2977,Americas,Honduras,2012,Urban,87.21
+2978,Europe,Kyrgyzstan,2012,Total,86.89
+2979,Europe,Republic of Moldova,2012,Total,86.98
+2980,Americas,Saint Lucia,2012,Rural,87.19
+2981,Americas,Saint Lucia,2012,Total,87.33
+2982,Eastern Mediterranean,Syrian Arab Republic,2012,Urban,87.33
+2983,South-East Asia,Thailand,2012,Urban,86.67
+2984,Africa,Algeria,2012,Urban,88.23
+2985,Americas,Barbados,2012,Total,88.47
+2986,Western Pacific,Cambodia,2012,Urban,87.68
+2987,Americas,Saint Lucia,2012,Urban,87.94
+2988,Europe,Tajikistan,2012,Urban,88.22
+2989,Europe,Azerbaijan,2012,Total,89.25
+2990,Europe,Turkmenistan,2012,Rural,89.46
+2991,Africa,Burkina Faso,2012,Total,8.62
+2992,Africa,Guinea-Bissau,2012,Urban,8.77
+2993,Africa,Rwanda,2012,Total,9.46
+2994,Africa,Zambia,2012,Rural,9.23
+2995,Americas,El Salvador,2012,Total,90.4
+2996,Americas,Trinidad and Tobago,2012,Total,90.06
+2997,Europe,Armenia,2012,Total,90.76
+2998,Europe,Azerbaijan,2012,Urban,90.86
+2999,Eastern Mediterranean,Egypt,2012,Urban,91.11
+3000,Americas,Mexico,2012,Rural,90.65
+3001,Americas,Mexico,2012,Total,90.65
+3002,Americas,Mexico,2012,Urban,90.65
+3003,Americas,Ecuador,2012,Urban,92.02
+3004,Americas,El Salvador,2012,Urban,92.42
+3005,Eastern Mediterranean,Iraq,2012,Total,91.71
+3006,Europe,Kyrgyzstan,2012,Urban,92.16
+3007,Europe,Turkmenistan,2012,Total,92.4
+3008,Europe,Republic of Moldova,2012,Urban,93.36
+3009,Western Pacific,Viet Nam,2012,Urban,92.57
+3010,Europe,Turkmenistan,2012,Urban,95.44
+3011,Europe,Armenia,2012,Urban,95.5
+3012,Europe,Bosnia and Herzegovina,2012,Rural,96.05
+3013,Eastern Mediterranean,Iraq,2012,Urban,95.65
+3014,Eastern Mediterranean,Tunisia,2012,Urban,95.83
+3015,Europe,Bosnia and Herzegovina,2012,Total,97.23
+3016,Europe,Serbia,2012,Rural,98.03
+3017,Europe,Serbia,2012,Total,98.13
+3018,Europe,Serbia,2012,Urban,98.21
+3019,Europe,Bosnia and Herzegovina,2012,Urban,98.6
+3020,Europe,Kazakhstan,2012,Rural,98.73
+3021,Europe,Kazakhstan,2012,Total,99.01
+3022,Europe,Kazakhstan,2012,Urban,99.22
+3023,Africa,Liberia,2011,Rural,0.0
+3024,Africa,Liberia,2011,Total,0.0
+3025,Africa,Liberia,2011,Urban,0.0
+3026,Africa,Lesotho,2011,Urban,10.3
+3027,Africa,Niger,2011,Rural,9.88
+3028,Africa,Senegal,2011,Rural,10.3
+3029,Africa,Togo,2011,Total,10.23
+3030,Eastern Mediterranean,Bahrain,2011,Total,100.0
+3034,Africa,Benin,2011,Urban,10.99
+3035,Africa,Chad,2011,Rural,11.3
+3036,Africa,Mozambique,2011,Total,11.95
+3037,Africa,Central African Republic,2011,Rural,12.96
+3038,Africa,Malawi,2011,Rural,12.54
+3039,Africa,Sierra Leone,2011,Total,12.5
+3040,Africa,Uganda,2011,Rural,12.94
+3041,Africa,Niger,2011,Total,13.63
+3042,Africa,Comoros,2011,Rural,14.65
+3043,Africa,Malawi,2011,Total,15.33
+3045,Africa,Comoros,2011,Total,15.55
+3046,Africa,Madagascar,2011,Rural,15.93
+3047,Africa,Uganda,2011,Total,15.71
+3048,Africa,Central African Republic,2011,Total,17.09
+3049,Africa,Chad,2011,Total,17.35
+3051,Africa,Rwanda,2011,Urban,16.87
+3052,Africa,Zambia,2011,Total,17.0
+3053,Africa,Comoros,2011,Urban,17.87
+3054,Americas,Haiti,2011,Rural,17.6
+3055,Western Pacific,Vanuatu,2011,Rural,17.97
+3056,South-East Asia,Bangladesh,2011,Rural,19.2
+3057,Africa,Equatorial Guinea,2011,Rural,19.89
+3058,Africa,Ethiopia,2011,Urban,20.26
+3059,Africa,Sierra Leone,2011,Urban,20.43
+3060,Africa,Togo,2011,Urban,20.26
+3061,Africa,Burkina Faso,2011,Urban,20.94
+3062,Africa,Mozambique,2011,Urban,21.07
+3063,Africa,Senegal,2011,Total,21.05
+3064,Americas,Bolivia (Plurinational State of),2011,Rural,21.89
+3065,Africa,United Republic of Tanzania,2011,Rural,22.29
+3066,Africa,Burundi,2011,Urban,23.06
+3067,Africa,Nigeria,2011,Rural,22.88
+3068,Africa,Central African Republic,2011,Urban,23.52
+3069,Africa,Equatorial Guinea,2011,Total,24.03
+3071,Americas,Haiti,2011,Total,24.5
+3072,Africa,Madagascar,2011,Total,23.7
+3074,Africa,Equatorial Guinea,2011,Urban,26.02
+3075,Americas,Bolivia (Plurinational State of),2011,Total,26.7
+3076,Africa,Namibia,2011,Rural,27.48
+3077,Eastern Mediterranean,Sudan,2011,Total,26.5
+3078,Africa,Uganda,2011,Urban,26.87
+3079,Africa,United Republic of Tanzania,2011,Total,27.49
+3080,Western Pacific,Vanuatu,2011,Total,27.29
+3081,South-East Asia,Bangladesh,2011,Total,27.94
+3082,Western Pacific,Solomon Islands,2011,Rural,28.4
+3083,Americas,Bolivia (Plurinational State of),2011,Urban,29.08
+3084,Africa,Zambia,2011,Urban,28.73
+3085,Africa,Guinea-Bissau,2011,Rural,2.71
+3086,Eastern Mediterranean,Afghanistan,2011,Rural,29.78
+3087,Africa,Malawi,2011,Urban,30.33
+3088,Africa,Nigeria,2011,Total,29.68
+3089,Africa,Congo,2011,Rural,31.81
+3090,Americas,Haiti,2011,Urban,31.82
+3091,Africa,Sao Tome and Principe,2011,Urban,32.44
+3092,Americas,Colombia,2011,Rural,32.95
+3093,Africa,Niger,2011,Urban,33.01
+3094,Africa,Ghana,2011,Rural,34.88
+3095,Africa,Kenya,2011,Rural,34.65
+3096,Africa,Senegal,2011,Urban,34.64
+3097,Eastern Mediterranean,Yemen,2011,Rural,36.49
+3098,Africa,Zimbabwe,2011,Rural,36.11
+3099,Africa,Kenya,2011,Total,37.09
+3100,Eastern Mediterranean,Pakistan,2011,Rural,36.74
+3101,Western Pacific,Solomon Islands,2011,Total,37.07
+3102,Eastern Mediterranean,Afghanistan,2011,Total,38.48
+3103,Africa,Nigeria,2011,Urban,38.2
+3104,Africa,Sao Tome and Principe,2011,Total,38.09
+3105,Africa,Chad,2011,Urban,38.73
+3106,Africa,Benin,2011,Rural,3.94
+3107,Africa,Burkina Faso,2011,Rural,4.37
+3108,Africa,Burundi,2011,Rural,4.03
+3109,Africa,Guinea-Bissau,2011,Total,4.46
+3110,Africa,Lesotho,2011,Rural,3.55
+3111,Africa,Togo,2011,Rural,4.08
+3112,Africa,Madagascar,2011,Urban,39.8
+3113,Africa,United Republic of Tanzania,2011,Urban,40.36
+3114,Americas,Dominican Republic,2011,Rural,41.27
+3115,Africa,Ghana,2011,Total,40.85
+3116,Africa,Mauritania,2011,Rural,41.17
+3117,Africa,Namibia,2011,Total,42.38
+3118,Africa,Zimbabwe,2011,Total,42.58
+3119,Western Pacific,Mongolia,2011,Rural,43.93
+3120,South-East Asia,Nepal,2011,Rural,44.45
+3121,Africa,Kenya,2011,Urban,44.83
+3122,Americas,Peru,2011,Rural,45.44
+3123,South-East Asia,Bangladesh,2011,Urban,47.2
+3124,Africa,Congo,2011,Total,47.3
+3125,Africa,Ghana,2011,Urban,46.5
+3126,Eastern Mediterranean,Yemen,2011,Total,47.38
+3128,Africa,Sao Tome and Principe,2011,Rural,49.08
+3129,Africa,Ethiopia,2011,Rural,4.83
+3130,Africa,Lesotho,2011,Total,5.26
+3131,South-East Asia,Nepal,2011,Total,49.67
+3132,South-East Asia,India,2011,Rural,50.73
+3133,Eastern Mediterranean,Pakistan,2011,Total,52.28
+3134,Americas,Dominican Republic,2011,Total,53.35
+3135,Western Pacific,Cambodia,2011,Rural,53.81
+3136,Africa,Mauritania,2011,Total,54.21
+3137,Africa,Congo,2011,Urban,56.11
+3138,Western Pacific,Vanuatu,2011,Urban,55.92
+3139,Africa,Zimbabwe,2011,Urban,55.71
+3140,Americas,Dominican Republic,2011,Urban,57.42
+3141,South-East Asia,India,2011,Total,59.43
+3142,Africa,Burundi,2011,Total,6.11
+3143,Western Pacific,Cambodia,2011,Total,60.81
+3144,Africa,Namibia,2011,Urban,62.41
+3145,Americas,Jamaica,2011,Rural,63.34
+3146,Eastern Mediterranean,Afghanistan,2011,Urban,66.11
+3147,South-East Asia,Indonesia,2011,Rural,66.47
+3148,Americas,Jamaica,2011,Total,66.59
+3149,Europe,Tajikistan,2011,Rural,66.64
+3150,Eastern Mediterranean,Tunisia,2011,Rural,67.03
+3151,Americas,Colombia,2011,Total,68.47
+3152,Western Pacific,Mongolia,2011,Total,68.19
+3153,Americas,Jamaica,2011,Urban,69.37
+3154,Africa,Mauritania,2011,Urban,68.62
+3155,Africa,Benin,2011,Total,7.02
+3157,Africa,Guinea-Bissau,2011,Urban,7.02
+3158,Africa,Rwanda,2011,Rural,6.76
+3159,Africa,Sierra Leone,2011,Rural,7.38
+3160,Americas,Guatemala,2011,Rural,69.93
+3161,Eastern Mediterranean,Yemen,2011,Urban,70.15
+3162,South-East Asia,Myanmar,2011,Rural,70.66
+3163,Western Pacific,Solomon Islands,2011,Urban,70.67
+3164,Europe,Tajikistan,2011,Total,72.42
+3165,Africa,Algeria,2011,Rural,72.83
+3166,Americas,Cuba,2011,Rural,72.67
+3167,South-East Asia,Myanmar,2011,Total,74.25
+3168,Americas,Guyana,2011,Urban,74.72
+3169,South-East Asia,Nepal,2011,Urban,74.94
+3170,Eastern Mediterranean,Egypt,2011,Rural,76.19
+3171,Americas,Guatemala,2011,Total,76.4
+3172,Americas,Guyana,2011,Rural,76.32
+3173,Americas,Guyana,2011,Total,75.9
+3174,South-East Asia,Indonesia,2011,Total,76.15
+3175,South-East Asia,Bhutan,2011,Rural,77.05
+3176,Americas,Colombia,2011,Urban,78.29
+3177,Americas,Ecuador,2011,Rural,78.5
+3178,South-East Asia,India,2011,Urban,78.57
+3179,Western Pacific,Philippines,2011,Rural,78.51
+3180,Africa,Ethiopia,2011,Total,7.56
+3181,Africa,Mozambique,2011,Rural,7.59
+3182,Africa,Rwanda,2011,Total,8.47
+3183,Americas,Honduras,2011,Rural,79.89
+3184,Western Pacific,Mongolia,2011,Urban,79.63
+3185,Europe,Armenia,2011,Rural,81.18
+3186,South-East Asia,Bhutan,2011,Total,80.59
+3187,Eastern Mediterranean,Iraq,2011,Rural,81.0
+3188,Eastern Mediterranean,Pakistan,2011,Urban,80.9
+3189,Americas,Belize,2011,Urban,81.7
+3190,Eastern Mediterranean,Egypt,2011,Total,82.43
+3191,Europe,Kyrgyzstan,2011,Rural,81.99
+3192,Western Pacific,Philippines,2011,Total,81.59
+3193,Europe,Republic of Moldova,2011,Rural,82.26
+3194,Western Pacific,Viet Nam,2011,Rural,81.99
+3195,Africa,Algeria,2011,Total,83.36
+3196,Americas,Costa Rica,2011,Rural,82.92
+3197,Americas,Cuba,2011,Total,82.83
+3198,Americas,Guatemala,2011,Urban,83.22
+3199,South-East Asia,Myanmar,2011,Urban,83.02
+3200,South-East Asia,Thailand,2011,Rural,83.16
+3201,Americas,Belize,2011,Total,84.32
+3202,Americas,Costa Rica,2011,Total,83.84
+3203,Americas,Costa Rica,2011,Urban,84.18
+3204,Americas,Honduras,2011,Total,83.84
+3205,Europe,Kyrgyzstan,2011,Total,85.26
+3206,Western Pacific,Philippines,2011,Urban,85.27
+3207,South-East Asia,Thailand,2011,Total,84.73
+3208,Western Pacific,Viet Nam,2011,Total,85.2
+3209,Americas,Belize,2011,Rural,86.48
+3210,Americas,Cuba,2011,Urban,85.92
+3211,Americas,El Salvador,2011,Rural,86.27
+3212,South-East Asia,Indonesia,2011,Urban,85.59
+3213,Europe,Azerbaijan,2011,Rural,87.37
+3214,South-East Asia,Bhutan,2011,Urban,87.01
+3215,Americas,Ecuador,2011,Total,87.0
+3216,Americas,Honduras,2011,Urban,87.41
+3217,Europe,Republic of Moldova,2011,Total,86.99
+3218,Americas,Saint Lucia,2011,Rural,87.19
+3219,Americas,Saint Lucia,2011,Total,87.33
+3220,South-East Asia,Thailand,2011,Urban,86.67
+3221,Eastern Mediterranean,Tunisia,2011,Total,86.67
+3222,Europe,Turkmenistan,2011,Rural,87.05
+3223,Africa,Algeria,2011,Urban,88.26
+3224,Americas,Barbados,2011,Total,88.47
+3225,Western Pacific,Cambodia,2011,Urban,87.68
+3226,Americas,Saint Lucia,2011,Urban,87.94
+3227,Europe,Tajikistan,2011,Urban,88.43
+3228,Europe,Azerbaijan,2011,Total,89.24
+3229,Africa,Burkina Faso,2011,Total,8.55
+3230,Africa,Zambia,2011,Rural,9.23
+3231,Europe,Armenia,2011,Total,90.11
+3232,Americas,El Salvador,2011,Total,90.35
+3233,Americas,Trinidad and Tobago,2011,Total,90.06
+3234,Europe,Azerbaijan,2011,Urban,90.86
+3235,Eastern Mediterranean,Egypt,2011,Urban,90.7
+3236,Eastern Mediterranean,Iraq,2011,Total,90.98
+3237,Europe,Kyrgyzstan,2011,Urban,91.23
+3238,Americas,Mexico,2011,Rural,90.65
+3239,Americas,Mexico,2011,Total,90.65
+3240,Americas,Mexico,2011,Urban,90.65
+3241,Europe,Turkmenistan,2011,Total,90.63
+3242,Americas,Ecuador,2011,Urban,92.02
+3243,Americas,El Salvador,2011,Urban,92.42
+3244,Western Pacific,Viet Nam,2011,Urban,92.31
+3245,Europe,Republic of Moldova,2011,Urban,93.36
+3246,Europe,Turkmenistan,2011,Urban,94.38
+3247,Europe,Armenia,2011,Urban,95.29
+3248,Eastern Mediterranean,Iraq,2011,Urban,95.41
+3249,Europe,Bosnia and Herzegovina,2011,Rural,96.05
+3250,Eastern Mediterranean,Tunisia,2011,Urban,96.38
+3251,Europe,Bosnia and Herzegovina,2011,Total,97.22
+3252,Europe,Serbia,2011,Rural,98.03
+3253,Europe,Serbia,2011,Total,98.13
+3254,Europe,Serbia,2011,Urban,98.21
+3255,Europe,Bosnia and Herzegovina,2011,Urban,98.6
+3256,Europe,Kazakhstan,2011,Rural,98.73
+3257,Europe,Kazakhstan,2011,Total,99.01
+3258,Europe,Kazakhstan,2011,Urban,99.22
+3259,Africa,Liberia,2010,Rural,0.0
+3260,Africa,Liberia,2010,Total,0.0
+3261,Africa,Liberia,2010,Urban,0.0
+3262,Africa,Guinea-Bissau,2010,Rural,1.41
+3263,Africa,Benin,2010,Urban,10.37
+3264,Africa,Chad,2010,Rural,10.06
+3265,Africa,Lesotho,2010,Urban,10.3
+3266,Eastern Mediterranean,Bahrain,2010,Total,100.0
+3270,Africa,Mozambique,2010,Total,11.88
+3271,Africa,Sierra Leone,2010,Total,11.99
+3272,Africa,Uganda,2010,Rural,11.84
+3273,Africa,Central African Republic,2010,Rural,13.05
+3274,Africa,Malawi,2010,Rural,12.54
+3275,Africa,Niger,2010,Total,12.55
+3276,Africa,Uganda,2010,Total,14.39
+3277,South-East Asia,Bangladesh,2010,Rural,15.35
+3279,Africa,Comoros,2010,Rural,14.65
+3280,Africa,Malawi,2010,Total,15.34
+3281,Africa,Chad,2010,Total,16.46
+3282,Africa,Comoros,2010,Total,15.55
+3283,Africa,Madagascar,2010,Rural,15.99
+3284,Africa,Rwanda,2010,Urban,15.62
+3285,Africa,Central African Republic,2010,Total,16.66
+3287,Africa,Zambia,2010,Total,16.91
+3288,Africa,Comoros,2010,Urban,17.87
+3289,Americas,Haiti,2010,Rural,17.87
+3290,Western Pacific,Vanuatu,2010,Rural,17.97
+3291,Africa,Togo,2010,Urban,19.42
+3292,Africa,Equatorial Guinea,2010,Rural,19.89
+3293,Africa,Ethiopia,2010,Urban,20.26
+3294,Africa,Sierra Leone,2010,Urban,20.37
+3295,Africa,Burkina Faso,2010,Urban,21.37
+3296,Africa,Mozambique,2010,Urban,21.07
+3297,Americas,Bolivia (Plurinational State of),2010,Rural,21.89
+3298,Africa,Central African Republic,2010,Urban,22.33
+3299,Africa,United Republic of Tanzania,2010,Rural,22.29
+3300,South-East Asia,Bangladesh,2010,Total,24.42
+3301,Africa,Burundi,2010,Urban,23.52
+3303,Africa,Equatorial Guinea,2010,Total,23.93
+3305,Africa,Madagascar,2010,Total,23.71
+3306,Americas,Haiti,2010,Total,24.75
+3307,Africa,Uganda,2010,Urban,25.01
+3308,Africa,Equatorial Guinea,2010,Urban,26.02
+3309,Americas,Bolivia (Plurinational State of),2010,Total,26.67
+3310,Africa,Namibia,2010,Rural,27.48
+3311,Eastern Mediterranean,Sudan,2010,Total,26.5
+3312,Africa,United Republic of Tanzania,2010,Total,27.37
+3313,Western Pacific,Vanuatu,2010,Total,27.25
+3314,Eastern Mediterranean,Afghanistan,2010,Rural,28.44
+3315,Western Pacific,Solomon Islands,2010,Rural,28.4
+3316,Americas,Bolivia (Plurinational State of),2010,Urban,29.08
+3317,Africa,Zambia,2010,Urban,28.73
+3318,Africa,Guinea-Bissau,2010,Total,2.96
+3319,Africa,Togo,2010,Rural,3.36
+3320,Africa,Malawi,2010,Urban,30.55
+3321,Americas,Haiti,2010,Urban,32.35
+3322,Africa,Niger,2010,Urban,32.4
+3323,Africa,Sao Tome and Principe,2010,Urban,32.44
+3324,Eastern Mediterranean,Yemen,2010,Rural,36.49
+3325,Africa,Zimbabwe,2010,Rural,36.11
+3326,Eastern Mediterranean,Pakistan,2010,Rural,36.74
+3327,Eastern Mediterranean,Afghanistan,2010,Total,37.54
+3328,Africa,Sao Tome and Principe,2010,Total,38.27
+3329,Africa,Chad,2010,Urban,39.19
+3330,Africa,Benin,2010,Rural,3.51
+3331,Africa,Burkina Faso,2010,Rural,4.25
+3332,Africa,Burundi,2010,Rural,4.02
+3333,Africa,Lesotho,2010,Rural,3.55
+3334,Africa,Madagascar,2010,Urban,40.15
+3335,Western Pacific,Mongolia,2010,Rural,39.8
+3336,Africa,United Republic of Tanzania,2010,Urban,40.36
+3337,Americas,Dominican Republic,2010,Rural,41.27
+3338,Africa,Mauritania,2010,Rural,41.17
+3339,Africa,Namibia,2010,Total,42.02
+3340,South-East Asia,Nepal,2010,Rural,42.86
+3341,Africa,Zimbabwe,2010,Total,42.61
+3342,South-East Asia,Bangladesh,2010,Urban,45.14
+3343,Americas,Peru,2010,Rural,45.44
+3344,Eastern Mediterranean,Yemen,2010,Total,47.19
+3346,South-East Asia,Nepal,2010,Total,48.24
+3347,Africa,Sao Tome and Principe,2010,Rural,49.08
+3348,Africa,Ethiopia,2010,Rural,4.83
+3349,Africa,Guinea-Bissau,2010,Urban,5.27
+3350,Africa,Lesotho,2010,Total,5.22
+3351,South-East Asia,India,2010,Rural,50.73
+3352,Eastern Mediterranean,Pakistan,2010,Total,52.19
+3353,Americas,Dominican Republic,2010,Total,53.18
+3354,Western Pacific,Cambodia,2010,Rural,53.81
+3355,Africa,Mauritania,2010,Total,53.96
+3356,Western Pacific,Vanuatu,2010,Urban,55.92
+3357,Africa,Zimbabwe,2010,Urban,55.71
+3358,Americas,Dominican Republic,2010,Urban,57.42
+3359,South-East Asia,India,2010,Total,59.34
+3360,Africa,Benin,2010,Total,6.47
+3361,Africa,Burundi,2010,Total,6.1
+3362,Africa,Rwanda,2010,Rural,5.83
+3363,Western Pacific,Cambodia,2010,Total,60.69
+3364,Africa,Namibia,2010,Urban,62.41
+3365,Americas,Jamaica,2010,Rural,63.34
+3366,South-East Asia,Indonesia,2010,Rural,65.62
+3367,Western Pacific,Mongolia,2010,Total,66.03
+3368,Eastern Mediterranean,Afghanistan,2010,Urban,66.8
+3369,Americas,Jamaica,2010,Total,66.58
+3370,Europe,Tajikistan,2010,Rural,66.52
+3371,Eastern Mediterranean,Tunisia,2010,Rural,67.0
+3372,Americas,Jamaica,2010,Urban,69.37
+3373,Africa,Mauritania,2010,Urban,68.62
+3375,Africa,Ethiopia,2010,Total,7.5
+3376,Africa,Rwanda,2010,Total,7.49
+3377,Africa,Sierra Leone,2010,Rural,6.66
+3378,Eastern Mediterranean,Yemen,2010,Urban,70.15
+3379,South-East Asia,Myanmar,2010,Rural,70.66
+3380,Europe,Tajikistan,2010,Total,72.39
+3381,Africa,Algeria,2010,Rural,72.83
+3382,Americas,Cuba,2010,Rural,72.67
+3383,Eastern Mediterranean,Egypt,2010,Rural,73.89
+3384,South-East Asia,Myanmar,2010,Total,74.23
+3385,South-East Asia,Bhutan,2010,Rural,75.14
+3386,Americas,Guyana,2010,Urban,74.72
+3387,South-East Asia,Nepal,2010,Urban,74.91
+3388,Americas,Guyana,2010,Rural,76.32
+3389,Americas,Guyana,2010,Total,75.9
+3390,South-East Asia,Indonesia,2010,Total,75.78
+3391,South-East Asia,Bhutan,2010,Total,79.19
+3392,Americas,Ecuador,2010,Rural,78.5
+3393,Americas,Honduras,2010,Rural,79.44
+3394,South-East Asia,India,2010,Urban,78.57
+3395,Eastern Mediterranean,Iraq,2010,Rural,79.24
+3396,Western Pacific,Mongolia,2010,Urban,78.62
+3397,Africa,Burkina Faso,2010,Total,8.47
+3398,Africa,Mozambique,2010,Rural,7.59
+3399,Europe,Armenia,2010,Rural,79.76
+3400,Americas,Belize,2010,Urban,80.21
+3401,Europe,Kyrgyzstan,2010,Rural,79.98
+3402,Eastern Mediterranean,Egypt,2010,Total,80.95
+3403,Eastern Mediterranean,Pakistan,2010,Urban,80.9
+3404,Europe,Republic of Moldova,2010,Rural,82.26
+3405,Western Pacific,Viet Nam,2010,Rural,81.75
+3406,Africa,Algeria,2010,Total,83.25
+3407,Americas,Belize,2010,Total,83.33
+3408,Americas,Costa Rica,2010,Rural,82.88
+3409,Americas,Cuba,2010,Total,82.82
+3410,South-East Asia,Myanmar,2010,Urban,83.02
+3411,South-East Asia,Thailand,2010,Rural,83.16
+3412,Americas,Costa Rica,2010,Total,83.63
+3413,Americas,Costa Rica,2010,Urban,83.92
+3414,Americas,Honduras,2010,Total,83.68
+3415,Europe,Kyrgyzstan,2010,Total,83.63
+3416,South-East Asia,Thailand,2010,Total,84.7
+3417,Europe,Turkmenistan,2010,Rural,84.65
+3418,Western Pacific,Viet Nam,2010,Total,84.88
+3419,Americas,Belize,2010,Rural,85.9
+3420,Americas,Cuba,2010,Urban,85.92
+3421,Americas,El Salvador,2010,Rural,86.27
+3422,South-East Asia,Indonesia,2010,Urban,85.99
+3423,Europe,Azerbaijan,2010,Rural,87.37
+3424,South-East Asia,Bhutan,2010,Urban,86.76
+3425,Americas,Ecuador,2010,Total,86.98
+3426,Europe,Republic of Moldova,2010,Total,86.99
+3427,Americas,Saint Lucia,2010,Rural,87.19
+3428,Americas,Saint Lucia,2010,Total,87.33
+3429,South-East Asia,Thailand,2010,Urban,86.67
+3430,Eastern Mediterranean,Tunisia,2010,Total,86.94
+3431,Africa,Algeria,2010,Urban,88.26
+3432,Americas,Barbados,2010,Total,88.47
+3433,Western Pacific,Cambodia,2010,Urban,87.68
+3434,Americas,Honduras,2010,Urban,87.61
+3435,Americas,Saint Lucia,2010,Urban,87.94
+3436,Europe,Armenia,2010,Total,89.47
+3437,Europe,Azerbaijan,2010,Total,89.24
+3438,Europe,Tajikistan,2010,Urban,88.64
+3439,Europe,Turkmenistan,2010,Total,88.85
+3440,Africa,Niger,2010,Rural,8.71
+3441,Africa,Togo,2010,Total,9.39
+3442,Africa,Zambia,2010,Rural,9.23
+3443,Eastern Mediterranean,Egypt,2010,Urban,90.29
+3444,Americas,El Salvador,2010,Total,90.3
+3445,Eastern Mediterranean,Iraq,2010,Total,90.25
+3446,Europe,Kyrgyzstan,2010,Urban,90.3
+3447,Americas,Trinidad and Tobago,2010,Total,90.06
+3448,Europe,Azerbaijan,2010,Urban,90.86
+3449,Americas,Mexico,2010,Rural,90.65
+3450,Americas,Mexico,2010,Total,90.65
+3451,Americas,Mexico,2010,Urban,90.65
+3452,Americas,Ecuador,2010,Urban,92.02
+3453,Americas,El Salvador,2010,Urban,92.42
+3454,Western Pacific,Viet Nam,2010,Urban,92.05
+3455,Europe,Republic of Moldova,2010,Urban,93.36
+3456,Europe,Turkmenistan,2010,Urban,93.32
+3457,Europe,Armenia,2010,Urban,95.07
+3458,Eastern Mediterranean,Iraq,2010,Urban,95.17
+3459,Europe,Bosnia and Herzegovina,2010,Rural,96.05
+3460,Europe,Bosnia and Herzegovina,2010,Total,97.21
+3461,Eastern Mediterranean,Tunisia,2010,Urban,96.92
+3462,Europe,Serbia,2010,Rural,98.03
+3463,Europe,Serbia,2010,Total,98.13
+3464,Europe,Serbia,2010,Urban,98.21
+3465,Europe,Bosnia and Herzegovina,2010,Urban,98.6
+3466,Africa,Guinea-Bissau,2009,Rural,0.11
+3467,Africa,Liberia,2009,Rural,0.0
+3468,Africa,Liberia,2009,Total,0.0
+3469,Africa,Liberia,2009,Urban,0.0
+3470,Africa,Guinea-Bissau,2009,Total,1.46
+3471,Africa,Benin,2009,Urban,9.76
+3472,Africa,Lesotho,2009,Urban,10.3
+3473,Eastern Mediterranean,Bahrain,2009,Total,100.0
+3477,South-East Asia,Bangladesh,2009,Rural,11.5
+3478,Africa,Niger,2009,Total,11.46
+3479,Africa,Sierra Leone,2009,Total,11.47
+3480,Africa,Uganda,2009,Rural,10.73
+3481,Africa,Mozambique,2009,Total,11.81
+3482,Africa,Central African Republic,2009,Rural,13.13
+3483,Africa,Malawi,2009,Rural,12.54
+3484,Africa,Uganda,2009,Total,13.08
+3485,Africa,Rwanda,2009,Urban,14.37
+3487,Africa,Comoros,2009,Rural,14.65
+3488,Africa,Malawi,2009,Total,15.35
+3489,Africa,Central African Republic,2009,Total,16.23
+3490,Africa,Chad,2009,Total,15.58
+3491,Africa,Comoros,2009,Total,15.55
+3492,Africa,Madagascar,2009,Rural,16.06
+3494,Africa,Zambia,2009,Total,16.81
+3495,Africa,Comoros,2009,Urban,17.87
+3496,Americas,Haiti,2009,Rural,17.87
+3497,Western Pacific,Vanuatu,2009,Rural,17.97
+3498,Africa,Togo,2009,Urban,18.59
+3499,Africa,Equatorial Guinea,2009,Rural,19.89
+3500,Africa,Sierra Leone,2009,Urban,20.31
+3501,South-East Asia,Bangladesh,2009,Total,20.88
+3502,Africa,Central African Republic,2009,Urban,21.14
+3503,Africa,Mozambique,2009,Urban,21.07
+3504,Africa,Burkina Faso,2009,Urban,21.8
+3505,Africa,Uganda,2009,Urban,23.15
+3506,Africa,Burundi,2009,Urban,23.98
+3508,Africa,Equatorial Guinea,2009,Total,23.84
+3510,Africa,Madagascar,2009,Total,23.71
+3511,Americas,Haiti,2009,Total,24.61
+3512,Africa,Equatorial Guinea,2009,Urban,26.02
+3513,Eastern Mediterranean,Afghanistan,2009,Rural,27.1
+3514,Africa,Namibia,2009,Rural,27.48
+3515,Eastern Mediterranean,Sudan,2009,Total,26.5
+3516,Western Pacific,Vanuatu,2009,Total,27.18
+3517,Western Pacific,Solomon Islands,2009,Rural,28.4
+3518,Africa,Zambia,2009,Urban,28.73
+3519,Africa,Benin,2009,Rural,3.08
+3520,Africa,Togo,2009,Rural,2.64
+3521,Africa,Malawi,2009,Urban,30.77
+3522,Americas,Haiti,2009,Urban,32.35
+3523,Africa,Niger,2009,Urban,31.78
+3524,Africa,Sao Tome and Principe,2009,Urban,32.44
+3525,Western Pacific,Mongolia,2009,Rural,35.66
+3526,Eastern Mediterranean,Yemen,2009,Rural,36.49
+3527,Africa,Zimbabwe,2009,Rural,36.11
+3528,Eastern Mediterranean,Afghanistan,2009,Total,36.6
+3529,Eastern Mediterranean,Pakistan,2009,Rural,36.74
+3530,Africa,Sao Tome and Principe,2009,Total,38.46
+3531,Africa,Burkina Faso,2009,Rural,4.13
+3532,Africa,Burundi,2009,Rural,4.02
+3533,Africa,Guinea-Bissau,2009,Urban,3.52
+3534,Africa,Lesotho,2009,Rural,3.55
+3535,Africa,Chad,2009,Urban,39.66
+3536,Americas,Dominican Republic,2009,Rural,41.27
+3537,Africa,Madagascar,2009,Urban,40.51
+3538,Africa,Mauritania,2009,Rural,41.17
+3539,South-East Asia,Nepal,2009,Rural,41.27
+3540,Africa,Namibia,2009,Total,41.66
+3541,South-East Asia,Bangladesh,2009,Urban,43.07
+3542,Africa,Zimbabwe,2009,Total,42.65
+3543,Americas,Peru,2009,Rural,45.44
+3544,South-East Asia,Nepal,2009,Total,46.8
+3545,Eastern Mediterranean,Yemen,2009,Total,46.99
+3547,Africa,Sao Tome and Principe,2009,Rural,49.08
+3548,Africa,Lesotho,2009,Total,5.19
+3549,Africa,Rwanda,2009,Rural,4.9
+3550,Eastern Mediterranean,Pakistan,2009,Total,52.1
+3551,Americas,Dominican Republic,2009,Total,52.98
+3552,Western Pacific,Cambodia,2009,Rural,53.81
+3553,Africa,Mauritania,2009,Total,53.71
+3554,Western Pacific,Vanuatu,2009,Urban,55.92
+3555,Africa,Zimbabwe,2009,Urban,55.71
+3556,Americas,Dominican Republic,2009,Urban,57.42
+3557,Africa,Benin,2009,Total,5.93
+3558,Africa,Burundi,2009,Total,6.09
+3559,Africa,Sierra Leone,2009,Rural,5.95
+3560,Western Pacific,Cambodia,2009,Total,60.56
+3561,Africa,Namibia,2009,Urban,62.41
+3562,Americas,Jamaica,2009,Rural,63.34
+3563,Western Pacific,Mongolia,2009,Total,63.59
+3564,South-East Asia,Indonesia,2009,Rural,65.62
+3565,Eastern Mediterranean,Afghanistan,2009,Urban,67.49
+3566,Americas,Jamaica,2009,Total,66.57
+3567,Europe,Tajikistan,2009,Rural,66.52
+3568,Eastern Mediterranean,Tunisia,2009,Rural,67.0
+3569,Americas,Jamaica,2009,Urban,69.37
+3570,Africa,Mauritania,2009,Urban,68.62
+3572,Africa,Rwanda,2009,Total,6.51
+3573,Eastern Mediterranean,Yemen,2009,Urban,70.15
+3574,Eastern Mediterranean,Egypt,2009,Rural,71.6
+3575,Europe,Tajikistan,2009,Total,72.39
+3576,Africa,Algeria,2009,Rural,72.83
+3577,South-East Asia,Bhutan,2009,Rural,73.24
+3578,Americas,Cuba,2009,Rural,72.67
+3579,Americas,Guyana,2009,Urban,74.72
+3580,South-East Asia,Nepal,2009,Urban,74.88
+3581,Americas,Guyana,2009,Rural,76.32
+3582,Americas,Guyana,2009,Total,75.89
+3583,South-East Asia,Indonesia,2009,Total,75.63
+3584,Eastern Mediterranean,Iraq,2009,Rural,77.47
+3585,Europe,Armenia,2009,Rural,78.34
+3586,South-East Asia,Bhutan,2009,Total,77.75
+3587,Western Pacific,Mongolia,2009,Urban,77.61
+3588,Americas,Belize,2009,Urban,78.72
+3589,Eastern Mediterranean,Egypt,2009,Total,79.47
+3590,Americas,Honduras,2009,Rural,79.44
+3591,Africa,Burkina Faso,2009,Total,8.39
+3592,Africa,Mozambique,2009,Rural,7.59
+3593,Africa,Niger,2009,Rural,7.53
+3594,Europe,Kyrgyzstan,2009,Rural,79.98
+3595,Eastern Mediterranean,Pakistan,2009,Urban,80.9
+3596,Americas,Belize,2009,Total,81.68
+3597,Europe,Republic of Moldova,2009,Rural,82.26
+3598,Europe,Turkmenistan,2009,Rural,82.24
+3599,Western Pacific,Viet Nam,2009,Rural,81.51
+3600,Africa,Algeria,2009,Total,83.14
+3601,Americas,Costa Rica,2009,Rural,82.84
+3602,Americas,Costa Rica,2009,Total,83.42
+3603,Americas,Cuba,2009,Total,82.81
+3604,Americas,Belize,2009,Rural,84.13
+3605,Americas,Costa Rica,2009,Urban,83.66
+3606,Americas,Honduras,2009,Total,83.63
+3607,Europe,Kyrgyzstan,2009,Total,83.62
+3608,Western Pacific,Viet Nam,2009,Total,84.57
+3609,Americas,Cuba,2009,Urban,85.92
+3610,South-East Asia,Indonesia,2009,Urban,85.99
+3611,Europe,Azerbaijan,2009,Rural,87.37
+3612,South-East Asia,Bhutan,2009,Urban,86.51
+3613,Europe,Republic of Moldova,2009,Total,86.99
+3614,Americas,Saint Lucia,2009,Rural,87.19
+3615,Americas,Saint Lucia,2009,Total,87.34
+3616,Eastern Mediterranean,Tunisia,2009,Total,86.86
+3617,Europe,Turkmenistan,2009,Total,87.07
+3618,Africa,Algeria,2009,Urban,88.26
+3619,Americas,Barbados,2009,Total,88.47
+3620,Western Pacific,Cambodia,2009,Urban,87.68
+3621,Americas,Honduras,2009,Urban,87.61
+3622,Americas,Saint Lucia,2009,Urban,87.94
+3623,Europe,Armenia,2009,Total,88.83
+3624,Europe,Azerbaijan,2009,Total,89.23
+3625,Europe,Tajikistan,2009,Urban,88.64
+3626,Africa,Chad,2009,Rural,8.82
+3627,Africa,Togo,2009,Total,8.55
+3628,Africa,Zambia,2009,Rural,9.23
+3629,Eastern Mediterranean,Egypt,2009,Urban,89.89
+3630,Eastern Mediterranean,Iraq,2009,Total,89.51
+3631,Europe,Kyrgyzstan,2009,Urban,90.3
+3632,Americas,Trinidad and Tobago,2009,Total,90.06
+3633,Europe,Azerbaijan,2009,Urban,90.86
+3634,Americas,Mexico,2009,Rural,90.65
+3635,Americas,Mexico,2009,Total,90.65
+3636,Americas,Mexico,2009,Urban,90.65
+3637,Europe,Turkmenistan,2009,Urban,92.26
+3638,Western Pacific,Viet Nam,2009,Urban,91.79
+3639,Europe,Republic of Moldova,2009,Urban,93.36
+3640,Europe,Armenia,2009,Urban,94.85
+3641,Eastern Mediterranean,Iraq,2009,Urban,94.92
+3642,Europe,Bosnia and Herzegovina,2009,Rural,96.05
+3643,Europe,Bosnia and Herzegovina,2009,Total,97.2
+3644,Eastern Mediterranean,Tunisia,2009,Urban,96.92
+3645,Europe,Serbia,2009,Rural,98.03
+3646,Europe,Serbia,2009,Total,98.13
+3647,Europe,Serbia,2009,Urban,98.21
+3648,Europe,Bosnia and Herzegovina,2009,Urban,98.6
+3649,Africa,Guinea-Bissau,2008,Rural,0.0
+3650,Africa,Liberia,2008,Rural,0.0
+3651,Africa,Liberia,2008,Total,0.0
+3652,Africa,Liberia,2008,Urban,0.0
+3653,Africa,Guinea-Bissau,2008,Total,0.7
+3654,Africa,Lesotho,2008,Urban,10.3
+3655,Africa,Niger,2008,Total,10.38
+3656,Africa,Uganda,2008,Rural,9.63
+3657,Eastern Mediterranean,Bahrain,2008,Total,100.0
+3661,South-East Asia,Bangladesh,2008,Rural,11.5
+3662,Africa,Sierra Leone,2008,Total,10.95
+3663,Africa,Mozambique,2008,Total,11.75
+3664,Africa,Uganda,2008,Total,11.77
+3665,Africa,Central African Republic,2008,Rural,13.21
+3666,Africa,Malawi,2008,Rural,12.54
+3667,Africa,Rwanda,2008,Urban,13.12
+3669,Africa,Chad,2008,Total,14.7
+3670,Africa,Comoros,2008,Rural,14.65
+3671,Africa,Malawi,2008,Total,15.36
+3672,Africa,Central African Republic,2008,Total,15.81
+3673,Africa,Comoros,2008,Total,15.55
+3674,Africa,Madagascar,2008,Rural,16.12
+3676,Africa,Zambia,2008,Total,16.71
+3677,Africa,Comoros,2008,Urban,17.87
+3678,Americas,Haiti,2008,Rural,17.87
+3679,Africa,Togo,2008,Urban,17.76
+3680,Western Pacific,Vanuatu,2008,Rural,17.97
+3681,Africa,Guinea-Bissau,2008,Urban,1.77
+3682,Africa,Togo,2008,Rural,1.92
+3683,Africa,Central African Republic,2008,Urban,19.94
+3684,Africa,Equatorial Guinea,2008,Rural,19.89
+3685,Africa,Sierra Leone,2008,Urban,20.25
+3686,South-East Asia,Bangladesh,2008,Total,20.64
+3687,Africa,Mozambique,2008,Urban,21.07
+3688,Africa,Uganda,2008,Urban,21.29
+3689,Africa,Burkina Faso,2008,Urban,22.23
+3690,Africa,Burundi,2008,Urban,24.44
+3692,Africa,Equatorial Guinea,2008,Total,23.74
+3694,Americas,Haiti,2008,Total,24.47
+3695,Africa,Madagascar,2008,Total,23.72
+3696,Africa,Equatorial Guinea,2008,Urban,26.02
+3697,Eastern Mediterranean,Afghanistan,2008,Rural,27.1
+3698,Eastern Mediterranean,Sudan,2008,Total,26.5
+3699,Western Pacific,Vanuatu,2008,Total,27.07
+3700,Africa,Zambia,2008,Urban,28.73
+3701,Africa,Benin,2008,Rural,2.65
+3702,Africa,Malawi,2008,Urban,30.99
+3703,Africa,Niger,2008,Urban,31.17
+3704,Americas,Haiti,2008,Urban,32.35
+3705,Western Pacific,Mongolia,2008,Rural,31.53
+3706,Africa,Sao Tome and Principe,2008,Urban,32.44
+3707,Eastern Mediterranean,Afghanistan,2008,Total,36.52
+3708,Eastern Mediterranean,Pakistan,2008,Rural,36.74
+3709,Africa,Sao Tome and Principe,2008,Total,38.65
+3710,Africa,Burkina Faso,2008,Rural,4.01
+3711,Africa,Burundi,2008,Rural,4.01
+3712,Africa,Lesotho,2008,Rural,3.55
+3713,Africa,Rwanda,2008,Rural,3.98
+3714,Africa,Chad,2008,Urban,40.12
+3715,Americas,Dominican Republic,2008,Rural,41.27
+3716,Africa,Madagascar,2008,Urban,40.87
+3717,South-East Asia,Nepal,2008,Rural,41.27
+3718,South-East Asia,Bangladesh,2008,Urban,43.07
+3719,South-East Asia,Nepal,2008,Total,46.69
+3721,Africa,Sao Tome and Principe,2008,Rural,49.08
+3722,Africa,Benin,2008,Total,5.38
+3723,Africa,Lesotho,2008,Total,5.16
+3724,Africa,Sierra Leone,2008,Rural,5.23
+3725,Eastern Mediterranean,Pakistan,2008,Total,52.01
+3726,Americas,Dominican Republic,2008,Total,52.78
+3727,Western Pacific,Cambodia,2008,Rural,53.81
+3728,Western Pacific,Vanuatu,2008,Urban,55.92
+3729,Americas,Dominican Republic,2008,Urban,57.42
+3730,Africa,Burundi,2008,Total,6.07
+3731,Africa,Niger,2008,Rural,6.35
+3732,Africa,Rwanda,2008,Total,5.52
+3733,Western Pacific,Cambodia,2008,Total,60.44
+3734,Western Pacific,Mongolia,2008,Total,61.08
+3735,Americas,Jamaica,2008,Rural,63.34
+3736,South-East Asia,Indonesia,2008,Rural,65.62
+3737,Eastern Mediterranean,Afghanistan,2008,Urban,67.49
+3738,Americas,Jamaica,2008,Total,66.56
+3739,Europe,Tajikistan,2008,Rural,66.52
+3740,Eastern Mediterranean,Tunisia,2008,Rural,67.0
+3741,Eastern Mediterranean,Egypt,2008,Rural,69.31
+3742,Americas,Jamaica,2008,Urban,69.37
+3744,South-East Asia,Bhutan,2008,Rural,71.34
+3745,Europe,Tajikistan,2008,Total,72.39
+3746,Africa,Algeria,2008,Rural,72.83
+3747,Americas,Cuba,2008,Rural,72.67
+3748,Americas,Guyana,2008,Urban,74.72
+3749,South-East Asia,Indonesia,2008,Total,75.46
+3750,South-East Asia,Nepal,2008,Urban,74.88
+3751,South-East Asia,Bhutan,2008,Total,76.3
+3752,Americas,Guyana,2008,Rural,76.32
+3753,Americas,Guyana,2008,Total,75.89
+3754,Europe,Armenia,2008,Rural,76.92
+3755,Eastern Mediterranean,Iraq,2008,Rural,77.47
+3756,Western Pacific,Mongolia,2008,Urban,76.6
+3757,Eastern Mediterranean,Egypt,2008,Total,77.99
+3758,Americas,Belize,2008,Urban,78.72
+3759,Americas,Honduras,2008,Rural,79.44
+3760,Africa,Burkina Faso,2008,Total,8.3
+3761,Africa,Chad,2008,Rural,7.57
+3762,Africa,Mozambique,2008,Rural,7.59
+3763,Africa,Togo,2008,Total,7.71
+3764,Europe,Kyrgyzstan,2008,Rural,79.98
+3765,Europe,Turkmenistan,2008,Rural,79.83
+3766,Eastern Mediterranean,Pakistan,2008,Urban,80.9
+3767,Americas,Belize,2008,Total,81.68
+3768,Europe,Republic of Moldova,2008,Rural,82.26
+3769,Western Pacific,Viet Nam,2008,Rural,81.51
+3770,Africa,Algeria,2008,Total,83.03
+3771,Americas,Costa Rica,2008,Rural,82.84
+3772,Americas,Costa Rica,2008,Total,83.41
+3773,Americas,Cuba,2008,Total,82.79
+3774,Americas,Belize,2008,Rural,84.13
+3775,Americas,Costa Rica,2008,Urban,83.66
+3776,Americas,Honduras,2008,Total,83.57
+3777,Europe,Kyrgyzstan,2008,Total,83.62
+3778,Europe,Turkmenistan,2008,Total,85.27
+3779,Western Pacific,Viet Nam,2008,Total,84.51
+3780,South-East Asia,Bhutan,2008,Urban,86.26
+3781,Americas,Cuba,2008,Urban,85.92
+3782,South-East Asia,Indonesia,2008,Urban,85.99
+3783,Europe,Republic of Moldova,2008,Total,87.0
+3784,Americas,Saint Lucia,2008,Rural,87.19
+3785,Americas,Saint Lucia,2008,Total,87.34
+3786,Eastern Mediterranean,Tunisia,2008,Total,86.77
+3787,Africa,Algeria,2008,Urban,88.26
+3788,Europe,Armenia,2008,Total,88.2
+3789,Americas,Barbados,2008,Total,88.47
+3790,Western Pacific,Cambodia,2008,Urban,87.68
+3791,Americas,Honduras,2008,Urban,87.61
+3792,Americas,Saint Lucia,2008,Urban,87.94
+3793,Eastern Mediterranean,Egypt,2008,Urban,89.48
+3794,Europe,Tajikistan,2008,Urban,88.64
+3795,Africa,Benin,2008,Urban,9.14
+3796,Africa,Zambia,2008,Rural,9.23
+3797,Eastern Mediterranean,Iraq,2008,Total,89.5
+3798,Europe,Kyrgyzstan,2008,Urban,90.3
+3799,Americas,Trinidad and Tobago,2008,Total,90.06
+3800,Europe,Turkmenistan,2008,Urban,91.2
+3801,Western Pacific,Viet Nam,2008,Urban,91.79
+3802,Europe,Republic of Moldova,2008,Urban,93.36
+3803,Europe,Armenia,2008,Urban,94.64
+3804,Eastern Mediterranean,Iraq,2008,Urban,94.92
+3805,Europe,Bosnia and Herzegovina,2008,Rural,96.05
+3806,Europe,Bosnia and Herzegovina,2008,Total,97.19
+3807,Eastern Mediterranean,Tunisia,2008,Urban,96.92
+3808,Europe,Serbia,2008,Rural,98.03
+3809,Europe,Serbia,2008,Total,98.13
+3810,Europe,Serbia,2008,Urban,98.21
+3811,Europe,Bosnia and Herzegovina,2008,Urban,98.6
+3812,Africa,Guinea-Bissau,2007,Rural,0.0
+3813,Africa,Liberia,2007,Rural,0.0
+3814,Africa,Liberia,2007,Total,0.0
+3815,Africa,Liberia,2007,Urban,0.0
+3816,Africa,Guinea-Bissau,2007,Total,0.69
+3817,Africa,Uganda,2007,Total,10.48
+3818,Eastern Mediterranean,Bahrain,2007,Total,100.0
+3822,South-East Asia,Bangladesh,2007,Rural,11.5
+3823,Africa,Sierra Leone,2007,Total,10.89
+3824,Africa,Mozambique,2007,Total,11.68
+3825,Africa,Rwanda,2007,Urban,11.86
+3826,Africa,Central African Republic,2007,Rural,13.21
+3827,Africa,Malawi,2007,Rural,12.53
+3829,Africa,Chad,2007,Total,14.69
+3830,Africa,Malawi,2007,Total,15.38
+3831,Africa,Central African Republic,2007,Total,15.79
+3832,Africa,Madagascar,2007,Rural,16.19
+3834,Americas,Haiti,2007,Rural,17.87
+3835,Africa,Togo,2007,Urban,17.76
+3836,Western Pacific,Vanuatu,2007,Rural,17.97
+3837,Africa,Uganda,2007,Urban,19.43
+3838,Africa,Benin,2007,Rural,2.22
+3839,Africa,Guinea-Bissau,2007,Urban,1.77
+3840,Africa,Togo,2007,Rural,1.92
+3841,South-East Asia,Bangladesh,2007,Total,20.41
+3842,Africa,Central African Republic,2007,Urban,19.94
+3843,Africa,Equatorial Guinea,2007,Rural,19.89
+3844,Africa,Sierra Leone,2007,Urban,20.25
+3845,Africa,Mozambique,2007,Urban,21.07
+3846,Africa,Burkina Faso,2007,Urban,22.66
+3847,Africa,Burundi,2007,Urban,24.44
+3849,Africa,Equatorial Guinea,2007,Total,23.64
+3851,Americas,Haiti,2007,Total,24.32
+3852,Africa,Madagascar,2007,Total,23.71
+3853,Africa,Equatorial Guinea,2007,Urban,26.02
+3854,Eastern Mediterranean,Afghanistan,2007,Rural,27.1
+3855,Western Pacific,Vanuatu,2007,Total,26.96
+3856,Africa,Rwanda,2007,Rural,3.05
+3857,Africa,Malawi,2007,Urban,31.21
+3858,Africa,Niger,2007,Urban,30.55
+3859,Americas,Haiti,2007,Urban,32.35
+3860,Western Pacific,Mongolia,2007,Rural,31.53
+3861,Eastern Mediterranean,Afghanistan,2007,Total,36.44
+3862,Eastern Mediterranean,Pakistan,2007,Rural,36.74
+3863,Africa,Burkina Faso,2007,Rural,3.89
+3864,Africa,Burundi,2007,Rural,4.01
+3865,Africa,Chad,2007,Urban,40.12
+3866,Africa,Madagascar,2007,Urban,41.23
+3867,South-East Asia,Nepal,2007,Rural,41.27
+3868,South-East Asia,Bangladesh,2007,Urban,43.07
+3869,South-East Asia,Nepal,2007,Total,46.58
+3871,Africa,Benin,2007,Total,4.84
+3872,Africa,Niger,2007,Rural,5.17
+3873,Africa,Rwanda,2007,Total,4.54
+3874,Africa,Sierra Leone,2007,Rural,5.23
+3875,Eastern Mediterranean,Pakistan,2007,Total,51.92
+3876,Western Pacific,Vanuatu,2007,Urban,55.92
+3877,Africa,Burundi,2007,Total,6.02
+3878,Western Pacific,Mongolia,2007,Total,60.62
+3879,Americas,Jamaica,2007,Rural,63.34
+3880,South-East Asia,Indonesia,2007,Rural,65.62
+3881,Eastern Mediterranean,Afghanistan,2007,Urban,67.49
+3882,Eastern Mediterranean,Egypt,2007,Rural,67.01
+3883,Americas,Jamaica,2007,Total,66.55
+3884,Europe,Tajikistan,2007,Rural,66.52
+3885,Eastern Mediterranean,Tunisia,2007,Rural,67.0
+3886,Americas,Jamaica,2007,Urban,69.37
+3888,South-East Asia,Bhutan,2007,Rural,71.34
+3889,Europe,Tajikistan,2007,Total,72.39
+3890,Africa,Algeria,2007,Rural,72.83
+3891,South-East Asia,Indonesia,2007,Total,75.3
+3892,South-East Asia,Nepal,2007,Urban,74.88
+3893,Europe,Armenia,2007,Rural,75.51
+3894,South-East Asia,Bhutan,2007,Total,76.18
+3895,Eastern Mediterranean,Egypt,2007,Total,76.51
+3896,Eastern Mediterranean,Iraq,2007,Rural,77.47
+3897,Western Pacific,Mongolia,2007,Urban,76.6
+3898,Europe,Turkmenistan,2007,Rural,77.43
+3899,Americas,Belize,2007,Urban,78.72
+3900,Americas,Honduras,2007,Rural,79.44
+3901,Africa,Burkina Faso,2007,Total,8.21
+3902,Africa,Chad,2007,Rural,7.57
+3903,Africa,Mozambique,2007,Rural,7.59
+3904,Africa,Togo,2007,Total,7.64
+3905,Europe,Kyrgyzstan,2007,Rural,79.98
+3906,Eastern Mediterranean,Pakistan,2007,Urban,80.9
+3907,Americas,Belize,2007,Total,81.68
+3908,Western Pacific,Viet Nam,2007,Rural,81.51
+3909,Africa,Algeria,2007,Total,82.91
+3910,Americas,Costa Rica,2007,Rural,82.84
+3911,Americas,Costa Rica,2007,Total,83.4
+3912,Europe,Turkmenistan,2007,Total,83.47
+3913,Americas,Belize,2007,Rural,84.13
+3914,Americas,Costa Rica,2007,Urban,83.66
+3915,Americas,Honduras,2007,Total,83.52
+3916,Europe,Kyrgyzstan,2007,Total,83.62
+3917,Western Pacific,Viet Nam,2007,Total,84.44
+3918,South-East Asia,Bhutan,2007,Urban,86.26
+3919,South-East Asia,Indonesia,2007,Urban,85.99
+3920,Eastern Mediterranean,Tunisia,2007,Total,86.69
+3921,Africa,Algeria,2007,Urban,88.26
+3922,Europe,Armenia,2007,Total,87.56
+3923,Americas,Honduras,2007,Urban,87.61
+3924,Eastern Mediterranean,Egypt,2007,Urban,89.07
+3925,Eastern Mediterranean,Iraq,2007,Total,89.49
+3926,Europe,Tajikistan,2007,Urban,88.64
+3927,Africa,Benin,2007,Urban,8.53
+3928,Africa,Niger,2007,Total,9.29
+3929,Africa,Uganda,2007,Rural,8.52
+3930,Europe,Kyrgyzstan,2007,Urban,90.3
+3931,Americas,Trinidad and Tobago,2007,Total,90.06
+3932,Europe,Turkmenistan,2007,Urban,90.14
+3933,Western Pacific,Viet Nam,2007,Urban,91.79
+3934,Europe,Armenia,2007,Urban,94.42
+3935,Eastern Mediterranean,Iraq,2007,Urban,94.92
+3936,Eastern Mediterranean,Tunisia,2007,Urban,96.92
+3937,Europe,Serbia,2007,Rural,98.03
+3938,Europe,Serbia,2007,Total,98.13
+3939,Europe,Serbia,2007,Urban,98.21
+3940,Africa,Guinea-Bissau,2006,Rural,0.0
+3941,Africa,Guinea-Bissau,2006,Total,0.68
+3942,Eastern Mediterranean,Bahrain,2006,Total,100.0
+3946,South-East Asia,Bangladesh,2006,Rural,11.5
+3947,Africa,Rwanda,2006,Urban,10.61
+3948,Africa,Sierra Leone,2006,Total,10.83
+3949,Africa,Central African Republic,2006,Rural,13.21
+3950,Africa,Malawi,2006,Rural,12.53
+3952,Africa,Chad,2006,Total,14.68
+3953,Africa,Malawi,2006,Total,15.4
+3954,Africa,Central African Republic,2006,Total,15.78
+3955,Africa,Madagascar,2006,Rural,16.26
+3957,Americas,Haiti,2006,Rural,17.87
+3958,Africa,Togo,2006,Urban,17.76
+3959,Africa,Uganda,2006,Urban,17.57
+3960,Africa,Benin,2006,Rural,1.79
+3961,Africa,Guinea-Bissau,2006,Urban,1.77
+3962,Africa,Rwanda,2006,Rural,2.12
+3963,Africa,Togo,2006,Rural,1.92
+3964,South-East Asia,Bangladesh,2006,Total,20.18
+3965,Africa,Central African Republic,2006,Urban,19.94
+3966,Africa,Sierra Leone,2006,Urban,20.25
+3967,Africa,Burkina Faso,2006,Urban,23.09
+3968,Africa,Burundi,2006,Urban,24.44
+3971,Americas,Haiti,2006,Total,24.18
+3972,Africa,Madagascar,2006,Total,23.71
+3973,Eastern Mediterranean,Afghanistan,2006,Rural,27.1
+3974,Africa,Niger,2006,Urban,29.94
+3975,Africa,Malawi,2006,Urban,31.43
+3976,Americas,Haiti,2006,Urban,32.35
+3977,Western Pacific,Mongolia,2006,Rural,31.53
+3978,Eastern Mediterranean,Afghanistan,2006,Total,36.35
+3979,Africa,Benin,2006,Total,4.3
+3980,Africa,Burkina Faso,2006,Rural,3.77
+3981,Africa,Burundi,2006,Rural,4.01
+3982,Africa,Niger,2006,Rural,4.0
+3983,Africa,Rwanda,2006,Total,3.56
+3984,Africa,Chad,2006,Urban,40.12
+3985,South-East Asia,Nepal,2006,Rural,41.27
+3986,Africa,Madagascar,2006,Urban,41.59
+3987,South-East Asia,Bangladesh,2006,Urban,43.07
+3988,South-East Asia,Nepal,2006,Total,46.47
+3990,Africa,Sierra Leone,2006,Rural,5.23
+3991,Africa,Burundi,2006,Total,5.97
+3992,Western Pacific,Mongolia,2006,Total,60.16
+3993,Eastern Mediterranean,Egypt,2006,Rural,64.72
+3994,South-East Asia,Indonesia,2006,Rural,65.62
+3995,Eastern Mediterranean,Afghanistan,2006,Urban,67.49
+3996,Europe,Tajikistan,2006,Rural,66.52
+3997,Eastern Mediterranean,Tunisia,2006,Rural,67.0
+3999,Africa,Uganda,2006,Rural,7.42
+4000,South-East Asia,Bhutan,2006,Rural,71.34
+4001,Europe,Tajikistan,2006,Total,72.39
+4002,Europe,Armenia,2006,Rural,74.09
+4003,Eastern Mediterranean,Egypt,2006,Total,75.03
+4004,South-East Asia,Indonesia,2006,Total,75.14
+4005,South-East Asia,Nepal,2006,Urban,74.88
+4006,Europe,Turkmenistan,2006,Rural,75.02
+4007,South-East Asia,Bhutan,2006,Total,76.07
+4008,Eastern Mediterranean,Iraq,2006,Rural,77.47
+4009,Western Pacific,Mongolia,2006,Urban,76.6
+4010,Americas,Belize,2006,Urban,78.72
+4011,Americas,Honduras,2006,Rural,79.44
+4012,Africa,Benin,2006,Urban,7.92
+4013,Africa,Burkina Faso,2006,Total,8.09
+4014,Africa,Chad,2006,Rural,7.57
+4015,Africa,Niger,2006,Total,8.21
+4016,Africa,Togo,2006,Total,7.56
+4017,Europe,Kyrgyzstan,2006,Rural,79.98
+4018,Americas,Belize,2006,Total,81.68
+4019,Europe,Turkmenistan,2006,Total,81.67
+4020,Western Pacific,Viet Nam,2006,Rural,81.51
+4021,Americas,Costa Rica,2006,Rural,82.84
+4022,Americas,Costa Rica,2006,Total,83.39
+4023,Americas,Honduras,2006,Total,83.47
+4024,Americas,Belize,2006,Rural,84.13
+4025,Americas,Costa Rica,2006,Urban,83.66
+4026,Europe,Kyrgyzstan,2006,Total,83.62
+4027,Western Pacific,Viet Nam,2006,Total,84.38
+4028,South-East Asia,Bhutan,2006,Urban,86.26
+4029,South-East Asia,Indonesia,2006,Urban,85.99
+4030,Europe,Armenia,2006,Total,86.93
+4031,Eastern Mediterranean,Tunisia,2006,Total,86.6
+4032,Americas,Honduras,2006,Urban,87.61
+4033,Eastern Mediterranean,Egypt,2006,Urban,88.66
+4034,Eastern Mediterranean,Iraq,2006,Total,89.48
+4035,Europe,Tajikistan,2006,Urban,88.64
+4036,Europe,Turkmenistan,2006,Urban,89.07
+4037,Africa,Uganda,2006,Total,9.19
+4038,Europe,Kyrgyzstan,2006,Urban,90.3
+4039,Western Pacific,Viet Nam,2006,Urban,91.79
+4040,Europe,Armenia,2006,Urban,94.2
+4041,Eastern Mediterranean,Iraq,2006,Urban,94.92
+4042,Eastern Mediterranean,Tunisia,2006,Urban,96.92
+4043,Europe,Serbia,2006,Rural,98.03
+4044,Europe,Serbia,2006,Total,98.13
+4045,Europe,Serbia,2006,Urban,98.21
+4046,Africa,Guinea-Bissau,2005,Rural,0.0
+4047,Africa,Benin,2005,Rural,1.36
+4048,Africa,Guinea-Bissau,2005,Total,0.67
+4049,Africa,Rwanda,2005,Rural,1.19
+4050,Eastern Mediterranean,Bahrain,2005,Total,100.0
+4054,South-East Asia,Bangladesh,2005,Rural,11.5
+4055,Africa,Sierra Leone,2005,Total,10.77
+4056,Africa,Central African Republic,2005,Rural,13.21
+4057,Africa,Malawi,2005,Rural,12.53
+4058,Africa,Chad,2005,Total,14.67
+4059,Africa,Malawi,2005,Total,15.41
+4060,Africa,Central African Republic,2005,Total,15.78
+4061,Africa,Madagascar,2005,Rural,16.32
+4062,Africa,Uganda,2005,Urban,15.71
+4064,Africa,Togo,2005,Urban,17.76
+4065,Africa,Guinea-Bissau,2005,Urban,1.77
+4066,Africa,Togo,2005,Rural,1.92
+4067,South-East Asia,Bangladesh,2005,Total,19.96
+4068,Africa,Central African Republic,2005,Urban,19.94
+4069,Africa,Sierra Leone,2005,Urban,20.25
+4070,Africa,Burkina Faso,2005,Urban,23.52
+4071,Africa,Burundi,2005,Urban,24.44
+4073,Africa,Madagascar,2005,Total,23.71
+4074,Eastern Mediterranean,Afghanistan,2005,Rural,27.1
+4075,Africa,Niger,2005,Urban,29.33
+4076,Africa,Niger,2005,Rural,2.82
+4077,Africa,Rwanda,2005,Total,2.57
+4078,Africa,Malawi,2005,Urban,31.65
+4079,Western Pacific,Mongolia,2005,Rural,31.53
+4080,Eastern Mediterranean,Afghanistan,2005,Total,36.27
+4081,Africa,Benin,2005,Total,3.77
+4082,Africa,Burkina Faso,2005,Rural,3.65
+4083,Africa,Burundi,2005,Rural,4.01
+4084,Africa,Chad,2005,Urban,40.12
+4085,South-East Asia,Nepal,2005,Rural,41.27
+4086,Africa,Madagascar,2005,Urban,41.95
+4087,South-East Asia,Bangladesh,2005,Urban,43.07
+4088,South-East Asia,Nepal,2005,Total,46.36
+4090,Africa,Sierra Leone,2005,Rural,5.23
+4091,Africa,Burundi,2005,Total,5.92
+4092,Africa,Uganda,2005,Rural,6.31
+4093,Western Pacific,Mongolia,2005,Total,59.69
+4094,Eastern Mediterranean,Egypt,2005,Rural,62.42
+4095,Eastern Mediterranean,Afghanistan,2005,Urban,67.49
+4096,Africa,Benin,2005,Urban,7.3
+4097,Africa,Niger,2005,Total,7.12
+4098,Africa,Togo,2005,Total,7.49
+4099,South-East Asia,Bhutan,2005,Rural,71.34
+4100,Europe,Armenia,2005,Rural,72.67
+4101,Europe,Turkmenistan,2005,Rural,72.62
+4102,Eastern Mediterranean,Egypt,2005,Total,73.54
+4103,South-East Asia,Nepal,2005,Urban,74.88
+4104,South-East Asia,Bhutan,2005,Total,75.96
+4105,Eastern Mediterranean,Iraq,2005,Rural,77.47
+4106,Western Pacific,Mongolia,2005,Urban,76.6
+4107,Americas,Belize,2005,Urban,78.72
+4108,Africa,Burkina Faso,2005,Total,7.93
+4109,Africa,Chad,2005,Rural,7.57
+4110,Africa,Uganda,2005,Total,7.91
+4111,Europe,Turkmenistan,2005,Total,79.86
+4112,Americas,Belize,2005,Total,81.68
+4113,Western Pacific,Viet Nam,2005,Rural,81.51
+4114,Americas,Costa Rica,2005,Rural,82.84
+4115,Americas,Costa Rica,2005,Total,83.38
+4116,Americas,Belize,2005,Rural,84.13
+4117,Americas,Costa Rica,2005,Urban,83.66
+4118,Western Pacific,Viet Nam,2005,Total,84.32
+4119,Europe,Armenia,2005,Total,86.3
+4120,South-East Asia,Bhutan,2005,Urban,86.26
+4121,Eastern Mediterranean,Egypt,2005,Urban,88.26
+4122,Europe,Turkmenistan,2005,Urban,88.01
+4123,Eastern Mediterranean,Iraq,2005,Total,89.47
+4124,Africa,Rwanda,2005,Urban,9.36
+4125,Western Pacific,Viet Nam,2005,Urban,91.79
+4126,Europe,Armenia,2005,Urban,93.99
+4127,Eastern Mediterranean,Iraq,2005,Urban,94.92
+4128,Africa,Guinea-Bissau,2004,Rural,0.0
+4129,Africa,Rwanda,2004,Rural,0.27
+4130,Africa,Benin,2004,Rural,0.93
+4131,Africa,Guinea-Bissau,2004,Total,0.67
+4132,Eastern Mediterranean,Bahrain,2004,Total,100.0
+4136,Africa,Sierra Leone,2004,Total,10.72
+4137,Africa,Central African Republic,2004,Rural,13.21
+4138,Africa,Malawi,2004,Rural,12.53
+4139,Africa,Uganda,2004,Urban,13.85
+4140,Africa,Chad,2004,Total,14.66
+4141,Africa,Malawi,2004,Total,15.43
+4142,Africa,Central African Republic,2004,Total,15.77
+4143,Africa,Madagascar,2004,Rural,16.39
+4145,Africa,Togo,2004,Urban,17.76
+4146,Africa,Guinea-Bissau,2004,Urban,1.77
+4147,Africa,Niger,2004,Rural,1.64
+4148,Africa,Rwanda,2004,Total,1.59
+4149,Africa,Togo,2004,Rural,1.92
+4150,Africa,Central African Republic,2004,Urban,19.94
+4151,Africa,Sierra Leone,2004,Urban,20.25
+4152,Africa,Burkina Faso,2004,Urban,23.95
+4153,Africa,Burundi,2004,Urban,24.44
+4155,Africa,Madagascar,2004,Total,23.7
+4156,Africa,Niger,2004,Urban,28.71
+4157,Africa,Benin,2004,Total,3.23
+4158,Africa,Malawi,2004,Urban,31.87
+4159,Western Pacific,Mongolia,2004,Rural,31.53
+4160,Africa,Burkina Faso,2004,Rural,3.53
+4161,Africa,Burundi,2004,Rural,4.01
+4162,Africa,Chad,2004,Urban,40.12
+4163,Africa,Madagascar,2004,Urban,42.31
+4165,Africa,Sierra Leone,2004,Rural,5.23
+4166,Africa,Uganda,2004,Rural,5.21
+4167,Western Pacific,Mongolia,2004,Total,59.22
+4168,Africa,Burundi,2004,Total,5.87
+4169,Africa,Niger,2004,Total,6.04
+4170,Eastern Mediterranean,Egypt,2004,Rural,60.13
+4171,Africa,Benin,2004,Urban,6.69
+4172,Africa,Togo,2004,Total,7.42
+4173,Africa,Uganda,2004,Total,6.64
+4174,Europe,Turkmenistan,2004,Rural,70.21
+4175,Europe,Armenia,2004,Rural,71.25
+4176,South-East Asia,Bhutan,2004,Rural,71.34
+4177,Eastern Mediterranean,Egypt,2004,Total,72.04
+4178,South-East Asia,Bhutan,2004,Total,75.79
+4179,Western Pacific,Mongolia,2004,Urban,76.6
+4180,Europe,Turkmenistan,2004,Total,78.05
+4181,Africa,Burkina Faso,2004,Total,7.77
+4182,Africa,Chad,2004,Rural,7.57
+4183,Africa,Rwanda,2004,Urban,8.11
+4184,Europe,Armenia,2004,Total,85.67
+4185,South-East Asia,Bhutan,2004,Urban,86.26
+4186,Europe,Turkmenistan,2004,Urban,86.95
+4187,Eastern Mediterranean,Egypt,2004,Urban,87.85
+4188,Europe,Armenia,2004,Urban,93.77
+4189,Africa,Benin,2003,Rural,0.5
+4190,Africa,Guinea-Bissau,2003,Rural,0.0
+4191,Africa,Rwanda,2003,Rural,0.0
+4192,Africa,Rwanda,2003,Total,1.16
+4193,Eastern Mediterranean,Bahrain,2003,Total,100.0
+4197,Africa,Uganda,2003,Urban,11.99
+4198,Africa,Malawi,2003,Rural,12.53
+4199,Africa,Malawi,2003,Total,15.44
+4200,Africa,Madagascar,2003,Rural,16.45
+4201,Africa,Niger,2003,Rural,1.64
+4202,Africa,Burkina Faso,2003,Urban,24.38
+4203,Africa,Madagascar,2003,Total,23.78
+4204,Africa,Niger,2003,Urban,28.71
+4205,Africa,Benin,2003,Total,2.7
+4206,Africa,Burkina Faso,2003,Rural,3.41
+4207,Africa,Malawi,2003,Urban,32.09
+4208,Africa,Uganda,2003,Rural,4.11
+4209,Africa,Madagascar,2003,Urban,42.67
+4210,Africa,Uganda,2003,Total,5.37
+4211,Eastern Mediterranean,Egypt,2003,Rural,57.84
+4212,Africa,Benin,2003,Urban,6.07
+4213,Africa,Niger,2003,Total,6.04
+4214,Europe,Turkmenistan,2003,Rural,67.81
+4215,Africa,Rwanda,2003,Urban,6.85
+4216,Europe,Armenia,2003,Rural,69.83
+4217,Eastern Mediterranean,Egypt,2003,Total,70.55
+4218,Europe,Turkmenistan,2003,Total,76.23
+4219,Africa,Burkina Faso,2003,Total,7.6
+4220,Europe,Armenia,2003,Total,85.04
+4221,Europe,Turkmenistan,2003,Urban,85.89
+4222,Eastern Mediterranean,Egypt,2003,Urban,87.44
+4223,Europe,Armenia,2003,Urban,93.55
+4224,Africa,Benin,2002,Rural,0.066
+4225,Africa,Guinea-Bissau,2002,Rural,0.0
+4226,Africa,Rwanda,2002,Rural,0.0
+4227,Africa,Rwanda,2002,Total,0.76
+4228,Africa,Uganda,2002,Urban,10.13
+4229,Eastern Mediterranean,Bahrain,2002,Total,100.0
+4233,Africa,Malawi,2002,Rural,12.53
+4234,Africa,Malawi,2002,Total,15.46
+4235,Africa,Madagascar,2002,Rural,16.52
+4236,Africa,Benin,2002,Total,2.17
+4237,Africa,Niger,2002,Rural,1.64
+4238,Africa,Madagascar,2002,Total,23.85
+4239,Africa,Burkina Faso,2002,Urban,24.81
+4240,Africa,Niger,2002,Urban,28.71
+4241,Africa,Burkina Faso,2002,Rural,3.29
+4242,Africa,Uganda,2002,Rural,3.0
+4243,Africa,Malawi,2002,Urban,32.31
+4244,Africa,Uganda,2002,Total,4.12
+4245,Africa,Madagascar,2002,Urban,43.03
+4246,Africa,Benin,2002,Urban,5.46
+4247,Africa,Rwanda,2002,Urban,4.51
+4248,Eastern Mediterranean,Egypt,2002,Rural,55.54
+4249,Africa,Niger,2002,Total,6.04
+4250,Europe,Turkmenistan,2002,Rural,65.4
+4251,Europe,Armenia,2002,Rural,68.41
+4252,Eastern Mediterranean,Egypt,2002,Total,69.05
+4253,Africa,Burkina Faso,2002,Total,7.44
+4254,Europe,Turkmenistan,2002,Total,74.41
+4255,Europe,Armenia,2002,Total,84.42
+4256,Europe,Turkmenistan,2002,Urban,84.83
+4257,Eastern Mediterranean,Egypt,2002,Urban,87.03
+4258,Europe,Armenia,2002,Urban,93.33
+4259,Africa,Benin,2001,Rural,0.0
+4260,Africa,Guinea-Bissau,2001,Rural,0.0
+4261,Africa,Rwanda,2001,Rural,0.0
+4262,Africa,Rwanda,2001,Total,0.19
+4263,Africa,Rwanda,2001,Urban,1.23
+4264,Eastern Mediterranean,Bahrain,2001,Total,100.0
+4268,Africa,Malawi,2001,Rural,12.53
+4269,Africa,Malawi,2001,Total,15.47
+4270,Africa,Madagascar,2001,Rural,16.52
+4271,Africa,Benin,2001,Total,1.87
+4272,Africa,Niger,2001,Rural,1.64
+4273,Africa,Uganda,2001,Rural,1.9
+4274,Africa,Madagascar,2001,Total,23.78
+4275,Africa,Burkina Faso,2001,Urban,25.24
+4276,Africa,Niger,2001,Urban,28.71
+4277,Africa,Burkina Faso,2001,Rural,3.17
+4278,Africa,Uganda,2001,Total,2.87
+4279,Africa,Malawi,2001,Urban,32.53
+4280,Africa,Madagascar,2001,Urban,43.03
+4281,Africa,Benin,2001,Urban,4.84
+4282,Eastern Mediterranean,Egypt,2001,Rural,53.25
+4283,Africa,Niger,2001,Total,6.04
+4284,Europe,Turkmenistan,2001,Rural,62.99
+4285,Europe,Armenia,2001,Rural,67.0
+4286,Eastern Mediterranean,Egypt,2001,Total,67.55
+4287,Africa,Burkina Faso,2001,Total,7.26
+4288,Europe,Turkmenistan,2001,Total,72.58
+4289,Africa,Uganda,2001,Urban,8.27
+4290,Europe,Armenia,2001,Total,83.81
+4291,Europe,Turkmenistan,2001,Urban,83.77
+4292,Eastern Mediterranean,Egypt,2001,Urban,86.63
+4293,Europe,Armenia,2001,Urban,93.12
+4294,Africa,Benin,2000,Rural,0.0
+4295,Africa,Guinea-Bissau,2000,Rural,0.0
+4296,Africa,Rwanda,2000,Rural,0.0
+4297,Africa,Rwanda,2000,Total,0.0
+4298,Africa,Rwanda,2000,Urban,0.0
+4299,Africa,Uganda,2000,Rural,0.79
+4300,Eastern Mediterranean,Bahrain,2000,Total,100.0
+4304,Africa,Malawi,2000,Rural,12.53
+4305,Africa,Malawi,2000,Total,15.48
+4306,Africa,Madagascar,2000,Rural,16.52
+4307,Africa,Benin,2000,Total,1.62
+4308,Africa,Niger,2000,Rural,1.64
+4309,Africa,Uganda,2000,Total,1.62
+4310,Africa,Madagascar,2000,Total,23.71
+4311,Africa,Burkina Faso,2000,Urban,25.24
+4312,Africa,Niger,2000,Urban,28.71
+4313,Africa,Burkina Faso,2000,Rural,3.17
+4314,Africa,Malawi,2000,Urban,32.75
+4315,Africa,Benin,2000,Urban,4.23
+4316,Africa,Madagascar,2000,Urban,43.03
+4317,Eastern Mediterranean,Egypt,2000,Rural,50.95
+4318,Africa,Niger,2000,Total,6.02
+4319,Africa,Uganda,2000,Urban,6.42
+4320,Europe,Turkmenistan,2000,Rural,60.59
+4321,Europe,Armenia,2000,Rural,65.58
+4322,Eastern Mediterranean,Egypt,2000,Total,66.05
+4323,Africa,Burkina Faso,2000,Total,7.11
+4324,Europe,Turkmenistan,2000,Total,70.75
+4325,Europe,Armenia,2000,Total,83.25
+4326,Europe,Turkmenistan,2000,Urban,82.71
+4327,Eastern Mediterranean,Egypt,2000,Urban,86.22
+4328,Europe,Armenia,2000,Urban,92.9
