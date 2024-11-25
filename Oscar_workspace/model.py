@@ -1,7 +1,8 @@
 from numpy.typing import ArrayLike
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import  Lasso, LinearRegression, Ridge
 from sklearn.model_selection import cross_val_score, RandomizedSearchCV, GridSearchCV
+from sklearn.svm import SVR
 from typing import List, Tuple, Callable, ClassVar, Dict
 from xgboost import XGBClassifier, XGBRegressor
 import numpy as np
@@ -10,23 +11,30 @@ import warnings
 
 try:
     import optuna
-
     optuna_available = True
 except ImportError:
     warnings.warn(message="Unable to import optuna. Bayesian optimization is not available.")
     optuna_available = False
 
+try:
+    import optunahub
+    optunahub_available = True
+except ImportError:
+    warnings.warn(message="Unable to import optunahub. Auto-sampler not available.")
+    optunahub_available = False
+
 class Model():
     """This class is meant to create a user defined model. It allows the user to specify
-    the model type, model choice, hyperparameters, and hyperparameter tuning strategy as
+    the model type, estimator choice, hyperparameters, and hyperparameter tuning strategy as
     well as other important options. The user can make various types of models that can
     be used trained and hypertuned or just instantiated. See the docstring of each method
     for more information.
 
     The class contains hidden attributes that are used to specify hyperparameters or
-    hyperparameter ranges or step sizes. These are divided by model type and have
-    distinction by model type. 'reg' is for regression and 'clf' is for classification.
+    hyperparameter ranges or step sizes. These are divided by model choice and have
+    distinction by model choice. 'reg' is for regression and 'clf' is for classification.
     There are also hidden methods that are used for hyperparameter tuning using optuna.
+    Wherever needed, estimator type is specified too.
 
     Refer to all of the docstrings for documentations on the class, attributes methods,
     and hidden attributes for more information.
@@ -36,7 +44,7 @@ class Model():
                             - 'clf' for classifier
                             - 'reg' for regression.
                         This is defaulted to 'reg'.
-        - model_type: the type of model to use for a given model choice.
+        - est_type: the type of estimator to use for a given model choice.
                       This is defaulted to 'rdf' for RandomForest. The
                       options are as follows:
                             - Classifiers (clf)
@@ -47,6 +55,9 @@ class Model():
                                 * 'lin' for LinearRegression
                                 * 'rdf' for RandomForestRegressor
                                 * 'xgb' for XGBRegressor
+                                * 'svr' for Support Vector Regressor
+                                * 'ridge' for Ridge Regression
+                                * 'lasso' for Lasso Regression
         - model_params: the parameters to give the model. Defaulted to None.
         - cv_fold: the number of folds to use in cross validation. Defa-
                    ulted to 2.
@@ -61,12 +72,13 @@ class Model():
                             * 'random' for RandomizedSearchCV
                             * 'bayesian' for Bayesian optimization using
                                TPESampler (Default of optuna)
+                            * 'auto' for Auto-sampler (optunahub)
         - model: the model that is created and trained. If there is
                  hypertuning, the best model is stored here.
         - best_params: the best hyperparameters found during hypertuning.
                        Defaulted to None if no hypertuning is done.
 
-    Methods
+    Methods:
         - __init__(): the constructor for the class
         - make_quick_model(): makes a model that is meant to just be instantiated.
                               No hypertuning is done nor fitting is done.
@@ -101,6 +113,8 @@ class Model():
                                   Defaulted to (4, 15)
             * _rdf_maxfeat_step: the step size for max_features. Defaulted
                                  to 1
+            * _rdf_criterion_reg: the criterion to use for RandomForestRegressor.
+                                  Defaulted to "mse"  (mean squared error)
 
         - XGBoost:
             * _xgb_objective_clf: the objective for XGBoost classifier.
@@ -125,6 +139,15 @@ class Model():
             * _xgb_objective_reg: the objective for XGBoost regressor. Defaulted
                                   to "reg:squarederror"
 
+        - Support Vector Regressor (SVR):
+            * _svr_kernel: the kernel to use for SVR. Defaulted to "rbf"
+            * _svr_poly_degree: the degree of the polynomial kernel. Defaulted
+                                to 3
+            * _svr_gamma: the gamma parameter for the kernel. Defaulted to "scale"
+            * _svr_c_range: the range of C to use for SVR. Defaulted to (0.1, 10.5)
+            * _svr_epsilon_range: the range of epsilon to use for SVR. Defaulted to
+                                 (0.1, 1.0)
+
     Hidden Methods:
         - _rdf_obj(): a hidden method used to train and hypertune a RandomForest
                       model using optuna.
@@ -134,16 +157,20 @@ class Model():
                       model using optuna.
         - _get_xgb(): a hidden method used to get the best XGBoost model after
                       hypertuning.
+        - _svr_obj(): a hidden method used to train and hypertune a Support
+                      Vector Regressor using optuna.
+        - _get_svr(): a hidden method used to get the best Support Vector
+                      Regressor model after hypertuning.
     """
 
-    def __init__(self, model_choice: str = "clf", model_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
+    def __init__(self, model_choice: str = "clf", est_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
                  tuning_strategy: str = "grid", num_trials: int = 300, n_jobs: int = -1) -> None:
-        """This function defines the a user defined supervised learning model
-        according to the given choice
+        """This function defines a user defined supervised learning model and estimator
+        according to the given input
 
         Parameters:
             - model_choice (str): the choice of model to make.
-            - model_type (str): the type of model to use for a given model choice.
+            - est_type (str): the type of estimator to use for a given model choice.
             - params (Dict): the parameters to give the model. Defaulted to None.
             - cv_fold (int): the number of parallel jobs to run when hypertuning.
             - tuning_srategy: the algorithm to use for hyperparameter tuning.
@@ -153,16 +180,18 @@ class Model():
         """
 
         # Check user input
-        if (model_choice.strip().lower() != "clf") or (model_choice.strip().lower() != "reg"):
+        if (model_choice.strip().lower() != "clf") and (model_choice.strip().lower() != "reg"):
             raise ValueError(f"Model type must be either 'clf' for classification or 'reg' for regression. Got {model_choice}")
-        if (model_type.strip().lower() != 'rdf') or (model_type.strip().lower() != 'xgb') or (
-                model_type.strip().lower() != 'lin'):
+        if (est_type.strip().lower() != 'rdf') and (est_type.strip().lower() != 'xgb') and (
+            est_type.strip().lower() != 'lin') and (est_type.strip().lower() != 'svr') and (
+            est_type.strip().lower() != 'ridge') and (est_type.strip().lower() != 'lasso'):
             raise ValueError(
                 "Model type is not found. Please refer to the documentation to choose and appropriate model.")
         if (cv_fold is None) or (cv_fold < 2):
             raise TypeError("cv_fold must be of type int that is greater than or equal to 2.")
-        if (tuning_strategy != "grid") or (tuning_strategy != "random") or (tuning_strategy != "bayesian"):
-            raise TypeError("Hyperparameter tuning strategy must be either 'bayesian', 'grid', or 'random'.")
+        if (tuning_strategy != "grid") and (tuning_strategy != "random") and (
+            tuning_strategy != "bayesian") and (tuning_strategy != "auto"):
+            raise TypeError("Hyperparameter tuning strategy must be either 'auto', 'bayesian', 'grid', or 'random'.")
         if not isinstance(num_trials, int):
             raise TypeError("num_trials must be of type int")
         if not isinstance(n_jobs, int):
@@ -170,7 +199,7 @@ class Model():
 
         # Define the attributes
         self.model_choice = model_choice.strip().lower()
-        self.model_type = model_type.strip().lower()
+        self.est_type = est_type.strip().lower()
         self.model_params = params
         self.cv_fold = cv_fold
         self.tuning_strategy = tuning_strategy.strip().lower()
@@ -180,7 +209,7 @@ class Model():
         # Hidden attributes for random forest (Hyperparameter tunining)
         self._rdf_nestimators_range = (100, 301)  # Uses np.arange (so go one above)
         self._rdf_nestimators_step = 1
-        self._rdf_maxdep_range = (4, 15)
+        self._rdf_maxdep_range = (4, 22)
         self._rdf_maxdep_step = 2
         self._rdf_minleaf_range = (2, 7)
         self._rdf_minleaf_step = 1
@@ -188,6 +217,7 @@ class Model():
         self._rdf_minsamples_step = 1
         self._rdf_maxfeat_range = (4, 15)
         self._rdf_maxfeat_step = 1
+        self._rdf_criterion_reg = "squared_error"
 
         # Hidden attributes for xgboost
         self._xgb_objective_clf = "multi:softmax"
@@ -201,6 +231,19 @@ class Model():
         self._xgb_max_depth_range = (3, 10)
         self._xgb_max_depth_step = 1
         self._xgb_objective_reg = "reg:squarederror"
+
+        # Hidden attributes for Support Vector Regressor (SVR)
+        self._svr_poly_degree_range = (2, 5)
+        self._svr_poly_degree_step = 1
+        self._svr_gamma_range = (0.1, 2.5) # scale is default but can be 'auto' or a float
+        self._svr_c_range = (0.1, 10.5)
+        self._svr_epsilon_range = (0.1, 1.0)
+
+        # Hidden attributes for Ridge Regression
+        self._ridge_alpha_range = (0.1, 10.5)
+
+        # Hidden attributes for Lasso Regression
+        self._lasso_alpha_range = (0.1, 10.5)
 
     def make_quick_model(self) -> None:
         """This function makes a ML model according to the given parameters that is
@@ -219,7 +262,7 @@ class Model():
         if self.model_choice == "clf":
 
             # RandomForest
-            if self.model_type == "rdf":
+            if self.est_type == "rdf":
                 if self.model_params is None:
                     self.model = RandomForestClassifier()
                 else:
@@ -235,7 +278,7 @@ class Model():
         else:
 
             # RandomForest Regressor
-            if self.model_type == "rdf":
+            if self.est_type == "rdf":
 
                 if self.model_params is None:
                     self.model = RandomForestRegressor()
@@ -243,11 +286,32 @@ class Model():
                     self.model = RandomForestRegressor(**self.model_params)
 
             # XGBoost Regressor
-            elif self.model_type == 'xgb':
+            elif self.est_type == 'xgb':
                 if self.model_params is None:
                     self.model = XGBRegressor()
                 else:
                     self.model = XGBRegressor(**self.model_params)
+
+            # Support Vector Regressor
+            elif self.est_type == 'svr':
+                if self.model_params is None:
+                    self.model = SVR()
+                else:
+                    self.model = SVR(**self.model_params)
+
+            # Ridge Regression
+            elif self.est_type == 'ridge':
+                if self.model_params is None:
+                    self.model = Ridge()
+                else:
+                    self.model = Ridge(**self.model_params)
+
+            # Lasso Regression
+            elif self.est_type == 'lasso':
+                if self.model_params is None:
+                    self.model = Lasso()
+                else:
+                    self.model = Lasso(**self.model_params)
 
             # Linear Regression
             else:
@@ -279,7 +343,7 @@ class Model():
             if self.model_choice == "clf":
 
                 # RandomForest
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Making user defined model RandomForest classifier with given parameters dictionary...")
                     clf = RandomForestClassifier(oob_score=True)
                     rdf_grid = GridSearchCV(estimator=clf, param_grid=self.model_params, n_jobs=self.n_jobs,
@@ -313,7 +377,7 @@ class Model():
             else:
 
                 # Make the regressor using RandomForest
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Making user defined RandomForestRegressor with given parameters dictionary...")
                     reg = RandomForestRegressor(oob_score=True)
                     rdf_grid = GridSearchCV(estimator=reg, param_grid=self.model_params, n_jobs=self.n_jobs,
@@ -330,7 +394,7 @@ class Model():
                     self.best_params = rdf_grid.best_params_
 
                 # Make the regressor using XGBoost
-                elif self.model_type == "xgb":
+                elif self.est_type == "xgb":
                     print("Making user defined XGBoostRegressor with given parameters dictionary...")
                     xgb_grid = GridSearchCV(estimator=XGBRegressor(), param_grid=self.model_params, n_jobs=self.n_jobs,
                                             cv=self.cv_fold)
@@ -358,7 +422,7 @@ class Model():
         elif self.tuning_strategy == "random":
 
             if self.model_choice == "clf":
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Making user defined model RandomForest classifier with given parameters dictionary...")
                     clf = RandomForestClassifier(oob_score=True)
                     rdf_rand = RandomizedSearchCV(estimator=clf, param_distributions=self.model_params,
@@ -391,7 +455,7 @@ class Model():
                     self.best_params = xgb_rand.best_params_
 
             else:
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Making user defined RandomForestRegressor with given parameters dictionary...")
                     reg = RandomForestRegressor(oob_score=True)
                     rdf_rand = RandomizedSearchCV(estimator=reg, param_distributions=self.model_params,
@@ -407,7 +471,7 @@ class Model():
                     self.model = rdf_rand.best_estimator_
                     self.model_params = rdf_rand.best_params_
 
-                elif self.model_type == "xgb":
+                elif self.est_type == "xgb":
                     print("Making user defined XGBoostRegressor with given parameters dictionary...")
                     xgb_grid = RandomizedSearchCV(estimator=XGBRegressor(), param_distributions=self.model_params,
                                                   n_jobs=self.n_jobs, cv=self.cv_fold,
@@ -440,7 +504,7 @@ class Model():
 
             if self.model_choice == "clf":
 
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     def obj(trial: optuna.Trial) -> float:
                         """This is a wrapper function n meant to call the hidden _rdf_obj method.
                         Optuna requires a function call without any args"""
@@ -472,7 +536,7 @@ class Model():
 
             # Make regressors
             else:
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     def obj(trial: optuna.Trial) -> float:
                         """This is a wrapper function n meant to call the hidden _rdf_obj method.
                         Optuna requires a function call without any args"""
@@ -487,7 +551,7 @@ class Model():
                     self.best_params = study.best_params
                     self.model = self._get_rdf(study.best_trial, X_train, y_train)
 
-                elif self.model_type == "xgb":
+                elif self.est_type == "xgb":
                     def obj(trial: optuna.Trial) -> float:
                         """This is a wrapper function n meant to call the hidden _rdf_obj method.
                         Optuna requires a function call without any args"""
@@ -513,14 +577,14 @@ class Model():
                     self.best_params = None
 
     # Hidden methods for optuna hyperparameter tuning
-    def _rdf_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+    def _rdf_obj(self, trial: optuna.Trial, X_train, y_train) -> float:
         """This function accepts a trial object and creates and trains a Random
-        ForestClassifier with the specified hpyerparameters as given by optuna
-        using TPESample Bayesian optimization algorithm.
+        ForestClassifier with the specified hyperparameters as given by optuna
+        using an optimization algorithm (be it TPESampler or Autosampler).
 
         Parameters:
             - trial (optuna.Trial): a specific trial object meant to signify the
-                                     current trial/model optuna is training
+                                    current trial/model optuna is training
             - X_train (ArrayLike): the training data
             - y_train (ArrayLike): the target data
 
@@ -528,28 +592,31 @@ class Model():
             - (float): the mean of a cross-validated RandomForestClassifier
         """
 
-        if self.model_params is not None:
-            params = {"n_estimators": trial.suggest_int("n_estimators", *self._rdf_nestimators_range,
-                                                        self._rdf_nestimators_step),
-                      "criterion": trial.suggest_categorical("criterion", ["gini", "cross_entropy", "log_loss"]),
-                      "max_depth": trial.suggest_int("max_depth", *self._rdf_maxdep_range, self._rdf_maxdep_step),
-                      "min_samples_leaf": trial.suggest_int("min_samples_leaf", *self._rdf_minleaf_range,
-                                                            self._rdf_minleaf_step),
-                      "min_samples_split": trial.suggest_int(*self._rdf_minsamples_range, self._rdf_minsamples_step),
-                      "max_features": trial.suggest_int(*self._rdf_maxfeat_range, self._rdf_maxfeat_step)
-                      }
+        if self.model_params is None:
+            params = {"n_estimators": trial.suggest_int("n_estimators", low=self._rdf_nestimators_range[0], high=self._rdf_nestimators_range[1], step=self._rdf_nestimators_step),
+                    "max_depth": trial.suggest_int("max_depth", low=self._rdf_maxdep_range[0], high=self._rdf_maxdep_range[1], step=self._rdf_maxdep_step),
+                    "min_samples_leaf": trial.suggest_int("min_samples_leaf", low=self._rdf_minleaf_range[0], high=self._rdf_minleaf_range[1], step=self._rdf_minleaf_step),
+                    "min_samples_split": trial.suggest_int("min_samples_split", low=self._rdf_minsamples_range[0], high=self._rdf_minsamples_range[1], step=self._rdf_minsamples_step),
+                    "max_features": trial.suggest_int("max_features", low=self._rdf_maxfeat_range[0],high=self._rdf_minsamples_range[1], step=self._rdf_maxfeat_step)
+                    }
         else:
             params = self.model_params
 
         # Make the model
         if self.model_choice == "clf":
+            params["criterion"] = trial.suggest_categorical("criterion", ["gini", "cross_entropy", "log_loss"]),
             model = RandomForestClassifier(**params, oob_score=True)
+            scores = cross_val_score(model, X_train, y_train, scoring=lambda est, X, y: est.oob_score_,
+                                    n_jobs=self.n_jobs,
+                                    cv=self.cv_fold)
+
         else:
+            params["criterion"] = self._rdf_criterion_reg
             model = RandomForestRegressor(**params, oob_score=True)
-
-        scores = cross_val_score(model, X_train, y_train, scoring=lambda est, X, y: est.oob_score_, n_jobs=self.n_jobs,
-                                 cv=self.cv_fold)
-
+            scores = cross_val_score(model, X_train, y_train, scoring='neg_mean_squared_error',
+                                        n_jobs=self.n_jobs,
+                                        cv=self.cv_fold)
+        
         return scores.mean()
 
     def _get_rdf(self, trial: optuna.Trial, X_train: ArrayLike,
@@ -566,19 +633,19 @@ class Model():
             - (RandomForestClassifier): the best RandomForestClassifier model
         """
 
-        params = {
-            "n_estimators": trial.suggest_int("n_estimators", *self._rdf_nestimators_range, self._rdf_nestimators_step),
-            "criterion": trial.suggest_categorical("criterion", ["gini", "cross_entropy", "log_loss"]),
-            "max_depth": trial.suggest_int("max_depth", *self._rdf_maxdep_range, self._rdf_maxdep_step),
-            "min_samples_leaf": trial.suggest_int("min_samples_leaf", *self._rdf_minleaf_range, self._rdf_minleaf_step),
-            "min_samples_split": trial.suggest_int(*self._rdf_minsamples_range, self._rdf_minsamples_step),
-            "max_features": trial.suggest_int(*self._rdf_maxfeat_range, self._rdf_maxfeat_step)
-            }
+        params = {"n_estimators": trial.suggest_int("n_estimators", low=self._rdf_nestimators_range[0], high=self._rdf_nestimators_range[1], step=self._rdf_nestimators_step),
+                "max_depth": trial.suggest_int("max_depth", low=self._rdf_maxdep_range[0], high=self._rdf_maxdep_range[1], step=self._rdf_maxdep_step),
+                "min_samples_leaf": trial.suggest_int("min_samples_leaf", low=self._rdf_minleaf_range[0], high=self._rdf_minleaf_range[1], step=self._rdf_minleaf_step),
+                "min_samples_split": trial.suggest_int("min_samples_split", low=self._rdf_minsamples_range[0], high=self._rdf_minsamples_range[1], step=self._rdf_minsamples_step),
+                "max_features": trial.suggest_int("max_features", low=self._rdf_maxfeat_range[0],high=self._rdf_minsamples_range[1], step=self._rdf_maxfeat_step)
+                }
 
         # Make the model
         if self.model_choice == "clf":
+            params["criterion"] = trial.suggest_categorical("criterion", ["gini", "cross_entropy", "log_loss"]),
             model = RandomForestClassifier(**params, oob_score=True)
         else:
+            params["criterion"] = self._rdf_criterion_reg
             model = RandomForestRegressor(**params, oob_score=True)
 
         model.fit(X_train, y_train)
@@ -590,7 +657,8 @@ class Model():
         current trial of hyperparameter tuning and creates a XGBoost model to
         train. It returns the score after having trained the classifier or
         regressor. This function serves as a single call during each
-        trial by the study object.
+        trial by the study object. The trial uses the TPESampler Bayesian
+        or Autosampler optimization algorithm.
 
         Parameters:
             - trial (optuna.trial): the current trial of hyperparameter tuning
@@ -601,14 +669,13 @@ class Model():
             - (float): the classifier score on the testing dataset
         """
 
-        if self.model_params is not None:
-            params = {"n_estimators": trial.suggest_int("n_estimators", *self._xgb_nestimators_range,
-                                                        self._xgb_nestimators_step),
-                      "eta": trial.suggest_float("eta", *self._gxb_eta_range, log=True),
-                      "alpha": trial.suggest_float("alpha", *self._alpha_range),
-                      "lambda": trial.suggest_float("lambda", *self._lambda_range),
-                      "gamma": trial.suggest_float("gamma", *self._gamma_range),
-                      "max_depth": trial.suggest_int("max_depth", *self._xgb_max_depth_range, self._xgb_max_depth_step),
+        if self.model_params is None:
+            params = {"n_estimators": trial.suggest_int("n_estimators", low=self._xgb_nestimators_range[0], high=self._xgb_nestimators_range[1], step=self._xgb_nestimators_step),
+                      "eta": trial.suggest_float("eta", low=self._gxb_eta_range[0], high=self._gxb_eta_range[1], log=True),
+                      "alpha": trial.suggest_float("alpha", low=self._alpha_range[0], high=self._alpha_range[1]),
+                      "lambda": trial.suggest_float("lambda", low=self._lambda_range[0], high=self._lambda_range[1]),
+                      "gamma": trial.suggest_float("gamma", low=self._gamma_range[0], high=self._gamma_range[1]),
+                      "max_depth": trial.suggest_int("max_depth", low=self._xgb_max_depth_range[0], high=self._xgb_max_depth_range[1], step=self._xgb_max_depth_step),
                       }
         else:
             params = self.model_params
@@ -639,17 +706,14 @@ class Model():
         - (XGBClassifier or XGBRegressor): the best XGBoost model
         """
 
-        if self.model_params is not None:
-            params = {"n_estimators": trial.suggest_int("n_estimators", *self._xgb_nestimators_range,
-                                                        self._xgb_nestimators_step),
-                      "eta": trial.suggest_float("eta", *self._gxb_eta_range, log=True),
-                      "alpha": trial.suggest_float("alpha", *self._alpha_range),
-                      "lambda": trial.suggest_float("lambda", *self._lambda_range),
-                      "gamma": trial.suggest_float("gamma", *self._gamma_range),
-                      "max_depth": trial.suggest_int("max_depth", *self._xgb_max_depth_range, self._xgb_max_depth_step),
-                      }
-        else:
-            params = self.model_params
+
+        params = {"n_estimators": trial.suggest_int("n_estimators", low=self._xgb_nestimators_range[0], high=self._xgb_nestimators_range[1], step=self._xgb_nestimators_step),
+                    "eta": trial.suggest_float("eta", low=self._gxb_eta_range[0], high=self._gxb_eta_range[1], log=True),
+                    "alpha": trial.suggest_float("alpha", low=self._alpha_range[0], high=self._alpha_range[1]),
+                    "lambda": trial.suggest_float("lambda", low=self._lambda_range[0], high=self._lambda_range[1]),
+                    "gamma": trial.suggest_float("gamma", low=self._gamma_range[0], high=self._gamma_range[1]),
+                    "max_depth": trial.suggest_int("max_depth", low=self._xgb_max_depth_range[0], high=self._xgb_max_depth_range[1], step=self._xgb_max_depth_step),
+                    }
 
         # Make the model
         if self.model_choice == "clf":
@@ -659,6 +723,120 @@ class Model():
         else:
             params["objective"] = self._xgb_objective_reg
             model = XGBRegressor(**params)
+
+        model.fit(X_train, y_train)
+
+        return model
+
+    def _svr_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+        """This function accepts a trial object and creates and trains a Support Vector
+        Regressor with the specified hyperparameters as given by optuna using TPESampler
+        or Autosampler from optuna.
+        """
+
+        if self.model_params is None:
+            params = {"kernel": trial.suggest_categorical("kernel", ["rbf", "poly", "linear", "sigmoid"]),
+                      "degree": trial.suggest_int("degree", low=self._svr_poly_degree_range[0], high=self._svr_poly_degree_range[1], step=self._svr_poly_degree_step),
+                      "gamma": trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1]),
+                      "C": trial.suggest_float("C", low=self._svr_c_range[0], high=self._svr_c_range[1]),
+                      "epsilon": trial.suggest_float("epsilon", low=self._svr_epsilon_range[0], high=self._svr_epsilon_range[1])
+                      }
+        else:
+            params = self.model_params
+
+        # Make the model
+        model = SVR(**params)
+
+        scores = cross_val_score(model, X_train, y_train, scoring="neg_mean_squared_error", n_jobs=self.n_jobs,
+                                 cv=self.cv_fold)
+
+        return scores.mean()
+
+    def _get_svr(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> SVR:
+        """This is a helper function meant to accept the best optuna trial
+        and return the best Support Vector Regressor model.
+        """
+
+        params = {"kernel": trial.suggest_categorical("kernel", ["rbf", "poly", "linear", "sigmoid"]),
+                    "degree": trial.suggest_int("degree", low=self._svr_poly_degree_range[0], high=self._svr_poly_degree_range[1], step=self._svr_poly_degree_step),
+                    "gamma": trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1]),
+                    "C": trial.suggest_float("C", low=self._svr_c_range[0], high=self._svr_c_range[1]),
+                    "epsilon": trial.suggest_float("epsilon", low=self._svr_epsilon_range[0], high=self._svr_epsilon_range[1])
+                    }
+
+        # Make the model
+        model = SVR(**params)
+
+        model.fit(X_train, y_train)
+
+        return model
+
+    def _ridge_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+        """This function accepts a trial object and creates and trains a Ridge
+        Regressor with the specified hyperparameters as given by optuna using
+        an optuna optimization algorithm (Autosampler or TPESampler).
+        """
+
+        if self.model_params is None:
+            params = {"alpha": trial.suggest_float("alpha", low=self._ridge_alpha_range[0], high=self._ridge_alpha_range[1]),
+                      "solver": trial.suggest_categorical("solver", ["svd", "cholesky", "lsqr", "sparse_cg", "sag", "saga"])
+                      }
+        else:
+            params = self.model_params
+
+        # Make the model
+        model = Ridge(**params)
+
+        scores = cross_val_score(model, X_train, y_train, scoring="neg_mean_squared_error", n_jobs=self.n_jobs,
+                                 cv=self.cv_fold)
+
+        return scores.mean()
+
+    def _get_ridge(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> Ridge:
+        """This is a helper function meant to accept the best optuna trial
+        and return the best Ridge model.
+        """
+        params = {"alpha": trial.suggest_float("alpha", low=self._ridge_alpha_range[0], high=self._ridge_alpha_range[1]),
+                    "solver": trial.suggest_categorical("solver", ["svd", "cholesky", "lsqr", "sparse_cg", "sag", "saga"])
+                    }
+
+        # Make the model
+        model = Ridge(**params)
+
+        model.fit(X_train, y_train)
+
+        return model
+
+    def _lasso_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+        """This function accepts a trial object and creates and trains a Lasso
+        Regressor with the specified hyperparameters as given by optuna using
+        an optuna optimization algorithm (Autosampler or TPESampler).
+        """
+
+        if self.model_params is None:
+            params = {"alpha": trial.suggest_float("alpha", low=self._lasso_alpha_range[0], high=self._lasso_alpha_range[1]),
+                      }
+        else:
+            params = self.model_params
+
+        # Make the model
+        model = Lasso(**params)
+
+        scores = cross_val_score(model, X_train, y_train, scoring="neg_mean_squared_error", n_jobs=self.n_jobs,
+                                 cv=self.cv_fold)
+
+        return scores.mean()
+
+    def _get_lasso(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> Lasso:
+        """This is a helper function meant to accept the best optuna trial
+        and return the best Lasso model.
+        """
+
+        params = {"alpha": trial.suggest_float("alpha", low=self._lasso_alpha_range[0], high=self._lasso_alpha_range[1]),
+                    }
+
+        # Make the model
+        model = Lasso(**params)
 
         model.fit(X_train, y_train)
 
@@ -681,13 +859,18 @@ class Model():
                              "when given user defined parameters. Use the hidden attributes to control model " + \
                              "specifications and don't pass in parameters to access full hyperparameters.")
 
+        warnings.warn(message=f"NOTE: Please check the hidden attributes for the model choice: {self.model_choice}, and estimator: {self.est_type} before hypertuning " +\
+                               "should you want to have different hyperparameters than the ones set as default.")
+        time.sleep(3)
+        print("Now continuing.")
+        
         # Make grid search
         if self.tuning_strategy == "grid":
 
             # Make and hypertune classification models
             if self.model_choice == "clf":
 
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
 
                     print("Now making RandomForestClassifier...")
                     clf = RandomForestClassifier(oob_score=True)
@@ -742,12 +925,12 @@ class Model():
 
             # Make and hypertune regression models
             else:
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Now making RandomForestRegressor...")
                     reg = RandomForestRegressor(oob_score=True)
                     parameters = {"n_estimators": [int(x) for x in np.arange(*self._rdf_nestimators_range,
                                                                              step=self._rdf_nestimators_step)],
-                                  "criterion": ["squared_error", "absolute_error", "friedman_mse", "poisson"],
+                                  "criterion": ["squared_error"],
                                   "max_depth": [int(x) for x in
                                                 np.arange(*self._rdf_maxdep_range, step=self._rdf_maxdep_step)],
                                   "min_samples_leaf": [int(x) for x in np.arange(*self._rdf_minleaf_range,
@@ -758,7 +941,7 @@ class Model():
                                                    np.arange(*self._rdf_maxfeat_range, step=self._rdf_maxfeat_step)],
                                   }
                     rdf_grid = GridSearchCV(estimator=reg, param_grid=parameters, n_jobs=self.n_jobs, cv=self.cv_fold,
-                                            scoring=lambda est, X, y: est.oob_score_)
+                                            scoring='neg_mean_squared_error')
 
                     print("Training and hypertuning using Exhaustive Search...")
                     rdf_grid.fit(X_train, y_train)
@@ -770,7 +953,7 @@ class Model():
                     self.model = rdf_grid.best_estimator_
                     self.best_params = rdf_grid.best_params_
 
-                elif self.model_type == "xgb":
+                elif self.est_type == "xgb":
                     print("Now making XGBRegressor...")
                     params = {"n_estimators": [int(x) for x in
                                                np.arange(*self._xgb_nestimators_range, self._xgb_nestimators_step)],
@@ -811,7 +994,7 @@ class Model():
             # Make and hypertune classification models
             if self.model_choice == "clf":
 
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Now making RandomForestClassifier...")
                     clf = RandomForestClassifier(oob_score=True)
                     distribs = {"n_estimators": [int(x) for x in np.arange(*self._rdf_nestimators_range,
@@ -857,7 +1040,7 @@ class Model():
                                                   n_jobs=self.n_jobs,
                                                   cv=self.cv_fold, n_iter=self.num_trials)
 
-                    print("Training and hypertuning using Exhaustive Search...")
+                    print("Training and hypertuning using Randomized Search...")
                     xgb_rand.fit(X_train, y_train)
                     print("Training completed.")
 
@@ -868,12 +1051,12 @@ class Model():
                     self.best_params = xgb_rand.best_params_
 
             else:
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
                     print("Now making RandomForestRegressor...")
                     reg = RandomForestRegressor(oob_score=True)
                     parameters = {"n_estimators": [int(x) for x in np.arange(*self._rdf_nestimators_range,
                                                                              step=self._rdf_nestimators_step)],
-                                  "criterion": ["squared_error", "absolute_error", "friedman_mse", "poisson"],
+                                  "criterion": ["squared_error"],
                                   "max_depth": [int(x) for x in
                                                 np.arange(*self._rdf_maxdep_range, step=self._rdf_maxdep_step)],
                                   "min_samples_leaf": [int(x) for x in np.arange(*self._rdf_minleaf_range,
@@ -884,20 +1067,20 @@ class Model():
                                                    np.arange(*self._rdf_maxfeat_range, step=self._rdf_maxfeat_step)],
                                   }
                     rdf_rand = RandomizedSearchCV(estimator=reg, param_distributions=parameters, n_jobs=self.n_jobs,
-                                                  cv=self.cv_fold,
-                                                  n_iter=self.num_trials, scoring=lambda est, X, y: est.oob_score_)
+                                                  cv=self.cv_fold, n_iter=self.num_trials,
+                                                  scoring='neg_mean_squared_error')
 
-                    print("Training and hypertuning using Exhaustive Search...")
+                    print("Training and hypertuning using Randomized Search...")
                     rdf_rand.fit(X_train, y_train)
                     print("Training completed.")
 
                     # Display and save best results
-                    print(f"The best oob_score is {rdf_rand.best_score_}")
+                    print(f"The best MSE is {rdf_rand.best_score_}")
                     print("Best model and hyperparameters added as attribute to class.")
                     self.model = rdf_rand.best_estimator_
                     self.best_params = rdf_rand.best_params_
 
-                elif self.model_type == "xgb":
+                elif self.est_type == "xgb":
                     print("Now making XGBRegressor...")
                     params = {"n_estimators": [int(x) for x in
                                                np.arange(*self._xgb_nestimators_range, self._xgb_nestimators_step)],
@@ -907,21 +1090,84 @@ class Model():
                               "gamma": [float(x) for x in np.linspace(*self._gamma_range, num=100)],
                               "max_depth": [int(x) for x in
                                             np.arange(*self._xgb_max_depth_range, self._xgb_max_depth_step)],
-                              "objective": self._xgb_objective_reg,
+                              "objective": [self._xgb_objective_reg],
                               }
-                    xgb_rand = RandomizedSearchCV(estimator=XGBClassifier(), param_distributions=params,
+                    reg = XGBRegressor()
+                    xgb_rand = RandomizedSearchCV(estimator=reg, param_distributions=params,
                                                   n_jobs=self.n_jobs,
                                                   cv=self.cv_fold, n_iter=self.num_trials)
 
-                    print("Training and hypertuning using Exhaustive Search...")
+                    print("Training and hypertuning using Randomized Search...")
                     xgb_rand.fit(X_train, y_train)
                     print("Training completed.")
 
                     # Display and save best results
-                    print(f"The best oob_score is {xgb_rand.best_score_}")
+                    print(f"The best MSE is {xgb_rand.best_score_}")
                     print("Best model and hyperparameters added as attribute to class.")
                     self.model = xgb_rand.best_estimator_
                     self.best_params = xgb_rand.best_params_
+
+                elif self.est_type == 'svr':
+                    print("Now making SVR...")
+                    params = {"kernel": ["rbf", "poly", "linear", "sigmoid"],
+                              "degree": [int(x) for x in np.arange(*self._svr_poly_degree_range, self._svr_poly_degree_step)],
+                              "gamma": [float(x) for x in np.linspace(*self._svr_gamma_range, num=100)],
+                              "C": [float(x) for x in np.linspace(*self._svr_c_range, num=100)],
+                              "epsilon": [float(x) for x in np.linspace(*self._svr_epsilon_range, num=100)]
+                              }
+                    reg = SVR()
+                    svr_rand = RandomizedSearchCV(estimator=reg, param_distributions=params,
+                                                  n_jobs=self.n_jobs, scoring='neg_mean_squared_error',
+                                                  cv=self.cv_fold, n_iter=self.num_trials)
+
+                    print("Training and hypertuning using Randomized Search...")
+                    svr_rand.fit(X_train, y_train)
+                    print("Training completed.")
+
+                    # Display and save best results
+                    print(f"The best MSE is {svr_rand.best_score_}")
+                    print("Best model and hyperparameters added as attribute to class.")
+                    self.model = svr_rand.best_estimator_
+                    self.best_params = svr_rand.best_params_
+
+                elif self.est_type == 'ridge':
+                    print("Now making Ridge...")
+                    params = {"alpha": [float(x) for x in np.linspace(*self._ridge_alpha_range, num=100)],
+                              "solver": ["svd", "cholesky", "lsqr", "sparse_cg", "sag", "saga"]
+                              }
+                    reg = Ridge()
+                    ridge_rand = RandomizedSearchCV(estimator=reg, param_distributions=params,
+                                                  n_jobs=self.n_jobs, scoring='neg_mean_squared_error',
+                                                  cv=self.cv_fold, n_iter=self.num_trials)
+
+                    print("Training and hypertuning using Randomized Search...")
+                    ridge_rand.fit(X_train, y_train)
+                    print("Training completed.")
+
+                    # Display and save best results
+                    print(f"The best MSE is {ridge_rand.best_score_}")
+                    print("Best model and hyperparameters added as attribute to class.")
+                    self.model = ridge_rand.best_estimator_
+                    self.best_params = ridge_rand.best_params_
+
+                elif self.est_type == 'lasso':
+                    print("Now making Lasso...")
+                    params = {"alpha": [float(x) for x in np.linspace(*self._lasso_alpha_range, num=100)]
+                              }
+                    reg = Lasso()
+                    lasso_rand = RandomizedSearchCV(estimator=reg, param_distributions=params,
+                                                  n_jobs=self.n_jobs, scoring='neg_mean_squared_error',
+                                                  cv=self.cv_fold, n_iter=self.num_trials)
+
+                    print("Training and hypertuning using Randomized Search...")
+                    lasso_rand.fit(X_train, y_train)
+                    print("Training completed.")
+
+                    # Display and save best results
+                    print(f"The best MSE is {lasso_rand.best_score_}")
+                    print("Best model and hyperparameters added as attribute to class.")
+                    self.model = lasso_rand.best_estimator_
+                    self.best_params = lasso_rand.best_params_
 
                 else:
                     print("Making making LinearRegression")
@@ -933,15 +1179,16 @@ class Model():
                     self.model = lin
                     self.best_params = None
 
-        # Train and tune using Bayesian optimization
-        else:
+        # Train and tune using Bayesian optimization (using optuna TPESampler)
+        elif self.tuning_strategy == "bayesian":
             if not optuna_available:
                 raise Exception(
                     "optuna module is not available. Please install in order to perform bayesian optimization.")
+            optuna.logging.set_verbosity(optuna.logging.WARNING)
 
             # Make classifiers
             if self.model_choice == "clf":
-                if self.model_type == "rdf":
+                if self.est_type == "rdf":
 
                     def obj(trial: optuna.Trial) -> float:
                         """This is a wrapper function n meant to call the hidden _rdf_obj method.
@@ -951,10 +1198,10 @@ class Model():
                     print("Making RandomForestClassifier using Bayesian optimization...")
                     study = optuna.create_study(direction="maximize", study_name="randfor_clf_tuning")
                     print("Training and tuning using Bayesian optimization...")
-                    study.optimize(obj, n_trials=self.num_trials, n_jobs=-1)
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
                     print("Training completed.")
 
-                    print(f"The best oob_score is {study.best_value}")
+                    print(f"The best MSE is {study.best_value}")
                     self.best_params = study.best_params
                     self.model = self._get_rdf(study.best_trial, X_train, y_train)
 
@@ -968,7 +1215,7 @@ class Model():
                     print("Making XGBClassifier using Bayesian optimization...")
                     study = optuna.create_study(direction="maximize", study_name="xgb_clf_tuning")
                     print("Training and tuning using Bayesian optimization...")
-                    study.optimize(obj, n_trials=self.num_trials, n_jobs=-1)
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
                     print("Training completed.")
 
                     print(f"The best score is {study.best_value}")
@@ -977,38 +1224,232 @@ class Model():
 
             # Make regressors
             else:
-                if self.model_type == "rdf":
-
+                if self.est_type == "rdf":
                     def obj(trial: optuna.Trial) -> float:
-                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        """This is a wrapper function n meant to call the hidden _xgb_obj method.
                         Optuna requires a function call without any args"""
                         return self._rdf_obj(trial, X_train, y_train)
 
-                    print("Making RandomForestClassifier using Bayesian optimization...")
-                    study = optuna.create_study(direction="maximize", study_name="randfor_reg_tuning")
-                    print("Training and tuning using Bayesian optimization...")
-                    study.optimize(obj, n_trials=self.num_trials, n_jobs=-1)
+
+                    print("Making RandomForestRegressor using Bayesian optimization...")
+                    study = optuna.create_study(direction="minimize", study_name="randfor_reg_tuning")
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
                     print("Training completed.")
 
                     print(f"The best oob_score is {study.best_value}")
                     self.best_params = study.best_params
                     self.model = self._get_rdf(study.best_trial, X_train, y_train)
 
-                elif self.model_type == "xgb":
+                elif self.est_type == "xgb":
                     def obj(trial: optuna.Trial) -> float:
-                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        """This is a wrapper function n meant to call the hidden _xgb_obj method.
                         Optuna requires a function call without any args"""
                         return self._xgb_obj(trial, X_train, y_train)
 
                     print("Making XGBRegressor using Bayesian optimization...")
-                    study = optuna.create_study(direction="maximize", study_name="xgb_reg_tuning")
-                    print("Training and tuning using Bayesian optimization...")
-                    study.optimize(obj, n_trials=self.num_trials, n_jobs=-1)
+                    study = optuna.create_study(direction="minimize", study_name="xgb_reg_tuning")
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
                     print("Training completed.")
 
                     print(f"The best score is {study.best_value}")
                     self.best_params = study.best_params
                     self.model = self._get_xgb(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "svr":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._svr_obj(trial, X_train, y_train)
+
+                    print("Making SVR using Bayesian optimization...")
+                    study = optuna.create_study(direction="minimize", study_name="svr_tuning")
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_svr(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "ridge":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._ridge_obj(trial, X_train, y_train)
+
+                    print("Making Ridge using Bayesian optimization...")
+                    study = optuna.create_study(direction="minimize", study_name="ridge_tuning")
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_ridge(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "lasso":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._lasso_obj(trial, X_train, y_train)
+
+                    print("Making Lasso using Bayesian optimization...")
+                    study = optuna.create_study(direction="minimize", study_name="lasso_tuning")
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_lasso(study.best_trial, X_train, y_train)
+
+                else:
+                    print("Making making LinearRegression")
+                    lin = LinearRegression(n_jobs=-1)
+                    print("Training...")
+                    lin.fit(X_train, y_train)
+                    print("Training completed.")
+                    print("Trained model saved as an attribute to class")
+                    self.model = lin
+                    self.best_params = None
+
+        # Train and tune using Autoensampler from optuna
+        else:
+            if not optuna_available:
+                raise Exception(
+                    "optuna module is not available. Please install in order to use Autoensampler.")
+            if not optunahub_available:
+                raise Exception(
+                    "auto-sampler module is not available. Please install in order to use Autoensampler.")
+
+            optuna.logging.set_verbosity(optuna.logging.WARNING)
+            # Make classifiers
+            if self.model_choice == "clf":
+                if self.est_type == "rdf":
+
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._rdf_obj(trial, X_train, y_train)
+
+                    print("Making RandomForestClassifier using Autosampler optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="maximize", study_name="randfor_clf_tuning", sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best MSE is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_rdf(study.best_trial, X_train, y_train)
+
+                # XGBoost
+                else:
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _xgb_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._xgb_obj(trial, X_train, y_train)
+
+                    print("Making XGBClassifier using Autosampler Optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="maximize", study_name="xgb_clf_tuning", sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_xgb(study.best_trial, X_train, y_train)
+
+            # Make regressors
+            else:
+
+                if self.est_type == "rdf":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _rdf_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._rdf_obj(trial, X_train, y_train)
+
+                    print("Making RandomForestRegressor using Autosampler optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="minimize", study_name="randfor_reg_tuning", sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best MSE is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_rdf(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "xgb":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _xgb_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._xgb_obj(trial, X_train, y_train)
+
+                    print("Making XGBRegressor using Autosampler optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="minimize", study_name="xgb_reg_tuning",  sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_xgb(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "svr":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _svr_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._svr_obj(trial, X_train, y_train)
+
+                    print("Making SVR using Autosampler optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="minimize", study_name="svr_tuning", sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_svr(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "ridge":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _ridge_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._ridge_obj(trial, X_train, y_train)
+
+                    print("Making Ridge using Autosampler optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="minimize", study_name="ridge_tuning", sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_ridge(study.best_trial, X_train, y_train)
+
+                elif self.est_type == "lasso":
+                    def obj(trial: optuna.Trial) -> float:
+                        """This is a wrapper function n meant to call the hidden _lasso_obj method.
+                        Optuna requires a function call without any args"""
+                        return self._lasso_obj(trial, X_train, y_train)
+
+                    print("Making Lasso using Autosampler optimization...")
+                    module = optunahub.load_module(package="samplers/auto_sampler")
+                    study = optuna.create_study(direction="minimize", study_name="lasso_tuning", sampler=module.AutoSampler())
+                    print("Training and tuning...")
+                    study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
+                    print("Training completed.")
+
+                    print(f"The best score is {study.best_value}")
+                    self.best_params = study.best_params
+                    self.model = self._get_lasso(study.best_trial, X_train, y_train)
 
                 else:
                     print("Making making LinearRegression")
