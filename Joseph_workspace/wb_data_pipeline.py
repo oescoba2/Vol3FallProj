@@ -22,9 +22,9 @@ class WbDataPipeline():
         return data
     
     def pull_data(self):
-        print(f"Pulling {len(self.indicators)} indicators from World Bank data...")
+        # print(f"Pulling {len(self.indicators)} indicators from World Bank data...")
         features = self.pull_wb_data()
-        print("Done")
+        # print("Done")
         features = features.reset_index()
         features = features.infer_objects()
         features = features.rename(columns={features.columns[0]: 'ISO_A3'})
@@ -59,9 +59,9 @@ class WbDataPipeline():
             print(f"   {col}: {pcomplete*100}% complete") 
         return cols
     
-    def get_missing_percentages(self):
+    def get_percent_complete(self):
         nans = self.data.isna().sum()
-        return nans / self.data.shape[0]
+        return 1 - (nans / self.data.shape[0])
     
 def clean_features():
     entries = []
@@ -69,11 +69,28 @@ def clean_features():
     ids = [(str(indicator['id']), str(indicator['value'])) for indicator in indicators]
     pbar = tqdm(total=len(ids), position=0, leave=True)
     for id, value in ids:
-        dp = WbDataPipeline([id], 2022)
-        missing_percent = dp.get_missing_percentages()[id]
-        entries.append([id, value, missing_percent])
+        dp = WbDataPipeline([id], 2022, impute=False)
+        complete_percent = dp.get_percent_complete()[id]
+        entries.append([id, value, complete_percent])
         pbar.update()
     pbar.close()
 
-    entries = pd.DataFrame(entries, columns=['id', 'value', 'missing_percent'])
+    entries = pd.DataFrame(entries, columns=['id', 'value', 'complete_percent'])
     return entries
+
+def generate_wb_dataset(complete_percent=1.0, write_csv=None):
+    feature_data = pd.read_csv('feature_data.csv')
+    feature_data = feature_data.infer_objects()
+    features = feature_data[feature_data['complete_percent'] >= complete_percent]['id']
+    dp = WbDataPipeline(features, 2022)
+
+    if write_csv is not None:
+        dp.get_data().to_csv(write_csv)
+
+    return dp.get_data()
+
+if __name__ == "__main__":
+    # entries = clean_features()
+    # entries.to_csv('feature_data.csv')
+
+    generate_wb_dataset(write_csv='no_missing.csv')
