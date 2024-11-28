@@ -1,9 +1,9 @@
-from numpy.typing import ArrayLike
+from numpy.typing import ArrayLike, NDArray
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import  Lasso, LinearRegression, Ridge
 from sklearn.model_selection import cross_val_score, RandomizedSearchCV, GridSearchCV
 from sklearn.svm import SVR
-from typing import List, Tuple, Callable, ClassVar, Dict
+from typing import List, Tuple, Callable, ClassVar, Dict, Optional
 from xgboost import XGBClassifier, XGBRegressor
 import numpy as np
 import time
@@ -140,13 +140,23 @@ class Model():
                                   to "reg:squarederror"
 
         - Support Vector Regressor (SVR):
-            * _svr_kernel: the kernel to use for SVR. Defaulted to "rbf"
-            * _svr_poly_degree: the degree of the polynomial kernel. Defaulted
-                                to 3
-            * _svr_gamma: the gamma parameter for the kernel. Defaulted to "scale"
-            * _svr_c_range: the range of C to use for SVR. Defaulted to (0.1, 10.5)
+            * _svr_kernel: the kernel to use for SVR. Defaulted to "rbf". Options
+                            are as follows (from sklearn):
+                                * 'linear' for linear kernel
+                                * 'poly' for polynomial kernel
+                                * 'rbf' for radial basis function kernel
+                                * 'sigmoid' for sigmoid kernel
+            * _svr_c_range: the range of C to use for SVR. Defaulted to (0.1, 10.5).
+                            Note that strength of regularization is inversely prop-
+                            ortional to C.
             * _svr_epsilon_range: the range of epsilon to use for SVR. Defaulted to
-                                 (0.1, 1.0)
+                                 (0.01, 1.0)
+            * _svr_gamma: the gamma parameter for the kernel. Defaulted to "scale"
+            * _svr_poly_degree_range: the range of polynomial degrees to use for
+                                     SVR. Defaulted to (2, 5).
+            * _svr_poly_degree_step: the step size for polynomial degrees. Defaulted
+                                     to 1
+            * _svr_coef0_range: the range of coef0 to use for SVR. Defaulted to (0.0, 5.0)
 
     Hidden Methods:
         - _rdf_obj(): a hidden method used to train and hypertune a RandomForest
@@ -163,20 +173,24 @@ class Model():
                       Regressor model after hypertuning.
     """
 
-    def __init__(self, model_choice: str = "clf", est_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
+    def __init__(self, model_choice: str = "reg", est_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
                  tuning_strategy: str = "grid", num_trials: int = 300, n_jobs: int = -1) -> None:
         """This function defines a user defined supervised learning model and estimator
         according to the given input
 
         Parameters:
-            - model_choice (str): the choice of model to make.
+            - model_choice (str): the choice of model to make. Defaulted to 'reg'.
             - est_type (str): the type of estimator to use for a given model choice.
+                              Defaulted to 'rdf' for RandomForest.
             - params (Dict): the parameters to give the model. Defaulted to None.
-            - cv_fold (int): the number of parallel jobs to run when hypertuning.
-            - tuning_srategy: the algorithm to use for hyperparameter tuning.
+            - cv_fold (int): the number of folds to use when cross validating.
+                             Defaulted to 2 for 2-fold cross validation.
+            - tuning_strategy: the algorithm to use for hyperparameter tuning.
+                               Defaulted to 'grid' for GridSearchCV.
             - num_trials (int): number of samples to use when performing baye-
                                  sian optimization or randomized search.
-            - n_jobs: the number of parallel jobs to run when hypertuning
+            - n_jobs: the number of parallel jobs to run when hypertuning.
+                      Defaulted to -1 for all available cores.
         """
 
         # Check user input
@@ -233,11 +247,13 @@ class Model():
         self._xgb_objective_reg = "reg:squarederror"
 
         # Hidden attributes for Support Vector Regressor (SVR)
-        self._svr_poly_degree_range = (2, 5)
-        self._svr_poly_degree_step = 1
-        self._svr_gamma_range = (0.1, 2.5) # scale is default but can be 'auto' or a float
+        self._svr_kernel = "rbf"
         self._svr_c_range = (0.1, 10.5)
-        self._svr_epsilon_range = (0.1, 1.0)
+        self._svr_epsilon_range = (0.01, 1.0)
+        self._svr_gamma_range = (0.1, 2.5)      # For rbf, poly, and sigmoid kernels
+        self._svr_poly_degree_range = (2, 5)    # Poly kernel parameters
+        self._svr_poly_degree_step = 1
+        self._svr_coef0_range = (0.1, 5.0)      # For poly, rbf, and sigmoid kernels
 
         # Hidden attributes for Ridge Regression
         self._ridge_alpha_range = (0.1, 10.5)
@@ -320,7 +336,7 @@ class Model():
                 else:
                     self.model = LinearRegression(n_jobs=-1)
 
-    def make_usr_def_model(self, X_train: ArrayLike, y_train: ArrayLike) -> None:
+    def make_usr_def_model(self, X_train: NDArray, y_train: ArrayLike) -> None:
         """This method makes a model according to user specified parameters,
         trains, and hypertunes according to those specifications. It stores
         the model as an attribute as well as the best parameters. It does
@@ -619,7 +635,7 @@ class Model():
         
         return scores.mean()
 
-    def _get_rdf(self, trial: optuna.Trial, X_train: ArrayLike,
+    def _get_rdf(self, trial: optuna.Trial, X_train: NDArray,
                  y_train: ArrayLike) -> RandomForestClassifier | RandomForestRegressor:
         """This is a helper function meant to accept the best optuna trial
         and return the best RandomForest model.
@@ -693,7 +709,7 @@ class Model():
 
         return scores.mean()
 
-    def _get_xgb(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> XGBClassifier | XGBRegressor:
+    def _get_xgb(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> XGBClassifier | XGBRegressor:
         """This function accepts the best trial from optuna and returns the
         best XGBoost model according to the given hyperparameters.
 
@@ -728,19 +744,31 @@ class Model():
 
         return model
 
-    def _svr_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+    def _svr_obj(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> float:
         """This function accepts a trial object and creates and trains a Support Vector
         Regressor with the specified hyperparameters as given by optuna using TPESampler
         or Autosampler from optuna.
         """
 
         if self.model_params is None:
-            params = {"kernel": trial.suggest_categorical("kernel", ["rbf", "poly", "linear", "sigmoid"]),
-                      "degree": trial.suggest_int("degree", low=self._svr_poly_degree_range[0], high=self._svr_poly_degree_range[1], step=self._svr_poly_degree_step),
-                      "gamma": trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1]),
+            params = {
                       "C": trial.suggest_float("C", low=self._svr_c_range[0], high=self._svr_c_range[1]),
                       "epsilon": trial.suggest_float("epsilon", low=self._svr_epsilon_range[0], high=self._svr_epsilon_range[1])
                       }
+            params["kernel"] = self._svr_kernel
+
+            if self._svr_kernel == "poly":
+                params["degree"] = trial.suggest_int("degree", low=self._svr_poly_degree_range[0], high=self._svr_poly_degree_range[1], step=self._svr_poly_degree_step)
+                params["gamma"] = trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1])
+                params["coef0"] = trial.suggest_float("coef0", low=self._svr_coef0_range[0], high=self._svr_coef0_range[1])
+
+            elif self._svr_kernel == "sigmoid":
+                params["gamma"] = trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1])
+                params["coef0"] = trial.suggest_float("coef0", low=self._svr_coef0_range[0], high=self._svr_coef0_range[1])
+
+            elif self._svr_kernel == "rbf":
+                params["gamma"] = trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1])
+
         else:
             params = self.model_params
 
@@ -752,18 +780,29 @@ class Model():
 
         return scores.mean()
 
-    def _get_svr(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> SVR:
+    def _get_svr(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> SVR:
         """This is a helper function meant to accept the best optuna trial
         and return the best Support Vector Regressor model.
         """
 
-        params = {"kernel": trial.suggest_categorical("kernel", ["rbf", "poly", "linear", "sigmoid"]),
-                    "degree": trial.suggest_int("degree", low=self._svr_poly_degree_range[0], high=self._svr_poly_degree_range[1], step=self._svr_poly_degree_step),
-                    "gamma": trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1]),
-                    "C": trial.suggest_float("C", low=self._svr_c_range[0], high=self._svr_c_range[1]),
-                    "epsilon": trial.suggest_float("epsilon", low=self._svr_epsilon_range[0], high=self._svr_epsilon_range[1])
-                    }
+        params = {
+                  "C": trial.suggest_float("C", low=self._svr_c_range[0], high=self._svr_c_range[1]),
+                  "epsilon": trial.suggest_float("epsilon", low=self._svr_epsilon_range[0], high=self._svr_epsilon_range[1])
+                      }
+        params["kernel"] = self._svr_kernel
 
+        if self._svr_kernel == "poly":
+                params["degree"] = trial.suggest_int("degree", low=self._svr_poly_degree_range[0], high=self._svr_poly_degree_range[1], step=self._svr_poly_degree_step)
+                params["gamma"] = trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1])
+                params["coef0"] = trial.suggest_float("coef0", low=self._svr_coef0_range[0], high=self._svr_coef0_range[1])
+
+        elif self._svr_kernel == "sigmoid":
+                params["gamma"] = trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1])
+                params["coef0"] = trial.suggest_float("coef0", low=self._svr_coef0_range[0], high=self._svr_coef0_range[1])
+
+        elif self._svr_kernel == "rbf":
+                params["gamma"] = trial.suggest_float("gamma", low=self._svr_gamma_range[0], high=self._svr_gamma_range[1])
+                
         # Make the model
         model = SVR(**params)
 
@@ -771,7 +810,7 @@ class Model():
 
         return model
 
-    def _ridge_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+    def _ridge_obj(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> float:
         """This function accepts a trial object and creates and trains a Ridge
         Regressor with the specified hyperparameters as given by optuna using
         an optuna optimization algorithm (Autosampler or TPESampler).
@@ -792,7 +831,7 @@ class Model():
 
         return scores.mean()
 
-    def _get_ridge(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> Ridge:
+    def _get_ridge(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> Ridge:
         """This is a helper function meant to accept the best optuna trial
         and return the best Ridge model.
         """
@@ -807,7 +846,7 @@ class Model():
 
         return model
 
-    def _lasso_obj(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> float:
+    def _lasso_obj(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> float:
         """This function accepts a trial object and creates and trains a Lasso
         Regressor with the specified hyperparameters as given by optuna using
         an optuna optimization algorithm (Autosampler or TPESampler).
@@ -827,7 +866,7 @@ class Model():
 
         return scores.mean()
 
-    def _get_lasso(self, trial: optuna.Trial, X_train: ArrayLike, y_train: ArrayLike) -> Lasso:
+    def _get_lasso(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> Lasso:
         """This is a helper function meant to accept the best optuna trial
         and return the best Lasso model.
         """
@@ -842,7 +881,7 @@ class Model():
 
         return model
 
-    def make_full_model(self, X_train: ArrayLike, y_train: ArrayLike) -> None:
+    def make_full_model(self, X_train: NDArray, y_train: ArrayLike) -> None:
         """This methods makes a model that trains and hypertunes on
         all available hyperparameters. It uses the hidden attributes
         to control model specifications and doesn't require the user
@@ -1263,7 +1302,7 @@ class Model():
                         Optuna requires a function call without any args"""
                         return self._svr_obj(trial, X_train, y_train)
 
-                    print("Making SVR using Bayesian optimization...")
+                    print("Making SVR with kernel "+self._svr_kernel+" using Bayesian optimization...")
                     study = optuna.create_study(direction="minimize", study_name="svr_tuning")
                     print("Training and tuning...")
                     study.optimize(lambda trial: obj(trial=trial), n_trials=self.num_trials, n_jobs=-1, show_progress_bar=True)
@@ -1460,3 +1499,41 @@ class Model():
                     print("Trained model saved as an attribute to class")
                     self.model = lin
                     self.best_params = None
+
+class regression(Model):
+
+    def __init__(self, est_type:str='rdf', tuning_strategy:str='grid', num_trials:int=300, cv_fold:int=2,
+                 n_jobs:int=-1, params:Optional[Dict]=None, plot:bool=False, save_fig:bool=False):
+        super().__init__(est_type=est_type, tuning_strategy=tuning_strategy, num_trials=num_trials,
+                         cv_fold=cv_fold, n_jobs=n_jobs, params=params)
+
+        self.plot = plot
+        self.save_fig = save_fig
+
+    def get_predictions(self, X_test:NDArray) -> None:
+        """This function accepts the test data and stores the predictions
+        made by the mode as an attributes
+
+        Parameters:
+            - X_test (ArrayLike): the test data
+
+        Returns:
+            - None
+        """
+
+        self.predictions = self.model.predict(X_test)
+
+    def get_residuals(self, y_true:ArrayLike) -> None:
+        """This function accepts the true target values and stores the
+        residuals of the model.
+
+        Parameters:
+            - y_true (ArrayLike): the true target values
+
+        Returns:
+            - np.ndarray: the residuals of the model
+        """
+
+        self.residuals = y_true - self.predictions
+
+
