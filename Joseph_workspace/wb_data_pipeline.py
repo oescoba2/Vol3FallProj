@@ -38,9 +38,9 @@ class WbDataPipeline():
         touched.
         
         '''
-        numeric_data = self.data.select_dtypes(include=['float64', 'int'])
-        imputed_data = KNNImputer().fit_transform(numeric_data.T).T
-        self.data[numeric_data.columns] = imputed_data
+        # numeric_data = self.data.select_dtypes(include=['float64', 'int'])
+        imputed_data = KNNImputer().fit_transform(self.data.iloc[:, 1:])
+        self.data.iloc[:, 1:] = imputed_data
         return self.data
     
     def get_data(self): 
@@ -93,4 +93,5 @@ if __name__ == "__main__":
     # entries = clean_features()
     # entries.to_csv('feature_data.csv')
 
-    generate_wb_dataset(write_csv='no_missing.csv')
+    # generate_wb_dataset(write_csv='no_missing.csv')
+    generate_wb_dataset(complete_percent=0.9, write_csv='75missing.csv')
