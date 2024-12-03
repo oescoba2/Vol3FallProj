@@ -1,11 +1,15 @@
+from geo_plotter import GeoPlotter
 from numpy.typing import ArrayLike, NDArray
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import  Lasso, LinearRegression, Ridge
 from sklearn.model_selection import cross_val_score, RandomizedSearchCV, GridSearchCV
 from sklearn.svm import SVR
-from typing import List, Tuple, Callable, ClassVar, Dict, Optional
+from typing import Dict, Optional
 from xgboost import XGBClassifier, XGBRegressor
+import joblib
+import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import time
 import warnings
 
@@ -89,6 +93,7 @@ class Model():
                              attributes to control model specifications and
                              doesn't require the user to pass in parameters to
                              access full hyperparameters.
+        - save_model(): saves the made model to a joblib file.
 
     Hidden Attributes:
 
@@ -174,7 +179,7 @@ class Model():
     """
 
     def __init__(self, model_choice: str = "reg", est_type: str = "rdf", params: Dict = None, cv_fold: int = 2,
-                 tuning_strategy: str = "grid", num_trials: int = 300, n_jobs: int = -1) -> None:
+                 tuning_strategy: str = "grid", num_trials: int = 300, n_jobs: int = -1, **kwargs) -> None:
         """This function defines a user defined supervised learning model and estimator
         according to the given input
 
@@ -191,6 +196,7 @@ class Model():
                                  sian optimization or randomized search.
             - n_jobs: the number of parallel jobs to run when hypertuning.
                       Defaulted to -1 for all available cores.
+            - kwargs: keyword arguments meant for regression class
         """
 
         # Check user input
@@ -211,6 +217,7 @@ class Model():
         if not isinstance(n_jobs, int):
             raise TypeError("n_jobs must be of type int")
 
+        super(Model, self).__init__(**kwargs)
         # Define the attributes
         self.model_choice = model_choice.strip().lower()
         self.est_type = est_type.strip().lower()
@@ -219,6 +226,7 @@ class Model():
         self.tuning_strategy = tuning_strategy.strip().lower()
         self.num_trials = num_trials
         self.n_jobs = n_jobs
+        self.model = None
 
         # Hidden attributes for random forest (Hyperparameter tunining)
         self._rdf_nestimators_range = (100, 301)  # Uses np.arange (so go one above)
@@ -1499,31 +1507,91 @@ class Model():
                     print("Trained model saved as an attribute to class")
                     self.model = lin
                     self.best_params = None
-
-class regression(Model):
-
-    def __init__(self, est_type:str='rdf', tuning_strategy:str='grid', num_trials:int=300, cv_fold:int=2,
-                 n_jobs:int=-1, params:Optional[Dict]=None, plot:bool=False, save_fig:bool=False):
-        super().__init__(est_type=est_type, tuning_strategy=tuning_strategy, num_trials=num_trials,
-                         cv_fold=cv_fold, n_jobs=n_jobs, params=params)
-
-        self.plot = plot
-        self.save_fig = save_fig
-
-    def get_predictions(self, X_test:NDArray) -> None:
-        """This function accepts the test data and stores the predictions
-        made by the mode as an attributes
+        
+    def save_model(self, path_to_model:str) -> None:
+        """This method saves the trained model to disk using the joblib library.
 
         Parameters:
-            - X_test (ArrayLike): the test data
+            - path_to_model (str): the path to save the model to
 
         Returns:
             - None
         """
 
-        self.predictions = self.model.predict(X_test)
+        if self.model is None:
+            raise ValueError("Model has not yet been trained. Please train the model and re-execute this method")
 
-    def get_residuals(self, y_true:ArrayLike) -> None:
+        joblib.dump(self.model, path_to_model)
+        print("Model saved to "+path_to_model)
+
+class regression(Model, GeoPlotter):
+    """This class is meant to create any regression model as specified by the user. It inherits from
+    the Model and GeoPlotter classes.
+
+    Attributes: 
+        - est_type (str): the type of estimator to use for regression. See model documentation for all
+                          available estimators.
+        - tuning_strategy (str): the method to use for hyperparameter tuning. See model documentation for 
+                                 all available tuning strategies.
+        - num_trials (int): number of trials for tuning.
+        - cv_fold (int): the number of folds to use for cross-validations.
+        - n_jobs (int): the number of parallel jobs to run.
+        - params (Dict): a dictionary of parameters to pass into the regression estimator.
+        - df (pd.DataFrame): the original dataframe (containing features, world names, and targets)
+        - happiness_predictions (ArrayLike): the happiness score predictions given by the regression
+                                             estimator.
+        - happiness_residuals (ArrayLike): the residuals between the happiness score predictions, as 
+                                           given by the used estimator, and the actual happiness scores
+        
+
+    Methods:
+        - __init__(): the constructor
+        - get_happiness_predictions(): method to get the happiness score predictions
+        - get_happiness_residuals(): method to get the residuals of happiness scores
+        - get_worldplot(): the method to plot given data on a world plot
+        - plot_line(): the method to plot given x,y data on a 2D plot
+    
+    """
+
+    def __init__(self, est_type:str='rdf', tuning_strategy:str='grid', num_trials:int=300, cv_fold:int=2,
+                 n_jobs:int=-1, params:Optional[Dict]=None, og_df:pd.DataFrame=None):
+        """The constructor for the class. It set ups all attributes available for the class.
+
+        Parameters:
+            - est_type (str): the type of estimator to use for regression. Defaulted to 'rdf'. See model 
+                             documentation for all available estimators.
+            - tuning_strategy (str): the method to use for hyperparameter tuning. Defaulted to 'grid'. 
+                                 See model documentation for all all available tuning strategies.
+            - num_trials (int): number of trials for tuning. Defaulted to 300
+            - cv_fold (int): the number of folds to use for cross-validations. Defaulted to 4.
+            - n_jobs (int): the number of parallel jobs to run. Defaulted to -1 for all available processors.
+            - params (Dict): a dictionary of parameters to pass into the regression estimator. Defaulted to
+                             None.
+            - df (pd.DataFrame): the original dataframe (containing features, world names, and targets)
+        """
+        
+        super(regression, self).__init__(est_type=est_type, tuning_strategy=tuning_strategy, num_trials=num_trials,
+                         cv_fold=cv_fold, n_jobs=n_jobs, params=params, df=og_df)
+        self.happiness_predictions = None
+        self.happiness_residuals = None
+
+    def get_happiness_predictions(self, X:NDArray) -> None:
+        """This function accepts a set data features and stores the predictions
+        of happiness-scores made by the model as an attributes
+
+        Parameters:
+            - X (ArrayLike): the set of data features
+
+        Returns:
+            - None
+        """
+
+        if self.model is None:
+            raise Exception("Model has not yet been trained. Please train the model and re-execute this method")
+
+        self.happiness_predictions = self.model.predict(X)
+
+    def get_happiness_residuals(self, y_true:ArrayLike) -> None:
         """This function accepts the true target values and stores the
         residuals of the model.
 
@@ -1534,6 +1602,73 @@ class regression(Model):
             - np.ndarray: the residuals of the model
         """
 
-        self.residuals = y_true - self.predictions
+        if self.model is None:
+            raise Exception("Model has not yet been trained. Please train the model and re-execute this method")
+        elif self.happiness_predictions is None:
+            raise Exception("Model has not yet computed happiness-score predictions. Compute the predictions using " +\
+                            "'.get_happiness_predictions(X)' then rerun this method.")
 
+        self.residuals = y_true - self.happiness_predictions
 
+    def get_worldplot(self, y_data:ArrayLike=[], y_name:str="happiness predictions", fig_title:str='title', 
+                      save_fig:bool=False, path_to_fig:str='fig.pdf') -> None:
+        """This function plots the given data into the world plot. It then saves the 
+        created image, if specified, into a pdf format.
+        
+        Parameters:
+            - y_data (ArrayLike): the data to plot on the world map. Defaulted
+                                  to an empty list. Default value will plot
+                                  the happiness predictions.
+            - y_name (str): the name of the column of the original dataframe
+                            to plot on the worldmap. Defaulted to 'happiness
+                            predictions'.
+            - fig_title (str): the title to give the image. Defaulted to 'title'.
+            - save_fig (bool): whether to save the figure into a pdf format 
+                               or not. Defaulted to False
+            - path_to_fig (str): the path, containing the filename, on where to save
+                                 the figure. Defauled to 'fig.pdf'
+        
+        Returns:
+            - None
+        """
+
+        if y_name.strip().lower() == "happiness predictions":
+            y_data = self.happiness_predictions
+        
+        if (y_name.strip().lower() != "happiness predictions") and not y_data:
+            raise ValueError("Argument 'y_data' cannot be empty if not using default 'happiness prediction'.")
+
+        self.df[y_name] = y_data
+        obj = GeoPlotter(df=self.df)
+        obj.plot(col_name=y_name, title=fig_title, save_img=save_fig, img_name=path_to_fig)
+        
+    def plot_line(self, y_data:ArrayLike, x_data:ArrayLike, xlabel:str='x', ylabel:str='y', title:str='Regression',
+                  save_line_plot:bool=False, path_to_fig:str='fig.pdf') -> None:
+        """This function plots the given arrays in 2D plot. It also saves the image if 
+        specified in pdf format.
+
+        Parameters:
+            - y_data (ArrayLike): the data to plot on the y-axis
+            - x_data (ArrayLike): the data to plot on the x-axis
+            - xlabel (str): the label for the x-axis. Defaulted to 'x'
+            - ylabel (str): the label for the y-axis. Defaulted to 'y'
+            - title (str): the title for the created image. Defaulted to 'Regression'.
+            - save_line_plot (bool): whether to save the created line plot or not. De-
+                                     faulted to False.
+            - path_to_fig (str): the path, containing the filename, on where to save
+                                 the figure. Defaulted to 'fig.pdf'.
+
+        Returns:
+            - none
+        """
+
+        ax = plt.subplot(111)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel(ylabel)
+        ax.set_title(title)
+        ax.plot(x_data, y_data)
+
+        if save_line_plot:
+            plt.savefig(path_to_fig, format='pdf')
+
+        plt.show()
