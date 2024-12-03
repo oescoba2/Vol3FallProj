@@ -1,6 +1,7 @@
 # Happiness Report
 
-## Abstract 
+## Abstract
+We model happiness based on country-specific variables in order to understand the observed correlation between a country's economic development and average happiness. We rely on the World Happiness Report and data from the world bank to create several models to predict average happiness. We hope to better understand factors which affect how people rank their own happiness.
 
 ## Intro 
 Happiness is a ethereal treasure, and one that is hard to define, yet we believe there is value in at least pursuing it.
