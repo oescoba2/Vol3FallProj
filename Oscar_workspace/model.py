@@ -633,6 +633,7 @@ class Model():
             scores = cross_val_score(model, X_train, y_train, scoring=lambda est, X, y: est.oob_score_,
                                     n_jobs=self.n_jobs,
                                     cv=self.cv_fold)
+            mean = scores.mean()
 
         else:
             params["criterion"] = self._rdf_criterion_reg
@@ -640,8 +641,9 @@ class Model():
             scores = cross_val_score(model, X_train, y_train, scoring='neg_mean_squared_error',
                                         n_jobs=self.n_jobs,
                                         cv=self.cv_fold)
+            mean = -scores.mean()
         
-        return scores.mean()
+        return mean
 
     def _get_rdf(self, trial: optuna.Trial, X_train: NDArray,
                  y_train: ArrayLike) -> RandomForestClassifier | RandomForestRegressor:
@@ -709,13 +711,16 @@ class Model():
             params["objective"] = self._xgb_objective_clf
             params["num_classes"] = self._xgb_num_classes_clf
             model = XGBClassifier(**params)
+            scores = cross_val_score(model, X_train, y_train, n_jobs=self.n_jobs, cv=self.cv_fold)
+            mean = scores.mean()
+
         else:
             params["objective"] = self._xgb_objective_reg
             model = XGBRegressor(**params)
+            scores = cross_val_score(model, X_train, y_train, n_jobs=self.n_jobs, cv=self.cv_fold, scoring='neg_mean_squared_error')
+            mean = -scores.mean()
 
-        scores = cross_val_score(model, X_train, y_train, n_jobs=self.n_jobs, cv=self.cv_fold)
-
-        return scores.mean()
+        return mean
 
     def _get_xgb(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> XGBClassifier | XGBRegressor:
         """This function accepts the best trial from optuna and returns the
@@ -786,7 +791,7 @@ class Model():
         scores = cross_val_score(model, X_train, y_train, scoring="neg_mean_squared_error", n_jobs=self.n_jobs,
                                  cv=self.cv_fold)
 
-        return scores.mean()
+        return -scores.mean()
 
     def _get_svr(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> SVR:
         """This is a helper function meant to accept the best optuna trial
@@ -837,7 +842,7 @@ class Model():
         scores = cross_val_score(model, X_train, y_train, scoring="neg_mean_squared_error", n_jobs=self.n_jobs,
                                  cv=self.cv_fold)
 
-        return scores.mean()
+        return -scores.mean()
 
     def _get_ridge(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> Ridge:
         """This is a helper function meant to accept the best optuna trial
@@ -872,7 +877,7 @@ class Model():
         scores = cross_val_score(model, X_train, y_train, scoring="neg_mean_squared_error", n_jobs=self.n_jobs,
                                  cv=self.cv_fold)
 
-        return scores.mean()
+        return -scores.mean()
 
     def _get_lasso(self, trial: optuna.Trial, X_train: NDArray, y_train: ArrayLike) -> Lasso:
         """This is a helper function meant to accept the best optuna trial
@@ -1509,10 +1514,12 @@ class Model():
                     self.best_params = None
         
     def save_model(self, path_to_model:str) -> None:
-        """This method saves the trained model to disk using the joblib library.
+        """This method saves the trained model to disk using the joblib library. NOTE:
+        the extension for the filename must be of the form filename.sav (i.e. it must
+        end with .sav)
 
         Parameters:
-            - path_to_model (str): the path to save the model to
+            - path_to_model (str): the path, containing the filename, to save the model to
 
         Returns:
             - None
