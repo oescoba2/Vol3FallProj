@@ -1,6 +1,7 @@
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+import pandas as pd
 
 class GeoPlotter():
 
@@ -11,13 +12,21 @@ class GeoPlotter():
             raise ValueError("This dataframe does not have an ISO_A3 column. Please use the DataPipeline change_name transform to prepare it for plotting")
         else: 
             self.df = df
-        world = gpd.read_file('./data/worldmap.gpkg')
-        self.merged = world.merge(self.df, left_on='ISO_A3', right_on='ISO_A3')
+
+        world = gpd.read_file('worldmap.gpkg')
+    
+        # Bug in geopandas see https://github.com/geopandas/geopandas/issues/1041
+        world.loc[world['NAME_EN'] == 'France', 'ISO_A3'] = 'FRA'
+        world.loc[world['NAME_EN'] == 'Norway', 'ISO_A3'] = 'NOR'
+        world.loc[world['NAME_EN'] == 'Somaliland', 'ISO_A3'] = 'SOM'
+        world.loc[world['NAME_EN'] == 'Kosovo', 'ISO_A3'] = 'RKS'
+
+        self.merged = pd.merge(world, self.df, on='ISO_A3')
         self.no_data = world[~world['ISO_A3'].isin(self.df['ISO_A3'])]
 
-    def plot(self, col_name, year=None, continent='all', country='all', title=None, save_img:bool=False, img_name:str='fig.pdf'):
-        fig, ax = plt.subplots(1, figsize=(10, 4))
-
+    def plot(self, col_name, ax=None, year=None, title=None, save_img:bool=False, img_name:str='fig.pdf'):
+        if ax is None:
+            fig, ax = plt.subplots(1, figsize=(10, 4))
         if year is None:
             df = self.merged
         else:
@@ -26,7 +35,7 @@ class GeoPlotter():
         if title is None:
             title = col_name
 
-        res = df.plot(column=col_name, edgecolor="black", linewidth=0.2, ax=ax, legend=True, legend_kwds={'aspect': 30, 'shrink': 0.9}).get_figure()
+        res = df.plot(column=col_name, edgecolor="black", linewidth=0.2, ax=ax, legend=True, legend_kwds={'aspect': 30, 'shrink': 0.9})
         self.no_data.plot(ax=ax, edgecolor="grey", linewidth=0.2, color='lightgrey', legend=True)
         ax.set_title(title, fontsize=16)
         ax.set_axis_off()
@@ -39,6 +48,7 @@ class GeoPlotter():
 
         plt.show()
     
+
     def animate(self, col_name, video_name):
         fig, ax = plt.subplots(1, figsize=(10, 7))
 
@@ -58,4 +68,6 @@ if __name__ == "__main__":
     import pandas as pd
     data = pd.read_csv('90complete.csv')
     gplotter = GeoPlotter(data)
-    gplotter.plot('Happiness score', title='World Happiness Visualization')
+    fig, ax = plt.subplots(1, 1, figsize=(10, 7))
+    gplotter.plot('Happiness score', ax=ax, title='World Happiness Visualization')
+    plt.show()
